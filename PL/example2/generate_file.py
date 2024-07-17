@@ -66,39 +66,28 @@ def createContext(question):
     return context
 
 
-def createMultipleChoice(data, file):
-    mcq_questions = []
+def process_questions(data, file, question_type, html_file=None, py_file=None):
+    questions = [question for question in data if question["type"] == question_type]
     
-    for question in data:
-        if question["type"] == "Multiple Choice":
-            mcq_questions.append(question)
-       
-
-    for question in mcq_questions:
+    for question in questions:
         context = createContext(question)
         generate_file(file, context)
-   
+        
+        # For Drop Down questions, generate an additional file if specified
+        if question_type == "Drop Down" and html_file and py_file:
+            generate_file(html_file, context)
+            generate_file(py_file, context, True)
+
+# Usage example
+def createMultipleChoice(data, file):
+    process_questions(data, file, "Multiple Choice")
 
 def createCheckBox(data, file):
-    CB_questions = []
-    for question in data:
-        
-        if question["type"] == "Check Box":
-            CB_questions.append(question)
+    process_questions(data, file, "Check Box")
 
-    for question in CB_questions:
-        context = createContext(question)
-        generate_file(file, context)
+def createDropDown(data, html_file, py_file):
+    process_questions(data, html_file, "Drop Down", html_file, py_file)
 
-def createDropDown(data, HTML, py):
-    DD_question = []
-    for question in data:
-        if question["type"] == "Drop Down":
-            DD_question.append(question)
-    for question in DD_question:
-        context = createContext(question)
-        generate_file(HTML, context)
-        generate_file(py, context, True )
 
 def generate_file(file, context, flag=False):
     html_content = render_files(file, context)
