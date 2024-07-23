@@ -1,6 +1,17 @@
 import re
 from jinja2 import Template
 import html
+import os
+import requests
+def generate_uuid():
+    url = "https://www.uuidtools.com/api/generate/v4/count/1"
+    response = requests.get(url)
+    if response.status_code == 200:
+        uuid = response.json()[0]
+        return uuid
+    else:
+        raise Exception(f"Failed to generate UUID. Status code: {response.status_code}")
+
 index = 0
 def load_files(file):
     with open(file, "r") as f:
@@ -51,7 +62,7 @@ def createContext(question):
             else:
                 context["question"] = question["question"].strip()
 
-            if key not in ["type", "question"]:
+            if key not in ["type", "question", "title", "topic"]:
                 context[f"option{i}"] = question[key]
                 context[f"flag{i}"] = "false"
 
@@ -59,50 +70,67 @@ def createContext(question):
                 
                     context[f"flag{i}"] = "true"
 
-             
+            
                 i += 1
-
+            if key in ["title", "topic"]:
+                context[key] = question[key]
+            uuid = generate_uuid()
+            context["uuid"] = uuid
 
     return context
 
 
-def process_questions(data, file, question_type, html_file=None, py_file=None):
+def process_questions(data, file, info, question_type, html_file=None, py_file=None):
     questions = [question for question in data if question["type"] == question_type]
     
     for question in questions:
         context = createContext(question)
-        generate_file(file, context)
+        generate_file(file, info, context)
         
         # For Drop Down questions, generate an additional file if specified
         if question_type == "Drop Down" and html_file and py_file:
-            generate_file(html_file, context)
-            generate_file(py_file, context, True)
+            generate_file(html_file, info, context, py_file)
+            
 
 # Usage example
-def createMultipleChoice(data, file):
-    process_questions(data, file, "Multiple Choice")
+def createMultipleChoice(data, file, info):
+    process_questions(data, file,info, "Multiple Choice")
 
-def createCheckBox(data, file):
-    process_questions(data, file, "Check Box")
+def createCheckBox(data, file, info):
+    process_questions(data, file, info, "Check Box")
 
-def createDropDown(data, html_file, py_file):
-    process_questions(data, html_file, "Drop Down", html_file, py_file)
+def createDropDown(data, html_file, py_file, info):
+    process_questions(data, html_file,info, "Drop Down", html_file, py_file)
 
 
-def generate_file(file, context, flag=False):
-    html_content = render_files(file, context)
+def generate_file(html_file, info_file, context, py_file=None,):
+
+    html_content = render_files(html_file, context)
+    info_content = render_files(info_file, context)
+    
     global index 
     index += 1
    
-    if flag:
-        index = index - 1
-        with open(f"server{index}.py", "w") as f:
+    folder_path = f"question{index}"
+    
+    os.makedirs(folder_path, exist_ok=True)
+   
+    
+    if py_file:
+        py_content = render_files(py_file, context)
+        file_path = os.path.join(folder_path, "server.py")
+        with open(file_path, "w") as f:
+                
+            f.write(py_content)
         
-            f.write(html_content)
-    else:
-        with open(f"question{index}.html", "w") as f:
-        
-            f.write(html_content)
+    file_path = os.path.join(folder_path, "question.html")
+    with open(file_path, "w") as f:
+                
+        f.write(html_content)
+    file_path = os.path.join(folder_path, "info.json")
+    with open(file_path, "w") as f:
+                
+        f.write(info_content)
 
        
    
@@ -114,16 +142,16 @@ def main():
 
     y = load_files("template.md")
     typeDic = templateType(y)
-
+    info = typeDic["IJ"]
     for type, template in typeDic.items():
         if type == "MC":
-            createMultipleChoice(data, template)
+            createMultipleChoice(data, template, info )
         elif type == "CB":
-            createCheckBox(data, template)
+            createCheckBox(data, template, info)
         elif type == "DD":
             
             p = re.split("```", template)
-            createDropDown( data, p[0],p[1] )
+            createDropDown( data, p[0],p[1], info )
 
 
    

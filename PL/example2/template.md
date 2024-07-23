@@ -1,4 +1,12 @@
 ###
+IJ@
+{
+  "uuid": "{{uuid}}",
+  "title": "{{title}}",
+  "topic": "{{topic}}",
+  "type": "v3" 
+}
+###
 MC@
 <pl-question-panel>
   <p>{{question}}</p>
