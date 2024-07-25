@@ -43,7 +43,7 @@ DD@
   {{question1}}
   <pl-dropdown answers-name="HTML1">
     {% raw %}{{#params.HTML1}}{% endraw %}
-        <pl-answer correct="{{tag}}">{{ans}}</pl-answer>
+        <pl-answer correct="{% raw %}{{tag}}{% endraw %}">{% raw %}{{ans}}{% endraw %}</pl-answer>
     {% raw %}{{/params.HTML1}}{% endraw %}
   </pl-dropdown> 
   {{question2}}
@@ -52,7 +52,7 @@ DD@
 ```
 def generate(data):
 
-    QUESTION1 = "HTML{{number}}"
+    QUESTION1 = "HTML1"
 
     data["params"][QUESTION1] = [
         {"tag": "{{flag1}}", "ans": "{{option1}}"},

@@ -3,6 +3,8 @@ from jinja2 import Template
 import html
 import os
 import requests
+
+# Function to generate a UUID using an external API
 def generate_uuid():
     url = "https://www.uuidtools.com/api/generate/v4/count/1"
     response = requests.get(url)
@@ -13,31 +15,33 @@ def generate_uuid():
         raise Exception(f"Failed to generate UUID. Status code: {response.status_code}")
 
 index = 0
+
+# Function to load the content of a file
 def load_files(file):
     with open(file, "r") as f:
         return f.read()
     
+# Function to render a template with a given context
 def render_files(file, context):
     template = Template(file)
     return template.render(context)
 
+# Function to split template types and store them in a dictionary
 def templateType(file):
     dic = {}
-    
-    
     section = re.split("###\n", file)
     for i in section:
         if i != "":
-
             type, template = i.split("@")
             type.strip()
             dic[type] = template
     return dic
 
+# Function to create a list of question data from the file content
 def create_data(file):
     data = []
     pattern = re.compile(r'(###.*?)(?=(?:\n###))', re.DOTALL)
-    questions = pattern.findall(file)
+    questions = pattern.findall(file) # Find all sections starting with ###
     for question in questions:
         dic = {}
         lines = question.split("\n")
@@ -49,6 +53,7 @@ def create_data(file):
 
     return data
 
+# Function to create a context dictionary for a given question
 def createContext(question):
     context = {}
     i = 1
@@ -66,7 +71,7 @@ def createContext(question):
                 context[f"option{i}"] = question[key]
                 context[f"flag{i}"] = "false"
 
-                if key.startswith("*"):
+                if key.startswith("*"): # Check for correct options marked with *
                 
                     context[f"flag{i}"] = "true"
 
@@ -79,7 +84,7 @@ def createContext(question):
 
     return context
 
-
+# Function to process questions of a specific type and generate files
 def process_questions(data, file, info, question_type, html_file=None, py_file=None):
     questions = [question for question in data if question["type"] == question_type]
     
@@ -92,32 +97,34 @@ def process_questions(data, file, info, question_type, html_file=None, py_file=N
             generate_file(html_file, info, context, py_file)
             
 
-# Usage example
+# Function to create multiple choice questions
 def createMultipleChoice(data, file, info):
     process_questions(data, file,info, "Multiple Choice")
 
+# Function to create checkbox questions
 def createCheckBox(data, file, info):
     process_questions(data, file, info, "Check Box")
 
+# Function to create drop down questions
 def createDropDown(data, html_file, py_file, info):
     process_questions(data, html_file,info, "Drop Down", html_file, py_file)
 
-
+# Function to generate HTML, info, and optionally Python files based on templates
 def generate_file(html_file, info_file, context, py_file=None,):
 
-    html_content = render_files(html_file, context)
-    info_content = render_files(info_file, context)
+    html_content = render_files(html_file, context) # Render HTML content
+    info_content = render_files(info_file, context) # Render info content
     
     global index 
     index += 1
    
     folder_path = f"question{index}"
     
-    os.makedirs(folder_path, exist_ok=True)
+    os.makedirs(folder_path, exist_ok=True) # Create directory for the question
    
     
     if py_file:
-        py_content = render_files(py_file, context)
+        py_content = render_files(py_file, context) # Render Python content
         file_path = os.path.join(folder_path, "server.py")
         with open(file_path, "w") as f:
                 
@@ -134,14 +141,14 @@ def generate_file(html_file, info_file, context, py_file=None,):
 
        
    
-
+# Main function to load files, create data, and generate questions based on templates
 def main():
-    j = 1
-    x = load_files("question_bank.md")
-    data = create_data(x)
+  
+    q_bank = load_files("question_bank.md")
+    data = create_data(q_bank)
 
-    y = load_files("template.md")
-    typeDic = templateType(y)
+    templates = load_files("template.md")
+    typeDic = templateType(templates)
     info = typeDic["IJ"]
     for type, template in typeDic.items():
         if type == "MC":
@@ -156,7 +163,7 @@ def main():
 
    
 
-    #print(multiChoice(i))
+   
 
 if __name__ == "__main__":
     main()

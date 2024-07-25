@@ -1,7 +1,7 @@
 
 def generate(data):
 
-    QUESTION1 = "HTML"
+    QUESTION1 = "HTML1"
 
     data["params"][QUESTION1] = [
         {"tag": "false", "ans": "Style"},
