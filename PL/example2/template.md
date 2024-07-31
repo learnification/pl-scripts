@@ -64,3 +64,27 @@ def generate(data):
     return data
 ```
 ###
+SI@
+<pl-question-panel>
+  <p> {{question}}
+  </p>
+  <p>Note: write your answer in one word and in all lowercase letters.</p>
+
+  <pl-code language="html">
+  {% raw %}{{params.d}}{% endraw %}
+  </pl-code>
+</pl-question-panel>
+
+<p>
+  <pl-string-input answers-name="ans4" remove-spaces="true">
+  </pl-string-input>
+</p>
+
+```
+def generate(data):
+    ans = "{{answer}}"
+    data["correct_answers"]["ans4"] = ans
+
+    return data
+```
+###

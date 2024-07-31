@@ -1,0 +1,7 @@
+What is the purpose of the `<!DOCTYPE>` declaration in an HTML document?
+Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
+Select all valid HTML attributes from the following options.
+The___attribute is used to provide a unique identifier to an HTML element.
+The___attribute is used to specify the URL of the page that the link goes to.
+
+Write an example of a `<title>` tag with the content "My Web Page".
