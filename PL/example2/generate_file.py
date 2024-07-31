@@ -81,7 +81,7 @@ def save_question(question):
         f.write(f"{question}\n")
 
 def check(question):
-    file = load_files("uuid.txt")
+    file = load_files("PL/example2/uuid.txt")
     list = file.split("\n")
     for q in list:
         if q.strip() == question:
