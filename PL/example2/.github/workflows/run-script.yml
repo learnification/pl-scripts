@@ -1,0 +1,23 @@
+# .github/workflows/run-script.yml
+name : Run Script
+
+on:
+    push:
+        paths:
+            - 'question_bank.md'
+
+jobs:
+    run-script:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+
+            - name: Run generate_file.py
+              run: |
+                chmod +x generate_file.py
+                ./generate_file.py
+
+            
+
