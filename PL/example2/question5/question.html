@@ -1,15 +1,14 @@
 
 <pl-question-panel>
-  <p>
-    Select the correct option from the drop down list for each question bellow:
-  </p>
-</pl-question-panel>
 <p>
-  The
-  <pl-dropdown answers-name="HTML1">
-    {{#params.HTML1}}
-        <pl-answer correct="{{tag}}">{{ans}}</pl-answer>
-    {{/params.HTML1}}
-  </pl-dropdown> 
-  attribute is used to specify the URL of the page that the link goes to.
+  Select all valid HTML attributes from the following options.
 </p>
+</pl-question-panel>
+<pl-checkbox answers-name="select" hide-letter-keys="true" >
+  <pl-answer correct="true">src</pl-answer>
+  <pl-answer correct="false">value</pl-answer>
+  <pl-answer correct="true">class</pl-answer>
+  <pl-answer correct="false">type</pl-answer>
+  <pl-answer correct="true">href</pl-answer>
+  
+</pl-checkbox>

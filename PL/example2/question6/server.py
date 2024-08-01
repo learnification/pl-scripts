@@ -1,6 +1,13 @@
 
 def generate(data):
-    ans = "<title>My Web Page</title>"
-    data["correct_answers"]["ans4"] = ans
+
+    QUESTION1 = "HTML1"
+
+    data["params"][QUESTION1] = [
+        {"tag": "false", "ans": "src "},
+        {"tag": "true", "ans": "href "},
+        {"tag": "false", "ans": "alt "},
+        {"tag": "false", "ans": "title"}
+    ]
 
     return data

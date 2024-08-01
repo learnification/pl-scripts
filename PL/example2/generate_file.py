@@ -75,16 +75,16 @@ def create_data(file):
 
     return data
 
-def save_question(question):
+def save_question(id):
     with open("uuid.txt", "a") as f:
                 
-        f.write(f"{question}\n")
+        f.write(f"{id}\n")
 
-def check(question):
-    file = load_files("PL/example2/uuid.txt")
+def check(id):
+    file = load_files("uuid.txt")
     list = file.split("\n")
-    for q in list:
-        if q.strip() == question:
+    for i in list:
+        if i.strip() == id:
             return True
     return False
     
@@ -94,7 +94,7 @@ def check(question):
 
 # Function to create a context dictionary for a given question
 def createContext(question):
-    save_question(question["question"].strip())
+    save_question(question["id"].strip())
     
     context = {}
     i = 1
@@ -111,7 +111,7 @@ def createContext(question):
             else:
                 context["question"] = question["question"].strip()
 
-            if key not in ["type", "question", "title", "topic", "answer"]:
+            if key not in ["type", "question", "title", "topic", "answer", "id"]:
                 context[f"option{i}"] = question[key]
                 context[f"flag{i}"] = "false"
 
@@ -121,15 +121,17 @@ def createContext(question):
 
             
                 i += 1
-            if key in ["title", "topic", "answer"]:
+            if key in ["title", "topic", "answer", "id"]:
                 context[key] = question[key]
             uuid = generate_uuid()
             
             context["uuid"] = uuid
-           
-          
 
     return context
+           
+  
+
+    
 
 # Function to process questions of a specific type and generate files
 def process_questions(data, file, info, question_type, html_file=None, py_file=None):
@@ -139,21 +141,23 @@ def process_questions(data, file, info, question_type, html_file=None, py_file=N
         
     
     for question in questions:
+        print(question)
         
-        q = question["question"].strip()
-        print(check(q))
-        if check(q):
+        id = question["id"].strip()
+        print(check(id))
+        if check(id):
             continue
         context = createContext(question)
         
       
         # For Drop Down questions, generate an additional file if specified
-        if question_type in ["Drop Down, String Input"] and html_file and py_file:
+        if question_type in ["Drop Down", "String Input"] and html_file and py_file:
+           
             generate_file(html_file, info, context, py_file)
             pass
        
         else:
-
+            
             generate_file(file, info, context)
 
    
@@ -184,10 +188,9 @@ def generate_file(html_file, info_file, context, py_file=None,):
     html_content = render_files(html_file, context) # Render HTML content
     info_content = render_files(info_file, context) # Render info content
     
-    global index 
-    index += 1
+    id = context["id"]
    
-    folder_path = f"PL/example2/question{index}"
+    folder_path = f"question{id}"
     
     os.makedirs(folder_path, exist_ok=True) # Create directory for the question
    
@@ -215,10 +218,10 @@ def generate_file(html_file, info_file, context, py_file=None,):
 # Main function to load files, create data, and generate questions based on templates
 def main():
   
-    q_bank = load_files('PL/example2/question_bank.md')
+    q_bank = load_files('question_bank.md')
     data = create_data(q_bank)
 
-    templates = load_files("PL/example2/template.md")
+    templates = load_files("template.md")
     typeDic = templateType(templates)
     info = typeDic["IJ"]
     for type, template in typeDic.items():
@@ -232,7 +235,10 @@ def main():
             createDropDown( data, p[0],p[1], info )
         elif type == "SI":
 
+       
+
             p = re.split("```", template)
+            
             createStringInput( data, p[0],p[1], info )
 
 
