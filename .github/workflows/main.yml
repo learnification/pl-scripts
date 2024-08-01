@@ -32,7 +32,7 @@ jobs:
       - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
-          path: PL/example2/artifacts  # Specify the directory where artifacts will be saved
+          path: PL/example2 
 
       - name: Display structure of downloaded files
-        run: ls -R PL/example2/artifacts  # List all files and directories recursively
+        run: ls -R PL/example2  # List all files and directories recursively
