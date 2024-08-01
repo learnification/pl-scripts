@@ -187,7 +187,7 @@ def generate_file(html_file, info_file, context, py_file=None,):
     global index 
     index += 1
    
-    folder_path = f"question{index}"
+    folder_path = f"PL/example2/question{index}"
     
     os.makedirs(folder_path, exist_ok=True) # Create directory for the question
    
