@@ -76,12 +76,12 @@ def create_data(file):
     return data
 
 def save_question(id):
-    with open("uuid.txt", "a") as f:
+    with open("PL/example2/uuid.txt", "a") as f:
                 
         f.write(f"{id}\n")
 
 def check(id):
-    file = load_files("uuid.txt")
+    file = load_files("PL/example2/uuid.txt")
     list = file.split("\n")
     for i in list:
         if i.strip() == id:
@@ -190,7 +190,7 @@ def generate_file(html_file, info_file, context, py_file=None,):
     
     id = context["id"]
    
-    folder_path = f"question{id}"
+    folder_path = f"PL/example2/question{id}"
     
     os.makedirs(folder_path, exist_ok=True) # Create directory for the question
    
@@ -218,10 +218,10 @@ def generate_file(html_file, info_file, context, py_file=None,):
 # Main function to load files, create data, and generate questions based on templates
 def main():
   
-    q_bank = load_files('question_bank.md')
+    q_bank = load_files('PL/example2/question_bank.md')
     data = create_data(q_bank)
 
-    templates = load_files("template.md")
+    templates = load_files("PL/example2/template.md")
     typeDic = templateType(templates)
     info = typeDic["IJ"]
     for type, template in typeDic.items():
