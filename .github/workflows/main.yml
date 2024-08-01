@@ -17,3 +17,9 @@ jobs:
         run: |
           chmod +x PL/example2/generate_file.py
           python PL/example2/generate_file.py
+          
+      - name: Upload generated files
+        uses: actions/upload-artifact@v3
+        with:
+          name: generated-files
+          path: PL/example2/question*/
