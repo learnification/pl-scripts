@@ -24,15 +24,4 @@ jobs:
           name: generated-files
           path: PL/example2/question*/
 
-  download-and-verify:
-    runs-on: ubuntu-latest
-    needs: run-script  # Ensure this job runs after the 'run-script' job
-
-    steps:
-      - name: Download artifacts
-        uses: actions/download-artifact@v4
-        with:
-          path: PL/example2 
-
-      - name: Display structure of downloaded files
-        run: ls -R PL/example2  # List all files and directories recursively
+ 
