@@ -30,6 +30,7 @@ jobs:
           name: generated-files
           merge-multiple: true
       - name: Display structure of downloaded files
-        run: ls -R 
-
+        run: ls -R generated-files/
+        
+      
  
