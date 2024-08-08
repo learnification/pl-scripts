@@ -19,9 +19,17 @@ jobs:
           python PL/example2/generate_file.py
           
       - name: Upload generated files
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: generated-files
           path: PL/example2/question*/
+
+      - name: Download generated files
+        uses: actions/download-artifacts@v4
+        with:
+          path: PL/example2
+          merge-multiple: true
+      - name: Display structure of downloaded files
+        run: ls -R PL/example2
 
  
