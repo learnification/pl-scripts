@@ -25,7 +25,7 @@ jobs:
           path: PL/example2/question*/
 
       - name: Download generated files
-        uses: actions/download-artifacts@v4
+        uses: actions/download-artifact@v4
         with:
           name: my-artifacts
           merge-multiple: true
