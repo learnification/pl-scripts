@@ -30,7 +30,7 @@ jobs:
           name: generated-files
           merge-multiple: true
       - name: Display structure of downloaded files
-        run: ls -R generated-files/
+        run: ls -R /home/runner/work/pl-scripts/pl-scripts
         
       
  
