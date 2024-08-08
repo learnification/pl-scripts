@@ -27,9 +27,9 @@ jobs:
       - name: Download generated files
         uses: actions/download-artifacts@v4
         with:
-          path: PL/example2
+          name: my-artifacts
           merge-multiple: true
       - name: Display structure of downloaded files
-        run: ls -R PL/example2
+        run: ls -R 
 
  
