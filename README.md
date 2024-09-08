@@ -34,7 +34,25 @@ Topic (The subject category of the question)
 Question (The prompt or query posed to the student)
 Answer Choices (List of possible answers, with the correct one marked by *)
 
-3- 
+3- geneate.py: This is the main script that automates the creation of questions for the PrairieLearn platform by processing Markdown files and generating the corresponding HTML, JSON, and Python files. Here's a brief explanation of the key components:
+
+UUID Generation: The script uses an external API to generate unique UUIDs for each question. If the API request fails, it retries with exponential backoff. 
+* For more information on UUIDs refer to https://prairielearn.readthedocs.io/en/latest/uuid/.
+File Loading and Rendering: The script reads templates and question data from Markdown files, processes them using the Jinja2 templating engine, and renders the final content.
+Template Handling: Questions are categorized by type (e.g., Multiple Choice, Check Box, Drop Down). The script splits templates into sections and matches them with question data to create the final output.
+Data Processing: It extracts questions from the input file, parses the content, and generates the necessary context for rendering the templates.
+File Generation: For each question, the script creates a dedicated folder and writes the HTML, JSON (info.json), and optionally Python (server.py) files into it.
+Question Type Handling: Different functions are defined to handle specific question types like Multiple Choice, Check Box, Drop Down, and String Input, ensuring the appropriate files are generated for each type.
+Main Workflow: The main function orchestrates the entire process by loading the question bank and templates, processing the data, and generating files for each question type.
+This automation ensures that new questions can be quickly added to PrairieLearn with the required file structure, reducing manual work and minimizing errors.
+
+
+
+
+
+
+
+
 
 
 
