@@ -75,16 +75,16 @@ D: (Option D)
 Use the following command to clone the repo:
 
 ```bash
-git clone https://github.com/your-repo.git
+git clone https://github.com/learnification/pl-scripts.git
 ```
 2. Navigate into the project directory:
 ```bash
-cd your-repo
+cd pl-scripts
 ```
 3. Creat a new branch:
 Create and checkout a new branch for your question:
 ```bash
-git checkout -b feature/new-question
+git checkout -b new-question
 ```
 4. Add Your Question in question_bank.md:
 Open the question_bank.md file and write your question following the above formating for each question type.
@@ -93,7 +93,8 @@ Run the provided generate.py script:
 ```bash
 python generate.py
 ```
-The script will create a folder with the necessary files (info.json, question.html, and server.py) based on your question.
+The script will create a folder with the necessary files (info.json, question.html, and server.py) based on your question. 
+
 6. Check if the Question is Valid:  
 Review the generated files in the output directory.  
 Make sure question.html displays the question properly, and the answer choices or logic are correctly formatted.  
@@ -103,15 +104,17 @@ Check the info.json for the correct metadata (e.g., topic, tags).
 Add your changes:
 
 ```bash
-git add question_bank.md output/question_folder
+git add question_bank.md 
 ```
 Commit the changes:
 ```bash
-git commit -m "Added new HTML tags question"
+git commit -m "Added new [] question"
 ```
+You can write the question title inside the bracket.  
 Push your changes to GitHub:
+
 ```bash
-git push origin feature/new-question
+git push origin new-question
 ```
 8. Submit a Pull Request:
 Go to GitHub and open a pull request from your branch to the main branch.
