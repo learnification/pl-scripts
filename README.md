@@ -66,16 +66,6 @@ The workflow starts with humans drafting questions in markdown files, which are 
 
 The main function orchestrates the entire process by loading the question bank and templates, processing the data, and generating files for each question type. This automation ensures that new questions can be quickly added to PrairieLearn with the required file structure, reducing manual work and minimizing errors.
 
-### Onboarding Checklist for New Team Members in the PrairieLearn Project
-
-1. Grant Github access: Add the new team member to the project's repository on Github.
-2. Team comminication: Add the new team member to our team's comminication platform (Slack).
-3. Setting Up PrairieLearn Access: Provide login credentials or invite them to the PrairieLearn platform.
-4. Project Dependencies and Setup: Provide clea instructions for cloning the repository and setting up the project on their local mahine as well as a list of dependencies (e.g., Python, Jinja2) and any specific setup required to run the scripts.
-5. Git branching guidline: Explain the branching guidline which means that all the work should be done in a feature branch and not the main branch. Guide the team members to make pull requests for approval before merging.
-6. Training on Markdown and Templates: Review the question_bank.md and template.md files and explain the question format and tamplete for different type of question (Multiple Choice, Check Box, Dropdown, etc.).
-7. Create a documentation for adding questions: After the team members are all set up with Github, provide documentation explaining the process of creating questions and adding them to github step by step.
-
 
 
 
