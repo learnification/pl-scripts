@@ -2,7 +2,7 @@
 id: 1
 type: Multiple Choice
 title: Purpose of <!DOCTYPE> declaration
-topic: HTML Basics
+topic: CSS Basics
 question: What is the purpose of the `<!DOCTYPE>` declaration in an HTML document?
 A: To define the document's title
 *B: To define the document's type
