@@ -1,108 +1,100 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index dd5a989..f14d19a 100644
+index f14d19a..dd5a989 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -12,17 +11,0 @@ D: To define the document's character set
--id: 2
--type: Multiple Choice
--title: Tag following <!DOCTYPE> declaration
--topic: HTML Basics
--question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
--A: `<head>`
--B: `<body>`
--C: `<title>`
--*D: `<html>`
--###
--id: 3
--type: String Input
--title: Example of <title> tag,
--topic: HTML Basics,
--question: Write an example of a `<title>` tag with the content "My Web Page".
--answer: <title>My Web Page</title>
--###
+@@ -11,0 +12,17 @@ D: To define the document's character set
++id: 2
++type: Multiple Choice
++title: Tag following <!DOCTYPE> declaration
++topic: HTML Basics
++question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
++A: `<head>`
++B: `<body>`
++C: `<title>`
++*D: `<html>`
++###
++id: 3
++type: String Input
++title: Example of <title> tag,
++topic: HTML Basics,
++question: Write an example of a `<title>` tag with the content "My Web Page".
++answer: <title>My Web Page</title>
++###
 
-['2', '3']
-{}
-PL/example2/question2
-PL/example2/question3
+[]
+{'id': '3', 'type': 'String Input', 'title': 'Example of <title> tag,', 'topic': 'HTML Basics,', 'question': 'Write an example of a `<title>` tag with the content "My Web Page".', 'A': '`<head>`', 'B': '`<body>`', 'C': '`<title>`', '*D': '`<html>`', 'answer': '<title>My Web Page</title>'}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index dd5a989..f14d19a 100644
+index f14d19a..dd5a989 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -12,17 +11,0 @@ D: To define the document's character set
--id: 2
--type: Multiple Choice
--title: Tag following <!DOCTYPE> declaration
--topic: HTML Basics
--question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
--A: `<head>`
--B: `<body>`
--C: `<title>`
--*D: `<html>`
--###
--id: 3
--type: String Input
--title: Example of <title> tag,
--topic: HTML Basics,
--question: Write an example of a `<title>` tag with the content "My Web Page".
--answer: <title>My Web Page</title>
--###
+@@ -11,0 +12,17 @@ D: To define the document's character set
++id: 2
++type: Multiple Choice
++title: Tag following <!DOCTYPE> declaration
++topic: HTML Basics
++question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
++A: `<head>`
++B: `<body>`
++C: `<title>`
++*D: `<html>`
++###
++id: 3
++type: String Input
++title: Example of <title> tag,
++topic: HTML Basics,
++question: Write an example of a `<title>` tag with the content "My Web Page".
++answer: <title>My Web Page</title>
++###
 
-['2', '3']
-{}
-PL/example2/question2
-PL/example2/question3
+[]
+{'id': '3', 'type': 'String Input', 'title': 'Example of <title> tag,', 'topic': 'HTML Basics,', 'question': 'Write an example of a `<title>` tag with the content "My Web Page".', 'A': '`<head>`', 'B': '`<body>`', 'C': '`<title>`', '*D': '`<html>`', 'answer': '<title>My Web Page</title>'}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index dd5a989..f14d19a 100644
+index f14d19a..dd5a989 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -12,17 +11,0 @@ D: To define the document's character set
--id: 2
--type: Multiple Choice
--title: Tag following <!DOCTYPE> declaration
--topic: HTML Basics
--question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
--A: `<head>`
--B: `<body>`
--C: `<title>`
--*D: `<html>`
--###
--id: 3
--type: String Input
--title: Example of <title> tag,
--topic: HTML Basics,
--question: Write an example of a `<title>` tag with the content "My Web Page".
--answer: <title>My Web Page</title>
--###
+@@ -11,0 +12,17 @@ D: To define the document's character set
++id: 2
++type: Multiple Choice
++title: Tag following <!DOCTYPE> declaration
++topic: HTML Basics
++question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
++A: `<head>`
++B: `<body>`
++C: `<title>`
++*D: `<html>`
++###
++id: 3
++type: String Input
++title: Example of <title> tag,
++topic: HTML Basics,
++question: Write an example of a `<title>` tag with the content "My Web Page".
++answer: <title>My Web Page</title>
++###
 
-['2', '3']
-{}
-PL/example2/question2
-PL/example2/question3
+[]
+{'id': '3', 'type': 'String Input', 'title': 'Example of <title> tag,', 'topic': 'HTML Basics,', 'question': 'Write an example of a `<title>` tag with the content "My Web Page".', 'A': '`<head>`', 'B': '`<body>`', 'C': '`<title>`', '*D': '`<html>`', 'answer': '<title>My Web Page</title>'}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index dd5a989..f14d19a 100644
+index f14d19a..dd5a989 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -12,17 +11,0 @@ D: To define the document's character set
--id: 2
--type: Multiple Choice
--title: Tag following <!DOCTYPE> declaration
--topic: HTML Basics
--question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
--A: `<head>`
--B: `<body>`
--C: `<title>`
--*D: `<html>`
--###
--id: 3
--type: String Input
--title: Example of <title> tag,
--topic: HTML Basics,
--question: Write an example of a `<title>` tag with the content "My Web Page".
--answer: <title>My Web Page</title>
--###
+@@ -11,0 +12,17 @@ D: To define the document's character set
++id: 2
++type: Multiple Choice
++title: Tag following <!DOCTYPE> declaration
++topic: HTML Basics
++question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
++A: `<head>`
++B: `<body>`
++C: `<title>`
++*D: `<html>`
++###
++id: 3
++type: String Input
++title: Example of <title> tag,
++topic: HTML Basics,
++question: Write an example of a `<title>` tag with the content "My Web Page".
++answer: <title>My Web Page</title>
++###
 
-['2', '3']
-{}
-PL/example2/question2
-PL/example2/question3
+[]
+{'id': '3', 'type': 'String Input', 'title': 'Example of <title> tag,', 'topic': 'HTML Basics,', 'question': 'Write an example of a `<title>` tag with the content "My Web Page".', 'A': '`<head>`', 'B': '`<body>`', 'C': '`<title>`', '*D': '`<html>`', 'answer': '<title>My Web Page</title>'}
