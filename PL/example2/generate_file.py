@@ -164,7 +164,7 @@ def delete_question_folder(question_id):
 def process_questions(data, file, info, question_type, html_file=None, py_file=None):
     diff_output = get_diff()
     print(diff_output)
-    remove, add = parse_diff(diff_output)
+    remove, addDic = parse_diff(diff_output)
     print(remove)
     print(add)
     if remove:
