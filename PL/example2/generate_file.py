@@ -3,9 +3,11 @@ from jinja2 import Template
 import html
 import os
 import requests
+import subprocess 
 import time
-
+import shutil
 import json
+
 
 # Function to generate a UUID using an external API
 def generate_uuid(retries=3, backoff_factor=0.3):
