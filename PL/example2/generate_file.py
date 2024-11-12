@@ -50,6 +50,34 @@ def templateType(file):
             dic[type] = template
     return dic
 
+def get_diff():
+    try:
+        diff_output = subprocess.check_output(['git', 'diff', '--unified=0', 'HEAD~1', 'PL/example2/question_bank.md'])
+        return diff_output.decode('utf-8')
+    except subprocess.CalledProcessError as e:
+        print(f"Error running git diff: {e}")
+        return ""
+
+def parse_diff(diff):
+    addDic = {}
+    removeList = []
+    lines = diff.splitlines()
+    for line in lines:
+       
+        if re.match(r'^\+[^+].*?:.*', line):
+         
+            key, value = line[1:].split(":")
+            addDic[key.strip()] = value.strip()
+            
+            
+            #titleList[key.strip()] = value.strip()
+        if re.search(r"-id:\s*(\d+)", line):
+            match = re.search(r"-id:\s*(\d+)", line)
+            id_number = match.group(1)
+            removeList.append(id_number)
+    
+    return removeList, addDic
+
 # Function to create a list of question data from the file content
 def create_data(file):
     data = []
@@ -57,8 +85,7 @@ def create_data(file):
     pattern = re.compile(r'(###.*?)(?=(?:\n###))', re.DOTALL)
     questions = pattern.findall(file) # Find all sections starting with ###
     for question in questions:
-        if check(question):
-            return
+      
         dic = {}
        
         
@@ -75,26 +102,14 @@ def create_data(file):
 
     return data
 
-def save_question(id):
-    with open("PL/example2/uuid.txt", "a") as f:
-                
-        f.write(f"{id}\n")
 
-def check(id):
-    file = load_files("PL/example2/uuid.txt")
-    list = file.split("\n")
-    for i in list:
-        if i.strip() == id:
-            return True
-    return False
-    
         
     
 
 
 # Function to create a context dictionary for a given question
 def createContext(question):
-    save_question(question["id"].strip())
+   
     
     context = {}
     i = 1
@@ -140,14 +155,21 @@ def process_questions(data, file, info, question_type, html_file=None, py_file=N
    
         
     
-    for question in questions:
-        print(question)
-        
-        id = question["id"].strip()
-        print(check(id))
-        if check(id):
+   for question in questions:
+        diff_output = get_diff()
+        remove, add = parse_diff(diff_output)
+        if remove:
+            for id in remove:
+                delete_question_folder(id)
+            
+        try:
+           
+            if all(question[key] == value for key, value in add.items()):
+                context = createContext(question)
+            else:
+                continue
+        except KeyError:
             continue
-        context = createContext(question)
         
       
         # For Drop Down questions, generate an additional file if specified
