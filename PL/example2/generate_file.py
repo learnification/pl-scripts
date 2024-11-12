@@ -6,8 +6,8 @@ import requests
 import subprocess 
 import time
 import shutil
-import json
 
+import json
 
 # Function to generate a UUID using an external API
 def generate_uuid(retries=3, backoff_factor=0.3):
@@ -87,7 +87,8 @@ def create_data(file):
     pattern = re.compile(r'(###.*?)(?=(?:\n###))', re.DOTALL)
     questions = pattern.findall(file) # Find all sections starting with ###
     for question in questions:
-      
+       ## if check(question):
+            ##return
         dic = {}
        
         
@@ -104,19 +105,29 @@ def create_data(file):
 
     return data
 
+##def save_question(id):
+   ## with open("PL/example2/uuid.txt", "a") as f:
+                
+       ## f.write(f"{id}\n")
 
-        
+##def check(id):
+  ##  file = load_files("PL/example2/uuid.txt")
+   ## list = file.split("\n")
+   ## for i in list:
+     ##  if i.strip() == id:
+         ####  return True
+   ## return False
     
-
+        
+  
 
 # Function to create a context dictionary for a given question
 def createContext(question):
-   
+   ## save_question(question["id"].strip())
     
     context = {}
     i = 1
     for key in question:
-        print(key)
         
         if question["type"] in ["Drop Down", "Multiple Choice", "Check Box", "String Input"]:
 
@@ -145,8 +156,8 @@ def createContext(question):
             context["uuid"] = uuid
 
     return context
-           
-  
+
+
 def delete_question_folder(question_id):
     folder_path = f"PL/example2/question{question_id}"
     
@@ -157,6 +168,10 @@ def delete_question_folder(question_id):
 # Function to process questions of a specific type and generate files
 def process_questions(data, file, info, question_type, html_file=None, py_file=None):
     questions = [question for question in data if question["type"] == question_type]
+
+   
+        
+    
     for question in questions:
         diff_output = get_diff()
         remove, add = parse_diff(diff_output)
@@ -172,18 +187,20 @@ def process_questions(data, file, info, question_type, html_file=None, py_file=N
                 continue
         except KeyError:
             continue
-        # For Drop Down questions, generate an additional file if specified
+
+        # Generate file if context is set
         if question_type in ["Drop Down", "String Input"] and html_file and py_file:
-           
             generate_file(html_file, info, context, py_file)
             pass
-       
         else:
-            
             generate_file(file, info, context)
-
-   
+            
+           
+            
         
+        
+      
+       
         
             
 
@@ -262,7 +279,8 @@ def main():
             p = re.split("```", template)
             
             createStringInput( data, p[0],p[1], info )
-
+       
+       
 
    
 
