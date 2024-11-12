@@ -104,23 +104,8 @@ def create_data(file):
        
 
     return data
-
-##def save_question(id):
-   ## with open("PL/example2/uuid.txt", "a") as f:
-                
-       ## f.write(f"{id}\n")
-
-##def check(id):
-  ##  file = load_files("PL/example2/uuid.txt")
-   ## list = file.split("\n")
-   ## for i in list:
-     ##  if i.strip() == id:
-         ####  return True
-   ## return False
-    
         
   
-
 # Function to create a context dictionary for a given question
 def createContext(question):
    ## save_question(question["id"].strip())
@@ -167,18 +152,17 @@ def delete_question_folder(question_id):
 
 # Function to process questions of a specific type and generate files
 def process_questions(data, file, info, question_type, html_file=None, py_file=None):
+    diff_output = get_diff()
+    remove, add = parse_diff(diff_output)
+    if remove:
+        for id in remove:
+            delete_question_folder(id)
+            
     questions = [question for question in data if question["type"] == question_type]
 
-   
-        
-    
+
     for question in questions:
-        diff_output = get_diff()
-        remove, add = parse_diff(diff_output)
-        if remove:
-            for id in remove:
-                delete_question_folder(id)
-            
+        
         try:
            
             if all(question[key] == value for key, value in add.items()):
