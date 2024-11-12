@@ -28,7 +28,7 @@ answer: <title>My Web Page</title>
 ###
 id: 4
 type: Drop Down
-title: HTML attribute for unique identifier
+title: HTML attribute for unique identifiers
 topic: HTML Attributes
 question: The___attribute is used to provide a unique identifier to an HTML element.
 A: Style
@@ -38,7 +38,7 @@ D: Class
 ###
 id: 5
 type: Check Box
-title: Valid HTML attributes
+title: Valid HTML attribute
 topic: HTML Attributes
 question: Select all valid HTML attributes from the following options.
 *A: src
