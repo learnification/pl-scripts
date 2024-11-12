@@ -13,15 +13,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
-          fetch-depth: 2 
-
+          fetch-depth: 2  
+          
       - name: Run script and capture output
         id: run_script
         run: |
           chmod +x PL/example2/generate_file.py
           python PL/example2/generate_file.py > generated_files.txt
           cat generated_files.txt  # Optional: Display the captured output
-          
+
       - name: Delete existing generated files
         run: |
           while read -r line; do
@@ -48,7 +48,8 @@ jobs:
           name: generated-files
           merge-multiple: true
       - name: Display structure of downloaded files
-        run: ls -R PL/example2
+        run:  ls -R PL/example2
+
       - name: Configure Git
         run: |
           git config user.name "github-actions"
@@ -66,5 +67,6 @@ jobs:
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
       
  
