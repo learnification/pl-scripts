@@ -1,76 +1,100 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 8b13789..f14d19a 100644
+index f14d19a..dd5a989 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -0,0 +1,11 @@
-+###
-+id: 1
+@@ -11,0 +12,17 @@ D: To define the document's character set
++id: 2
 +type: Multiple Choice
-+title: Purpose of <!DOCTYPE> declaration
++title: Tag following <!DOCTYPE> declaration
 +topic: HTML Basics
-+question: What is the purpose of the `<!DOCTYPE>` declaration in an HTML document?
-+A: To define the document's title
-+*B: To define the document's type
-+C: To define the document's language
-+D: To define the document's character set
++question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
++A: `<head>`
++B: `<body>`
++C: `<title>`
++*D: `<html>`
++###
++id: 3
++type: String Input
++title: Example of <title> tag,
++topic: HTML Basics,
++question: Write an example of a `<title>` tag with the content "My Web Page".
++answer: <title>My Web Page</title>
 +###
 
 []
-{'id': '1', 'type': 'Multiple Choice', 'title': 'Purpose of <!DOCTYPE> declaration', 'topic': 'HTML Basics', 'question': 'What is the purpose of the `<!DOCTYPE>` declaration in an HTML document?', 'A': "To define the document's title", '*B': "To define the document's type", 'C': "To define the document's language", 'D': "To define the document's character set"}
+{'id': '3', 'type': 'String Input', 'title': 'Example of <title> tag,', 'topic': 'HTML Basics,', 'question': 'Write an example of a `<title>` tag with the content "My Web Page".', 'A': '`<head>`', 'B': '`<body>`', 'C': '`<title>`', '*D': '`<html>`', 'answer': '<title>My Web Page</title>'}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 8b13789..f14d19a 100644
+index f14d19a..dd5a989 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -0,0 +1,11 @@
-+###
-+id: 1
+@@ -11,0 +12,17 @@ D: To define the document's character set
++id: 2
 +type: Multiple Choice
-+title: Purpose of <!DOCTYPE> declaration
++title: Tag following <!DOCTYPE> declaration
 +topic: HTML Basics
-+question: What is the purpose of the `<!DOCTYPE>` declaration in an HTML document?
-+A: To define the document's title
-+*B: To define the document's type
-+C: To define the document's language
-+D: To define the document's character set
++question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
++A: `<head>`
++B: `<body>`
++C: `<title>`
++*D: `<html>`
++###
++id: 3
++type: String Input
++title: Example of <title> tag,
++topic: HTML Basics,
++question: Write an example of a `<title>` tag with the content "My Web Page".
++answer: <title>My Web Page</title>
 +###
 
 []
-{'id': '1', 'type': 'Multiple Choice', 'title': 'Purpose of <!DOCTYPE> declaration', 'topic': 'HTML Basics', 'question': 'What is the purpose of the `<!DOCTYPE>` declaration in an HTML document?', 'A': "To define the document's title", '*B': "To define the document's type", 'C': "To define the document's language", 'D': "To define the document's character set"}
+{'id': '3', 'type': 'String Input', 'title': 'Example of <title> tag,', 'topic': 'HTML Basics,', 'question': 'Write an example of a `<title>` tag with the content "My Web Page".', 'A': '`<head>`', 'B': '`<body>`', 'C': '`<title>`', '*D': '`<html>`', 'answer': '<title>My Web Page</title>'}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 8b13789..f14d19a 100644
+index f14d19a..dd5a989 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -0,0 +1,11 @@
-+###
-+id: 1
+@@ -11,0 +12,17 @@ D: To define the document's character set
++id: 2
 +type: Multiple Choice
-+title: Purpose of <!DOCTYPE> declaration
++title: Tag following <!DOCTYPE> declaration
 +topic: HTML Basics
-+question: What is the purpose of the `<!DOCTYPE>` declaration in an HTML document?
-+A: To define the document's title
-+*B: To define the document's type
-+C: To define the document's language
-+D: To define the document's character set
++question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
++A: `<head>`
++B: `<body>`
++C: `<title>`
++*D: `<html>`
++###
++id: 3
++type: String Input
++title: Example of <title> tag,
++topic: HTML Basics,
++question: Write an example of a `<title>` tag with the content "My Web Page".
++answer: <title>My Web Page</title>
 +###
 
 []
-{'id': '1', 'type': 'Multiple Choice', 'title': 'Purpose of <!DOCTYPE> declaration', 'topic': 'HTML Basics', 'question': 'What is the purpose of the `<!DOCTYPE>` declaration in an HTML document?', 'A': "To define the document's title", '*B': "To define the document's type", 'C': "To define the document's language", 'D': "To define the document's character set"}
+{'id': '3', 'type': 'String Input', 'title': 'Example of <title> tag,', 'topic': 'HTML Basics,', 'question': 'Write an example of a `<title>` tag with the content "My Web Page".', 'A': '`<head>`', 'B': '`<body>`', 'C': '`<title>`', '*D': '`<html>`', 'answer': '<title>My Web Page</title>'}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 8b13789..f14d19a 100644
+index f14d19a..dd5a989 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -0,0 +1,11 @@
-+###
-+id: 1
+@@ -11,0 +12,17 @@ D: To define the document's character set
++id: 2
 +type: Multiple Choice
-+title: Purpose of <!DOCTYPE> declaration
++title: Tag following <!DOCTYPE> declaration
 +topic: HTML Basics
-+question: What is the purpose of the `<!DOCTYPE>` declaration in an HTML document?
-+A: To define the document's title
-+*B: To define the document's type
-+C: To define the document's language
-+D: To define the document's character set
++question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
++A: `<head>`
++B: `<body>`
++C: `<title>`
++*D: `<html>`
++###
++id: 3
++type: String Input
++title: Example of <title> tag,
++topic: HTML Basics,
++question: Write an example of a `<title>` tag with the content "My Web Page".
++answer: <title>My Web Page</title>
 +###
 
 []
-{'id': '1', 'type': 'Multiple Choice', 'title': 'Purpose of <!DOCTYPE> declaration', 'topic': 'HTML Basics', 'question': 'What is the purpose of the `<!DOCTYPE>` declaration in an HTML document?', 'A': "To define the document's title", '*B': "To define the document's type", 'C': "To define the document's language", 'D': "To define the document's character set"}
+{'id': '3', 'type': 'String Input', 'title': 'Example of <title> tag,', 'topic': 'HTML Basics,', 'question': 'Write an example of a `<title>` tag with the content "My Web Page".', 'A': '`<head>`', 'B': '`<body>`', 'C': '`<title>`', '*D': '`<html>`', 'answer': '<title>My Web Page</title>'}
