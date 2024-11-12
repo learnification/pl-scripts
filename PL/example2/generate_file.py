@@ -66,12 +66,17 @@ def parse_diff(diff):
     lines = diff.splitlines()
     for line in lines:
        
-        if re.match(r'^\+[^+].*?:.*', line):
-         
+         if re.match(r'^\+[^+].*?:.*', line):
             key, value = line[1:].split(":")
-            addDic[key.strip()] = value.strip()
-            
-            
+            key = key.strip()
+            value = value.strip()
+
+            # If the key already exists, append the new value to the list
+            if key in addDic:
+                addDic[key].append(value)
+            else:
+                addDic[key] = [value]
+                
             #titleList[key.strip()] = value.strip()
         if re.search(r"-id:\s*(\d+)", line):
             match = re.search(r"-id:\s*(\d+)", line)
@@ -168,7 +173,7 @@ def process_questions(data, file, info, question_type, html_file=None, py_file=N
         
         try:
            
-            if any(question.get(key) == value for key, value in add.items()):
+            if all(any(question[key] == value for value in values) for key, values in add.items()):
                 context = createContext(question)
             else:
                 continue
