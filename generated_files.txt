@@ -1,100 +1,52 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index f14d19a..dd5a989 100644
+index 6f75e93..f1f2397 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -11,0 +12,17 @@ D: To define the document's character set
-+id: 2
-+type: Multiple Choice
-+title: Tag following <!DOCTYPE> declaration
-+topic: HTML Basics
-+question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
-+A: `<head>`
-+B: `<body>`
-+C: `<title>`
-+*D: `<html>`
-+###
-+id: 3
-+type: String Input
-+title: Example of <title> tag,
-+topic: HTML Basics,
-+question: Write an example of a `<title>` tag with the content "My Web Page".
-+answer: <title>My Web Page</title>
-+###
+@@ -31 +31 @@ type: Drop Down
+-title: HTML attribute for unique identifier
++title: HTML attribute for unique identifiers
+@@ -41 +41 @@ type: Check Box
+-title: Valid HTML attributes
++title: Valid HTML attribute
 
 []
-{'id': '3', 'type': 'String Input', 'title': 'Example of <title> tag,', 'topic': 'HTML Basics,', 'question': 'Write an example of a `<title>` tag with the content "My Web Page".', 'A': '`<head>`', 'B': '`<body>`', 'C': '`<title>`', '*D': '`<html>`', 'answer': '<title>My Web Page</title>'}
+{'title': ['HTML attribute for unique identifiers', 'Valid HTML attribute']}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index f14d19a..dd5a989 100644
+index 6f75e93..f1f2397 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -11,0 +12,17 @@ D: To define the document's character set
-+id: 2
-+type: Multiple Choice
-+title: Tag following <!DOCTYPE> declaration
-+topic: HTML Basics
-+question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
-+A: `<head>`
-+B: `<body>`
-+C: `<title>`
-+*D: `<html>`
-+###
-+id: 3
-+type: String Input
-+title: Example of <title> tag,
-+topic: HTML Basics,
-+question: Write an example of a `<title>` tag with the content "My Web Page".
-+answer: <title>My Web Page</title>
-+###
+@@ -31 +31 @@ type: Drop Down
+-title: HTML attribute for unique identifier
++title: HTML attribute for unique identifiers
+@@ -41 +41 @@ type: Check Box
+-title: Valid HTML attributes
++title: Valid HTML attribute
 
 []
-{'id': '3', 'type': 'String Input', 'title': 'Example of <title> tag,', 'topic': 'HTML Basics,', 'question': 'Write an example of a `<title>` tag with the content "My Web Page".', 'A': '`<head>`', 'B': '`<body>`', 'C': '`<title>`', '*D': '`<html>`', 'answer': '<title>My Web Page</title>'}
+{'title': ['HTML attribute for unique identifiers', 'Valid HTML attribute']}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index f14d19a..dd5a989 100644
+index 6f75e93..f1f2397 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -11,0 +12,17 @@ D: To define the document's character set
-+id: 2
-+type: Multiple Choice
-+title: Tag following <!DOCTYPE> declaration
-+topic: HTML Basics
-+question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
-+A: `<head>`
-+B: `<body>`
-+C: `<title>`
-+*D: `<html>`
-+###
-+id: 3
-+type: String Input
-+title: Example of <title> tag,
-+topic: HTML Basics,
-+question: Write an example of a `<title>` tag with the content "My Web Page".
-+answer: <title>My Web Page</title>
-+###
+@@ -31 +31 @@ type: Drop Down
+-title: HTML attribute for unique identifier
++title: HTML attribute for unique identifiers
+@@ -41 +41 @@ type: Check Box
+-title: Valid HTML attributes
++title: Valid HTML attribute
 
 []
-{'id': '3', 'type': 'String Input', 'title': 'Example of <title> tag,', 'topic': 'HTML Basics,', 'question': 'Write an example of a `<title>` tag with the content "My Web Page".', 'A': '`<head>`', 'B': '`<body>`', 'C': '`<title>`', '*D': '`<html>`', 'answer': '<title>My Web Page</title>'}
+{'title': ['HTML attribute for unique identifiers', 'Valid HTML attribute']}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index f14d19a..dd5a989 100644
+index 6f75e93..f1f2397 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -11,0 +12,17 @@ D: To define the document's character set
-+id: 2
-+type: Multiple Choice
-+title: Tag following <!DOCTYPE> declaration
-+topic: HTML Basics
-+question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
-+A: `<head>`
-+B: `<body>`
-+C: `<title>`
-+*D: `<html>`
-+###
-+id: 3
-+type: String Input
-+title: Example of <title> tag,
-+topic: HTML Basics,
-+question: Write an example of a `<title>` tag with the content "My Web Page".
-+answer: <title>My Web Page</title>
-+###
+@@ -31 +31 @@ type: Drop Down
+-title: HTML attribute for unique identifier
++title: HTML attribute for unique identifiers
+@@ -41 +41 @@ type: Check Box
+-title: Valid HTML attributes
++title: Valid HTML attribute
 
 []
-{'id': '3', 'type': 'String Input', 'title': 'Example of <title> tag,', 'topic': 'HTML Basics,', 'question': 'Write an example of a `<title>` tag with the content "My Web Page".', 'A': '`<head>`', 'B': '`<body>`', 'C': '`<title>`', '*D': '`<html>`', 'answer': '<title>My Web Page</title>'}
+{'title': ['HTML attribute for unique identifiers', 'Valid HTML attribute']}
