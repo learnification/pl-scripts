@@ -153,6 +153,7 @@ def delete_question_folder(question_id):
 # Function to process questions of a specific type and generate files
 def process_questions(data, file, info, question_type, html_file=None, py_file=None):
     diff_output = get_diff()
+    print(diff_output)
     remove, add = parse_diff(diff_output)
     if remove:
         for id in remove:
