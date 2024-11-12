@@ -26,4 +26,25 @@ topic: HTML Basics,
 question: Write an example of a `<title>` tag with the content "My Web Page".
 answer: <title>My Web Page</title>
 ###
+id: 4
+type: Drop Down
+title: HTML attribute for unique identifier
+topic: HTML Attributes
+question: The___attribute is used to provide a unique identifier to an HTML element.
+A: Style
+B: Name
+*C: Id
+D: Class
+###
+id: 5
+type: Check Box
+title: Valid HTML attributes
+topic: HTML Attributes
+question: Select all valid HTML attributes from the following options.
+*A: src
+B: value
+*C: class
+D: type
+*E: href
+###
 
