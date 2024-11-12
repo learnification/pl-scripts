@@ -65,23 +65,28 @@ def parse_diff(diff):
     removeList = []
     lines = diff.splitlines()
     for line in lines:
+        
+        
        
-         if re.match(r'^\+[^+].*?:.*', line):
+        if re.match(r'^\+[^+].*?:.*', line):
+            
+            
             key, value = line[1:].split(":")
             key = key.strip()
             value = value.strip()
-
+            
             # If the key already exists, append the new value to the list
             if key in addDic:
                 addDic[key].append(value)
             else:
                 addDic[key] = [value]
-                
-            #titleList[key.strip()] = value.strip()
         if re.search(r"-id:\s*(\d+)", line):
             match = re.search(r"-id:\s*(\d+)", line)
             id_number = match.group(1)
             removeList.append(id_number)
+        
+        
+        
     
     return removeList, addDic
 
