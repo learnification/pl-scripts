@@ -9,4 +9,21 @@ A: To define the document's title
 C: To define the document's language
 D: To define the document's character set
 ###
+id: 2
+type: Multiple Choice
+title: Tag following <!DOCTYPE> declaration
+topic: HTML Basics
+question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
+A: `<head>`
+B: `<body>`
+C: `<title>`
+*D: `<html>`
+###
+id: 3
+type: String Input
+title: Example of <title> tag,
+topic: HTML Basics,
+question: Write an example of a `<title>` tag with the content "My Web Page".
+answer: <title>My Web Page</title>
+###
 
