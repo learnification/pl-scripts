@@ -168,7 +168,7 @@ def process_questions(data, file, info, question_type, html_file=None, py_file=N
         
         try:
            
-            if all(question[key] == value for key, value in add.items()):
+            if any(question.get(key) == value for key, value in add.items()):
                 context = createContext(question)
             else:
                 continue
