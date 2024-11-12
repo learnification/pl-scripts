@@ -147,6 +147,10 @@ def createContext(question):
     return context
            
   
+def delete_question_folder(question_id):
+    folder_path = f"PL/example2/question{question_id}"
+    
+    print(folder_path)
 
     
 
