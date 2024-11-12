@@ -12,11 +12,29 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 2 
 
-      - name: Run script
+      - name: Run script and capture output
+        id: run_script
         run: |
           chmod +x PL/example2/generate_file.py
-          python PL/example2/generate_file.py
+          python PL/example2/generate_file.py > generated_files.txt
+          cat generated_files.txt  # Optional: Display the captured output
+          
+      - name: Delete existing generated files
+        run: |
+          while read -r line; do
+            if [ -f "$line" ]; then
+            rm -f "$line"
+            echo "Deleted existing file: $line"
+            elif [ -d "$line" ]; then
+            rm -rf "$line"
+            echo "Deleted existing directory: $line"
+            else
+            echo "No existing file or directory found: $line"
+            fi
+          done < generated_files.txt
           
       - name: Upload generated files
         uses: actions/upload-artifact@v4
@@ -39,11 +57,15 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add 'question*'
-          git commit -m "Add processed artifacts"
-          git push
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            
+            git commit -m "Add processed artifacts"
+            git push --force  # Force push to ensure changes are applied
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
       
  
