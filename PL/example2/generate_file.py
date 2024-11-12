@@ -151,11 +151,7 @@ def createContext(question):
 # Function to process questions of a specific type and generate files
 def process_questions(data, file, info, question_type, html_file=None, py_file=None):
     questions = [question for question in data if question["type"] == question_type]
-
-   
-        
-    
-   for question in questions:
+    for question in questions:
         diff_output = get_diff()
         remove, add = parse_diff(diff_output)
         if remove:
@@ -170,8 +166,6 @@ def process_questions(data, file, info, question_type, html_file=None, py_file=N
                 continue
         except KeyError:
             continue
-        
-      
         # For Drop Down questions, generate an additional file if specified
         if question_type in ["Drop Down", "String Input"] and html_file and py_file:
            
