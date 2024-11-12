@@ -1,9 +1,0 @@
-id
-type
-title
-topic
-question
-A
-B
-*C
-D
