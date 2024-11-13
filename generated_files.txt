@@ -1,47 +1,17 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 961ac56..b951c16 100644
+index bb8d2cd..8b9e1f6 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -72 +72 @@ type: Drop Down
--title: HTML attribute for hyperlink
-+title: HTML attribute for hyperlinks
+@@ -60 +60 @@ D: title
+-id: 7
++id: 8
 
-[]
-{'title': ['HTML attribute for hyperlinks']}
+['7']
+{'id': ['8']}
+PL/example2/question7
 not creating
 not creating
 not creating
-diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 961ac56..b951c16 100644
---- a/PL/example2/question_bank.md
-+++ b/PL/example2/question_bank.md
-@@ -72 +72 @@ type: Drop Down
--title: HTML attribute for hyperlink
-+title: HTML attribute for hyperlinks
-
-[]
-{'title': ['HTML attribute for hyperlinks']}
-not creating
-diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 961ac56..b951c16 100644
---- a/PL/example2/question_bank.md
-+++ b/PL/example2/question_bank.md
-@@ -72 +72 @@ type: Drop Down
--title: HTML attribute for hyperlink
-+title: HTML attribute for hyperlinks
-
-[]
-{'title': ['HTML attribute for hyperlinks']}
 not creating
 not creating
-diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 961ac56..b951c16 100644
---- a/PL/example2/question_bank.md
-+++ b/PL/example2/question_bank.md
-@@ -72 +72 @@ type: Drop Down
--title: HTML attribute for hyperlink
-+title: HTML attribute for hyperlinks
-
-[]
-{'title': ['HTML attribute for hyperlinks']}
 not creating
