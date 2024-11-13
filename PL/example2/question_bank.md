@@ -17,7 +17,7 @@ question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML doc
 A: `<head>`
 B: `<body>`
 C: `<title>`
-*D: `<html>`
+*D: `<html>>`
 ###
 id: 3
 type: String Input
