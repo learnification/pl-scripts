@@ -1,8 +1,8 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index f1f2397..3e71f15 100644
+index 79a52d4..86728db 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -49,0 +50,20 @@ D: type
+@@ -49,0 +50,21 @@ D: type
 +id: 6
 +type: Drop Down
 +title: HTML attribute for hyperlink
@@ -23,14 +23,15 @@ index f1f2397..3e71f15 100644
 +*C: To provide alternative text for the image
 +D: To set the image's alignmens..
 +###
++
 
 []
 {'id': ['6', '7'], 'type': ['Drop Down', 'Multiple Choice'], 'title': ['HTML attribute for hyperlink', 'HTML Element Attribute'], 'topic': ['HTML Attributes', 'HTML Basics'], 'question': ['The___attribute is used to specify the URL of the page that the link goes to.', 'What is the purpose of the `alt` attribute in an `<img>` tag?'], 'A': ['src', "To specify the image's URL"], '*B': ['href'], 'C': ['alt'], 'D': ['title', "To set the image's alignmens.."], 'B': ["To define the image's dimensions"], '*C': ['To provide alternative text for the image']}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index f1f2397..3e71f15 100644
+index 79a52d4..86728db 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -49,0 +50,20 @@ D: type
+@@ -49,0 +50,21 @@ D: type
 +id: 6
 +type: Drop Down
 +title: HTML attribute for hyperlink
@@ -51,14 +52,15 @@ index f1f2397..3e71f15 100644
 +*C: To provide alternative text for the image
 +D: To set the image's alignmens..
 +###
++
 
 []
 {'id': ['6', '7'], 'type': ['Drop Down', 'Multiple Choice'], 'title': ['HTML attribute for hyperlink', 'HTML Element Attribute'], 'topic': ['HTML Attributes', 'HTML Basics'], 'question': ['The___attribute is used to specify the URL of the page that the link goes to.', 'What is the purpose of the `alt` attribute in an `<img>` tag?'], 'A': ['src', "To specify the image's URL"], '*B': ['href'], 'C': ['alt'], 'D': ['title', "To set the image's alignmens.."], 'B': ["To define the image's dimensions"], '*C': ['To provide alternative text for the image']}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index f1f2397..3e71f15 100644
+index 79a52d4..86728db 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -49,0 +50,20 @@ D: type
+@@ -49,0 +50,21 @@ D: type
 +id: 6
 +type: Drop Down
 +title: HTML attribute for hyperlink
@@ -79,14 +81,15 @@ index f1f2397..3e71f15 100644
 +*C: To provide alternative text for the image
 +D: To set the image's alignmens..
 +###
++
 
 []
 {'id': ['6', '7'], 'type': ['Drop Down', 'Multiple Choice'], 'title': ['HTML attribute for hyperlink', 'HTML Element Attribute'], 'topic': ['HTML Attributes', 'HTML Basics'], 'question': ['The___attribute is used to specify the URL of the page that the link goes to.', 'What is the purpose of the `alt` attribute in an `<img>` tag?'], 'A': ['src', "To specify the image's URL"], '*B': ['href'], 'C': ['alt'], 'D': ['title', "To set the image's alignmens.."], 'B': ["To define the image's dimensions"], '*C': ['To provide alternative text for the image']}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index f1f2397..3e71f15 100644
+index 79a52d4..86728db 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -49,0 +50,20 @@ D: type
+@@ -49,0 +50,21 @@ D: type
 +id: 6
 +type: Drop Down
 +title: HTML attribute for hyperlink
@@ -107,6 +110,7 @@ index f1f2397..3e71f15 100644
 +*C: To provide alternative text for the image
 +D: To set the image's alignmens..
 +###
++
 
 []
 {'id': ['6', '7'], 'type': ['Drop Down', 'Multiple Choice'], 'title': ['HTML attribute for hyperlink', 'HTML Element Attribute'], 'topic': ['HTML Attributes', 'HTML Basics'], 'question': ['The___attribute is used to specify the URL of the page that the link goes to.', 'What is the purpose of the `alt` attribute in an `<img>` tag?'], 'A': ['src', "To specify the image's URL"], '*B': ['href'], 'C': ['alt'], 'D': ['title', "To set the image's alignmens.."], 'B': ["To define the image's dimensions"], '*C': ['To provide alternative text for the image']}
