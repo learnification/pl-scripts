@@ -175,28 +175,26 @@ def process_questions(data, file, info, question_type, html_file=None, py_file=N
 
 
     for question in questions:
-        try:
-        # Flag to check if a match is found
-            match_found = False
         
-        # Iterate over each key in addDic
+        try:
+        # Check if all key-value pairs in addDic match in the question
+            matches_all = True  # Assume all will match unless proven otherwise
+        
             for key, values in addDic.items():
-            # Check if the current question contains the key
-                if key in question:
-                # Check if any value in addDic[key] matches question[key]
-                    if question[key] in values:
-                        match_found = True
-                        break  # Exit the loop once a match is found for this question
+            # Check if the question has the key and matches one of the values in addDic
+                if question.get(key) not in values:
+                    matches_all = False  # Found a mismatch
+                    break  # No need to check further for this question
 
-        # If a match is found, process the question
-            if match_found:
-                context = createContext(question)  # Process matched question
+        # If everything matches, process the question
+            if matches_all:
+                context = createContext(question)  # Process the question
             else:
-                continue  # Skip if no match found
+                continue  # Skip to the next question if there was a mismatch
 
         except KeyError:
+        # Skip this question if a key was missing
             continue
-
         # Generate file if context is set
         if question_type in ["Drop Down", "String Input"] and html_file and py_file:
             generate_file(html_file, info, context, py_file)
