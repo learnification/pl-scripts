@@ -163,13 +163,10 @@ def delete_question_folder(question_id):
 # Function to process questions of a specific type and generate files
 def process_questions(data, file, info, question_type, html_file=None, py_file=None):
     diff_output = get_diff()
-    print(diff_output)
+    
     remove, addDic = parse_diff(diff_output)
-    print(remove)
-    print(addDic)
-    if remove:
-        for id in remove:
-            delete_question_folder(id)
+    
+   
             
     questions = [question for question in data if question["type"] == question_type]
 
@@ -264,6 +261,16 @@ def generate_file(html_file, info_file, context, py_file=None,):
    
 # Main function to load files, create data, and generate questions based on templates
 def main():
+    diff_output = get_diff()
+    print(diff_output)
+    remove, addDic = parse_diff(diff_output)
+    print(remove)
+    print(addDic)
+    if remove:
+        for id in remove:
+            delete_question_folder(id)
+    if not addDic:
+        return
   
     q_bank = load_files('PL/example2/question_bank.md')
     data = create_data(q_bank)
