@@ -1,40 +1,72 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 86728db..e73c265 100644
+index e73c265..961ac56 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -20 +20 @@ C: `<title>`
--*D: `<html>`
-+*D: `<html>>`
+@@ -69,0 +70,10 @@ D: To set the image's alignmens..
++id: 8
++type: Drop Down
++title: HTML attribute for hyperlink
++topic: HTML Attributes
++question: The___attribute is used to specify the URL of the page that the link goes to. 
++A: src 
++*B: href 
++C: alt 
++D: title
++###
 
 []
-{'*D': ['`<html>>`']}
+{'id': ['8'], 'type': ['Drop Down'], 'title': ['HTML attribute for hyperlink'], 'topic': ['HTML Attributes'], 'question': ['The___attribute is used to specify the URL of the page that the link goes to.'], 'A': ['src'], '*B': ['href'], 'C': ['alt'], 'D': ['title']}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 86728db..e73c265 100644
+index e73c265..961ac56 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -20 +20 @@ C: `<title>`
--*D: `<html>`
-+*D: `<html>>`
+@@ -69,0 +70,10 @@ D: To set the image's alignmens..
++id: 8
++type: Drop Down
++title: HTML attribute for hyperlink
++topic: HTML Attributes
++question: The___attribute is used to specify the URL of the page that the link goes to. 
++A: src 
++*B: href 
++C: alt 
++D: title
++###
 
 []
-{'*D': ['`<html>>`']}
+{'id': ['8'], 'type': ['Drop Down'], 'title': ['HTML attribute for hyperlink'], 'topic': ['HTML Attributes'], 'question': ['The___attribute is used to specify the URL of the page that the link goes to.'], 'A': ['src'], '*B': ['href'], 'C': ['alt'], 'D': ['title']}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 86728db..e73c265 100644
+index e73c265..961ac56 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -20 +20 @@ C: `<title>`
--*D: `<html>`
-+*D: `<html>>`
+@@ -69,0 +70,10 @@ D: To set the image's alignmens..
++id: 8
++type: Drop Down
++title: HTML attribute for hyperlink
++topic: HTML Attributes
++question: The___attribute is used to specify the URL of the page that the link goes to. 
++A: src 
++*B: href 
++C: alt 
++D: title
++###
 
 []
-{'*D': ['`<html>>`']}
+{'id': ['8'], 'type': ['Drop Down'], 'title': ['HTML attribute for hyperlink'], 'topic': ['HTML Attributes'], 'question': ['The___attribute is used to specify the URL of the page that the link goes to.'], 'A': ['src'], '*B': ['href'], 'C': ['alt'], 'D': ['title']}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 86728db..e73c265 100644
+index e73c265..961ac56 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -20 +20 @@ C: `<title>`
--*D: `<html>`
-+*D: `<html>>`
+@@ -69,0 +70,10 @@ D: To set the image's alignmens..
++id: 8
++type: Drop Down
++title: HTML attribute for hyperlink
++topic: HTML Attributes
++question: The___attribute is used to specify the URL of the page that the link goes to. 
++A: src 
++*B: href 
++C: alt 
++D: title
++###
 
 []
-{'*D': ['`<html>>`']}
+{'id': ['8'], 'type': ['Drop Down'], 'title': ['HTML attribute for hyperlink'], 'topic': ['HTML Attributes'], 'question': ['The___attribute is used to specify the URL of the page that the link goes to.'], 'A': ['src'], '*B': ['href'], 'C': ['alt'], 'D': ['title']}
