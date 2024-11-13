@@ -166,7 +166,7 @@ def process_questions(data, file, info, question_type, html_file=None, py_file=N
     print(diff_output)
     remove, addDic = parse_diff(diff_output)
     print(remove)
-    print(add)
+    print(addDic)
     if remove:
         for id in remove:
             delete_question_folder(id)
