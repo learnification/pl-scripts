@@ -1,116 +1,40 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 79a52d4..86728db 100644
+index 86728db..e73c265 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -49,0 +50,21 @@ D: type
-+id: 6
-+type: Drop Down
-+title: HTML attribute for hyperlink
-+topic: HTML Attributes
-+question: The___attribute is used to specify the URL of the page that the link goes to. 
-+A: src 
-+*B: href 
-+C: alt 
-+D: title
-+###
-+id: 7
-+type: Multiple Choice
-+title: HTML Element Attribute
-+topic: HTML Basics
-+question: What is the purpose of the `alt` attribute in an `<img>` tag?
-+A: To specify the image's URL
-+B: To define the image's dimensions
-+*C: To provide alternative text for the image
-+D: To set the image's alignmens..
-+###
-+
+@@ -20 +20 @@ C: `<title>`
+-*D: `<html>`
++*D: `<html>>`
 
 []
-{'id': ['6', '7'], 'type': ['Drop Down', 'Multiple Choice'], 'title': ['HTML attribute for hyperlink', 'HTML Element Attribute'], 'topic': ['HTML Attributes', 'HTML Basics'], 'question': ['The___attribute is used to specify the URL of the page that the link goes to.', 'What is the purpose of the `alt` attribute in an `<img>` tag?'], 'A': ['src', "To specify the image's URL"], '*B': ['href'], 'C': ['alt'], 'D': ['title', "To set the image's alignmens.."], 'B': ["To define the image's dimensions"], '*C': ['To provide alternative text for the image']}
+{'*D': ['`<html>>`']}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 79a52d4..86728db 100644
+index 86728db..e73c265 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -49,0 +50,21 @@ D: type
-+id: 6
-+type: Drop Down
-+title: HTML attribute for hyperlink
-+topic: HTML Attributes
-+question: The___attribute is used to specify the URL of the page that the link goes to. 
-+A: src 
-+*B: href 
-+C: alt 
-+D: title
-+###
-+id: 7
-+type: Multiple Choice
-+title: HTML Element Attribute
-+topic: HTML Basics
-+question: What is the purpose of the `alt` attribute in an `<img>` tag?
-+A: To specify the image's URL
-+B: To define the image's dimensions
-+*C: To provide alternative text for the image
-+D: To set the image's alignmens..
-+###
-+
+@@ -20 +20 @@ C: `<title>`
+-*D: `<html>`
++*D: `<html>>`
 
 []
-{'id': ['6', '7'], 'type': ['Drop Down', 'Multiple Choice'], 'title': ['HTML attribute for hyperlink', 'HTML Element Attribute'], 'topic': ['HTML Attributes', 'HTML Basics'], 'question': ['The___attribute is used to specify the URL of the page that the link goes to.', 'What is the purpose of the `alt` attribute in an `<img>` tag?'], 'A': ['src', "To specify the image's URL"], '*B': ['href'], 'C': ['alt'], 'D': ['title', "To set the image's alignmens.."], 'B': ["To define the image's dimensions"], '*C': ['To provide alternative text for the image']}
+{'*D': ['`<html>>`']}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 79a52d4..86728db 100644
+index 86728db..e73c265 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -49,0 +50,21 @@ D: type
-+id: 6
-+type: Drop Down
-+title: HTML attribute for hyperlink
-+topic: HTML Attributes
-+question: The___attribute is used to specify the URL of the page that the link goes to. 
-+A: src 
-+*B: href 
-+C: alt 
-+D: title
-+###
-+id: 7
-+type: Multiple Choice
-+title: HTML Element Attribute
-+topic: HTML Basics
-+question: What is the purpose of the `alt` attribute in an `<img>` tag?
-+A: To specify the image's URL
-+B: To define the image's dimensions
-+*C: To provide alternative text for the image
-+D: To set the image's alignmens..
-+###
-+
+@@ -20 +20 @@ C: `<title>`
+-*D: `<html>`
++*D: `<html>>`
 
 []
-{'id': ['6', '7'], 'type': ['Drop Down', 'Multiple Choice'], 'title': ['HTML attribute for hyperlink', 'HTML Element Attribute'], 'topic': ['HTML Attributes', 'HTML Basics'], 'question': ['The___attribute is used to specify the URL of the page that the link goes to.', 'What is the purpose of the `alt` attribute in an `<img>` tag?'], 'A': ['src', "To specify the image's URL"], '*B': ['href'], 'C': ['alt'], 'D': ['title', "To set the image's alignmens.."], 'B': ["To define the image's dimensions"], '*C': ['To provide alternative text for the image']}
+{'*D': ['`<html>>`']}
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 79a52d4..86728db 100644
+index 86728db..e73c265 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -49,0 +50,21 @@ D: type
-+id: 6
-+type: Drop Down
-+title: HTML attribute for hyperlink
-+topic: HTML Attributes
-+question: The___attribute is used to specify the URL of the page that the link goes to. 
-+A: src 
-+*B: href 
-+C: alt 
-+D: title
-+###
-+id: 7
-+type: Multiple Choice
-+title: HTML Element Attribute
-+topic: HTML Basics
-+question: What is the purpose of the `alt` attribute in an `<img>` tag?
-+A: To specify the image's URL
-+B: To define the image's dimensions
-+*C: To provide alternative text for the image
-+D: To set the image's alignmens..
-+###
-+
+@@ -20 +20 @@ C: `<title>`
+-*D: `<html>`
++*D: `<html>>`
 
 []
-{'id': ['6', '7'], 'type': ['Drop Down', 'Multiple Choice'], 'title': ['HTML attribute for hyperlink', 'HTML Element Attribute'], 'topic': ['HTML Attributes', 'HTML Basics'], 'question': ['The___attribute is used to specify the URL of the page that the link goes to.', 'What is the purpose of the `alt` attribute in an `<img>` tag?'], 'A': ['src', "To specify the image's URL"], '*B': ['href'], 'C': ['alt'], 'D': ['title', "To set the image's alignmens.."], 'B': ["To define the image's dimensions"], '*C': ['To provide alternative text for the image']}
+{'*D': ['`<html>>`']}
