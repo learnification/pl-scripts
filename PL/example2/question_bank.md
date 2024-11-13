@@ -67,17 +67,5 @@ B: To define the image's dimensions
 *C: To provide alternative text for the image
 D: To set the image's alignmens..
 ###
-id: 8
-type: Drop Down
-title: HTML attribute for hyperlinks
-topic: HTML Attributes
-question: The___attribute is used to specify the URL of the page that the link goes to. 
-A: src 
-*B: href 
-C: alt 
-D: title
-###
-
-
 
 
