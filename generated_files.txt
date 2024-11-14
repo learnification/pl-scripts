@@ -1,24 +1,25 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 8a93f84..c1482c8 100644
+index c1482c8..df295e0 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
 @@ -70 +70 @@ D: To set the image's alignmens..
--id: 8
-+id: 9
-@@ -74 +74 @@ topic: HTML Attributes
--question:  Which attribute is used to specify the URL of the page that the link goes to?  
-+question: Which attribute is used to specify the URL of the page that the link goes to? 
-@@ -83 +82,0 @@ D: title
--
+-id: 9
++id: 8
 
+['9']
+{'id': ['8']}
+PL/example2/question9
+1
 ['8']
-{'id': ['9'], 'question': ['Which attribute is used to specify the URL of the page that the link goes to?']}
-PL/example2/question8
-not creating
-not creating
-not creating
-not creating
-not creating
-not creating
-not creating
-not creating
+2
+['8']
+7
+['8']
+5
+['8']
+4
+['8']
+6
+['8']
+3
+['8']
