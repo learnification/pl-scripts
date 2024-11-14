@@ -1,25 +1,13 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index d063b8e..605df2a 100644
+index 605df2a..8a93f84 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -54 +54 @@ topic: HTML Attributes
+@@ -74 +74 @@ topic: HTML Attributes
 -question: The___attribute is used to specify the URL of the page that the link goes to. 
-+question: Which attribute is used to specify the URL of the page that the link goes to? 
-@@ -80,10 +79,0 @@ D: title
--id: 9
--type: Multiple Choice
--title: HTML Element Attribute
--topic: HTML Basics
--question: What is the purpose of the `alt` attribute in an `<img>` tag?
--A: To specify the image's URL
--B: To define the image's dimensions
--*C: To provide alternative text for the image
--D: To set the image's alignmens..
--###
++question:  Which attribute is used to specify the URL of the page that the link goes to?  
 
-['9']
+[]
 {'question': ['Which attribute is used to specify the URL of the page that the link goes to?']}
-PL/example2/question9
 not creating
 not creating
 not creating
