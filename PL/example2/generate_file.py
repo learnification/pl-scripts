@@ -180,7 +180,7 @@ def process_questions(data, file, info, question_type, html_file=None, py_file=N
             for key, values in addDic.items():
                 if key in question:
             # Check if the question has the key and matches one of the values in addDic
-                    if question.get(key) not in values:
+                    if question[key] not in values:
                         print("not creating")
                         matches_all = False  # Found a mismatch
                         break  # No need to check further for this question
