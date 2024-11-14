@@ -1,33 +1,25 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 775cd2e..d063b8e 100644
+index d063b8e..605df2a 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -69,0 +70,21 @@ D: To set the image's alignmens..
-+id: 8
-+type: Drop Down
-+title: HTML attribute for hyperlink
-+topic: HTML Attributes
-+question: The___attribute is used to specify the URL of the page that the link goes to. 
-+A: src 
-+*B: href 
-+C: alt 
-+D: title
-+###
-+id: 9
-+type: Multiple Choice
-+title: HTML Element Attribute
-+topic: HTML Basics
-+question: What is the purpose of the `alt` attribute in an `<img>` tag?
-+A: To specify the image's URL
-+B: To define the image's dimensions
-+*C: To provide alternative text for the image
-+D: To set the image's alignmens..
-+###
-+
+@@ -54 +54 @@ topic: HTML Attributes
+-question: The___attribute is used to specify the URL of the page that the link goes to. 
++question: Which attribute is used to specify the URL of the page that the link goes to? 
+@@ -80,10 +79,0 @@ D: title
+-id: 9
+-type: Multiple Choice
+-title: HTML Element Attribute
+-topic: HTML Basics
+-question: What is the purpose of the `alt` attribute in an `<img>` tag?
+-A: To specify the image's URL
+-B: To define the image's dimensions
+-*C: To provide alternative text for the image
+-D: To set the image's alignmens..
+-###
 
-[]
-{'id': ['8', '9'], 'type': ['Drop Down', 'Multiple Choice'], 'title': ['HTML attribute for hyperlink', 'HTML Element Attribute'], 'topic': ['HTML Attributes', 'HTML Basics'], 'question': ['The___attribute is used to specify the URL of the page that the link goes to.', 'What is the purpose of the `alt` attribute in an `<img>` tag?'], 'A': ['src', "To specify the image's URL"], '*B': ['href'], 'C': ['alt'], 'D': ['title', "To set the image's alignmens.."], 'B': ["To define the image's dimensions"], '*C': ['To provide alternative text for the image']}
-not creating
+['9']
+{'question': ['Which attribute is used to specify the URL of the page that the link goes to?']}
+PL/example2/question9
 not creating
 not creating
 not creating
