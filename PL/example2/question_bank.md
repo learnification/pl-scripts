@@ -67,7 +67,7 @@ B: To define the image's dimensions
 *C: To provide alternative text for the image
 D: To set the image's alignmens..
 ###
-id: 9
+id: 8
 type: Drop Down
 title: HTML attribute for hyperlink
 topic: HTML Attributes
