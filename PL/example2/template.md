@@ -40,7 +40,7 @@ DD@
   </p>
 </pl-question-panel>
 <p>
-  {{question1}}
+  {{question}}
   <pl-dropdown answers-name="HTML1">
     {% raw %}{{#params.HTML1}}{% endraw %}
         <pl-answer correct="{% raw %}{{tag}}{% endraw %}">{% raw %}{{ans}}{% endraw %}</pl-answer>
