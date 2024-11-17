@@ -128,8 +128,8 @@ def createContext(question):
 
             question["question"] = question["question"].replace('<', '&lt;').replace('>', '&gt;')
             if "___" in question["question"]:
-                question, question2 = question["question"].split("___")
-                context["question"] = question.strip()
+                question1, question2 = question["question"].split("___")
+                context["question"] = question1.strip()
                 context["question2"] = question2.strip()
             else:
                 context["question"] = question["question"].strip()
