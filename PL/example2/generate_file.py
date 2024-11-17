@@ -181,7 +181,7 @@ def process_questions(data, file, info, question_type, html_file=None, py_file=N
                 if key in question:
             # Check if the question has the key and matches one of the values in addDic
                     
-                    if question[key] not in values:
+                    if question[key].strip() not in values:
                         print(question)
                         print(question[key])
                         print(values)
