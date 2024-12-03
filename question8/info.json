@@ -1,7 +1,8 @@
 
 {
-  "uuid": "970659ea-311b-4e91-8c80-dd43bdbb3f68",
-  "title": "HTML attribute for hyperlink",
-  "topic": "HTML Attributes",
-  "type": "v3" 
+  "uuid": "67f9872d-48f4-4089-b1b4-8a9d7820d4a7",
+  "title": "Tag following <!DOCTYPE> declaration",
+  "topic": "HTML Basics",
+  "type": "v3",
+  "tags": []
 }
