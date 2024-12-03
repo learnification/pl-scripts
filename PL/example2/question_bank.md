@@ -13,6 +13,7 @@ id: 2
 type: Multiple Choice
 title: Tag following <!DOCTYPE> declaration
 topic: HTML Basics
+tags: Hard, Basic
 question: Which tag directly follows the `<!DOCTYPE>` declaration in an HTML document?
 A: `<head>`
 B: `<body>`
