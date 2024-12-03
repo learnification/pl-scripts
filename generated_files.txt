@@ -1,38 +1,40 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 9977027..d4e5c36 100644
+index 6d010ac..81fc0f9 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -12 +12 @@ D: To define the document's character set
--id: 2
-+id: 8
+@@ -14 +14 @@ type: Multiple Choice
+-title: Tag following <!DOCTYPE> declaration
++title: Tag following <!DOCTYPE> declarations
+@@ -16 +16 @@ topic: HTML Basics
+-tags: Hard, Basic, Exam
++tags: Hard, Basic, Exams
 
-['2']
-{'id': ['8']}
-PL/example2/question2
+[]
+{'title': ['Tag following <!DOCTYPE> declarations'], 'tags': ['Hard, Basic, Exams']}
 {'id': '1', 'type': 'Multiple Choice', 'title': 'Purpose of <!DOCTYPE> declaration', 'topic': 'HTML Basics', 'question': 'What is the purpose of the `<!DOCTYPE>` declaration in an HTML document?', 'A': "To define the document's title", '*B': "To define the document's type", 'C': "To define the document's language", 'D': "To define the document's character set"}
-1
-['8']
+Purpose of <!DOCTYPE> declaration
+['Tag following <!DOCTYPE> declarations']
 {'id': '7', 'type': 'Multiple Choice', 'title': 'HTML Element Attribute', 'topic': 'HTML Basics', 'question': 'What is the purpose of the `alt` attribute in an `<img>` tag?', 'A': "To specify the image's URL", 'B': "To define the image's dimensions", '*C': 'To provide alternative text for the image', 'D': "To set the image's alignmens.."}
-7
-['8']
+HTML Element Attribute
+['Tag following <!DOCTYPE> declarations']
 {'id': '9', 'type': 'Multiple Choice', 'title': 'HTML Element Attribute', 'topic': 'HTML Basics', 'question': 'What is the purpose of the `alt` attribute in an `<img>` tag?', 'A': "To specify the image's URL", 'B': "To define the image's dimensions", '*C': 'To provide alternative text for the image', 'D': "To set the image's alignmens.."}
-9
-['8']
+HTML Element Attribute
+['Tag following <!DOCTYPE> declarations']
 {'id': '5', 'type': 'Check Box', 'title': 'Valid HTML attribute', 'topic': 'HTML Attributes', 'question': 'Select all valid HTML attributes from the following options.', '*A': 'src', 'B': 'value', '*C': 'class', 'D': 'type', '*E': 'href'}
-5
-['8']
+Valid HTML attribute
+['Tag following <!DOCTYPE> declarations']
 {'id': '4', 'type': 'Drop Down', 'title': 'HTML attribute for unique identifiers', 'topic': 'HTML Attributes', 'question': 'The___attribute is used to provide a unique identifier to an HTML element.', 'A': 'Style', 'B': 'Name', '*C': 'Id', 'D': 'Class'}
-4
-['8']
+HTML attribute for unique identifiers
+['Tag following <!DOCTYPE> declarations']
 {'id': '6', 'type': 'Drop Down', 'title': 'HTML attribute for hyperlink', 'topic': 'HTML Attributes', 'question': 'Which attribute is used to specify the URL of the page that the link goes to? ', 'A': 'src ', '*B': 'href ', 'C': 'alt ', 'D': 'title'}
-6
-['8']
+HTML attribute for hyperlink
+['Tag following <!DOCTYPE> declarations']
 {'id': '3', 'type': 'Drop Down', 'title': 'HTML attribute for hyperlink', 'topic': 'HTML Attributes', 'question': 'The___attribute is used to specify the URL of the page that the link goes to. ', 'A': 'src ', '*B': 'href ', 'C': 'alt ', 'D': 'title'}
-3
-['8']
+HTML attribute for hyperlink
+['Tag following <!DOCTYPE> declarations']
 {'id': '10', 'type': 'Drop Down', 'title': 'HTML attribute for hyperlink', 'topic': 'HTML Attributes', 'question': 'The___attribute is used to specify the URL of the page that the link goes to. ', 'A': 'src ', '*B': 'href ', 'C': 'alt ', 'D': 'title'}
-10
-['8']
+HTML attribute for hyperlink
+['Tag following <!DOCTYPE> declarations']
 {'id': '11', 'type': 'Drop Down', 'title': 'HTML attribute for hyperlink', 'topic': 'HTML Attributes', 'question': 'which attribute is used to specify the URL of the page that the link goes to? ', 'A': 'src ', '*B': 'href ', 'C': 'alt ', 'D': 'title'}
-11
-['8']
+HTML attribute for hyperlink
+['Tag following <!DOCTYPE> declarations']
