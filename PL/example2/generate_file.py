@@ -107,6 +107,10 @@ def create_data(file):
         for line in lines:
             if line != "###":
                 key, value = line.split(": ")
+                if key == "tags":
+                    value = value.split(", ")
+
+               
                 
                 dic[key] = value
                 
