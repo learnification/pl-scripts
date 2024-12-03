@@ -149,8 +149,8 @@ def createContext(question):
             if key in ["title", "topic", "answer", "id",]:
                 context[key] = question[key]
             if key == "tags":
-               
-                context["tags"] = json.loads(f'["{question["tags"].replace(", ", '","')}]'))
+                tg = question[key].split(", ")
+                context["tags"] = json.dumps(tg)
             uuid = generate_uuid()
             
             context["uuid"] = uuid
