@@ -148,8 +148,10 @@ def createContext(question):
 
             
                 i += 1
-            if key in ["title", "topic", "answer", "id"]:
+            if key in ["title", "topic", "answer", "id", "tags"]:
                 context[key] = question[key]
+            ##if key == "tags":
+                ##context[key] = question[key].split(", ")
             uuid = generate_uuid()
             
             context["uuid"] = uuid
