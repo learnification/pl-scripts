@@ -107,8 +107,6 @@ def create_data(file):
         for line in lines:
             if line != "###":
                 key, value = line.split(": ")
-                if key == "tags":
-                    value = value.split(", ")
 
                
                 
@@ -148,10 +146,10 @@ def createContext(question):
 
             
                 i += 1
-            if key in ["title", "topic", "answer", "id", "tags"]:
+            if key in ["title", "topic", "answer", "id",]:
                 context[key] = question[key]
-            ##if key == "tags":
-                ##context[key] = question[key].split(", ")
+            if key == "tags":
+                context[key] = question[key].split(", ")
             uuid = generate_uuid()
             
             context["uuid"] = uuid
