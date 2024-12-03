@@ -4,7 +4,8 @@ IJ@
   "uuid": "{{uuid}}",
   "title": "{{title}}",
   "topic": "{{topic}}",
-  "type": "v3" 
+  "type": "v3",
+  "tags": []
 }
 ###
 MC@
