@@ -5,7 +5,7 @@ IJ@
   "title": "{{title}}",
   "topic": "{{topic}}",
   "type": "v3",
-  "tags": []
+  "tags": {{tags}}
 }
 ###
 MC@
