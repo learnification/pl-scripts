@@ -1,31 +1,24 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index e28c26a..bb100b1 100644
+index bb100b1..12c81fa 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -2,11 +2,11 @@
--id: 2
--type: Multiple Choice  
--title: HTML Tags and Syntax  
--topic: Intro to HTML 
--tags: Easy, HTML Tags, Auto  
--question: Which of the following is true about HTML tags?  
--A: HTML tags must be written in uppercase to work correctly  
--*B: HTML tags are enclosed in angle brackets  
--C: All HTML tags require an opening and a closing tag  
--D: HTML tags contain spaces between the angle brackets and the tag name  
--E: All of the above   
-+id: 1
+@@ -13,0 +14,13 @@ E: All of the above
++id: 2
 +type: Multiple Choice
-+title: HTML Tags and Syntax
++title: Self-Closing Tags
 +topic: Intro to HTML
-+tags: Easy, HTML Tags, Auto 
-+question: Which of the following is true about HTML tags?
-+A: HTML tags must be written in uppercase to work correctly
-+*B: HTML tags are enclosed in angle brackets
-+C: HTML tags contain spaces between the angle brackets and the tag name
-+D: All HTML tags require an opening and a closing tag
-+E: All of the above
++tags: Easy, HTML Tags, Auto
++question: Which of the following is an example of an HTML element with a self-closing tag?
++A: `<p>`
++B: `<blockquote>`
++*C: `<br>`
++D: `<h1>`
++E: `<hr>`
++###
++
 
+[]
+{'id': ['2'], 'type': ['Multiple Choice'], 'title': ['Self-Closing Tags'], 'topic': ['Intro to HTML'], 'tags': ['Easy, HTML Tags, Auto'], 'question': ['Which of the following is an example of an HTML element with a self-closing tag?'], 'A': ['`<p>`'], 'B': ['`<blockquote>`'], '*C': ['`<br>`'], 'D': ['`<h1>`'], 'E': ['`<hr>`']}
+{'id': '1', 'type': 'Multiple Choice', 'title': 'HTML Tags and Syntax', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Tags, Auto ', 'question': 'Which of the following is true about HTML tags?', 'A': 'HTML tags must be written in uppercase to work correctly', '*B': 'HTML tags are enclosed in angle brackets', 'C': 'HTML tags contain spaces between the angle brackets and the tag name', 'D': 'All HTML tags require an opening and a closing tag', 'E': 'All of the above'}
+1
 ['2']
-{'id': ['1'], 'type': ['Multiple Choice'], 'title': ['HTML Tags and Syntax'], 'topic': ['Intro to HTML'], 'tags': ['Easy, HTML Tags, Auto'], 'question': ['Which of the following is true about HTML tags?'], 'A': ['HTML tags must be written in uppercase to work correctly'], '*B': ['HTML tags are enclosed in angle brackets'], 'C': ['HTML tags contain spaces between the angle brackets and the tag name'], 'D': ['All HTML tags require an opening and a closing tag'], 'E': ['All of the above']}
-PL/example2/question2
