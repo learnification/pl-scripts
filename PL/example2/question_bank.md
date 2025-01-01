@@ -114,6 +114,67 @@ A: <strong> <p>HTML</p> </strong>
 C: <p> <em>HTML</em> </p>
 D: <p>HTML<p> <strong> </strong>
 ###
+id: 11
+type: Checkbox
+title: HTML Structure Essentials
+topic: Intro to HTML
+tags: Medium, HTML Structure, Auto
+question: Select all the components that are essential for a basic HTML structure.
+*A: <!DOCTYPE html>
+*B: <head>
+*C: <body>
+D: <footer>
+*E: <html>
+###
+id: 12
+type: Checkbox
+title: HTML Paragraph Tag
+topic: Intro to HTML
+tags: Medium, HTML Paragraph, Auto
+question: Which of the following statements accurately describe the <p> tag?
+*A: It groups sentences and sections of text together.
+*B: It displays text as a block that starts on a new line.
+C: It preserves extra spaces and line breaks in the content.
+D: It can be used to format text as preformatted content.
+E: Text inside <p> tags is displayed as a continuous line.
+###
+id: 13
+type: Checkbox
+title: HTML Comments Purpose
+topic: Intro to HTML
+tags: Easy, HTML Comments, Auto
+question: What are the purposes of using comments in HTML?
+*A: To help document the HTML source code.
+*B: To provide notes for other developers.
+C: To style elements on the page.
+*D: To assist in debugging HTML code.
+E: To ensure elements are displayed on the webpage.
+###
+id: 14
+type: Checkbox
+title: HTML Document Structure
+topic: Intro to HTML
+tags: Medium, HTML Structure, Auto
+question: Which statements are not true about the structure of an HTML document?
+A: The HTML document is divided into head and body sections.
+*B: The <head> element contains the visible content of the page.
+C: The <title> tag is used to specify the document's title.
+*D: The <body> section contains meta information about the page.
+E: The HTML document must start with a <html> tag after the DOCTYPE declaration.
+###
+id: 15
+type: Checkbox
+title: HTML Headings Information
+topic: Intro to HTML
+tags: Medium, HTML Headings, Auto
+question: Which of the following are true about HTML headings?
+*A: HTML headings range from <h1> to <h6>, where <h1> is the most important.
+*B: Headings are used to structure the content and improve SEO.
+C: All headings are treated as inline elements by default.
+*D: The <h1> tag is typically used for the main title of the page.
+*E: Headings cannot be nested within other elements.
+###
+
 
 
 
