@@ -1,5 +1,5 @@
 ###
-id: 2
+id: 1
 type: Multiple Choice
 title: Purpose of <!DOCTYPE> declarations
 topic: HTML Basics
