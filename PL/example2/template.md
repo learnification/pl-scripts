@@ -71,9 +71,6 @@ SI@
   <p> {{question}}
   </p>
 
-  <pl-code language="html">
-  {% raw %}{{params.d}}{% endraw %}
-  </pl-code>
 </pl-question-panel>
 
 <p>
