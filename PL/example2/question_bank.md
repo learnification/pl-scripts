@@ -1,4 +1,4 @@
-###  
+###
 id: 1  
 type: Multiple Choice  
 title: HTML Tags and Syntax  
@@ -10,4 +10,4 @@ A: HTML tags must be written in uppercase to work correctly
 C: All HTML tags require an opening and a closing tag  
 D: HTML tags contain spaces between the angle brackets and the tag name  
 E: All of the above   
-###  
+###
