@@ -1,22 +1,11 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 8b13789..1e698d9 100644
+index 1e698d9..95a7190 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -1 +1,13 @@
--
-+###
-+id: 2
-+type: Multiple Choice
-+title: Purpose of <!DOCTYPE> declarations
-+topic: HTML Basics
-+tags: Basic, Hard
-+question: What is the purpose of the `<!DOCTYPE>` declaration in an HTML document?
-+A: To define the document's title
-+*B: To define the document's type
-+C: To define the document's language
-+D: To define the document's character set
-+E: None of above
-+###
+@@ -2 +2 @@
+-id: 2
++id: 1
 
-[]
-{'id': ['2'], 'type': ['Multiple Choice'], 'title': ['Purpose of <!DOCTYPE> declarations'], 'topic': ['HTML Basics'], 'tags': ['Basic, Hard'], 'question': ['What is the purpose of the `<!DOCTYPE>` declaration in an HTML document?'], 'A': ["To define the document's title"], '*B': ["To define the document's type"], 'C': ["To define the document's language"], 'D': ["To define the document's character set"], 'E': ['None of above']}
+['2']
+{'id': ['1']}
+PL/example2/question2
