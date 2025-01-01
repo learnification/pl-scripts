@@ -136,7 +136,7 @@ def createContext(question):
             else:
                 context["question"] = question["question"].strip()
 
-            if key not in ["type", "question", "title", "topic", "answer", "id"]:
+            if key not in ["type", "question", "title", "topic", "answer", "id", "tags"]:
                 context[f"option{i}"] = question[key]
                 context[f"flag{i}"] = "false"
 
