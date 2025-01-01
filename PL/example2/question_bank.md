@@ -182,3 +182,11 @@ tags: Easy, HTML Headings, Auto
 question: Write “This is a heading” using the H1 tag
 answer: <h1> This is a heading </h1>
 ###
+id: 17
+type: String Input
+title: Nested HTML Elements
+topic: Intro to HTML
+tags: Medium, Nesting Elements, Manual
+question: Provide an example of properly nested HTML elements using the sentence “My dog is very friendly.” The word “very” should be bold.
+answer: <p> My dog is <strong> very </strong> friendly. </p>
+###
