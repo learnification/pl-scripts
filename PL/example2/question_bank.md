@@ -23,4 +23,42 @@ B: `<blockquote>`
 D: `<h1>`
 E: `<hr>`
 ###
+id: 3
+type: Multiple Choice
+title: Paragraph Tags
+topic: Intro to HTML
+tags: Easy, HTML Paragraphs, Auto
+question: Which HTML tag is used to create a paragraph?
+A: `<img>`
+*B: `<p>`
+C: `<br>`
+D: `<a>`
+E: `<h1>`
+###
+id: 4
+type: Multiple Choice
+title: Attributes in HTML
+topic: Intro to HTML
+tags: Easy, HTML Attributes, Auto
+question: Which of the following is true about HTML attributes?
+A: There is no space between the tag and attribute name
+*B: HTML attributes are written in name/value pairs
+C: Some HTML elements can have attributes
+D: An element can have only one attribute
+E: None of the above
+###
+id: 5
+type: Multiple Choice
+title: Anchor Tag Attributes
+topic: Intro to HTML
+tags: Medium, HTML Attributes, Auto
+question: In `<a href="contacts.html">Contact us!</a>`, which part is the attribute?
+A: `<a>`
+B: `"contacts.html"`
+*C: href
+D: Contact us!
+E: None of the above
+###
+
+
 
