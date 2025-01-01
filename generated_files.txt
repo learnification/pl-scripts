@@ -1,11 +1,31 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index b2a2228..5f7ec14 100644
+index e28c26a..bb100b1 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -2 +2 @@
--id: 2 
+@@ -2,11 +2,11 @@
+-id: 2
+-type: Multiple Choice  
+-title: HTML Tags and Syntax  
+-topic: Intro to HTML 
+-tags: Easy, HTML Tags, Auto  
+-question: Which of the following is true about HTML tags?  
+-A: HTML tags must be written in uppercase to work correctly  
+-*B: HTML tags are enclosed in angle brackets  
+-C: All HTML tags require an opening and a closing tag  
+-D: HTML tags contain spaces between the angle brackets and the tag name  
+-E: All of the above   
 +id: 1
++type: Multiple Choice
++title: HTML Tags and Syntax
++topic: Intro to HTML
++tags: Easy, HTML Tags, Auto 
++question: Which of the following is true about HTML tags?
++A: HTML tags must be written in uppercase to work correctly
++*B: HTML tags are enclosed in angle brackets
++C: HTML tags contain spaces between the angle brackets and the tag name
++D: All HTML tags require an opening and a closing tag
++E: All of the above
 
 ['2']
-{'id': ['1']}
+{'id': ['1'], 'type': ['Multiple Choice'], 'title': ['HTML Tags and Syntax'], 'topic': ['Intro to HTML'], 'tags': ['Easy, HTML Tags, Auto'], 'question': ['Which of the following is true about HTML tags?'], 'A': ['HTML tags must be written in uppercase to work correctly'], '*B': ['HTML tags are enclosed in angle brackets'], 'C': ['HTML tags contain spaces between the angle brackets and the tag name'], 'D': ['All HTML tags require an opening and a closing tag'], 'E': ['All of the above']}
 PL/example2/question2
