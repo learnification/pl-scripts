@@ -179,37 +179,6 @@ type: String Input
 title: Writing a Heading in HTML
 topic: Intro to HTML
 tags: Easy, HTML Headings, Auto
-question: Write “This is a heading” using the H1 tag.
+question: Write “This is a heading” using the H1 tag
 answer: <h1> This is a heading </h1>
 ###
-id: 17
-type: String Input
-title: Nested HTML Elements
-topic: Intro to HTML
-tags: Medium, Nesting Elements, Manual
-question: Provide an example of properly nested HTML elements using the sentence “My dog is very friendly.” The word “very” should be bold.
-answer: <p> My dog is <strong> very </strong> friendly. </p>
-###
-id: 18
-type: String Input
-title: Line Break in HTML
-topic: Intro to HTML
-tags: Easy, HTML Line Break, Auto
-question: How would you use the <br> tag to create a line break, so that "Hello" appears on one line and "world!" starts on the next line?
-answer: Hello <br> world!
-###
-id: 19
-type: String Input
-title: Horizontal Rule in HTML
-topic: Intro to HTML
-tags: Medium, HTML Horizontal Rule, Auto
-question: How would you add a horizontal line between the following two paragraphs?
-This is the first paragraph.
-(This is where the horizontal line should go)
-This is the second paragraph.
-answer: <p> This is the first paragraph. </p> <hr> <p> This is the second paragraph. </p>
-###
-
-
-
-
