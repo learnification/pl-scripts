@@ -190,3 +190,11 @@ tags: Medium, Nesting Elements, Manual
 question: Provide an example of properly nested HTML elements using the sentence “My dog is very friendly.” The word “very” should be bold.
 answer: <p> My dog is <strong> very </strong> friendly. </p>
 ###
+id: 18
+type: String Input
+title: Line Break in HTML
+topic: Intro to HTML
+tags: Easy, HTML Line Break, Auto
+question: How would you use the <br> tag to create a line break, so that "Hello" appears on one line and "world!" starts on the next line?
+answer: Hello <br> world!
+###
