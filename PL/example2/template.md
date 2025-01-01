@@ -70,7 +70,6 @@ SI@
 <pl-question-panel>
   <p> {{question}}
   </p>
-  <p>Note: write your answer in one word and in all lowercase letters.</p>
 
   <pl-code language="html">
   {% raw %}{{params.d}}{% endraw %}
