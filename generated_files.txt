@@ -1,52 +1,78 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 12c81fa..4b04a63 100644
+index 4b04a63..5416a4c 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -25,0 +26,38 @@ E: `<hr>`
-+id: 3
-+type: Multiple Choice
-+title: Paragraph Tags
+@@ -61,0 +62,55 @@ E: None of the above
++id: 6
++type: Drop Down
++title: Line Breaks in HTML
 +topic: Intro to HTML
-+tags: Easy, HTML Paragraphs, Auto
-+question: Which HTML tag is used to create a paragraph?
-+A: `<img>`
-+*B: `<p>`
-+C: `<br>`
-+D: `<a>`
-+E: `<h1>`
++tags: Medium, HTML Line Break, Auto
++question: Which of the following is NOT true about the <br> tag in HTML?
++A: It creates a line break in the text
++B: It has no content without a closing tag
++*C: It must be placed within a <p> tag
++D: It does not have an end tag
 +###
-+id: 4
-+type: Multiple Choice
-+title: Attributes in HTML
++id: 7
++type: Drop Down
++title: Meta Tags in HTML
 +topic: Intro to HTML
-+tags: Easy, HTML Attributes, Auto
-+question: Which of the following is true about HTML attributes?
-+A: There is no space between the tag and attribute name
-+*B: HTML attributes are written in name/value pairs
-+C: Some HTML elements can have attributes
-+D: An element can have only one attribute
-+E: None of the above
++tags: Easy, Viewport Meta, Auto
++question: What is the purpose of the <meta> tag with the attribute name="description"?
++A: To refresh the web page every specified number of seconds
++B: To set keywords for search engine optimization
++*C: To provide a brief summary of the web page’s content
++D: To define the author of a page
 +###
-+id: 5
-+type: Multiple Choice
-+title: Anchor Tag Attributes
++id: 8
++type: Drop Down
++title: Title Tag in HTML
 +topic: Intro to HTML
-+tags: Medium, HTML Attributes, Auto
-+question: In `<a href="contacts.html">Contact us!</a>`, which part is the attribute?
-+A: `<a>`
-+B: `"contacts.html"`
-+*C: href
-+D: Contact us!
-+E: None of the above
++tags: Medium, HTML Title, Auto
++question: The text defined by the <title> tag appears ___ in a web page.
++A: Inside the main content area
++*B: As the title in the browser tab, bookmarks, and search engine results
++C: As the title
++D: At the beginning of each paragraph
 +###
-+
-+
++id: 9
++type: Drop Down
++title: HTML Line Break Tag
++topic: Intro to HTML
++tags: Easy, HTML Line Break, Auto
++question: The ___ tag is used to create a line break in HTML.
++*A: <br>
++B: <p>
++C: <hr>
++D: <h1>
++###
++id: 10
++type: Drop Down
++title: Nesting Elements in HTML
++topic: Intro to HTML
++tags: Medium, Nesting Elements, Auto
++question: The ___ tag is used to correctly nest elements to display “HTML” in bold within a paragraph.
++A: <strong> <p>HTML</p> </strong>
++*B: <p> <strong>HTML</strong> </p>
++C: <p> <em>HTML</em> </p>
++D: <p>HTML<p> <strong> </strong>
++###
 
 []
-{'id': ['3', '4', '5'], 'type': ['Multiple Choice', 'Multiple Choice', 'Multiple Choice'], 'title': ['Paragraph Tags', 'Attributes in HTML', 'Anchor Tag Attributes'], 'topic': ['Intro to HTML', 'Intro to HTML', 'Intro to HTML'], 'tags': ['Easy, HTML Paragraphs, Auto', 'Easy, HTML Attributes, Auto', 'Medium, HTML Attributes, Auto'], 'question': ['Which HTML tag is used to create a paragraph?', 'Which of the following is true about HTML attributes?', 'In `<a href="contacts.html">Contact us!</a>`, which part is the attribute?'], 'A': ['`<img>`', 'There is no space between the tag and attribute name', '`<a>`'], '*B': ['`<p>`', 'HTML attributes are written in name/value pairs'], 'C': ['`<br>`', 'Some HTML elements can have attributes'], 'D': ['`<a>`', 'An element can have only one attribute', 'Contact us!'], 'E': ['`<h1>`', 'None of the above', 'None of the above'], 'B': ['`"contacts.html"`'], '*C': ['href']}
+{'id': ['6', '7', '8', '9', '10'], 'type': ['Drop Down', 'Drop Down', 'Drop Down', 'Drop Down', 'Drop Down'], 'title': ['Line Breaks in HTML', 'Meta Tags in HTML', 'Title Tag in HTML', 'HTML Line Break Tag', 'Nesting Elements in HTML'], 'topic': ['Intro to HTML', 'Intro to HTML', 'Intro to HTML', 'Intro to HTML', 'Intro to HTML'], 'tags': ['Medium, HTML Line Break, Auto', 'Easy, Viewport Meta, Auto', 'Medium, HTML Title, Auto', 'Easy, HTML Line Break, Auto', 'Medium, Nesting Elements, Auto'], 'question': ['Which of the following is NOT true about the <br> tag in HTML?', 'What is the purpose of the <meta> tag with the attribute name="description"?', 'The text defined by the <title> tag appears ___ in a web page.', 'The ___ tag is used to create a line break in HTML.', 'The ___ tag is used to correctly nest elements to display “HTML” in bold within a paragraph.'], 'A': ['It creates a line break in the text', 'To refresh the web page every specified number of seconds', 'Inside the main content area', '<strong> <p>HTML</p> </strong>'], 'B': ['It has no content without a closing tag', 'To set keywords for search engine optimization', '<p>'], '*C': ['It must be placed within a <p> tag', 'To provide a brief summary of the web page’s content'], 'D': ['It does not have an end tag', 'To define the author of a page', 'At the beginning of each paragraph', '<h1>', '<p>HTML<p> <strong> </strong>'], '*B': ['As the title in the browser tab, bookmarks, and search engine results', '<p> <strong>HTML</strong> </p>'], 'C': ['As the title', '<hr>', '<p> <em>HTML</em> </p>'], '*A': ['<br>']}
 {'id': '1', 'type': 'Multiple Choice', 'title': 'HTML Tags and Syntax', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Tags, Auto ', 'question': 'Which of the following is true about HTML tags?', 'A': 'HTML tags must be written in uppercase to work correctly', '*B': 'HTML tags are enclosed in angle brackets', 'C': 'HTML tags contain spaces between the angle brackets and the tag name', 'D': 'All HTML tags require an opening and a closing tag', 'E': 'All of the above'}
 1
-['3', '4', '5']
+['6', '7', '8', '9', '10']
 {'id': '2', 'type': 'Multiple Choice', 'title': 'Self-Closing Tags', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Tags, Auto', 'question': 'Which of the following is an example of an HTML element with a self-closing tag?', 'A': '`<p>`', 'B': '`<blockquote>`', '*C': '`<br>`', 'D': '`<h1>`', 'E': '`<hr>`'}
 2
-['3', '4', '5']
+['6', '7', '8', '9', '10']
+{'id': '3', 'type': 'Multiple Choice', 'title': 'Paragraph Tags', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Paragraphs, Auto', 'question': 'Which HTML tag is used to create a paragraph?', 'A': '`<img>`', '*B': '`<p>`', 'C': '`<br>`', 'D': '`<a>`', 'E': '`<h1>`'}
+3
+['6', '7', '8', '9', '10']
+{'id': '4', 'type': 'Multiple Choice', 'title': 'Attributes in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Attributes, Auto', 'question': 'Which of the following is true about HTML attributes?', 'A': 'There is no space between the tag and attribute name', '*B': 'HTML attributes are written in name/value pairs', 'C': 'Some HTML elements can have attributes', 'D': 'An element can have only one attribute', 'E': 'None of the above'}
+4
+['6', '7', '8', '9', '10']
+{'id': '5', 'type': 'Multiple Choice', 'title': 'Anchor Tag Attributes', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Attributes, Auto', 'question': 'In `<a href="contacts.html">Contact us!</a>`, which part is the attribute?', 'A': '`<a>`', 'B': '`"contacts.html"`', '*C': 'href', 'D': 'Contact us!', 'E': 'None of the above'}
+5
+['6', '7', '8', '9', '10']
