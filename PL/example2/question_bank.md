@@ -115,7 +115,7 @@ C: <p> <em>HTML</em> </p>
 D: <p>HTML<p> <strong> </strong>
 ###
 id: 11
-type: Checkbox
+type: Check Box
 title: HTML Structure Essentials
 topic: Intro to HTML
 tags: Medium, HTML Structure, Auto
@@ -127,7 +127,7 @@ D: <footer>
 *E: <html>
 ###
 id: 12
-type: Checkbox
+type: Check Box
 title: HTML Paragraph Tag
 topic: Intro to HTML
 tags: Medium, HTML Paragraph, Auto
@@ -139,7 +139,7 @@ D: It can be used to format text as preformatted content.
 E: Text inside <p> tags is displayed as a continuous line.
 ###
 id: 13
-type: Checkbox
+type: Check Box
 title: HTML Comments Purpose
 topic: Intro to HTML
 tags: Easy, HTML Comments, Auto
@@ -151,7 +151,7 @@ C: To style elements on the page.
 E: To ensure elements are displayed on the webpage.
 ###
 id: 14
-type: Checkbox
+type: Check Box
 title: HTML Document Structure
 topic: Intro to HTML
 tags: Medium, HTML Structure, Auto
@@ -163,7 +163,7 @@ C: The <title> tag is used to specify the document's title.
 E: The HTML document must start with a <html> tag after the DOCTYPE declaration.
 ###
 id: 15
-type: Checkbox
+type: Check Box
 title: HTML Headings Information
 topic: Intro to HTML
 tags: Medium, HTML Headings, Auto
