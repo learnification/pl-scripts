@@ -11,3 +11,16 @@ C: HTML tags contain spaces between the angle brackets and the tag name
 D: All HTML tags require an opening and a closing tag
 E: All of the above
 ###
+id: 2
+type: Multiple Choice
+title: Self-Closing Tags
+topic: Intro to HTML
+tags: Easy, HTML Tags, Auto
+question: Which of the following is an example of an HTML element with a self-closing tag?
+A: `<p>`
+B: `<blockquote>`
+*C: `<br>`
+D: `<h1>`
+E: `<hr>`
+###
+
