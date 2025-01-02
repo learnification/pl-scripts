@@ -128,7 +128,7 @@ def createContext(question):
         
         if question["type"] in ["Drop Down", "Multiple Choice", "Check Box", "String Input"]:
 
-            question["question"] = question["question"].replace('<', '&lt;').replace('>', '&gt;')
+            ##question["question"] = question["question"].replace('<', '&lt;').replace('>', '&gt;')
             if "___" in question["question"]:
                 question1, question2 = question["question"].split("___")
                 context["question"] = question1.strip()
