@@ -203,6 +203,6 @@ type: String Input
 title: Horizontal Rule in HTML
 topic: Intro to HTML
 tags: Medium, HTML Horizontal Rule, Auto
-question: How would you add a horizontal line between the following two paragraphs?<br>This is the first paragraph.<br>(This is where the horizontal line should go)<br>This is the second paragraph.<br> Note: Write your answer in one sentence.
+question: How would you add a horizontal line between the following two paragraphs?<br>This is the first paragraph.<br>(This is where the horizontal line should go)<br>This is the second paragraph.<br> Write your answer in one sentence.
 answer: <p> This is the first paragraph. </p> <hr> <p> This is the second paragraph. </p>
 ###
