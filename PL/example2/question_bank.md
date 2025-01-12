@@ -206,3 +206,12 @@ tags: Medium, HTML Horizontal Rule, Auto
 question: How would you add a horizontal line between the following two paragraphs? <br>This is the first paragraph.<br>(This is where the horizontal line should go)<br>This is the second paragraph.<br> Write your answer in one sentence.
 answer: <p> This is the first paragraph. </p> <hr> <p> This is the second paragraph.</p>
 ###
+id: 20
+type: String Input
+title: Blockquote in HTML
+topic: Intro to HTML
+tags: Hard, HTML Blockquote, Auto
+question: How would you use the &lt;blockquote&gt; tag to display the following quote from Albert Einstein, with the source link &quot;https://example.com&quot; included as a citation? <br> Quote to format) <br> "Life is like riding a bicycle. To keep your balance, you must keep moving."
+answer: <blockquote cite="https://example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>
+###
+
