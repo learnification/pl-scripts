@@ -211,7 +211,7 @@ type: String Input
 title: Blockquote in HTML
 topic: Intro to HTML
 tags: Hard, HTML Blockquote, Auto
-question: How would you use the &lt;blockquote&gt; tag to display the following quote from Albert Einstein, with the source link &quot;https://example.com&quot; included as a citation? <br> Quote to format) <br> "Life is like riding a bicycle. To keep your balance, you must keep moving."
-answer: <blockquote cite="https://example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>
+question: How would you use the &lt;blockquote&gt; tag to display the following quote from Albert Einstein, with the source link &quot;https//example.com&quot; included as a citation? <br> Quote to format) <br> "Life is like riding a bicycle. To keep your balance, you must keep moving."
+answer: <blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>
 ###
 
