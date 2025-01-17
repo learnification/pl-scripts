@@ -379,20 +379,54 @@ type: Drop Down
 title: Ordered List Tag
 topic: HTML Basic 1
 tags: Easy, Ordered List Tag, Auto
-question: Choose the correct tag to create a numbered list is _____.
-*A: &lt;ol&gt;
-B: &lt;ul&gt;
-C: &lt;dl&gt;
-D: &lt;li&gt;
+question: The correct tag to create a numbered list is ___ .
+*A: <ol>
+B: <ul>
+C: <dl>
+D: <li>
 ###
 id: 37
 type: Drop Down
 title: HTML Entity for Less-Than Symbol
 topic: HTML Basic 1
 tags: Easy, HTML Entity, Auto
-question: The _____ HTML entity is used to display a less-than symbol.
+question: The ___ HTML entity is used to display a less-than symbol.
 *A: &lt;
 B: &gt;
 C: &copy;
 D: &amp;
 ###
+id: 38
+type: Drop Down
+title: Block-Level Division Tag
+topic: HTML Basic 1
+tags: Easy, Structural Elements, Auto
+question: ___ tag defines a block-level division or section?
+*A: <div>
+B: <span>
+C: <section>
+D: <p>
+###
+id: 39
+type: Drop Down
+title: Opening Links in a New Tab
+topic: HTML Basic 1
+tags: Medium, Attribute, Auto
+question: The ___ attribute opens a link in a new window or tab
+*A: target="_blank"
+B: href="_newtab"
+C: open="new"
+D: newtab="true"
+###
+id: 40
+type: Drop Down
+title: Displaying an Image
+topic: HTML Basic 1
+tags: Easy, Tag Name, Auto
+question: The ___ HTML tag is used to display an image
+*A: <img>
+B: <image>
+C: <media>
+D: <figure>
+###
+
