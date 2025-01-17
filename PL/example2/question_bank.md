@@ -214,4 +214,66 @@ tags: Hard, HTML Blockquote, Auto
 question: How would you use the &lt;blockquote&gt; tag to display the following quote from Albert Einstein, with the source link &quot;https//example.com&quot; included as a citation? <br> Quote to format) <br> "Life is like riding a bicycle. To keep your balance, you must keep moving."
 answer: <blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>
 ###
+id: 21
+type: Multiple Choice
+title: Emphasize Text in HTML
+topic: HTML Basic 1
+tags: Easy, Tag Name, Auto
+question: Which HTML tag is used to emphasize text?
+A: &lt;i&gt;
+*B: &lt;em&gt;
+C: &lt;cite&gt;
+D: &lt;strong&gt;
+E: None of these
+###
+id: 22
+type: Multiple Choice
+title: Creating a Bullet List
+topic: HTML Basic 1
+tags: Easy, List Tags, Auto
+question: What is the correct way to make a bullet list in HTML?
+*A: &lt;ul&gt;
+B: &lt;ol&gt;
+C: &lt;li&gt;
+D: &lt;list&gt;
+E: All of these
+###
+id: 23
+type: Multiple Choice
+title: Image Tag Attribute
+topic: HTML Basic 1
+tags: Easy, Attribute, Auto
+question: Which attribute of the  &lt;img&gt; tag specifies the URL of the image?
+A: href
+B: link
+*C: src
+D: alt
+E: url
+###
+id: 24
+type: Multiple Choice
+title: Anchor Tag Target Attribute
+topic: HTML Basic 1
+tags: Medium, Anchor Tag Attribute, Auto
+question: How do you create a hyperlink in HTML that opens in a new tab?
+A: target="_tab"
+*B: target="_blank"
+C: newtab="true"
+D: href="_newtab"
+E: None of these
+###
+id: 25
+type: Multiple Choice
+title: Paragraph Tag in HTML
+topic: HTML Basic 1
+tags: Easy, Tag Name, Auto
+question: Which HTML tag is used to define a paragraph?
+A: &lt;para&gt;
+B: &lt;div&gt;
+*C: &lt;p&gt;
+D: &lt;span&gt;
+E: None of these
+###
+
+
 
