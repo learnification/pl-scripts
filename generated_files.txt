@@ -1,69 +1,152 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index a82327a..a89b9cb 100644
+index a89b9cb..132d224 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -309,56 +308,0 @@ answer: <p>Tom & Jerry</p>
--id: 30 
--type: String Input
--title: Bolding words in HTML
--topic: HTML Basic 1
--tags: Easy, Phrase elements, Manual
--question: Bold the word "HTML" in the following sentence "HTML is short for HyperText Markup Language."<br> Note Write the full sentence making only "HTML" bold.
--Answer: &lt;b&gt;HTML&lt;/b&gt; is short for HyperText Markup Language.
--###
--id: 31
--type: Check Box
--title: Phrase Elements
--topic: HTML Basic 1
--tags: Medium, Phrase Tags, Auto 
--question: Which of the following tags are phrase elements? (Select all that apply)
--*A: &lt;em&gt;
--*B: &lt;cite&gt;
--C: &lt;header&gt;
--D: &lt;title&gt;
--*E: &lt;b&gt;
--###
--id: 32 
--type: Check Box
--title: Creating Lists in HTML
--topic: HTML Basic 1
--tags: Easy, List Tags, Auto
--question: Which HTML tags can be used to create lists? (Select all that apply)
--*A: *A:&lt;ul&gt;
--B: &lt;head&gt;
--*C: &lt;li&gt;
--*D: &lt;dl&gt;
--E: &lt;p&gt;
--###
--id: 33 
--type: Check Box
--title: Image Tag Attributes
--topic: HTML Basic 1
--tags: Medium, Attributes, Auto
--question: Which attributes can be applied to an &lt;img&gt; tag? (Select all that apply)
--*A: src
--*B: alt
--C: type
--*D: height
--*E: width
--###
--id: 34 
--type: Check Box
--title: HTML5 Structural Elements
--topic: HTML Basic 1
--tags: Medium, Structure Tags, Auto
--question: Which tags are used for HTML5 structural elements? (Select all that apply)
--A: &lt;img&gt;
--*B: &lt;header&gt;
--*C: &lt;section&gt;
--D: &lt;a&gt;
--E: &lt;span&gt;
--###
+@@ -308,0 +309,57 @@ answer: <p>Tom & Jerry</p>
++id: 30 
++type: String Input
++title: Bolding words in HTML
++topic: HTML Basic 1
++tags: Easy, Phrase elements, Manual
++question: Bold the word "HTML" in the following sentence "HTML is short for HyperText Markup Language."<br> Note Write the full sentence making only "HTML" bold.
++Answer: <HTML> is short for HyperText Markup Language.
++###
++id: 31
++type: Check Box
++title: Phrase Elements
++topic: HTML Basic 1
++tags: Medium, Phrase Tags, Auto 
++question: Which of the following tags are phrase elements? (Select all that apply)
++*A: &lt;em&gt;
++*B: &lt;cite&gt;
++C: &lt;header&gt;
++D: &lt;title&gt;
++*E: &lt;b&gt;
++###
++id: 32
++type: Check Box
++title: Creating Lists in HTML
++topic: HTML Basic 1
++tags: Easy, List Tags, Auto
++question: Which HTML tags can be used to create lists? (Select all that apply)
++*A: *A:&lt;ul&gt;
++B: &lt;head&gt;
++*C: &lt;li&gt;
++*D: &lt;dl&gt;
++E: &lt;p&gt;
++###
++id: 33
++type: Check Box
++title: Image Tag Attributes
++topic: HTML Basic 1
++tags: Medium, Attributes, Auto
++question: Which attributes can be applied to an &lt;img&gt; tag? (Select all that apply)
++*A: src
++*B: alt
++C: type
++*D: height
++*E: width
++###
++id: 34
++type: Check Box
++title: HTML5 Structural Elements
++topic: HTML Basic 1
++tags: Medium, Structure Tags, Auto
++question: Which tags are used for HTML5 structural elements? (Select all that apply)
++A: &lt;img&gt;
++*B: &lt;header&gt;
++*C: &lt;section&gt;
++D: &lt;a&gt;
++E: &lt;span&gt;
++###
++
 
+[]
+{'id': ['30', '31', '32', '33', '34'], 'type': ['String Input', 'Check Box', 'Check Box', 'Check Box', 'Check Box'], 'title': ['Bolding words in HTML', 'Phrase Elements', 'Creating Lists in HTML', 'Image Tag Attributes', 'HTML5 Structural Elements'], 'topic': ['HTML Basic 1', 'HTML Basic 1', 'HTML Basic 1', 'HTML Basic 1', 'HTML Basic 1'], 'tags': ['Easy, Phrase elements, Manual', 'Medium, Phrase Tags, Auto', 'Easy, List Tags, Auto', 'Medium, Attributes, Auto', 'Medium, Structure Tags, Auto'], 'question': ['Bold the word "HTML" in the following sentence "HTML is short for HyperText Markup Language."<br> Note Write the full sentence making only "HTML" bold.', 'Which of the following tags are phrase elements? (Select all that apply)', 'Which HTML tags can be used to create lists? (Select all that apply)', 'Which attributes can be applied to an &lt;img&gt; tag? (Select all that apply)', 'Which tags are used for HTML5 structural elements? (Select all that apply)'], 'Answer': ['<HTML> is short for HyperText Markup Language.'], '*A': ['&lt;em&gt;', '*A:&lt;ul&gt;', 'src'], '*B': ['&lt;cite&gt;', 'alt', '&lt;header&gt;'], 'C': ['&lt;header&gt;', 'type'], 'D': ['&lt;title&gt;', '&lt;a&gt;'], '*E': ['&lt;b&gt;', 'width'], 'B': ['&lt;head&gt;'], '*C': ['&lt;li&gt;', '&lt;section&gt;'], '*D': ['&lt;dl&gt;', 'height'], 'E': ['&lt;p&gt;', '&lt;span&gt;'], 'A': ['&lt;img&gt;']}
+{'id': '1', 'type': 'Multiple Choice', 'title': 'HTML Tags and Syntax', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Tags, Auto ', 'question': 'Which of the following is true about HTML tags?', 'A': 'HTML tags must be written in uppercase to work correctly', '*B': 'HTML tags are enclosed in angle brackets', 'C': 'HTML tags contain spaces between the angle brackets and the tag name', 'D': 'All HTML tags require an opening and a closing tag', 'E': 'All of the above'}
+1
 ['30', '31', '32', '33', '34']
-{}
-PL/example2/question30
-PL/example2/question31
-PL/example2/question32
-PL/example2/question33
-PL/example2/question34
+{'id': '2', 'type': 'Multiple Choice', 'title': 'Self-Closing Tags', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Tags, Auto', 'question': 'Which of the following is an example of an HTML element with a self-closing tag?', 'A': '`<p>`', 'B': '`<blockquote>`', '*C': '`<br>`', 'D': '`<h1>`', 'E': '`<hr>`'}
+2
+['30', '31', '32', '33', '34']
+{'id': '3', 'type': 'Multiple Choice', 'title': 'Paragraph Tags', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Paragraphs, Auto', 'question': 'Which HTML tag is used to create a paragraph?', 'A': '`<img>`', '*B': '`<p>`', 'C': '`<br>`', 'D': '`<a>`', 'E': '`<h1>`'}
+3
+['30', '31', '32', '33', '34']
+{'id': '4', 'type': 'Multiple Choice', 'title': 'Attributes in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Attributes, Auto', 'question': 'Which of the following is true about HTML attributes?', 'A': 'There is no space between the tag and attribute name', '*B': 'HTML attributes are written in name/value pairs', 'C': 'Some HTML elements can have attributes', 'D': 'An element can have only one attribute', 'E': 'None of the above'}
+4
+['30', '31', '32', '33', '34']
+{'id': '5', 'type': 'Multiple Choice', 'title': 'Anchor Tag Attributes', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Attributes, Auto', 'question': 'In `<a href="contacts.html">Contact us!</a>`, which part is the attribute?', 'A': '`<a>`', 'B': '`"contacts.html"`', '*C': 'href', 'D': 'Contact us!', 'E': 'None of the above'}
+5
+['30', '31', '32', '33', '34']
+{'id': '21', 'type': 'Multiple Choice', 'title': 'Emphasize Text in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, Tag Name, Auto', 'question': 'Which HTML tag is used to emphasize text?', 'A': '&lt;i&gt;', '*B': '&lt;em&gt;', 'C': '&lt;cite&gt;', 'D': '&lt;strong&gt;', 'E': 'None of these'}
+21
+['30', '31', '32', '33', '34']
+{'id': '22', 'type': 'Multiple Choice', 'title': 'Creating a Bullet List', 'topic': 'HTML Basic 1', 'tags': 'Easy, List Tags, Auto', 'question': 'What is the correct way to make a bullet list in HTML?', '*A': '&lt;ul&gt;', 'B': '&lt;ol&gt;', 'C': '&lt;li&gt;', 'D': '&lt;list&gt;', 'E': 'All of these'}
+22
+['30', '31', '32', '33', '34']
+{'id': '23', 'type': 'Multiple Choice', 'title': 'Image Tag Attribute', 'topic': 'HTML Basic 1', 'tags': 'Easy, Attribute, Auto', 'question': 'Which attribute of the  &lt;img&gt; tag specifies the URL of the image?', 'A': 'href', 'B': 'link', '*C': 'src', 'D': 'alt', 'E': 'url'}
+23
+['30', '31', '32', '33', '34']
+{'id': '24', 'type': 'Multiple Choice', 'title': 'Anchor Tag Target Attribute', 'topic': 'HTML Basic 1', 'tags': 'Medium, Anchor Tag Attribute, Auto', 'question': 'How do you create a hyperlink in HTML that opens in a new tab?', 'A': 'target="_tab"', '*B': 'target="_blank"', 'C': 'newtab="true"', 'D': 'href="_newtab"', 'E': 'None of these'}
+24
+['30', '31', '32', '33', '34']
+{'id': '25', 'type': 'Multiple Choice', 'title': 'Paragraph Tag in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, Tag Name, Auto', 'question': 'Which HTML tag is used to define a paragraph? ', 'A': '&lt;para&gt;', 'B': '&lt;div&gt;', '*C': '&lt;p&gt;', 'D': '&lt;span&gt;', 'E': 'None of these'}
+25
+['30', '31', '32', '33', '34']
+{'id': '11', 'type': 'Check Box', 'title': 'HTML Structure Essentials', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Structure, Auto', 'question': 'Select all the components that are essential for a basic HTML structure.', '*A': '<!DOCTYPE html>', '*B': '<head>', '*C': '<body>', 'D': '<footer>', '*E': '<html>'}
+11
+['30', '31', '32', '33', '34']
+{'id': '12', 'type': 'Check Box', 'title': 'HTML Paragraph Tag', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Paragraph, Auto', 'question': 'Which of the following statements accurately describe the <p> tag?', '*A': 'It groups sentences and sections of text together.', '*B': 'It displays text as a block that starts on a new line.', 'C': 'It preserves extra spaces and line breaks in the content.', 'D': 'It can be used to format text as preformatted content.', 'E': 'Text inside <p> tags is displayed as a continuous line.'}
+12
+['30', '31', '32', '33', '34']
+{'id': '13', 'type': 'Check Box', 'title': 'HTML Comments Purpose', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Comments, Auto', 'question': 'What are the purposes of using comments in HTML?', '*A': 'To help document the HTML source code.', '*B': 'To provide notes for other developers.', 'C': 'To style elements on the page.', '*D': 'To assist in debugging HTML code.', 'E': 'To ensure elements are displayed on the webpage.'}
+13
+['30', '31', '32', '33', '34']
+{'id': '14', 'type': 'Check Box', 'title': 'HTML Document Structure', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Structure, Auto', 'question': 'Which statements are not true about the structure of an HTML document?', 'A': 'The HTML document is divided into head and body sections.', '*B': 'The <head> element contains the visible content of the page.', 'C': "The <title> tag is used to specify the document's title.", '*D': 'The <body> section contains meta information about the page.', 'E': 'The HTML document must start with a <html> tag after the DOCTYPE declaration.'}
+14
+['30', '31', '32', '33', '34']
+{'id': '15', 'type': 'Check Box', 'title': 'HTML Headings Information', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Headings, Auto', 'question': 'Which of the following are true about HTML headings?', '*A': 'HTML headings range from <h1> to <h6>, where <h1> is the most important.', '*B': 'Headings are used to structure the content and improve SEO.', 'C': 'All headings are treated as inline elements by default.', '*D': 'The <h1> tag is typically used for the main title of the page.', '*E': 'Headings cannot be nested within other elements.'}
+15
+['30', '31', '32', '33', '34']
+{'id': '6', 'type': 'Drop Down', 'title': 'Line Breaks in HTML', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Line Break, Auto', 'question': 'Which of the following is NOT true about the <br> tag in HTML?', 'A': 'It creates a line break in the text', 'B': 'It has no content without a closing tag', '*C': 'It must be placed within a <p> tag', 'D': 'It does not have an end tag'}
+6
+['30', '31', '32', '33', '34']
+{'id': '7', 'type': 'Drop Down', 'title': 'Meta Tags in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, Viewport Meta, Auto', 'question': 'What is the purpose of the <meta> tag with the attribute name="description"?', 'A': 'To refresh the web page every specified number of seconds', 'B': 'To set keywords for search engine optimization', '*C': 'To provide a brief summary of the web page’s content', 'D': 'To define the author of a page'}
+7
+['30', '31', '32', '33', '34']
+{'id': '8', 'type': 'Drop Down', 'title': 'Title Tag in HTML', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Title, Auto', 'question': 'The text defined by the <title> tag appears ___ in a web page.', 'A': 'Inside the main content area', '*B': 'As the title in the browser tab, bookmarks, and search engine results', 'C': 'As the title', 'D': 'At the beginning of each paragraph'}
+8
+['30', '31', '32', '33', '34']
+{'id': '9', 'type': 'Drop Down', 'title': 'HTML Line Break Tag', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Line Break, Auto', 'question': 'The ___ tag is used to create a line break in HTML.', '*A': '<br>', 'B': '<p>', 'C': '<hr>', 'D': '<h1>'}
+9
+['30', '31', '32', '33', '34']
+{'id': '10', 'type': 'Drop Down', 'title': 'Nesting Elements in HTML', 'topic': 'Intro to HTML', 'tags': 'Medium, Nesting Elements, Auto', 'question': 'The ___ tag is used to correctly nest elements to display “HTML” in bold within a paragraph.', 'A': '<strong> <p>HTML</p> </strong>', '*B': '<p> <strong>HTML</strong> </p>', 'C': '<p> <em>HTML</em> </p>', 'D': '<p>HTML<p> <strong> </strong>'}
+10
+['30', '31', '32', '33', '34']
+{'id': '16', 'type': 'String Input', 'title': 'Writing a Heading in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Headings, Auto', 'question': 'Write “This is a heading” using the H1 tag', 'answer': '<h1> This is a heading </h1>'}
+16
+['30', '31', '32', '33', '34']
+{'id': '17', 'type': 'String Input', 'title': 'Nested HTML Elements', 'topic': 'Intro to HTML', 'tags': 'Medium, Nesting Elements, Manual', 'question': 'Provide an example of properly nested HTML elements using the sentence “My dog is very friendly.” The word “very” should be bold.', 'answer': '<p> My dog is <strong> very </strong> friendly. </p>'}
+17
+['30', '31', '32', '33', '34']
+{'id': '18', 'type': 'String Input', 'title': 'Line Break in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Line Break, Auto', 'question': 'How would you use the <br> tag to create a line break, so that "Hello" appears on one line and "world!" starts on the next line?', 'answer': 'Hello <br> world!'}
+18
+['30', '31', '32', '33', '34']
+{'id': '19', 'type': 'String Input', 'title': 'Horizontal Rule in HTML', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Horizontal Rule, Auto', 'question': 'How would you add a horizontal line between the following two paragraphs? <br>This is the first paragraph.<br>(This is where the horizontal line should go)<br>This is the second paragraph.<br> Write your answer in one sentence.', 'answer': '<p> This is the first paragraph. </p> <hr> <p> This is the second paragraph.</p>'}
+19
+['30', '31', '32', '33', '34']
+{'id': '20', 'type': 'String Input', 'title': 'Blockquote in HTML', 'topic': 'Intro to HTML', 'tags': 'Hard, HTML Blockquote, Auto', 'question': 'How would you use the &lt;blockquote&gt; tag to display the following quote from Albert Einstein, with the source link &quot;https//example.com&quot; included as a citation? <br> Quote to format) <br> "Life is like riding a bicycle. To keep your balance, you must keep moving."', 'answer': '<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>'}
+20
+['30', '31', '32', '33', '34']
+{'id': '26', 'type': 'String Input', 'title': 'Ordered List Creation', 'topic': 'HTML Basic 1', 'tags': 'Medium, Ordered List, Manual', 'question': 'Create an ordered list with the three items Toyota, GMC, RAM. Each item must be displayed in a separate line. ', 'answer': '<ol> <li>Toyota</li> <li>GMC</li> <li>RAM</li> </ol>'}
+26
+['30', '31', '32', '33', '34']
+{'id': '27', 'type': 'String Input', 'title': 'Navigation Menu Creation', 'topic': 'HTML Basic 1', 'tags': 'Medium, Navigation Tag, Auto', 'question': 'Create a navigation menu using the &lt;nav&gt; tag that contains a link to "home.html" labeled "Home".', 'answer': '<nav> <a href="home.html">Home</a> </nav>'}
+27
+['30', '31', '32', '33', '34']
+{'id': '28', 'type': 'String Input', 'title': 'Adding an Image with Alternate Text', 'topic': 'HTML Basic 1', 'tags': 'Medium, Image Tag, Auto', 'question': 'Insert an image with the alternate text "Orange cat drinking water" and source as "cat.jpg".', 'answer': '<img src="cat.jpg" alt="Orange cat drinking water">'}
+28
+['30', '31', '32', '33', '34']
+{'id': '29', 'type': 'String Input', 'title': 'Using Special Characters in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, Special Characters, Auto ', 'question': 'Write the following sentence using a paragraph tag:"Tom & Jerry." ', 'answer': '<p>Tom & Jerry</p>'}
+29
+['30', '31', '32', '33', '34']
