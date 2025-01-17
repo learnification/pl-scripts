@@ -70,7 +70,7 @@ SI@
 <pl-question-panel>
   <p> {{question}}
   </p>
-
+<p>Note: Write your answer in a single line.</p>
 </pl-question-panel>
 
 <p>
