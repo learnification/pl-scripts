@@ -314,3 +314,120 @@ tags: Easy, Phrase elements, Manual
 question: Bold the word "HTML" in the following sentence "HTML is short for HyperText Markup Language."<br> Note Write the full sentence making only "HTML" bold.
 Answer: &lt;b&gt;HTML&lt;/b&gt; is short for HyperText Markup Language.
 ###
+id: 31
+type: Check Box
+title: Phrase Elements
+topic: HTML Basic 1
+tags: Medium, Phrase Tags, Auto
+question: Which of the following tags are phrase elements? (Select all that apply)
+*A: &lt;em&gt;
+*B: &lt;cite&gt;
+C: &lt;header&gt;
+D: &lt;title&gt;
+*E: &lt;b&gt;
+###
+id: 32
+type: Check Box
+title: Creating Lists in HTML
+topic: HTML Basic 1
+tags: Easy, List Tags, Auto
+question: Which HTML tags can be used to create lists? (Select all that apply)
+*A: *A:&lt;ul&gt;
+B: &lt;head&gt;
+*C: &lt;li&gt;
+*D: &lt;dl&gt;
+E: &lt;p&gt;
+###
+id: 33
+type: Check Box
+title: Image Tag Attributes
+topic: HTML Basic 1
+tags: Medium, Attributes, Auto
+question: Which attributes can be applied to an &lt;img&gt; tag? (Select all that apply)
+*A: src
+*B: alt
+C: type
+*D: height
+*E: width
+###
+id: 34
+type: Check Box
+title: HTML5 Structural Elements
+topic: HTML Basic 1
+tags: Medium, Structure Tags, Auto
+question: Which tags are used for HTML5 structural elements? (Select all that apply)
+A: &lt;img&gt;
+*B: &lt;header&gt;
+*C: &lt;section&gt;
+D: &lt;a&gt;
+E: &lt;span&gt;
+###
+id: 35
+type: Check Box
+title: Attributes for Hyperlinks
+topic: HTML Basic 1
+tags: Medium, Attributes, Auto
+question: Which of the following attributes are valid for hyperlinks (&lt;a&gt; tag)? (Select all that apply)
+*A: href
+B: mailto
+C: src
+*D: target
+E: link
+###
+id: 36
+type: Drop Down
+title: Ordered List Tag
+topic: HTML Basic 1
+tags: Easy, Ordered List Tag, Auto
+question: Choose the correct tag to create a numbered list is _____.
+*A: &lt;ol&gt;
+B: &lt;ul&gt;
+C: &lt;dl&gt;
+D: &lt;li&gt;
+###
+id: 37
+type: Drop Down
+title: HTML Entity for Less-Than Symbol
+topic: HTML Basic 1
+tags: Easy, HTML Entity, Auto
+question: The _____ HTML entity is used to display a less-than symbol:
+*A: &lt;
+B: &gt;
+C: &copy;
+D: &amp;
+###
+id: 38
+type: Drop Down
+title: Block-Level Division Tag
+topic: HTML Basic 1
+tags: Easy, Structural Elements, Auto
+question: _____ tag defines a block-level division or section?
+*A: &lt;div&gt;
+B: &lt;span&gt;
+C: &lt;section&gt;
+D: &lt;p&gt;
+###
+id: 39
+type: Drop Down
+title: Opening Links in a New Tab
+topic: HTML Basic 1
+tags: Medium, Attribute, Auto
+question: The _____ attribute opens a link in a new window or tab:
+*A: target="_blank"
+B: href="_newtab"
+C: open="new"
+D: newtab="true"
+###
+id: 40
+type: Drop Down
+title: Displaying an Image
+topic: HTML Basic 1
+tags: Easy, Tag Name, Auto
+question: The _____ HTML tag is used to display an image:
+*A: &lt;img&gt;
+B: &lt;image&gt;
+C: &lt;media&gt;
+D: &lt;figure&gt;
+###
+
+
