@@ -287,7 +287,7 @@ type: String Input
 title: Navigation Menu Creation
 topic: HTML Basic 1
 tags: Medium, Navigation Tag, Auto
-question: Create a navigation menu using the &lt;nav&gt; tag that contains a link to "home.html" labeled "Home". 
+question: Create a navigation menu using the &lt;nav&gt; tag that contains a link to "home.html" labeled "Home".
 answer: <nav> <a href="home.html">Home</a> </nav>
 ###
 id: 28
@@ -295,21 +295,21 @@ type: String Input
 title: Adding an Image with Alternate Text
 topic: HTML Basic 1
 tags: Medium, Image Tag, Auto
-question: Insert an image with the alternate text "Orange cat drinking water" and source as "cat.jpg". 
+question: Insert an image with the alternate text "Orange cat drinking water" and source as "cat.jpg".
 answer: <img src="cat.jpg" alt="Orange cat drinking water">
 ###
 id: 29
 type: String Input
 title: Using Special Characters in HTML
 topic: HTML Basic 1
-tags: Easy, Special Characters, Auto
+tags: Easy, Special Characters, Auto 
 question: Write the following sentence using a paragraph tag:"Tom & Jerry." 
 answer: <p>Tom & Jerry</p>
 ###
 id: 30
 type: String Input
 title: Bolding words in HTML
-topic: HTML Basic 1
+topic: HTML Basic 1 
 tags: Easy, Phrase elements, Manual
 question: Bold the word "HTML" in the following sentence "HTML is short for HyperText Markup Language."<br> Note Write the full sentence making only "HTML" bold.
 Answer: &lt;b&gt;HTML&lt;/b&gt; is short for HyperText Markup Language.
