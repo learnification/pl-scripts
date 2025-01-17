@@ -71,7 +71,7 @@ def parse_diff(diff):
         if re.match(r'^\+[^+].*?:.*', line):
             
             
-            key, value = line[1:].split(":")
+            key, value = line[1:].split(": ")
             key = key.strip()
             value = value.strip()
             
