@@ -362,3 +362,37 @@ A: &lt;img&gt;
 D: &lt;a&gt;
 E: &lt;span&gt;
 ###
+id: 35
+type: Check Box
+title: Attributes for Hyperlinks
+topic: HTML Basic 1
+tags: Medium, Attributes, Auto
+question: Which of the following attributes are valid for hyperlinks (&lt;a&gt; tag)? (Select all that apply)
+*A: href
+B: mailto
+C: src
+*D: target
+E: link
+###
+id: 36
+type: Drop Down
+title: Ordered List Tag
+topic: HTML Basic 1
+tags: Easy, Ordered List Tag, Auto
+question: Choose the correct tag to create a numbered list is _____.
+*A: &lt;ol&gt;
+B: &lt;ul&gt;
+C: &lt;dl&gt;
+D: &lt;li&gt;
+###
+id: 37
+type: Drop Down
+title: HTML Entity for Less-Than Symbol
+topic: HTML Basic 1
+tags: Easy, HTML Entity, Auto
+question: The _____ HTML entity is used to display a less-than symbol.
+*A: &lt;
+B: &gt;
+C: &copy;
+D: &amp;
+###
