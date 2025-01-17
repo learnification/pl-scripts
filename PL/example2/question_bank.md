@@ -306,3 +306,60 @@ tags: Easy, Special Characters, Auto
 question: Write the following sentence using a paragraph tag:"Tom & Jerry." 
 answer: <p>Tom & Jerry</p>
 ###
+id: 30 
+type: String Input
+title: Bolding words in HTML
+topic: HTML Basic 1
+tags: Easy, Phrase elements, Manual
+question: Bold the word "HTML" in the following sentence "HTML is short for HyperText Markup Language."<br> Note Write the full sentence making only "HTML" bold.
+Answer: <HTML> is short for HyperText Markup Language.
+###
+id: 31
+type: Check Box
+title: Phrase Elements
+topic: HTML Basic 1
+tags: Medium, Phrase Tags, Auto 
+question: Which of the following tags are phrase elements? (Select all that apply)
+*A: &lt;em&gt;
+*B: &lt;cite&gt;
+C: &lt;header&gt;
+D: &lt;title&gt;
+*E: &lt;b&gt;
+###
+id: 32
+type: Check Box
+title: Creating Lists in HTML
+topic: HTML Basic 1
+tags: Easy, List Tags, Auto
+question: Which HTML tags can be used to create lists? (Select all that apply)
+*A: *A:&lt;ul&gt;
+B: &lt;head&gt;
+*C: &lt;li&gt;
+*D: &lt;dl&gt;
+E: &lt;p&gt;
+###
+id: 33
+type: Check Box
+title: Image Tag Attributes
+topic: HTML Basic 1
+tags: Medium, Attributes, Auto
+question: Which attributes can be applied to an &lt;img&gt; tag? (Select all that apply)
+*A: src
+*B: alt
+C: type
+*D: height
+*E: width
+###
+id: 34
+type: Check Box
+title: HTML5 Structural Elements
+topic: HTML Basic 1
+tags: Medium, Structure Tags, Auto
+question: Which tags are used for HTML5 structural elements? (Select all that apply)
+A: &lt;img&gt;
+*B: &lt;header&gt;
+*C: &lt;section&gt;
+D: &lt;a&gt;
+E: &lt;span&gt;
+###
+
