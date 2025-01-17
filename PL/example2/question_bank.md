@@ -280,11 +280,7 @@ title: Ordered List Creation
 topic: HTML Basic 1
 tags: Medium, Ordered List, Manual
 question: Create an ordered list with the three items Toyota, GMC, RAM. Each item must be displayed in a separate line.
-answer: <ol>
-<li>Toyota</li>
-<li>GMC</li>
-<li>RAM</li>
-</ol>
+answer: <ol> <li>Toyota</li> <li>GMC</li> <li>RAM</li> </ol>
 ###
 
 
