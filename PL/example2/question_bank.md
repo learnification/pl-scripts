@@ -633,3 +633,19 @@ tags: Medium, CSS Syntax, Manual
 question: Write the inline CSS to set the background color of a &lt;div&gt; to yellow.
 answer: <div style="background-color:yellow;"></div>
 ###
+id: 59
+type: String Input
+title: Correcting CSS Rule Syntax
+topic: CSS Basic 1
+tags: Medium, CSS Syntax, Manual
+question: Examine the following CSS rule, identify all the errors, and rewrite the correct version in one line. If multiple corrections are needed, list them in order, separated by commas. <br> h2 {  <br> color:blue  <br> font-size = 20px; <br> text-align:center;  <br> background-color:#00FF00;  <br> }  
+answer: color:blue; , font-size:20px;  
+###
+id: 60
+type: String Input
+title: CSS Rule for Font Size
+topic: CSS Basic 1
+tags: Easy, CSS Syntax, Auto
+question: Write the CSS rule to apply a font size of 20px to h3. Answer in one line.
+answer: h3 { font-size:20px; }
+###
