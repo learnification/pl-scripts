@@ -609,3 +609,27 @@ A: px
 *D: rem
 E: pt
 ###
+id: 56
+type: String Input
+title: External CSS File Href Attribute
+topic: CSS Basic 1
+tags: Medium, External CSS, Manual
+question: An external CSS file is linked using a &lt;link&gt; element. If the CSS file is named styles.css and located in a folder named main, the correct href attribute would be:
+answer: href="main/styles.css"
+###
+id: 57
+type: String Input
+title: CSS Declaration for Paragraph Color
+topic: CSS Basic 1
+tags: Easy, CSS Syntax, Manual
+question: Write the CSS declaration to set the color of a paragraph to red.
+answer: p { color:red; }
+###
+id: 58
+type: String Input
+title: Inline CSS for Background Color
+topic: CSS Basic 1
+tags: Medium, CSS Syntax, Manual
+question: Write the inline CSS to set the background color of a &lt;div&gt; to yellow.
+answer: <div style="background-color:yellow;"></div>
+###
