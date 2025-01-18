@@ -549,18 +549,6 @@ C: #0000ff
 D: None of the above
 E: All of the above
 ###
-id: 55
-type: Check Box
-title: Relative CSS Units
-topic: CSS Basic 1
-tags: Medium, CSS Units, Auto
-question: Which units of measurement are relative in CSS?
-A: px
-*B: em
-*C: %
-*D: rem
-E: pt
-###
 id: 52
 type: Check Box
 title: Font Size Values
@@ -596,16 +584,4 @@ B: They can be used to hide CSS rules from the browser.
 *C: They do not affect how the webpage renders.
 D: They can only be written inside &lt;style&gt; tags.
 E: They are enclosed within */ and /*.
-###
-id: 51
-type: Check Box  
-title: Font-Related Properties
-topic: CSS Basic 1
-tags: Medium, CSS Properties, Auto
-question: Which of the following are valid ways to define font-related properties in CSS? (Select all that apply.)
-*A: font-family:Arial, sans-serif;
-*B: font-weight:700;
-*C: font-style:italic;
-D: font-size:18;
-E: font-family:Times New Roman:
 ###
