@@ -549,17 +549,17 @@ C: #0000ff
 D: None of the above
 E: All of the above
 ###
-id: 51 
-type: Check Box  
-title: Font-Related Properties
+id: 51
+type: Check Box
+title: Relative CSS Units
 topic: CSS Basic 1
-tags: Medium, CSS Properties, Auto
-question: Which of the following are valid ways to define font-related properties in CSS? (Select all that apply.)
-*A: font-family:Arial, sans-serif;
-*B: font-weight:700;
-*C: font-style:italic;
-D: font-size:18;
-E: font-family:Times New Roman:
+tags: Medium, CSS Units, Auto
+question: Which units of measurement are relative in CSS?
+A: px
+*B: em
+*C: %
+*D: rem
+E: pt
 ###
 id: 52
 type: Check Box
@@ -584,4 +584,28 @@ B: &lt;link src="styles.css" type="text/css"&gt;
 *C: &lt;link rel="stylesheet" href="styles.css"/&gt;
 D: &lt;style src="styles.css"&gt;&lt;/style&gt;
 E: &lt;link rel="stylesheet" src="styles.css" /&gt;
+###
+id: 54
+type: Check Box
+title: CSS Comments
+topic: CSS Basic 1
+tags: Easy, CSS Comments, Auto
+question: Which of the following are true about CSS comments? (Select all that apply.)
+*A: They are enclosed within /* and */.
+B: They can be used to hide CSS rules from the browser.
+*C: They do not affect how the webpage renders.
+D: They can only be written inside &lt;style&gt; tags.
+E: They are enclosed within */ and /*.
+###
+id: 55
+type: Check Box  
+title: Font-Related Properties
+topic: CSS Basic 1
+tags: Medium, CSS Properties, Auto
+question: Which of the following are valid ways to define font-related properties in CSS? (Select all that apply.)
+*A: font-family:Arial, sans-serif;
+*B: font-weight:700;
+*C: font-style:italic;
+D: font-size:18;
+E: font-family:Times New Roman:
 ###
