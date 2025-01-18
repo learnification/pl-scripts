@@ -513,6 +513,18 @@ C: font-color
 *D: color
 E: None of the above
 ###
+id: 48
+type: Drop Down
+title: CSS Value in Margin Property
+topic: CSS Basic 1
+tags: Medium, CSS Properties (margin), Auto
+question: In the CSS rule:<br> p { margin:10px; } <br> the value 10px represents the ___  part of the style rule.
+A: selector
+B: size
+C: distance
+*D: value
+E: property
+###
 id: 49
 type: Drop Down
 title: Font Family Description
@@ -537,8 +549,8 @@ C: #0000ff
 D: None of the above
 E: All of the above
 ###
-id: 51
-type: Checkbox
+id: 51 
+type: Check Box  
 title: Font-Related Properties
 topic: CSS Basic 1
 tags: Medium, CSS Properties, Auto
@@ -548,4 +560,28 @@ question: Which of the following are valid ways to define font-related propertie
 *C: font-style:italic;
 D: font-size:18;
 E: font-family:Times New Roman:
+###
+id: 52
+type: Check Box
+title: Font Size Values
+topic: CSS Basic 1
+tags: Medium, CSS Values, Auto
+question: Select all the values that can replace the blank in the following CSS rule:<br>h1 { font-size:- - -; }  
+*A: 16px
+*B: 1.5em
+*C: 120%
+*D: 2rem
+E: bold
+###
+id: 53
+type: Check Box
+title: Applying External CSS
+topic: CSS Basic 1
+tags: Medium, Applying CSS, Auto
+question: Select all the ways to apply an external CSS file to an HTML document.
+A: &lt;link rel="stylesheet” href="styles.css"&gt; &lt;/link&gt;
+B: &lt;link src="styles.css" type="text/css"&gt;
+*C: &lt;link rel="stylesheet" href="styles.css"/&gt;
+D: &lt;style src="styles.css"&gt;&lt;/style&gt;
+E: &lt;link rel="stylesheet" src="styles.css" /&gt;
 ###
