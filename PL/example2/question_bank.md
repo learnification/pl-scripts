@@ -489,3 +489,39 @@ B: Normal text
 D: Extra bold text
 E: No visual change
 ###
+id: 46
+type: Drop Down
+title: CSS Selector for Paragraph
+topic: CSS Basic 1
+tags: Easy, CSS Selectors, Auto
+question: To define styles that apply only to a &lt;p&gt; element, the CSS selector should be written as ___ 
+*A: p { }
+B: .p { }
+C: #p { }
+D: p() { }
+E: p ()
+###
+id: 47
+type: Drop Down
+title: Text Color Property
+topic: CSS Basic 1
+tags: Easy, CSS Properties, Auto
+question: The ___ property is used to change the text color?
+A: text-color
+B: background-color
+C: font-color
+*D: color
+E: None of the above
+###
+id: 48
+type: Multiple Choice
+title: CSS Value in Margin Property
+topic: CSS Basic 1
+tags: Medium, CSS Properties (margin), Auto
+question: In the CSS rule:<br> p { margin:10px; } <br> the value 10px represents the ___  part of the style rule.
+A: selector
+B: size
+C: distance
+*D: value
+E: property
+###
