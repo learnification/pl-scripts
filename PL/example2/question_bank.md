@@ -514,7 +514,7 @@ C: font-color
 E: None of the above
 ###
 id: 48
-type: Multiple Choice
+type: Drop Down
 title: CSS Value in Margin Property
 topic: CSS Basic 1
 tags: Medium, CSS Properties (margin), Auto
@@ -524,4 +524,28 @@ B: size
 C: distance
 *D: value
 E: property
+###
+id: 49
+type: Drop Down
+title: Font Family Description
+topic: CSS Basic 1
+tags: Medium, CSS Properties, Auto
+question: The following description:"Specifies the typeface/font (or generic font family) to use. More than one can be specified" describes the ___ property.
+*A: font-family
+B: font-size
+C: font-style
+D: font-variant
+E: font-weight
+###
+id: 50
+type: Drop Down
+title: Text Color in Paragraph
+topic: CSS Basic 1
+tags: Hard, CSS Colors, Auto
+question: ___ sets the text color of all &lt;p&gt; elements to red.
+*A: rgb(255, 0, 0)
+B: hsl(120, 100%, 50%)
+C: #0000ff
+D: None of the above
+E: All of the above
 ###
