@@ -17,11 +17,11 @@ title: Self-Closing Tags
 topic: Intro to HTML
 tags: Easy, HTML Tags, Auto
 question: Which of the following is an example of an HTML element with a self-closing tag?
-A: `<p>`
-B: `<blockquote>`
-*C: `<br>`
-D: `<h1>`
-E: `<hr>`
+A: <code><p></code>
+B: <code><blockquote></code>
+*C: <code><br></code>
+D: <code><h1></code>
+E: <code><hr></code>
 ###
 id: 3
 type: Multiple Choice
@@ -29,11 +29,11 @@ title: Paragraph Tags
 topic: Intro to HTML
 tags: Easy, HTML Paragraphs, Auto
 question: Which HTML tag is used to create a paragraph?
-A: `<img>`
-*B: `<p>`
-C: `<br>`
-D: `<a>`
-E: `<h1>`
+A: <code><img></code>
+*B: <code><p></code>
+C: <code><br></code>
+D: <code><a></code>
+E: <code><h1></code>
 ###
 id: 4
 type: Multiple Choice
@@ -52,9 +52,9 @@ type: Multiple Choice
 title: Anchor Tag Attributes
 topic: Intro to HTML
 tags: Medium, HTML Attributes, Auto
-question: In `<a href="contacts.html">Contact us!</a>`, which part is the attribute?
-A: `<a>`
-B: `"contacts.html"`
+question: In <code><a href="contacts.html">Contact us!</a></code>, which part is the attribute?
+A: <code><a></code>
+B: <code>"contacts.html"</code>
 *C: href
 D: Contact us!
 E: None of the above
