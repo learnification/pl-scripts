@@ -413,10 +413,10 @@ title: Opening Links in a New Tab
 topic: HTML Basic 1
 tags: Medium, Attribute, Auto
 question: The ___ attribute opens a link in a new window or tab
-*A: target="_blank"
-B: href="_newtab"
-C: open="new"
-D: newtab="true"
+*A: <code>target="_blank"</code>
+B: <code>href="_newtab"</code>
+C: <code>open="new"</code>
+D: <code>newtab="true"</code>
 ###
 id: 40
 type: Drop Down
@@ -475,7 +475,7 @@ question: Which of the following is the correct usage of inline CSS to change th
 B: &lt;p style="color=red;"&gt;This is a paragraph.&lt;/p&gt;
 C: &lt;p style:"color:red;"&gt;This is a paragraph.&lt;/p&gt;
 D: &lt;p {style="color:red"}&gt;This is a paragraph.&lt;/p&gt;
-E: None of the above
+E: None of the option are correct.
 ###
 id: 45
 type: Multiple Choice
