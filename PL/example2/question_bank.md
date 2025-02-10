@@ -631,7 +631,7 @@ title: Inline CSS for Background Color
 topic: CSS Basic 1
 tags: Medium, CSS Syntax, Manual
 question: Write the inline CSS to set the background color of a &lt;div&gt; to yellow.
-answer: <div style="background-color:yellow;"></div>
+answer: <code><div style="background-color:yellow;"></div></code>
 ###
 id: 59
 type: String Input
