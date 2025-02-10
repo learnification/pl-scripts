@@ -1,198 +1,595 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index e56c4c2..b691245 100644
+index c8ed263..c44e0b1 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -635,0 +636,16 @@ answer: <div style="background-color:yellow;"></div>
-+id: 59
-+type: String Input
-+title: Correcting CSS Rule Syntax
-+topic: CSS Basic 1
-+tags: Medium, CSS Syntax, Manual
-+question: Examine the following CSS rule, identify all the errors, and rewrite the correct version in one line. If multiple corrections are needed, list them in order, separated by commas. <br> h2 {  <br> color:blue  <br> font-size = 20px; <br> text-align:center;  <br> background-color:#00FF00;  <br> }  
-+answer: color:blue; , font-size:20px;  
-+###
-+id: 60
-+type: String Input
-+title: CSS Rule for Font Size
-+topic: CSS Basic 1
-+tags: Easy, CSS Syntax, Auto
-+question: Write the CSS rule to apply a font size of 20px to h3. Answer in one line.
-+answer: h3 { font-size:20px; }
-+###
+@@ -215 +215 @@ question: How would you use the &lt;blockquote&gt; tag to display the following
+-answer: <blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>
++answer: '<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>'
 
 []
-{'id': ['59', '60'], 'type': ['String Input', 'String Input'], 'title': ['Correcting CSS Rule Syntax', 'CSS Rule for Font Size'], 'topic': ['CSS Basic 1', 'CSS Basic 1'], 'tags': ['Medium, CSS Syntax, Manual', 'Easy, CSS Syntax, Auto'], 'question': ['Examine the following CSS rule, identify all the errors, and rewrite the correct version in one line. If multiple corrections are needed, list them in order, separated by commas. <br> h2 {  <br> color:blue  <br> font-size = 20px; <br> text-align:center;  <br> background-color:#00FF00;  <br> }', 'Write the CSS rule to apply a font size of 20px to h3. Answer in one line.'], 'answer': ['color:blue; , font-size:20px;', 'h3 { font-size:20px; }']}
-{'id': '1', 'type': 'Multiple Choice', 'title': 'HTML Tags and Syntax', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Tags, Auto ', 'question': 'Which of the following is true about HTML tags?', 'A': 'HTML tags must be written in uppercase to work correctly', '*B': 'HTML tags are enclosed in angle brackets', 'C': 'HTML tags contain spaces between the angle brackets and the tag name', 'D': 'All HTML tags require an opening and a closing tag', 'E': 'All of the above'}
-1
-['59', '60']
-{'id': '2', 'type': 'Multiple Choice', 'title': 'Self-Closing Tags', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Tags, Auto', 'question': 'Which of the following is an example of an HTML element with a self-closing tag?', 'A': '`<p>`', 'B': '`<blockquote>`', '*C': '`<br>`', 'D': '`<h1>`', 'E': '`<hr>`'}
-2
-['59', '60']
-{'id': '3', 'type': 'Multiple Choice', 'title': 'Paragraph Tags', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Paragraphs, Auto', 'question': 'Which HTML tag is used to create a paragraph?', 'A': '`<img>`', '*B': '`<p>`', 'C': '`<br>`', 'D': '`<a>`', 'E': '`<h1>`'}
-3
-['59', '60']
-{'id': '4', 'type': 'Multiple Choice', 'title': 'Attributes in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Attributes, Auto', 'question': 'Which of the following is true about HTML attributes?', 'A': 'There is no space between the tag and attribute name', '*B': 'HTML attributes are written in name/value pairs', 'C': 'Some HTML elements can have attributes', 'D': 'An element can have only one attribute', 'E': 'None of the above'}
-4
-['59', '60']
-{'id': '5', 'type': 'Multiple Choice', 'title': 'Anchor Tag Attributes', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Attributes, Auto', 'question': 'In `<a href="contacts.html">Contact us!</a>`, which part is the attribute?', 'A': '`<a>`', 'B': '`"contacts.html"`', '*C': 'href', 'D': 'Contact us!', 'E': 'None of the above'}
-5
-['59', '60']
-{'id': '21', 'type': 'Multiple Choice', 'title': 'Emphasize Text in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, Tag Name, Auto', 'question': 'Which HTML tag is used to emphasize text?', 'A': '&lt;i&gt;', '*B': '&lt;em&gt;', 'C': '&lt;cite&gt;', 'D': '&lt;strong&gt;', 'E': 'None of these'}
-21
-['59', '60']
-{'id': '22', 'type': 'Multiple Choice', 'title': 'Creating a Bullet List', 'topic': 'HTML Basic 1', 'tags': 'Easy, List Tags, Auto', 'question': 'What is the correct way to make a bullet list in HTML?', '*A': '&lt;ul&gt;', 'B': '&lt;ol&gt;', 'C': '&lt;li&gt;', 'D': '&lt;list&gt;', 'E': 'All of these'}
-22
-['59', '60']
-{'id': '23', 'type': 'Multiple Choice', 'title': 'Image Tag Attribute', 'topic': 'HTML Basic 1', 'tags': 'Easy, Attribute, Auto', 'question': 'Which attribute of the  &lt;img&gt; tag specifies the URL of the image?', 'A': 'href', 'B': 'link', '*C': 'src', 'D': 'alt', 'E': 'url'}
-23
-['59', '60']
-{'id': '24', 'type': 'Multiple Choice', 'title': 'Anchor Tag Target Attribute', 'topic': 'HTML Basic 1', 'tags': 'Medium, Anchor Tag Attribute, Auto', 'question': 'How do you create a hyperlink in HTML that opens in a new tab?', 'A': 'target="_tab"', '*B': 'target="_blank"', 'C': 'newtab="true"', 'D': 'href="_newtab"', 'E': 'None of these'}
-24
-['59', '60']
-{'id': '25', 'type': 'Multiple Choice', 'title': 'Paragraph Tag in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, Tag Name, Auto', 'question': 'Which HTML tag is used to define a paragraph? ', 'A': '&lt;para&gt;', 'B': '&lt;div&gt;', '*C': '&lt;p&gt;', 'D': '&lt;span&gt;', 'E': 'None of these'}
-25
-['59', '60']
-{'id': '41', 'type': 'Multiple Choice', 'title': 'CSS Selector Example', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Syntax, Auto', 'question': 'In the CSS rule:<br> h1 { <br> color:blue; <br> }  <br> h1 is an example of:', 'A': 'A property', 'B': 'A value', '*C': 'A selector', 'D': 'A declaration', 'E': 'None of the above'}
-41
-['59', '60']
-{'id': '42', 'type': 'Multiple Choice', 'title': 'Hexadecimal Color Values', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Colors, Auto', 'question': 'What is the correct way to set a color value in CSS using Hexadecimal values?', 'A': 'color:hsl(0, 100%, 50%);', 'B': 'color:rgb(255, 0, 0);', '*C': 'color:#FF0000;', 'D': 'color:red;', 'E': 'color:FF0000;'}
-42
-['59', '60']
-{'id': '43', 'type': 'Multiple Choice', 'title': 'Inline CSS Location', 'topic': 'CSS Basic 1', 'tags': 'Easy, Applying CSS, Auto', 'question': 'Where is an inline CSS written?', 'A': 'Inside the &lt;body&gt; tag', 'B': 'Inside the &lt;style&gt; tag within the <head> tag', 'C': 'Inside a &lt;link&gt; tag', '*D': 'Inside the element’s style attribute', 'E': 'Inside the &lt;head&gt; tag'}
-43
-['59', '60']
-{'id': '44', 'type': 'Multiple Choice', 'title': 'Inline CSS Example', 'topic': 'CSS Basic 1', 'tags': 'Medium, Inline CSS, Auto', 'question': 'Which of the following is the correct usage of inline CSS to change the color of a paragraph?', '*A': '&lt;p style="color:red;"&gt;This is a paragraph.&lt;/p&gt;', 'B': '&lt;p style="color=red;"&gt;This is a paragraph.&lt;/p&gt;', 'C': '&lt;p style:"color:red;"&gt;This is a paragraph.&lt;/p&gt;', 'D': '&lt;p {style="color:red"}&gt;This is a paragraph.&lt;/p&gt;', 'E': 'None of the above'}
-44
-['59', '60']
-{'id': '45', 'type': 'Multiple Choice', 'title': 'Font Weight Usage', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Text Styling, Auto', 'question': 'The following CSS declaration is applied to a paragraph element:<br>p { <br> font-weight:700;  <br>}  <br>What does the font-weight value represent?', 'A': 'Light text', 'B': 'Normal text', '*C': 'Bold text', 'D': 'Extra bold text', 'E': 'No visual change'}
-45
-['59', '60']
-{'id': '11', 'type': 'Check Box', 'title': 'HTML Structure Essentials', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Structure, Auto', 'question': 'Select all the components that are essential for a basic HTML structure.', '*A': '<!DOCTYPE html>', '*B': '<head>', '*C': '<body>', 'D': '<footer>', '*E': '<html>'}
-11
-['59', '60']
-{'id': '12', 'type': 'Check Box', 'title': 'HTML Paragraph Tag', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Paragraph, Auto', 'question': 'Which of the following statements accurately describe the <p> tag?', '*A': 'It groups sentences and sections of text together.', '*B': 'It displays text as a block that starts on a new line.', 'C': 'It preserves extra spaces and line breaks in the content.', 'D': 'It can be used to format text as preformatted content.', 'E': 'Text inside <p> tags is displayed as a continuous line.'}
-12
-['59', '60']
-{'id': '13', 'type': 'Check Box', 'title': 'HTML Comments Purpose', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Comments, Auto', 'question': 'What are the purposes of using comments in HTML?', '*A': 'To help document the HTML source code.', '*B': 'To provide notes for other developers.', 'C': 'To style elements on the page.', '*D': 'To assist in debugging HTML code.', 'E': 'To ensure elements are displayed on the webpage.'}
-13
-['59', '60']
-{'id': '14', 'type': 'Check Box', 'title': 'HTML Document Structure', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Structure, Auto', 'question': 'Which statements are not true about the structure of an HTML document?', 'A': 'The HTML document is divided into head and body sections.', '*B': 'The <head> element contains the visible content of the page.', 'C': "The <title> tag is used to specify the document's title.", '*D': 'The <body> section contains meta information about the page.', 'E': 'The HTML document must start with a <html> tag after the DOCTYPE declaration.'}
-14
-['59', '60']
-{'id': '15', 'type': 'Check Box', 'title': 'HTML Headings Information', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Headings, Auto', 'question': 'Which of the following are true about HTML headings?', '*A': 'HTML headings range from <h1> to <h6>, where <h1> is the most important.', '*B': 'Headings are used to structure the content and improve SEO.', 'C': 'All headings are treated as inline elements by default.', '*D': 'The <h1> tag is typically used for the main title of the page.', '*E': 'Headings cannot be nested within other elements.'}
-15
-['59', '60']
-{'id': '31', 'type': 'Check Box', 'title': 'Phrase Elements', 'topic': 'HTML Basic 1', 'tags': 'Medium, Phrase Tags, Auto ', 'question': 'Which of the following tags are phrase elements? (Select all that apply)', '*A': '&lt;em&gt;', '*B': '&lt;cite&gt;', 'C': '&lt;header&gt;', 'D': '&lt;title&gt;', '*E': '&lt;b&gt;'}
-31
-['59', '60']
-{'id': '32', 'type': 'Check Box', 'title': 'Creating Lists in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, List Tags, Auto', 'question': 'Which HTML tags can be used to create lists? (Select all that apply)', '*A': '*A:&lt;ul&gt;', 'B': '&lt;head&gt;', '*C': '&lt;li&gt;', '*D': '&lt;dl&gt;', 'E': '&lt;p&gt;'}
-32
-['59', '60']
-{'id': '33', 'type': 'Check Box', 'title': 'Image Tag Attributes', 'topic': 'HTML Basic 1', 'tags': 'Medium, Attributes, Auto', 'question': 'Which attributes can be applied to an &lt;img&gt; tag? (Select all that apply)', '*A': 'src', '*B': 'alt', 'C': 'type', '*D': 'height', '*E': 'width'}
-33
-['59', '60']
-{'id': '34', 'type': 'Check Box', 'title': 'HTML5 Structural Elements', 'topic': 'HTML Basic 1', 'tags': 'Medium, Structure Tags, Auto', 'question': 'Which tags are used for HTML5 structural elements? (Select all that apply)', 'A': '&lt;img&gt;', '*B': '&lt;header&gt;', '*C': '&lt;section&gt;', 'D': '&lt;a&gt;', 'E': '&lt;span&gt;'}
-34
-['59', '60']
-{'id': '35', 'type': 'Check Box', 'title': 'Attributes for Hyperlinks', 'topic': 'HTML Basic 1', 'tags': 'Medium, Attributes, Auto', 'question': 'Which of the following attributes are valid for hyperlinks (&lt;a&gt; tag)? (Select all that apply)', '*A': 'href', 'B': 'mailto', 'C': 'src', '*D': 'target', 'E': 'link'}
-35
-['59', '60']
-{'id': '51', 'type': 'Check Box', 'title': 'Font-Related Properties', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Properties, Auto', 'question': 'Which of the following are valid ways to define font-related properties in CSS? (Select all that apply.)', '*A': 'font-family:Arial, sans-serif;', '*B': 'font-weight:700;', '*C': 'font-style:italic;', 'D': 'font-size:18;', 'E': 'font-family:Times New Roman:'}
-51
-['59', '60']
-{'id': '52', 'type': 'Check Box', 'title': 'Font Size Values', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Values, Auto', 'question': 'Select all the values that can replace the blank in the following CSS rule:<br>h1 { font-size:- - -; }  ', '*A': '16px', '*B': '1.5em', '*C': '120%', '*D': '2rem', 'E': 'bold'}
-52
-['59', '60']
-{'id': '53', 'type': 'Check Box', 'title': 'Applying External CSS', 'topic': 'CSS Basic 1', 'tags': 'Medium, Applying CSS, Auto', 'question': 'Select all the ways to apply an external CSS file to an HTML document.', 'A': '&lt;link rel="stylesheet” href="styles.css"&gt; &lt;/link&gt;', 'B': '&lt;link src="styles.css" type="text/css"&gt;', '*C': '&lt;link rel="stylesheet" href="styles.css"/&gt;', 'D': '&lt;style src="styles.css"&gt;&lt;/style&gt;', 'E': '&lt;link rel="stylesheet" src="styles.css" /&gt;'}
-53
-['59', '60']
-{'id': '54', 'type': 'Check Box', 'title': 'CSS Comments', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Comments, Auto', 'question': 'Which of the following are true about CSS comments? (Select all that apply.)', '*A': 'They are enclosed within /* and */.', 'B': 'They can be used to hide CSS rules from the browser.', '*C': 'They do not affect how the webpage renders.', 'D': 'They can only be written inside &lt;style&gt; tags.', 'E': 'They are enclosed within */ and /*.'}
-54
-['59', '60']
-{'id': '55', 'type': 'Check Box', 'title': 'Relative CSS Units', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Units, Auto', 'question': 'Which units of measurement are relative in CSS?', 'A': 'px', '*B': 'em', '*C': '%', '*D': 'rem', 'E': 'pt'}
-55
-['59', '60']
-{'id': '6', 'type': 'Drop Down', 'title': 'Line Breaks in HTML', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Line Break, Auto', 'question': 'Which of the following is NOT true about the <br> tag in HTML?', 'A': 'It creates a line break in the text', 'B': 'It has no content without a closing tag', '*C': 'It must be placed within a <p> tag', 'D': 'It does not have an end tag'}
-6
-['59', '60']
-{'id': '7', 'type': 'Drop Down', 'title': 'Meta Tags in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, Viewport Meta, Auto', 'question': 'What is the purpose of the <meta> tag with the attribute name="description"?', 'A': 'To refresh the web page every specified number of seconds', 'B': 'To set keywords for search engine optimization', '*C': 'To provide a brief summary of the web page’s content', 'D': 'To define the author of a page'}
-7
-['59', '60']
-{'id': '8', 'type': 'Drop Down', 'title': 'Title Tag in HTML', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Title, Auto', 'question': 'The text defined by the <title> tag appears ___ in a web page.', 'A': 'Inside the main content area', '*B': 'As the title in the browser tab, bookmarks, and search engine results', 'C': 'As the title', 'D': 'At the beginning of each paragraph'}
-8
-['59', '60']
-{'id': '9', 'type': 'Drop Down', 'title': 'HTML Line Break Tag', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Line Break, Auto', 'question': 'The ___ tag is used to create a line break in HTML.', '*A': '<br>', 'B': '<p>', 'C': '<hr>', 'D': '<h1>'}
-9
-['59', '60']
-{'id': '10', 'type': 'Drop Down', 'title': 'Nesting Elements in HTML', 'topic': 'Intro to HTML', 'tags': 'Medium, Nesting Elements, Auto', 'question': 'The ___ tag is used to correctly nest elements to display “HTML” in bold within a paragraph.', 'A': '<strong> <p>HTML</p> </strong>', '*B': '<p> <strong>HTML</strong> </p>', 'C': '<p> <em>HTML</em> </p>', 'D': '<p>HTML<p> <strong> </strong>'}
-10
-['59', '60']
-{'id': '36', 'type': 'Drop Down', 'title': 'Ordered List Tag', 'topic': 'HTML Basic 1', 'tags': 'Easy, Ordered List Tag, Auto', 'question': 'The correct tag to create a numbered list is ___ .', '*A': '<ol>', 'B': '<ul>', 'C': '<dl>', 'D': '<li>'}
-36
-['59', '60']
-{'id': '37', 'type': 'Drop Down', 'title': 'HTML Entity for Less-Than Symbol', 'topic': 'HTML Basic 1', 'tags': 'Easy, HTML Entity, Auto', 'question': 'The ___ HTML entity is used to display a less-than symbol.', '*A': '&lt;', 'B': '&gt;', 'C': '&copy;', 'D': '&amp;'}
-37
-['59', '60']
-{'id': '38', 'type': 'Drop Down', 'title': 'Block-Level Division Tag', 'topic': 'HTML Basic 1', 'tags': 'Easy, Structural Elements, Auto', 'question': '___ tag defines a block-level division or section?', '*A': '<div>', 'B': '<span>', 'C': '<section>', 'D': '<p>'}
-38
-['59', '60']
-{'id': '39', 'type': 'Drop Down', 'title': 'Opening Links in a New Tab', 'topic': 'HTML Basic 1', 'tags': 'Medium, Attribute, Auto', 'question': 'The ___ attribute opens a link in a new window or tab', '*A': 'target="_blank"', 'B': 'href="_newtab"', 'C': 'open="new"', 'D': 'newtab="true"'}
-39
-['59', '60']
-{'id': '40', 'type': 'Drop Down', 'title': 'Displaying an Image', 'topic': 'HTML Basic 1', 'tags': 'Easy, Tag Name, Auto', 'question': 'The ___ HTML tag is used to display an image', '*A': '<img>', 'B': '<image>', 'C': '<media>', 'D': '<figure>'}
-40
-['59', '60']
-{'id': '46', 'type': 'Drop Down', 'title': 'CSS Selector for Paragraph', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Selectors, Auto', 'question': 'To define styles that apply only to a &lt;p&gt; element, the CSS selector should be written as ___ ', '*A': 'p { }', 'B': '.p { }', 'C': '#p { }', 'D': 'p() { }', 'E': 'p ()'}
-46
-['59', '60']
-{'id': '47', 'type': 'Drop Down', 'title': 'Text Color Property', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Properties, Auto', 'question': 'The ___ property is used to change the text color?', 'A': 'text-color', 'B': 'background-color', 'C': 'font-color', '*D': 'color', 'E': 'None of the above'}
-47
-['59', '60']
-{'id': '48', 'type': 'Drop Down', 'title': 'CSS Value in Margin Property', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Properties (margin), Auto', 'question': 'In the CSS rule:<br> p { margin:10px; } <br> the value 10px represents the ___  part of the style rule.', 'A': 'selector', 'B': 'size', 'C': 'distance', '*D': 'value', 'E': 'property'}
-48
-['59', '60']
-{'id': '49', 'type': 'Drop Down', 'title': 'Font Family Description', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Properties, Auto', 'question': 'The following description:"Specifies the typeface/font (or generic font family) to use. More than one can be specified" describes the ___ property.', '*A': 'font-family', 'B': 'font-size', 'C': 'font-style', 'D': 'font-variant', 'E': 'font-weight'}
-49
-['59', '60']
-{'id': '50', 'type': 'Drop Down', 'title': 'Text Color in Paragraph', 'topic': 'CSS Basic 1', 'tags': 'Hard, CSS Colors, Auto', 'question': '___ sets the text color of all &lt;p&gt; elements to red.', '*A': 'rgb(255, 0, 0)', 'B': 'hsl(120, 100%, 50%)', 'C': '#0000ff', 'D': 'None of the above', 'E': 'All of the above'}
-50
-['59', '60']
+{'answer': ['\'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>\'']}
+Generated UUID: a7c38a29-443c-4d9b-9e40-bb8969ef37f6
+Generated UUID: abdecbc1-68c1-4f80-bcb6-534c317438c8
+Generated UUID: 7afb8d17-3391-4b96-9941-941033f8e4c6
+Generated UUID: 89879df9-28bc-49c8-9392-d2420fd387d8
+Generated UUID: ffb0aa09-1523-4b86-998e-e2e163d302c5
+Generated UUID: 3bef17c6-2963-4759-a5dd-a5599230143d
+Generated UUID: 784cd04b-cb73-4a46-8777-1a5c325bc178
+Generated UUID: 68798b5e-db06-4d53-bde5-acbe56945849
+Generated UUID: 77c0ed93-d8bc-4b67-857c-7f6d9d23a630
+Generated UUID: 7375dd99-442f-4145-98b1-93e0922ae800
+Generated UUID: d7e3e630-4708-44cb-9628-fa7c3e95a11d
+Creating question folder at: PL/example2/question1
+Generated UUID: 89bf4c3b-7f99-47a4-a11d-239635414eea
+Generated UUID: 9bb09792-f80b-4ddd-9aa0-062cd00f7822
+Generated UUID: 2ce61d1c-0328-4d70-a201-6e7fd2a12966
+Generated UUID: bbf7a845-775c-47a6-820e-8f937f8904a7
+Generated UUID: b007ba19-dbcd-4b97-ab11-e5d52f971631
+Generated UUID: eade37a9-6e3d-4dd8-bae7-856cb9b6d6fa
+Generated UUID: 773cedf5-9559-4c97-91c4-4eea4c3a398c
+Generated UUID: 61e03ffd-2283-43a0-8007-8389b270248a
+Generated UUID: a8c6c1d2-6236-439a-aba3-c374d9286eea
+Generated UUID: 287203f3-1b19-4b47-b73f-fcf1d4ca0f45
+Generated UUID: a4bb7510-c4a9-4bdd-a95b-38600b20ddfd
+Creating question folder at: PL/example2/question2
+Generated UUID: f9ae84db-9c59-49d4-a8dc-0bf7a9fc7a88
+Generated UUID: 97ffef59-0669-48cc-af12-e354820d57cf
+Generated UUID: 8d25c6ec-46f2-4ea6-93a7-ec8182c3bc0f
+Generated UUID: 4d2a6be8-bcac-44c1-babd-ffd06ff10fb1
+Generated UUID: 6659c90b-ed72-45a0-9ce5-5124b001afd0
+Generated UUID: a6306d6b-5b78-443d-98ed-5a8402063dc2
+Generated UUID: 28ec4511-bd15-4235-ad65-b27b3ca41559
+Generated UUID: 3c497f64-e481-4ea0-a7df-535dd5130c60
+Generated UUID: 90d357dc-3913-48fe-a88b-c2b6c95e4dfe
+Generated UUID: 4955e804-9458-4d98-91d1-4d6b8c44891e
+Generated UUID: 8050dc08-fc20-47b5-bc5d-998fa850ba47
+Creating question folder at: PL/example2/question3
+Generated UUID: 1b56dd4c-1e42-477f-876b-a4bac42ed688
+Generated UUID: a3816c29-cd5e-4fc9-95bd-d0d6ec7044a4
+Generated UUID: 012f31f5-3afa-4cf5-a146-8fc66fb75cbf
+Generated UUID: 0954486d-7681-4223-92d9-9dd5fe2fc80a
+Generated UUID: 162a7589-85e2-4a33-b0c0-2594f948a854
+Generated UUID: 1c724338-6d4b-4616-9162-e619843cecb3
+Generated UUID: 6c8c5828-1f05-459f-a1d5-fd2af1109a0d
+Generated UUID: 0913a6d5-743e-4ad7-9ca5-d2e0131355a4
+Generated UUID: df3f65bb-610d-4315-b533-774c31833c65
+Generated UUID: 90019751-c8c3-4331-8df8-42f176f3d178
+Generated UUID: 729b695b-5dbc-440b-9eab-a3b361cdafb0
+Creating question folder at: PL/example2/question4
+Generated UUID: bc0a69e6-a7b5-4d3a-9b5b-ffbc15d915d4
+Generated UUID: 24a75c3d-7c7f-4885-b8be-e7d85966f9f6
+Generated UUID: ad13163e-56fe-454a-9a4e-118f2f96e09e
+Generated UUID: 0ae214b7-8e80-432b-a69b-fcd00e54bc54
+Generated UUID: 22b283db-cd8a-4c5f-a1d1-7a01f79e3cc0
+Generated UUID: b13b355d-1f0a-467f-8e00-8903aeec4aeb
+Generated UUID: 41d8759b-82c6-4c40-9561-f23a4ff8c81b
+Generated UUID: fffeff5b-50b5-4278-ac22-fbf69406cd49
+Generated UUID: 2837e2ac-4b54-44ed-8e2b-2565aa6fdf89
+Generated UUID: e4fcbf4b-07c8-4308-a292-850b2829e08f
+Generated UUID: ed5e4ab3-3c89-4f00-93cb-fa6f4b10cb46
+Creating question folder at: PL/example2/question5
+Generated UUID: be50c1c5-397c-44bc-ac97-7b0cb46ce825
+Generated UUID: 672810bf-e1d2-4a46-8eb1-229a85855f86
+Generated UUID: bfe9d5b8-cd39-41ae-a598-f13052aab1d6
+Generated UUID: 731004be-ff05-4160-b0b0-883e1e4487f3
+Generated UUID: 6afc059b-78be-4074-8869-bc6bcf1246cd
+Generated UUID: 0aaa3088-4a23-4483-9031-c16ba0fc615f
+Generated UUID: a3fc9ee9-fb02-4a7c-9859-7e09f49cacbd
+Generated UUID: abb6912b-fbc0-4115-b11f-d1dfa6e9ad38
+Generated UUID: a28f380c-0ad8-4644-a642-ba6c14d68387
+Generated UUID: 244c08e3-86e9-49b6-9883-385f90c3c017
+Generated UUID: 685fb552-bf08-48b9-9f91-4ac813900669
+Creating question folder at: PL/example2/question21
+Generated UUID: 51c45fce-b867-4d88-9aec-367203965244
+Generated UUID: 2a081524-df95-4219-a8cf-6196cfa0fd33
+Generated UUID: fd424c8c-ab4b-4d54-ae6f-099a1a1bdb3a
+Generated UUID: bfe3bf9c-8177-47e0-940b-c254afe93310
+Generated UUID: ff4c8ebd-3821-46f2-b05c-8f36792f5dca
+Generated UUID: 5ae5b41b-c83e-4b4e-a3d8-0de84df8ed6d
+Generated UUID: 7619db09-f779-4365-aed2-a715b8f017dd
+Generated UUID: f7e8bd15-a4e7-46b5-959f-dc1cd7a21382
+Generated UUID: 22136f23-fb36-46a9-b1fc-4e41c032c75e
+Generated UUID: 19ac1b7f-02c2-4c79-9aa1-afdb1bc77bcd
+Generated UUID: ef1f699f-1eee-414d-9fb5-ff86dfdcf06d
+Creating question folder at: PL/example2/question22
+Generated UUID: 0f39b447-22e3-4944-8abb-f00bde11fbf7
+Generated UUID: 8c8ba20f-5c55-49a3-9687-cbf3e11d168e
+Generated UUID: 3f31849c-bf51-40ad-ae76-595f7f71e283
+Generated UUID: 4108df97-1a89-4d99-95d5-b7f804f26458
+Generated UUID: 539922f5-5c24-47a9-a9a9-dc2af714fcca
+Generated UUID: 0cef3961-dd60-4b1b-a31f-8962e4b6e050
+Generated UUID: ee9acb86-1f97-4f0f-82c0-e3448a77022c
+Generated UUID: d9d4dce7-564f-4e9f-9765-f5d469a8c78f
+Generated UUID: 7648a3e8-905f-4f96-a387-0bce2d52c076
+Generated UUID: 719b7232-17b3-4c9d-ace3-7b8a06517163
+Generated UUID: 02ad75b1-2bf2-4959-9e59-ccf40666d7a5
+Creating question folder at: PL/example2/question23
+Generated UUID: b165939b-1772-4743-b534-c3e5a9066836
+Generated UUID: 3cb92e9b-caca-4f31-bcee-ed693c6adf5d
+Generated UUID: a4a15152-34e0-4891-be96-4e6dacb0e120
+Generated UUID: 9a4a8b20-9336-4b21-b8b2-b67a68bd2129
+Generated UUID: 25266a54-8cc8-4ae7-8672-39aabd73dae6
+Generated UUID: cf93d6d0-389a-47d7-b94e-3c3a79db3f1c
+Generated UUID: 5f003edc-2b04-4ae0-81bf-09a3f136776a
+Generated UUID: 8860130c-f217-402f-84da-e72d90fe7a62
+Generated UUID: 8668c513-fba1-451e-9da8-2afe903dd8fe
+Generated UUID: 52598f0c-24ee-4724-8669-930aef8f4db4
+Generated UUID: 48208e5d-b17c-4b91-a801-8a70b6dedc5d
+Creating question folder at: PL/example2/question24
+Generated UUID: 1062eb61-5672-4ea9-b6a9-92ec99d832b5
+Generated UUID: fdbfd441-4cfd-4ff0-84d6-b550a8f5441c
+Generated UUID: 2d917b58-9528-4b28-ae04-d67818242194
+Generated UUID: 93c78bea-d39c-4bcc-ba4d-1b144ef0ed41
+Generated UUID: 156cf8b1-5457-4c7d-b6d6-7e5a9ab37a04
+Generated UUID: 3382132e-7b68-4590-a011-5589fb6840b0
+Generated UUID: 3015de9c-0a55-4c52-84d9-e5d571dce58c
+Generated UUID: 4751129c-c473-45ca-9894-c6cd575c4d47
+Generated UUID: 90c12e14-7057-425f-b798-a05e0604123c
+Generated UUID: 3b16d5a3-7132-4258-ac58-a2455e1ff160
+Generated UUID: d5b8afb1-dec4-45e5-8dad-dc3191315f58
+Creating question folder at: PL/example2/question25
+Generated UUID: 899e40fe-54e7-465c-957c-d73595ddc1cc
+Generated UUID: f363c5fc-459f-4d04-ace0-81503fdee556
+Generated UUID: 29e503a5-f11a-4b5b-a40b-f03530225d9e
+Generated UUID: e46deac5-6b7d-4a4c-96ae-66743e5ea608
+Generated UUID: d5afc17a-8367-4e67-8e63-d56e88e5ff9f
+Generated UUID: 49fec2cc-f4b0-40a3-bbcb-cff86164e7e2
+Generated UUID: 6d8cc092-1691-4859-b365-febacb9ab8c9
+Generated UUID: e8fe28d3-235b-401c-a076-2fd2c7d7866b
+Generated UUID: 31e730dd-bbaf-4ffc-bd66-4b7ac36530f4
+Generated UUID: ae413367-aca0-4c2a-9f91-2569d838c56d
+Generated UUID: a3a49a78-5130-4b8c-befa-38c858e1af1f
+Creating question folder at: PL/example2/question41
+Generated UUID: cf5f8732-c9ba-45f1-ac31-c2c504929ce5
+Generated UUID: 41a4fd87-84a4-45cd-a68a-cfa1e2593321
+Generated UUID: 356c630c-6903-4d57-9256-3f9c0a2592df
+Generated UUID: 3b7b2686-a691-4835-8b56-19ea73de030c
+Generated UUID: e9c4899f-0f63-421b-851c-c27732051e3a
+Generated UUID: 14f1609f-d065-45e0-97ec-3d51f2c2dad8
+Generated UUID: dba68409-27e3-4baa-b52a-449baa14f0c1
+Generated UUID: fbb62a65-9cc6-4c13-af01-3734c2246a1a
+Generated UUID: 0d4c955e-320f-4b89-ab31-d1e785c9b9b0
+Generated UUID: 78a2b9d9-bd3c-4e1f-ac08-fbdaafacd736
+Generated UUID: 2e0ad73d-b7d8-4212-ae95-0ddbacb4ce1d
+Creating question folder at: PL/example2/question42
+Generated UUID: 345fbe4e-be5f-4b0d-a85f-45c5e2b7157d
+Generated UUID: 72e6b2e8-bf2f-478a-b02b-2c40d86eb2e0
+Generated UUID: 5eef0ebb-dc8f-43d5-b3f8-3ff120f6a096
+Generated UUID: 85c55023-5c3d-45f6-bb3a-2ef1bd525281
+Generated UUID: 2cc13fd6-db3d-468d-a11b-a5f7dec8e940
+Generated UUID: 46540587-54be-4ab3-b54d-ef7974cc427b
+Generated UUID: 8df9e9b9-9188-4a91-be53-bbe8836e88be
+Generated UUID: 76289e1f-2cf5-4d15-8aac-23a24616be33
+Generated UUID: 950ac346-9b63-4ff1-9d75-bbaacbaeb321
+Generated UUID: a9cfb488-0c87-45b9-bc6f-2f0a1859645f
+Generated UUID: cf7276ae-2fbd-45a3-b0b9-99761b92cf83
+Creating question folder at: PL/example2/question43
+Generated UUID: 39187ed9-85b8-4421-b989-c705965074cf
+Generated UUID: 3eed22f8-1962-4d74-bf91-77c551611715
+Generated UUID: 7686dc4f-75d4-46eb-a028-7cf395e247f7
+Generated UUID: 19576af6-1680-4953-b7f6-c4864322f196
+Generated UUID: 94a83e3a-f67d-4e5b-93ad-30d4fc81d9d7
+Generated UUID: 3a560160-3286-4742-a918-1311dd68a26b
+Generated UUID: 0b5b8d52-0b05-4610-8b36-5fbb7349f4b4
+Generated UUID: 3792f2e1-68e3-4432-99e1-62dcc0159263
+Generated UUID: 50056f99-1834-4f83-b69a-419ce53db062
+Generated UUID: 346ecbbf-e9e3-4652-970a-4209044bcb83
+Generated UUID: 90276043-e48d-4a6f-b2c9-2ec4c415ab7e
+Creating question folder at: PL/example2/question44
+Generated UUID: d54fd0ca-2faa-4526-989d-0728ddf0b4a1
+Generated UUID: fb73cd43-59b3-43d5-963e-406f52e48332
+Generated UUID: d9a2133c-769a-45e2-8388-f798349aa2a6
+Generated UUID: e50cde4a-2802-4bd0-b17a-e78188c4809e
+Generated UUID: 2272086a-da66-4caf-b34c-50d543bae2de
+Generated UUID: 140342c1-9102-42be-8249-80b07d9b766f
+Generated UUID: 80d5360c-712d-4c6e-9949-c24f01535f54
+Generated UUID: 031a0c1a-b7f4-4f15-bbcf-549d39895111
+Generated UUID: 67945356-a4dc-467d-95a3-f923236d9705
+Generated UUID: 26caf009-cfad-4ffe-864e-c2f8370699a8
+Generated UUID: 6b0246ef-2e75-4fbd-bd87-9d382eb04d7e
+Creating question folder at: PL/example2/question45
+Generated UUID: 24f9e0ba-00ad-463d-a7ed-250a3566bb44
+Generated UUID: 3bce89bc-1a5f-497c-9da5-5a2575b812db
+Generated UUID: d3f586e7-1c3d-4099-8063-e3750b6781fd
+Generated UUID: b9092207-c971-4dc9-bbf8-e41bd471b53a
+Generated UUID: cd4b8d81-1453-426f-86dc-1d897736b9e0
+Generated UUID: 0d9e86a2-8aa0-4cca-8e04-ca01e9eca803
+Generated UUID: 8162071e-c19b-46fc-8988-d0e7b5f32d05
+Generated UUID: 58ad1242-abee-4c89-8ae7-7f7b889b1dd0
+Generated UUID: 18ecc282-db3b-4647-aea5-e1dd1cd2bee4
+Generated UUID: 7bb78562-2278-4b69-a2d4-3f0a239291a8
+Generated UUID: ecd09ece-a8bd-49dc-8dad-64c9062fb2d2
+Creating question folder at: PL/example2/question11
+Generated UUID: c638f613-db1a-4fa0-aa18-bda14fcc2700
+Generated UUID: 28d9e07a-6c1d-47c7-a35d-f13069fc91eb
+Generated UUID: 12812ac0-6157-4d8b-aa5f-2593e9e86005
+Generated UUID: 9007aa5e-5a9a-4188-ad7f-62e49be13310
+Generated UUID: edc06b3c-0d46-4851-8cfa-34a1673fbfb9
+Generated UUID: 3d6514ba-11c0-4b6b-a888-7f4b081a7d0a
+Generated UUID: fe24dfa6-ab10-40f3-9660-739cab5e2af9
+Generated UUID: 9cfe1480-ad65-4534-b3a4-f1c00dfc0894
+Generated UUID: 833b47f8-c8c2-4a8c-bdb2-e714722ba723
+Generated UUID: 16fa330e-a0ff-4c22-911b-43c7f4fa7dc9
+Generated UUID: e2c0d115-40f2-496e-aef1-591fd6412865
+Creating question folder at: PL/example2/question12
+Generated UUID: 4e90aa7b-9cea-4cdf-9356-3df0e2b401b5
+Generated UUID: e94d2a1b-28dd-4676-b42c-e9af12813369
+Generated UUID: f3006a98-01a7-4cb5-b5e3-c528dabcd394
+Generated UUID: 77dba624-b9ed-4f2c-b0cf-83321e89faf3
+Generated UUID: 3b64938b-0a65-462d-abd7-71d0a5418641
+Generated UUID: 8cd54cf8-2911-427c-826b-8729c52338df
+Generated UUID: 5377939c-44f8-429d-95fe-18bb4cf45065
+Generated UUID: 04d8de25-908b-4ae7-936d-42661c939057
+Generated UUID: 76da7578-8239-47e3-80d8-fa8f345f9099
+Generated UUID: 97b21e75-ac80-4455-858c-3c3aaa1d96eb
+Generated UUID: c8aab1b4-6c92-4a5b-b219-3925d04247ca
+Creating question folder at: PL/example2/question13
+Generated UUID: d9bd53cd-3c4c-4e58-ae39-b2d0165de379
+Generated UUID: 791fdd82-179c-4d2e-aa39-27ae57dc0cab
+Generated UUID: d7724f53-b118-4b62-a8ad-7166c637eaf3
+Generated UUID: c23c8dec-ef5c-4beb-876e-f3ddf74d62db
+Generated UUID: e5d3f9e8-d236-41ce-ad14-b1cafddd7e79
+Generated UUID: f4ad1e87-7003-4845-8267-8d0b32a86d13
+Generated UUID: 15cfbacf-a6c2-4417-a30a-e07cc45ccdee
+Generated UUID: 067e643d-bb51-43be-b2a5-2e69e1ec9f96
+Generated UUID: 34c35ca8-9d2a-4259-8849-adf4c108fccf
+Generated UUID: b4a742a3-ef79-4aa8-a553-d1e27c639362
+Generated UUID: 68bbc7a9-dbcf-4182-adec-98b3d6e1b2c7
+Creating question folder at: PL/example2/question14
+Generated UUID: 2a93e931-b537-460b-9402-67584d282fe6
+Generated UUID: 1cce466a-a36d-4809-bc17-e72b70ea26e8
+Generated UUID: 0daf9a6b-8551-4cbc-b40b-37d957ae3218
+Generated UUID: 342f38f6-fd97-405e-9397-6da86aa3669c
+Generated UUID: 3c41b4c8-2b6c-4ff8-8c29-4bbca886229b
+Generated UUID: 214a2418-74ac-4567-aee6-284beebcc5fe
+Generated UUID: 5e45ac03-7f30-4faf-b4d7-27c0c8d5ab26
+Generated UUID: d10ac26c-03b0-4ade-9ebd-f2226bf70694
+Generated UUID: e68ab1e5-1a04-4bea-887a-3c933eadec21
+Generated UUID: 6346e820-e10d-4579-b9ec-db5d05803753
+Generated UUID: 00625a1f-4abc-46fa-b4c5-d713807753b5
+Creating question folder at: PL/example2/question15
+Generated UUID: e4a24332-f020-4330-a286-7bf254406ee5
+Generated UUID: e49621c1-2b3f-41dd-a669-bc4c9023add6
+Generated UUID: f6dfcc91-3837-4754-b21b-eb60343f925b
+Generated UUID: d14b0e25-7afe-4d2f-8dfd-a407e60839ed
+Generated UUID: b156a677-ce7d-45dc-add6-8c9657d0111b
+Generated UUID: 1bdfb546-cb4f-4b73-ae12-fc21e9eadd2c
+Generated UUID: 46361c92-2f04-43e2-b1fa-3e7e94fc1036
+Generated UUID: 96aad3bb-49bb-4799-a5f1-aa45e6081087
+Generated UUID: 7d0d99a9-b008-4e7e-9446-32357ac56143
+Generated UUID: 8e32e6ec-661e-403b-a0b3-2e32210984e3
+Generated UUID: 58ea507f-46bf-4324-949b-ffb20f02a2c4
+Creating question folder at: PL/example2/question31
+Generated UUID: bbd69941-7979-4fa6-a097-68af73b450e9
+Generated UUID: 5e0347bb-8173-422d-972d-1e1ffb903530
+Generated UUID: 42a5cb16-96e0-43fe-bb4f-9e9332cf8869
+Generated UUID: 0a525325-63a4-4b6b-a876-2773819e6437
+Generated UUID: 52cbd47d-8f32-4b63-a528-2ae374d7b29a
+Generated UUID: 433c6b55-5b95-47cf-afc2-9c96e2e16fc1
+Generated UUID: 72ae8113-faff-44dd-b4e4-9c7b52a83ae6
+Generated UUID: 138629df-1d36-4e48-87e3-d51a517772e5
+Generated UUID: 7b1ac4b0-f0b3-4b92-971e-e6d1d9945e11
+Generated UUID: 7d35b999-2856-437b-adf2-3e29baabb6cb
+Generated UUID: ed301aeb-35ea-4c13-bcf2-ca7378d8aa51
+Creating question folder at: PL/example2/question32
+Generated UUID: ab8e7745-f032-4728-a764-3657473ce165
+Generated UUID: 17324e43-c764-4246-9932-8a54b3d31859
+Generated UUID: a03aedff-6424-4008-8f33-7c6d45d221a9
+Generated UUID: f2093f6c-19da-4ff2-942e-15620c04ad24
+Generated UUID: a1c05bf1-9d13-4c61-873f-190114d19d72
+Generated UUID: 13b9df23-2aab-4404-b7a9-fd2d6311cab9
+Generated UUID: 99e3e7f3-8a35-4984-a64d-e603f7bfeb42
+Generated UUID: d945a29d-2e26-4a60-b60a-0479371919a1
+Generated UUID: 63de230c-953c-4e90-b89c-22aeaca8dafb
+Generated UUID: d69c269f-ee61-4ec4-ae5a-7e62e0989633
+Generated UUID: 71741470-bd63-46aa-9f11-7059ed78c6cb
+Creating question folder at: PL/example2/question33
+Generated UUID: a6e6923f-890d-4b82-9f07-b204f7035ed5
+Generated UUID: 186b8a15-c8eb-4479-aeaa-28efa0d5b890
+Generated UUID: 7d77acb9-7ff4-4ea2-9c34-2cad85d0033e
+Generated UUID: d757fb05-bf74-4b26-a75e-030f4bc22ed9
+Generated UUID: 98a27275-5302-4533-94a0-0166dba9c131
+Generated UUID: 8ae880b7-a347-43c3-aa7f-0245a5dde8a6
+Generated UUID: 4c8cd0b8-3d7e-4c91-a86a-6306e6e9fd7d
+Generated UUID: f55edd62-a1a4-4172-888b-a671b7479fbc
+Generated UUID: 45c443c8-3328-4fec-82c8-80ff91e260f3
+Generated UUID: 0b484374-7b2a-4761-8123-8e870adbfb64
+Generated UUID: 2e38b5e0-954a-4d46-8726-71e1ffe38018
+Creating question folder at: PL/example2/question34
+Generated UUID: f578a893-c570-4c53-93c1-3367c2109f11
+Generated UUID: f601b2be-157e-4bb9-8ff6-4983fa32bcbf
+Generated UUID: 20d4b990-709a-40ff-ad29-30d7ce04c854
+Generated UUID: 30d075d8-d792-49c5-a4a8-538634956eca
+Generated UUID: 25696031-393d-4284-a4f4-5722d8846a5f
+Generated UUID: 0a9406fa-aac1-4187-b626-bc658b503106
+Generated UUID: 80747dcd-07e3-4af8-bccf-bff4f26da9f6
+Generated UUID: 3fc47c18-a2b7-4104-a963-bae9ade7f9a9
+Generated UUID: ec1f8303-cec8-4e46-892a-6384005f2fae
+Generated UUID: c4dc7ed8-00cb-47a8-adb0-6cf3291af7b3
+Generated UUID: 1f9224bc-dbab-4d53-a774-af0a2750d4ea
+Creating question folder at: PL/example2/question35
+Generated UUID: f4407bc0-11c9-4c60-a93a-47491f3a7ca9
+Generated UUID: f1d8d3b1-8595-4a5f-ba3f-db92eee3bb7d
+Generated UUID: 1595e29e-7b55-4402-bb2f-52af32691153
+Generated UUID: 788759cb-211c-4545-883c-021759c43219
+Generated UUID: 82cd9bd2-5c17-49ab-b139-750c5826f7fd
+Generated UUID: b2c4cb8b-574d-4660-bf09-19867e8018ce
+Generated UUID: e826593d-37f2-4952-9d36-7dbd6782509f
+Generated UUID: 494aba01-7043-499b-8c4c-57cf2237ecb1
+Generated UUID: 38e39721-4337-406a-8af6-d44fb7c6e243
+Generated UUID: c8f3995a-fc05-44b4-8529-dd306ea55ab1
+Generated UUID: 4d4d34e4-7e0b-4c88-9a7b-038962805fa5
+Creating question folder at: PL/example2/question51
+Generated UUID: f5e52815-355a-4f73-b065-8bd9ef8977fe
+Generated UUID: 1cf5711e-f324-4747-9e93-9512cd24896b
+Generated UUID: 389bb9ed-956e-49db-b359-aacd90c2b382
+Generated UUID: 89d1f69a-dd07-42fc-9783-9ca9c1b92948
+Generated UUID: 29f28ed3-5636-4129-ae1b-a47d47f1a4c2
+Generated UUID: 286de2ba-346f-44ce-ab92-51963ca93542
+Generated UUID: 4b5cac18-1b9d-462e-9211-f3aa88753b44
+Generated UUID: e0622685-d0cc-4d96-a2c6-1612966272db
+Generated UUID: 55836c7c-a317-4fdb-9f90-d344cad4c74d
+Generated UUID: f3542cfe-eb77-4500-b0fd-30bbfe2112df
+Generated UUID: a646cf61-fc04-4fbb-a23f-bf43c5ec8af2
+Creating question folder at: PL/example2/question52
+Generated UUID: 5ddafe49-2857-4ee5-98fc-bb18d61a18e0
+Generated UUID: 1ceab326-249c-4471-bbfb-cf4ba5a8d00c
+Generated UUID: dfbd3fee-177f-4214-aec8-1a90f5780d3e
+Generated UUID: e8d0c3d7-b026-4492-ada0-321ab7a4af95
+Generated UUID: 962e8d03-1ea6-47be-8302-6f3dbb7c32da
+Generated UUID: 697836ac-ea41-4553-9e4f-3e0519a169bf
+Generated UUID: f357c735-b887-4a7d-be9f-c55c52ed1888
+Generated UUID: 4978abf6-81de-4b9d-b485-1cc45600ac44
+Generated UUID: 2ef5ae06-ac98-47c6-991a-9fe146d31a38
+Generated UUID: f07dd67e-a6e8-497e-89e5-840470baa8dc
+Generated UUID: 77fbcf8b-9c16-4140-8830-f60780d53655
+Creating question folder at: PL/example2/question53
+Generated UUID: 023740f3-2a19-43a0-af0e-e9fff1fa5990
+Generated UUID: 3cff5d26-31e0-4e31-80b5-855816fe961b
+Generated UUID: 747b8e16-978f-4de0-851a-0686a96453e3
+Generated UUID: 2f640ab3-a552-43e3-bf8b-99b72d768882
+Generated UUID: 5e32e381-3f43-4be2-b819-78d3d1fc2178
+Generated UUID: 66d710f4-470f-4042-a254-39063e8627e1
+Generated UUID: 0ecfc16f-0e49-4ed0-aa9b-ce61d0455d3f
+Generated UUID: f0108217-6689-4686-8849-be167c7cd086
+Generated UUID: 44b03e6f-f471-4d2c-9d71-ead5d373187d
+Generated UUID: f15c2c2a-af24-40a0-9278-dc2ba016b691
+Generated UUID: 8962d21e-314c-4c6d-a999-8befcce32254
+Creating question folder at: PL/example2/question54
+Generated UUID: c53a5c7d-c70d-455b-a12f-762774e0ad9d
+Generated UUID: 80d319dc-27ba-47a0-8389-92431bda26a6
+Generated UUID: 1bfc086a-6503-49b1-a2a0-8b2d26ac7b67
+Generated UUID: c4a34164-a2ae-4f39-9dcb-22168cdcdcc5
+Generated UUID: bf6414d8-a7c6-41e4-a9a2-20faa0269f0d
+Generated UUID: 5f87d8b4-49b3-483c-acbb-661c09932e33
+Generated UUID: eaccbfc5-55b6-4476-acc5-0d16f70c37d6
+Generated UUID: bcb78896-94a9-46db-ac60-67d2ffcc386c
+Generated UUID: 1bea476a-5f08-4fc9-b033-4fb7029f2419
+Generated UUID: 9be3a4bb-3833-435f-aa1c-9b8749044ce4
+Generated UUID: 6e968f9f-4130-472a-b078-318cbf547bc2
+Creating question folder at: PL/example2/question55
+Generated UUID: aa7dd3a7-6cd1-4891-aaf1-ac0f8afd4d39
+Generated UUID: 778bfc0d-1eb3-4550-92ac-a601e3d4e8f4
+Generated UUID: 415d1234-eaad-4a70-bde0-1a6a90b180c5
+Generated UUID: 7fc81d69-514f-4204-b2c7-44f2e593190f
+Generated UUID: c40fb68b-3295-443d-8018-3c6d452e9287
+Generated UUID: 74b0d987-d170-4b35-a432-33b8183803b8
+Generated UUID: 4a1e193c-d19a-4e3f-a1f3-f6d2bec7a209
+Generated UUID: 5a418018-5ea9-463f-98fb-b227255cdb27
+Generated UUID: 05dbe403-fe4b-4b40-9c37-553d797b5c69
+Generated UUID: bb226ace-12ed-4d2b-8758-863de3255ac6
+Creating question folder at: PL/example2/question6
+Generated UUID: fa2d134f-edb8-4281-9a07-aa8b92d119d7
+Generated UUID: eee779a2-2491-4b76-88af-cbe5fe0589c7
+Generated UUID: fb31b54d-b722-4516-8efd-fb4a5eda4463
+Generated UUID: 7ed0459e-ce93-4246-a1dd-017cadcf147d
+Generated UUID: 2792662d-6ebe-439c-85f7-0a67b6e445b7
+Generated UUID: 960ef9cd-c5d7-4aa9-8d8b-55388fbe0e74
+Generated UUID: 660ec25d-21fd-4dde-b3c2-42d41090a2c9
+Generated UUID: 6e15fb3e-eec9-4096-9ac9-1d6de4b53a07
+Generated UUID: 94c29899-1bf8-49a5-b626-a4d6ac5488f2
+Generated UUID: 2716c04e-9e34-43ea-91a2-8b2e2702e6c9
+Creating question folder at: PL/example2/question7
+Generated UUID: 635ac9aa-0db6-48e3-ba7e-9dd780524997
+Generated UUID: 18121ade-961e-4a2c-98be-4ab09324bff5
+Generated UUID: db0f35e0-3023-4240-94f8-3c699858241a
+Generated UUID: 666fdd6e-7b44-4567-aa3d-c89d979ef09d
+Generated UUID: 9af50803-e893-4f9b-bc1f-ce46ce671e54
+Generated UUID: 665d4454-cb8e-4bb0-9792-5c1a95434197
+Generated UUID: d94898a8-92a4-458d-88b8-ba755c61afd8
+Generated UUID: 74b622fb-ff27-46be-a101-b57cb86bb51f
+Generated UUID: 7247962e-4f65-4fc2-bf20-e64473b0ea47
+Generated UUID: 85dd8627-21fd-4125-a674-136408edba86
+Creating question folder at: PL/example2/question8
+Generated UUID: 552e1af4-4284-42fe-89a1-b3a4363cd158
+Generated UUID: f3befffe-894e-40f4-9b42-80f7a3a5579f
+Generated UUID: 528df985-fb1a-4b09-8ce4-002530112c91
+Generated UUID: 2626eb9e-4244-4d50-b558-176adb773bc1
+Generated UUID: ced12bcb-c5ac-4c0b-90b9-9577a7ba4012
+Generated UUID: 176d145a-61cd-4eec-9ed9-70b8ac5c4c35
+Generated UUID: 56db5452-dfc3-4f24-8ddc-1910dd39c61e
+Generated UUID: 035885a5-d31c-472e-95c8-043a1845ed59
+Generated UUID: 870d5b8c-22c5-4a95-82d6-f0a9835915e5
+Generated UUID: 0ed47320-110b-4a9b-b19d-c924e8020d42
+Creating question folder at: PL/example2/question9
+Generated UUID: 80373980-9a94-461d-8e16-091f8cf7bcca
+Generated UUID: ba84a9ce-2fa5-46c7-969f-65e26c13d8f3
+Generated UUID: 058031d1-ec66-4793-bd68-6b271b2c9a38
+Generated UUID: eae13331-34c7-4bd9-82bc-b4351169da6a
+Generated UUID: f761896f-20cc-4111-8eb2-5c239a466473
+Generated UUID: d7587b52-3a97-4923-876e-2c29dfe505a9
+Generated UUID: 32e9f385-6dbc-4ee0-a76a-b7633f755896
+Generated UUID: 124db549-9852-4e64-a9b4-c19f4db1f7cc
+Generated UUID: 5ea6f860-698d-4cea-9867-61beefe78ddd
+Generated UUID: d0d4685f-d8f9-42ff-9d40-9d81aea63e37
+Creating question folder at: PL/example2/question10
+Generated UUID: b7ed2b9f-49bd-4062-b376-b4dfaecc1f64
+Generated UUID: 85b399aa-de37-41d7-af8f-05f59dcf7e5f
+Generated UUID: 094627f7-b13e-4abb-8393-26e5a1b00516
+Generated UUID: 4a303e00-d8f5-4f64-93ba-08d7d6df7694
+Generated UUID: 96c206b4-00b0-4f0f-8d31-da193b9f60a4
+Generated UUID: e7f288b4-597d-493d-ae6a-902009b25099
+Generated UUID: 2a293856-7f8c-43b8-b435-cfc2b07fe89b
+Generated UUID: 336acbf5-8c70-48f9-ae23-fd6aaa084b8a
+Generated UUID: 727b9781-4ac9-4026-a6c2-12380100ca35
+Generated UUID: 3f8220ae-4d36-4b45-ae20-4e180f73951e
+Creating question folder at: PL/example2/question36
+Generated UUID: af630bee-e3ec-4c44-8997-cf520cad6e99
+Generated UUID: 6ecfb424-675c-4542-9509-9a38b470f32b
+Generated UUID: 3996b41e-9d4d-4a21-8be8-71d696857a3f
+Generated UUID: 4e29595a-2873-4acb-88c5-d773f833fe35
+Generated UUID: 1bf9967a-4346-4645-9c34-50ca638b9013
+Generated UUID: adbd0c05-b649-49c5-8642-756d5ccb7963
+Generated UUID: dc29ced8-aad4-40d7-9ab5-e71a9f2153da
+Generated UUID: ede229c2-be8e-4c1f-992b-7c011dedac99
+Generated UUID: 91207f98-c469-4325-bcb7-04d3723e0245
+Generated UUID: 8e950d0c-bbd4-4a2a-b4db-d94034fd61e5
+Creating question folder at: PL/example2/question37
+Generated UUID: 37e149c9-fa65-4f30-a3ed-c7db36a12bec
+Generated UUID: cb288e72-768e-4669-b60f-041de0f7fb02
+Generated UUID: f0cb04dd-3951-40dc-b265-323b6bdbe1de
+Generated UUID: b79e8932-ce0b-412a-b78a-d53be5ae5be8
+Generated UUID: f3746d8c-1aac-4a25-b0c7-ed7a26172df7
+Generated UUID: bfb256a8-efe5-4864-bbbb-970dec390b87
+Generated UUID: 8a2c8597-0c33-4e5c-9fdc-9eefec315c7e
+Generated UUID: 9e9d373a-70a4-4a82-a532-f98831fa768c
+Generated UUID: d800d7b4-ccc9-4ba5-91f0-8cf486b4edfa
+Generated UUID: 0f7d71ee-9b76-49db-8201-86e570bf98ae
+Creating question folder at: PL/example2/question38
+Generated UUID: 49459508-6c3b-431b-9670-baaba8e48d77
+Generated UUID: 7b0bef12-962a-449d-961b-8e7f6c8114e4
+Generated UUID: 61c462a9-50f1-4b51-9556-258c2552b5c5
+Generated UUID: 05d4b588-6bea-4550-b3ac-3e53f5084459
+Generated UUID: 2c3b7aad-327c-4aab-9a48-d8dcd469a185
+Generated UUID: ed205876-b575-4ade-a58d-b08d4f8281eb
+Generated UUID: c092d004-8fbf-4901-9f4f-de0ea2fa7f18
+Generated UUID: 53f31bf7-f50f-4ab9-9db9-4d1664ba37d0
+Generated UUID: d6c2fb3c-1112-4f9d-b7ff-255ab4198253
+Generated UUID: cf8ee07b-0159-4151-93a5-f0a2dae438f8
+Creating question folder at: PL/example2/question39
+Generated UUID: c952e88c-9732-43e8-934d-1786ef580273
+Generated UUID: 7aca7c5a-5613-497f-8699-60a6852fcfcf
+Generated UUID: 359d2424-0d4e-4611-a6af-76680ec78441
+Generated UUID: a9fd83b2-402d-445a-a2e3-04db9fc8b622
+Generated UUID: 9d8a62d2-11ac-4034-9f86-49c1f140270c
+Generated UUID: 2af07cf0-3d57-4fe8-9e71-d9f6d222fef3
+Generated UUID: 280a2e77-021f-4b6e-8768-8beb1f50bdec
+Generated UUID: 71087529-eaac-4fdd-b968-13481236df93
+Generated UUID: ea29610c-e85c-4e38-852b-55cae8e0b8cd
+Generated UUID: a530b869-9448-47fc-8e98-a250305c3588
+Creating question folder at: PL/example2/question40
+Generated UUID: 5034dad8-d822-4964-a32d-b979328671ca
+Generated UUID: c260ee9a-5624-4710-b622-ed28f81f9b32
+Generated UUID: af5c7814-61b5-4362-a8d1-9334119acb2c
+Generated UUID: 5f588938-744b-4e82-ab54-8714c851595f
+Generated UUID: 24171025-53bb-4d8d-9c21-ae4e665be061
+Generated UUID: 09860908-1d98-47a6-a63a-f49f3dc7bc7f
+Generated UUID: 4bcf1a80-2b50-48a9-8ed6-5362fc9238c9
+Generated UUID: c16b5bab-92df-42d2-90a6-ba780e5a7947
+Generated UUID: 0946aeb0-a6e9-4bd3-a37e-40f4aab406f5
+Generated UUID: 47f944e1-87f7-4189-a2e7-99fab835bf59
+Generated UUID: c98cc413-c6f0-4cbc-a5ab-bf405e264800
+Creating question folder at: PL/example2/question46
+Generated UUID: df947b6d-8262-4c44-8f89-102e54c34f2c
+Generated UUID: 5c015f08-5fd2-4d95-a604-1472dccb972b
+Generated UUID: 077f78d4-cbcb-4171-bec1-1a04f260623c
+Generated UUID: a53f9d67-e4b1-462d-8cd0-cca2550db193
+Generated UUID: 158b43c8-63eb-4509-9765-dbfb7accb72e
+Generated UUID: 32e568b3-b96c-4bae-b4c0-655a6c0881de
+Generated UUID: 3020479d-a608-4b17-ba11-114bd34e7e6c
+Generated UUID: 86b3e509-2bca-41b5-bc8f-062111bb4cf1
+Generated UUID: 4a046e2d-c786-4732-8ee9-9ed86a43bd19
+Generated UUID: a170178c-53c0-45e1-a6a4-d5e17df83dbf
+Generated UUID: 06e77c77-7f1b-4770-aa4a-b0391f4eea73
+Creating question folder at: PL/example2/question47
+Generated UUID: aeca9cea-3d56-4320-a647-6037d52a47de
+Generated UUID: 72ab0cd2-9004-41b7-8391-b5ae1c49432f
+Generated UUID: b355680a-8cdc-4b5d-aa6d-f09b5ea1a09a
+Generated UUID: 535b3923-68dd-4927-806f-8a3a894c4ac6
+Generated UUID: bac7a033-757d-4c11-ab62-9e0debb55038
+Generated UUID: 5c5ab642-5e99-44bb-b587-ea621802fa87
+Generated UUID: 32a35f38-029a-4f95-bed3-61533a99b053
+Generated UUID: 4e2a1600-e84f-44c8-89fc-be2a812384e6
+Generated UUID: 002c7702-6677-4a57-8d1c-229c06c9ad48
+Generated UUID: 297132d2-e3ac-4be9-9876-ff896676fab1
+Generated UUID: 2c4a052d-8f47-483d-8cae-a2a8a1bb56cc
+Creating question folder at: PL/example2/question48
+Generated UUID: 5200b1dd-6290-4d82-8fc7-0829720a2c95
+Generated UUID: c14e99bc-542f-491b-a693-022eed2ce09d
+Generated UUID: 1546d850-b668-4888-93df-cd1f9eefea8a
+Generated UUID: 88cbf521-3524-4609-82c3-6a8fc5bbd2df
+Generated UUID: b4e8a24f-71a7-470d-a9ca-578e94a7759e
+Generated UUID: 5daa16b1-6482-4caf-8e8e-886a9a06d4f3
+Generated UUID: 122d3d85-8937-4f90-b98b-97ed1e0fc210
+Generated UUID: bf53bd81-73e0-45bd-b4ed-eff35eb767b2
+Generated UUID: 80ed2d2a-5ee8-4b1a-a4d4-a5fa926798fe
+Generated UUID: 85b75a9b-9f5e-4893-99cb-fb89328ec88f
+Generated UUID: 44315a76-81ba-4d14-98a8-ac1f5829ca8d
+Creating question folder at: PL/example2/question49
+Generated UUID: e26ea773-70cd-41ba-8a42-1aed7f022d99
+Generated UUID: fd3163ee-0036-4247-b535-c3128c96d0cd
+Generated UUID: a54b8dd1-70e6-4565-aa8e-c952f23ff628
+Generated UUID: 616418cf-fba7-4c80-9bc5-dbaf0eceb5de
+Generated UUID: fc22de23-93d4-47e8-ba77-06fec239b595
+Generated UUID: 145c6bd5-8ff2-4309-9a23-3ec39aabf406
+Generated UUID: 9d49eacc-1c2a-4c61-b773-4a24157591ce
+Generated UUID: c36c8dc5-0cbf-4072-9df7-c87f0c74b5d0
+Generated UUID: 2d9cd118-418d-4c7f-be3b-eae4877addcf
+Generated UUID: 8aa83d57-da1c-42cf-81b0-965943c96fab
+Generated UUID: 66b723ba-5e4b-445f-8190-a6163ae6015f
+Creating question folder at: PL/example2/question50
 {'id': '16', 'type': 'String Input', 'title': 'Writing a Heading in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Headings, Auto', 'question': 'Write “This is a heading” using the H1 tag', 'answer': '<h1> This is a heading </h1>'}
-16
-['59', '60']
+<h1> This is a heading </h1>
+['\'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>\'']
 {'id': '17', 'type': 'String Input', 'title': 'Nested HTML Elements', 'topic': 'Intro to HTML', 'tags': 'Medium, Nesting Elements, Manual', 'question': 'Provide an example of properly nested HTML elements using the sentence “My dog is very friendly.” The word “very” should be bold.', 'answer': '<p> My dog is <strong> very </strong> friendly. </p>'}
-17
-['59', '60']
+<p> My dog is <strong> very </strong> friendly. </p>
+['\'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>\'']
 {'id': '18', 'type': 'String Input', 'title': 'Line Break in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Line Break, Auto', 'question': 'How would you use the <br> tag to create a line break, so that "Hello" appears on one line and "world!" starts on the next line?', 'answer': 'Hello <br> world!'}
-18
-['59', '60']
+Hello <br> world!
+['\'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>\'']
 {'id': '19', 'type': 'String Input', 'title': 'Horizontal Rule in HTML', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Horizontal Rule, Auto', 'question': 'How would you add a horizontal line between the following two paragraphs? <br>This is the first paragraph.<br>(This is where the horizontal line should go)<br>This is the second paragraph.<br> Write your answer in one sentence.', 'answer': '<p> This is the first paragraph. </p> <hr> <p> This is the second paragraph.</p>'}
-19
-['59', '60']
-{'id': '20', 'type': 'String Input', 'title': 'Blockquote in HTML', 'topic': 'Intro to HTML', 'tags': 'Hard, HTML Blockquote, Auto', 'question': 'How would you use the &lt;blockquote&gt; tag to display the following quote from Albert Einstein, with the source link &quot;https//example.com&quot; included as a citation? <br> Quote to format) <br> "Life is like riding a bicycle. To keep your balance, you must keep moving."', 'answer': '<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>'}
-20
-['59', '60']
+<p> This is the first paragraph. </p> <hr> <p> This is the second paragraph.</p>
+['\'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>\'']
+Generated UUID: fd95e31b-23bc-4cbd-835c-0521f46485fd
+Generated UUID: 18fcc56f-8fe4-48ba-8895-75419a10f8af
+Generated UUID: bbf1d1cb-2201-4dc5-b7a8-b1fcde823955
+Generated UUID: 31625c0f-409e-4254-9d98-bf299545c4dc
+Generated UUID: 098d14df-caa1-4aeb-a401-0b057d113c10
+Generated UUID: 98e2a6b9-48be-4228-9bbf-ef8193bba893
+Generated UUID: dbdaa966-efb2-4753-8ed1-342231c515e3
+Creating question folder at: PL/example2/question20
 {'id': '26', 'type': 'String Input', 'title': 'Ordered List Creation', 'topic': 'HTML Basic 1', 'tags': 'Medium, Ordered List, Manual', 'question': 'Create an ordered list with the three items Toyota, GMC, RAM. Each item must be displayed in a separate line. ', 'answer': '<ol> <li>Toyota</li> <li>GMC</li> <li>RAM</li> </ol>'}
-26
-['59', '60']
+<ol> <li>Toyota</li> <li>GMC</li> <li>RAM</li> </ol>
+['\'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>\'']
 {'id': '27', 'type': 'String Input', 'title': 'Navigation Menu Creation', 'topic': 'HTML Basic 1', 'tags': 'Medium, Navigation Tag, Auto', 'question': 'Create a navigation menu using the &lt;nav&gt; tag that contains a link to "home.html" labeled "Home".', 'answer': '<nav> <a href="home.html">Home</a> </nav>'}
-27
-['59', '60']
+<nav> <a href="home.html">Home</a> </nav>
+['\'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>\'']
 {'id': '28', 'type': 'String Input', 'title': 'Adding an Image with Alternate Text', 'topic': 'HTML Basic 1', 'tags': 'Medium, Image Tag, Auto', 'question': 'Insert an image with the alternate text "Orange cat drinking water" and source as "cat.jpg".', 'answer': '<img src="cat.jpg" alt="Orange cat drinking water">'}
-28
-['59', '60']
+<img src="cat.jpg" alt="Orange cat drinking water">
+['\'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>\'']
 {'id': '29', 'type': 'String Input', 'title': 'Using Special Characters in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, Special Characters, Auto ', 'question': 'Write the following sentence using a paragraph tag:"Tom & Jerry." ', 'answer': '<p>Tom & Jerry</p>'}
-29
-['59', '60']
-{'id': '30 ', 'type': 'String Input', 'title': 'Bolding words in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, Phrase elements, Manual', 'question': 'Bold the word "HTML" in the following sentence "HTML is short for HyperText Markup Language."<br> Note Write the full sentence making only "HTML" bold.', 'Answer': '<HTML> is short for HyperText Markup Language.'}
-30 
-['59', '60']
+<p>Tom & Jerry</p>
+['\'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>\'']
+Generated UUID: a54d0670-2fbc-4de7-87a5-58195fbb0a39
+Generated UUID: b3c31c16-d6c8-4a3e-8331-66bef921fde9
+Generated UUID: e8b30c0e-6175-49b9-a199-4a5c5e4bfb30
+Generated UUID: 544c30b6-e287-4ca7-a2f3-1b64ac2cbde3
+Generated UUID: bf24e6ac-41bd-4c49-87b7-ad8c0959bc2c
+Generated UUID: 28b5ad5d-fc64-42a5-96ea-6abef1226699
+Generated UUID: 493e5966-ac0f-4fc2-8f32-febf87d4b694
+Creating question folder at: PL/example2/question30 
 {'id': '56', 'type': 'String Input', 'title': 'External CSS File Href Attribute', 'topic': 'CSS Basic 1', 'tags': 'Medium, External CSS, Manual', 'question': 'An external CSS file is linked using a &lt;link&gt; element. If the CSS file is named styles.css and located in a folder named main, the correct href attribute would be:', 'answer': 'href="main/styles.css"'}
-56
-['59', '60']
+href="main/styles.css"
+['\'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>\'']
 {'id': '57', 'type': 'String Input', 'title': 'CSS Declaration for Paragraph Color', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Syntax, Manual', 'question': 'Write the CSS declaration to set the color of a paragraph to red.', 'answer': 'p { color:red; }'}
-57
-['59', '60']
+p { color:red; }
+['\'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>\'']
 {'id': '58', 'type': 'String Input', 'title': 'Inline CSS for Background Color', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Syntax, Manual', 'question': 'Write the inline CSS to set the background color of a &lt;div&gt; to yellow.', 'answer': '<div style="background-color:yellow;"></div>'}
-58
-['59', '60']
+<div style="background-color:yellow;"></div>
+['\'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>\'']
+{'id': '59', 'type': 'String Input', 'title': 'Correcting CSS Rule Syntax', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Syntax, Manual', 'question': 'Examine the following CSS rule, identify all the errors, and rewrite the correct version in one line. If multiple corrections are needed, list them in order, separated by commas. <br> h2 {  <br> color:blue  <br> font-size = 20px; <br> text-align:center;  <br> background-color:#00FF00;  <br> }  ', 'answer': 'color:blue; , font-size:20px;  '}
+color:blue; , font-size:20px;  
+['\'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>\'']
+{'id': '60', 'type': 'String Input', 'title': 'CSS Rule for Font Size', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Syntax, Auto', 'question': 'Write the CSS rule to apply a font size of 20px to h3. Answer in one line.', 'answer': 'h3 { font-size:20px; }'}
+h3 { font-size:20px; }
+['\'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>\'']
