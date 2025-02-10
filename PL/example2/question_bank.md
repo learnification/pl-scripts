@@ -55,7 +55,7 @@ tags: v1, Medium, HTML Line Break, Auto
 question: Which of the following is NOT true about the <code>&lt;br&gt;</code> tag in HTML?
 A: It creates a line break in the text
 B: It has no content without a closing tag
-*C: It must be placed within a <code>&lt;p&gt;</code> tag
+*C: It must be placed within a &lt;p&gt; tag
 D: It does not have an end tag
 ###
 id: 7
@@ -63,7 +63,7 @@ type: Drop Down
 title: Meta Tags in HTML
 topic: Intro to HTML
 tags: v1, Easy, Viewport Meta, Auto
-question: What is the purpose of the <code>&lt;meta&gt;</code> tag with the attribute name="description"?
+question: What is the purpose of the &lt;meta&gt; tag with the attribute name="description"?
 A: To refresh the web page every specified number of seconds
 B: To set keywords for search engine optimization
 *C: To provide a brief summary of the web page’s content
@@ -74,7 +74,7 @@ type: Drop Down
 title: Title Tag in HTML
 topic: Intro to HTML
 tags: v1, Medium, HTML Title, Auto
-question: The text defined by the <code>&lt;title&gt;</code> tag appears ___ in a web page.
+question: The text defined by the &lt;title&gt; tag appears ___ in a web page.
 A: Inside the main content area
 *B: As the title in the browser tab, bookmarks, and search engine results
 C: As the title
@@ -86,10 +86,10 @@ title: HTML Line Break Tag
 topic: Intro to HTML
 tags: v1, Easy, HTML Line Break, Auto
 question: The ___ tag is used to create a line break.
-*A: <code>&lt;br&gt;</code>
-B: <code>&lt;p&gt;</code>
-C: <code>&lt;hr&gt;</code>
-D: <code>&lt;h1&gt;</code>
+*A: &lt;br&gt;
+B: &lt;p&gt;
+C: &lt;hr&gt;
+D: &lt;h1&gt;
 ###
 id: 18
 type: String Input
@@ -157,9 +157,8 @@ title: Text Color in Paragraph
 topic: CSS Basic 1
 tags: v1, Hard, CSS Colors, Auto
 question: ___ sets the text color of all <code>&lt;p&gt;</code> elements to red.
-*A: <code>rgb(255, 0, 0)</code>
-B: <code>hsl(120, 100%, 50%)</code>
-C: <code>#0000ff</code>
-D: <code>None of the options</code>
-E: <code>colour:red;</code>
-###
+*A: rgb(255, 0, 0)
+B: hsl(120, 100%, 50%)
+C: #0000ff
+D: None of the options
+E: colour:red
