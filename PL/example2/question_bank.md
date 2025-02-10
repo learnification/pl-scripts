@@ -434,7 +434,7 @@ type: Multiple Choice
 title: CSS Selector Example
 topic: CSS Basic 1
 tags: Easy, CSS Syntax, Auto
-question: In the following CSS rule:<br> h1 { <br> color:blue; <br> }  <br> h1 is an example of:
+question: In the following CSS rule:<br> <code>h1 { <br> color:blue; <br> } </code> <br> h1 is an example of:
 A: A property
 B: A value
 *C: A selector
