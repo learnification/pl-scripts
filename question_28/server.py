@@ -1,6 +1,6 @@
 
 def generate(data):
-    ans = "<code>&lt;img src="cat.jpg" alt="Orange cat drinking water"&gt;</code>"
+    ans = "<img src="cat.jpg" alt="Orange cat drinking water">"
     data["correct_answers"]["ans4"] = ans
 
     return data

@@ -1,6 +1,6 @@
 
 def generate(data):
-    ans = "Hello <code>&lt;br&gt;</code> world!"
+    ans = "Hello <br> world!"
     data["correct_answers"]["ans4"] = ans
 
     return data
