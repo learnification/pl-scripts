@@ -47,28 +47,42 @@ def get_diff():
         return ""
 
 def parse_diff(diff):
-    """Parses the git diff output to identify added and removed questions."""
-    addDic = {}
-    removeList = []
+    """Parses the git diff output to identify added, removed, and modified questions."""
+    addDic = {}       # Stores newly added questions
+    removeList = []   # Stores removed question IDs
+    modifiedList = [] # Stores modified question IDs
+
     lines = diff.splitlines()
     
+    added_ids = set()
+    removed_ids = set()
+
     for line in lines:
+        # Detect added lines
         if re.match(r"^\+[^+].*?:.*", line):
             key, value = line[1:].split(": ")
             key = key.strip()
             value = value.strip()
+
+            if key == "id":
+                added_ids.add(value)  # Track added question ID
 
             if key in addDic:
                 addDic[key].append(value)
             else:
                 addDic[key] = [value]
         
+        # Detect removed question IDs
         if re.search(r"-id:\s*(\d+)", line):
             match = re.search(r"-id:\s*(\d+)", line)
             id_number = match.group(1)
+            removed_ids.add(id_number)
             removeList.append(id_number)
 
-    return removeList, addDic
+    # Identify modified questions: If an ID is both removed & added, it was modified
+    modifiedList = list(added_ids & removed_ids)
+
+    return removeList, addDic, modifiedList
 
 def create_data(file):
     """Creates a list of question data from the markdown file."""
@@ -137,8 +151,8 @@ def delete_question_folder(question_id):
 def process_questions(data, file, info, question_type, html_file=None, py_file=None):
     """Processes questions and generates necessary files."""
     diff_output = get_diff()
-    remove, addDic = parse_diff(diff_output)
-
+    remove, addDic, modified = parse_diff(diff_output)
+    
     questions = [question for question in data if question["type"] == question_type]
 
     for question in questions:
@@ -213,25 +227,42 @@ def generate_file(html_file, info_file, context, py_file=None):
 def main():
     """Main function to process the question bank and generate output files."""
     diff_output = get_diff()
+    print("Git diff output:")
     print(diff_output)
-    remove, addDic = parse_diff(diff_output)
-    print(remove)
-    print(addDic)
 
+    # Parse added, removed, and modified questions
+    remove, addDic, modified = parse_diff(diff_output)
+
+    print(f"Removed questions: {remove}")
+    print(f"Added questions: {list(addDic.keys())}")  # Only keys for debugging
+    print(f"Modified questions: {modified}")
+
+    # Delete removed questions
     if remove:
         for id in remove:
             delete_question_folder(id)
-    
-    if not addDic:
+
+    # Delete & regenerate modified questions
+    if modified:
+        for id in modified:
+            delete_question_folder(id)  # Delete old folder
+            print(f"Regenerating modified question: {id}")
+
+    # If there are no new or modified questions, exit
+    if not addDic and not modified:
+        print("No new or modified questions detected. Exiting.")
         return
 
+    # Load question bank
     q_bank = load_files("PL/example2/question_bank.md")
     data = create_data(q_bank)
 
+    # Load templates
     templates = load_files("PL/example2/template.md")
     typeDic = templateType(templates)
     info = typeDic["IJ"]
 
+    # Process each question type
     for type, template in typeDic.items():
         if type == "MC":
             createMultipleChoice(data, template, info)
@@ -243,6 +274,8 @@ def main():
         elif type == "SI":
             p = re.split("```", template)
             createStringInput(data, p[0], p[1], info)
+
+    print("✅ Processing complete!")
 
 if __name__ == "__main__":
     main()
