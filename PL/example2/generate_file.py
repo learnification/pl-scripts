@@ -4,15 +4,12 @@ import os
 import subprocess
 import json
 import uuid
+import argparse  # Import argparse for handling command-line arguments
 
 def generate_uuid():
     generated_uuid = str(uuid.uuid4())
     print(f"Generated UUID: {generated_uuid}")  # Debugging print
     return generated_uuid
-
-
-index = 0
-
 
 # Function to load the content of a file
 def load_files(file):
@@ -24,110 +21,42 @@ def render_files(file, context):
     template = Template(file)
     return template.render(context)
 
-# Function to split template types and store them in a dictionary
-def templateType(file):
-    dic = {}
-    section = re.split("###\n", file)
-    for i in section:
-        if i != "":
-            type, template = i.split("@")
-            type.strip()
-            dic[type] = template
-    return dic
-
-def get_diff():
-    """Gets the git diff output to determine added and removed questions."""
-    try:
-        diff_output = subprocess.check_output(
-            ["git", "diff", "--unified=0", "HEAD~1", "PL/example2/question_bank.md"]
-        )
-        return diff_output.decode("utf-8")
-    except subprocess.CalledProcessError as e:
-        print(f"Error running git diff: {e}")
-        return ""
-
-def parse_diff(diff):
-    """Parses the git diff output to identify added, removed, and modified questions."""
-    addDic = {}       # Stores newly added questions
-    removeList = []   # Stores removed question IDs
-    modifiedList = [] # Stores modified question IDs
-
-    lines = diff.splitlines()
-    
-    added_ids = set()
-    removed_ids = set()
-
-    for line in lines:
-        # Print every line for debugging
-        print(f"Processing line: {line}")
-
-        # Detect added lines
-        if re.match(r"^\+[^+].*?:.*", line):
-            parts = line[1:].split(": ", 1)  # Split only on the first occurrence of `: `
-            
-            # Debugging output
-            print(f"Splitting line: {line[1:]}")
-            print(f"Parts after split: {parts}")
-
-            if len(parts) == 2:
-                key, value = parts
-                key = key.strip()
-                value = value.strip()
-
-                if key == "id":
-                    added_ids.add(value)  # Track added question ID
-
-                if key in addDic:
-                    addDic[key].append(value)
-                else:
-                    addDic[key] = [value]
-            else:
-                print(f"⚠️ Unexpected format in line: {line}")  # Log problematic line
-        
-        # Detect removed question IDs
-        if re.search(r"-id:\s*(\d+)", line):
-            match = re.search(r"-id:\s*(\d+)", line)
-            id_number = match.group(1)
-            removed_ids.add(id_number)
-            removeList.append(id_number)
-
-    # Identify modified questions: If an ID is both removed & added, it was modified
-    modifiedList = list(added_ids & removed_ids)
-
-    return removeList, addDic, modifiedList
-
+# Function to create a dictionary of question data from the markdown file
 def create_data(file):
-    """Creates a list of question data from the markdown file."""
     data = []
     pattern = re.compile(r"(###.*?)(?=(?:\n###))", re.DOTALL)
     questions = pattern.findall(file)
 
-    print(f"Total questions detected: {len(questions)}")  # Debugging
-
     for question in questions:
         dic = {}
         lines = question.strip().split("\n")
-        print(f"\n🔍 Processing question block:\n{question}")  # Debugging
 
         for line in lines:
             if line.strip() and line.strip() != "###":
-                print(f"➡ Processing line: {line}")  # Debugging
-                
                 parts = line.split(": ", 1)  # Split only on first occurrence
                 
                 if len(parts) == 2:
                     key, value = parts
                     dic[key.strip()] = value.strip()
-                else:
-                    print(f"⚠️ Skipping line: {line}")  # Debugging unexpected formats
-
-        if dic:  # Ensure non-empty questions are stored
+        
+        if dic:
             data.append(dic)
 
-    print(f"\n✅ Successfully parsed {len(data)} questions.")
     return data
+
+# Function to delete a question's folder
+def delete_question_folder(question_id):
+    """Deletes the folder and its contents for a specific question."""
+    folder_path = f"question_{question_id}"
+
+    if os.path.exists(folder_path):
+        subprocess.run(["rm", "-rf", folder_path])  # Deletes the folder
+        print(f"Deleted folder: {folder_path}")
+    else:
+        print(f"Folder not found: {folder_path}")
+
+# Function to create the question's context for template rendering
 def createContext(question):
-    """Creates a context dictionary for template rendering."""
     context = {}
     i = 1
 
@@ -158,69 +87,7 @@ def createContext(question):
 
     return context
 
-def delete_question_folder(question_id):
-    """Deletes question-related files from the root directory."""
-    files_to_delete = [
-        f"question_{question_id}.html",
-        f"question_{question_id}.json",
-        f"question_{question_id}.py"
-    ]
-
-    for file_path in files_to_delete:
-        if os.path.exists(file_path):
-            os.remove(file_path)
-            print(f"Deleted: {file_path}")
-        else:
-            print(f"File not found: {file_path}")
-
-def process_questions(data, file, info, question_type, html_file=None, py_file=None):
-    """Processes questions and generates necessary files."""
-    diff_output = get_diff()
-    remove, addDic, modified = parse_diff(diff_output)
-    
-    questions = [question for question in data if question["type"] == question_type]
-
-    for question in questions:
-        try:
-            matches_all = True  # Assume all will match
-
-            for key, values in addDic.items():
-                if key in question:
-                    if isinstance(question[key], str):
-                        if question[key].strip() not in values:
-                            print("-----------DEBUGGING START-----------")
-                            print(question)
-                            print(question[key])
-                            print(values)
-                            print("-----------DEBUGGING END-----------")
-                            matches_all = False  # Found a mismatch
-                            break  # No need to check further for this question
-
-            if matches_all:
-                context = createContext(question)
-            else:
-                continue
-
-        except KeyError:
-            continue
-
-        if question_type in ["Drop Down", "String Input"] and html_file and py_file:
-            generate_file(html_file, info, context, py_file)
-        else:
-            generate_file(file, info, context)
-
-def createMultipleChoice(data, file, info):
-    process_questions(data, file, info, "Multiple Choice")
-
-def createCheckBox(data, file, info):
-    process_questions(data, file, info, "Check Box")
-
-def createDropDown(data, html_file, py_file, info):
-    process_questions(data, html_file, info, "Drop Down", html_file, py_file)
-
-def createStringInput(data, html_file, py_file, info):
-    process_questions(data, html_file, info, "String Input", html_file, py_file)
-
+# Function to generate question files
 def generate_file(html_file, info_file, context, py_file=None):
     """Generates question artifacts and saves them in their respective folders."""
     html_content = render_files(html_file, context)
@@ -249,56 +116,52 @@ def generate_file(html_file, info_file, context, py_file=None):
         with open(py_filename, "w") as f:
             f.write(py_content)
 
+# Main function
 def main():
-    """Main function to process the question bank and generate output files."""
-    diff_output = get_diff()
-    print("Git diff output:")
-    print(diff_output)
+    """Main function to process and regenerate questions."""
+    parser = argparse.ArgumentParser(description="Generate or regenerate questions.")
+    parser.add_argument("-regenerate", nargs="?", default=None, help="Regenerate a specific question or all (use 'all').")
 
-    # Parse added, removed, and modified questions
-    remove, addDic, modified = parse_diff(diff_output)
+    args = parser.parse_args()
+    regenerate_id = args.regenerate  # Get the argument value
 
-    print(f"Removed questions: {remove}")
-    print(f"Added questions: {list(addDic.keys())}")  # Only keys for debugging
-    print(f"Modified questions: {modified}")
-
-    # Delete removed questions
-    if remove:
-        for id in remove:
-            delete_question_folder(id)
-
-    # Delete & regenerate modified questions
-    if modified:
-        for id in modified:
-            delete_question_folder(id)  # Delete old folder
-            print(f"Regenerating modified question: {id}")
-
-    # If there are no new or modified questions, exit
-    if not addDic and not modified:
-        print("No new or modified questions detected. Exiting.")
-        return
-
-    # Load question bank
     q_bank = load_files("PL/example2/question_bank.md")
     data = create_data(q_bank)
 
-    # Load templates
     templates = load_files("PL/example2/template.md")
     typeDic = templateType(templates)
-    info = typeDic["IJ"]
+    info = typeDic.get("IJ", "")
+
+    if regenerate_id:
+        if regenerate_id.lower() == "all":
+            print("♻️ Regenerating ALL questions...")
+            for question in data:
+                delete_question_folder(question["id"])
+        else:
+            try:
+                question_id = int(regenerate_id)
+                delete_question_folder(question_id)
+                print(f"♻️ Regenerating question ID {question_id}...")
+                data = [q for q in data if q["id"] == str(question_id)]
+            except ValueError:
+                print(f"❌ Invalid question ID: {regenerate_id}")
+                return
 
     # Process each question type
-    for type, template in typeDic.items():
-        if type == "MC":
-            createMultipleChoice(data, template, info)
-        elif type == "CB":
-            createCheckBox(data, template, info)
-        elif type == "DD":
-            p = re.split("```", template)
-            createDropDown(data, p[0], p[1], info)
-        elif type == "SI":
-            p = re.split("```", template)
-            createStringInput(data, p[0], p[1], info)
+    for question in data:
+        q_type = question["type"]
+        context = createContext(question)
+
+        if q_type in ["Multiple Choice"]:
+            generate_file(typeDic["MC"], info, context)
+        elif q_type in ["Check Box"]:
+            generate_file(typeDic["CB"], info, context)
+        elif q_type in ["Drop Down"]:
+            p = re.split("```", typeDic["DD"])
+            generate_file(p[0], info, context, p[1])
+        elif q_type in ["String Input"]:
+            p = re.split("```", typeDic["SI"])
+            generate_file(p[0], info, context, p[1])
 
     print("✅ Processing complete!")
 
