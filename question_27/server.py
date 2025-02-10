@@ -1,6 +1,6 @@
 
 def generate(data):
-    ans = "<nav> <a href="home.html">Home</a> </nav>"
+    ans = "<code>&lt;nav&gt; &lt;a href="home.html"&gt;Home&lt;/a&gt; &lt;/nav&gt;</code>"
     data["correct_answers"]["ans4"] = ans
 
     return data
