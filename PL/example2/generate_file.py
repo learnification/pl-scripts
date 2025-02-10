@@ -58,10 +58,18 @@ def parse_diff(diff):
     removed_ids = set()
 
     for line in lines:
+        # Print every line for debugging
+        print(f"Processing line: {line}")
+
         # Detect added lines
         if re.match(r"^\+[^+].*?:.*", line):
-            parts = line[1:].split(": ", 1)  # Split on the first occurrence only
-            if len(parts) == 2:  # Ensure valid key-value pair
+            parts = line[1:].split(": ", 1)  # Split only on the first occurrence of `: `
+            
+            # Debugging output
+            print(f"Splitting line: {line[1:]}")
+            print(f"Parts after split: {parts}")
+
+            if len(parts) == 2:
                 key, value = parts
                 key = key.strip()
                 value = value.strip()
@@ -72,17 +80,9 @@ def parse_diff(diff):
                 if key in addDic:
                     addDic[key].append(value)
                 else:
-                    addDic[key] = [value]            
-            key = key.strip()
-            value = value.strip()
-
-            if key == "id":
-                added_ids.add(value)  # Track added question ID
-
-            if key in addDic:
-                addDic[key].append(value)
+                    addDic[key] = [value]
             else:
-                addDic[key] = [value]
+                print(f"⚠️ Unexpected format in line: {line}")  # Log problematic line
         
         # Detect removed question IDs
         if re.search(r"-id:\s*(\d+)", line):
