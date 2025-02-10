@@ -9,7 +9,7 @@ A: HTML tags must be written in uppercase to work correctly
 *B: HTML tags are enclosed in angle brackets
 C: HTML tags contain spaces between the angle brackets and the tag name
 D: All HTML tags require an opening and a closing tag
-E: All of the above
+E: All the options are correct
 ###
 id: 2
 type: Multiple Choice
