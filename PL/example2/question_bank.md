@@ -332,7 +332,7 @@ title: Creating Lists in HTML
 topic: HTML Basic 1
 tags: Easy, List Tags, Auto
 question: Which HTML tags can be used to create lists? (Select all that apply)
-*A: *A:&lt;ul&gt;
+*A: &lt;ul&gt;
 B: &lt;head&gt;
 *C: &lt;li&gt;
 *D: &lt;dl&gt;
