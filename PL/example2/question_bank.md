@@ -506,7 +506,7 @@ type: Drop Down
 title: Text Color Property
 topic: CSS Basic 1
 tags: Easy, CSS Properties, Auto
-question: The ___ property is used to change the text color?
+question: The ___ property is used to change the text color.
 A: text-color
 B: background-color
 C: font-color
