@@ -1,621 +1,317 @@
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index 645f9f3..cd6fed1 100644
+index cd6fed1..3e2815a 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -634 +634 @@ question: Write the inline CSS to set the background color of a &lt;div&gt; to y
--answer: <div style="background-color:yellow;"></div>
-+answer: <code><div style="background-color:yellow;"></div></code>
+@@ -545 +545 @@ tags: Hard, CSS Colors, Auto
+-question: ___ sets the text color of all &lt;p&gt; elements to red.
++question: ___ sets the text color of all <code>&lt;p&gt;</code> elements to red.
 
 []
-{'answer': ['<code><div style="background-color:yellow;"></div></code>']}
-Generated UUID: 4431796a-5a0e-4b8b-840b-1f4d542d13ea
-Generated UUID: fa2ea4bf-db1c-4b05-ab48-5786099aaffd
-Generated UUID: abd5ec77-e696-4816-bd3b-6647e10a4d02
-Generated UUID: 1ff4f056-7527-492a-a493-c894965bef60
-Generated UUID: 19fb257d-a022-4326-b331-a2ddc77f9618
-Generated UUID: 0f6b2469-5b7c-4626-9851-775787883105
-Generated UUID: d506e318-34a8-48b6-9ab9-cee393373cd2
-Generated UUID: 16b49754-6166-4d95-95e6-18ea36542891
-Generated UUID: a7ac71f9-aaf0-4a92-b20e-1452a54c7e9b
-Generated UUID: 163544e7-34bb-4205-8298-dbedd418edd8
-Generated UUID: 37e6d43e-1811-4f10-ab76-a7ac3aa56a05
-Generating files: question_1.html, question_1.json, No Python file
-Generated UUID: cb1a93c7-c6b4-4fcc-ab8a-5dc3c899d17f
-Generated UUID: 2b6bfb69-81e4-4b99-9b0d-4ee90b37f5d6
-Generated UUID: 49805a86-50c1-4626-87ac-6f06cdeb3993
-Generated UUID: 57247193-7efd-4424-8308-c0004acb5485
-Generated UUID: 93273b52-26aa-4b95-89c6-1701db8dd84f
-Generated UUID: 64c57584-26ce-42b2-8d1f-8541be3f34ad
-Generated UUID: 15737bdd-c517-410f-bff9-8ffe5529c80b
-Generated UUID: 639c1c27-94c6-4407-83ba-8e55fa9d62b5
-Generated UUID: bf2ad5a7-ec21-4e0a-9a3b-d6e4314053b1
-Generated UUID: 387e6f79-dc48-43aa-a7ab-c9047a331ba3
-Generated UUID: 57bc5e2b-5f05-4c65-aac2-5a852991988a
-Generating files: question_2.html, question_2.json, No Python file
-Generated UUID: 98fbd8cf-bbfb-4a18-a7e9-2a3396a78e8f
-Generated UUID: 16f5d23a-26ad-4b8f-9957-511575bb586a
-Generated UUID: 655e45e9-b630-40cf-8db5-ee10aa6a86eb
-Generated UUID: 49566373-6d3c-462d-a4a4-6696242b7c16
-Generated UUID: 7eb9d4f7-91ae-4280-8e49-f974271e4b3b
-Generated UUID: f37d5ebf-593f-498d-ae2e-73e4927b16d5
-Generated UUID: 5b028a5c-86df-487e-82a9-f7162fa07a45
-Generated UUID: 97ec3da2-a315-4dea-abf8-a2eea41936ef
-Generated UUID: 02f88b17-fc0d-4a85-ab61-f200ddd74079
-Generated UUID: 96682d82-9d99-4d2c-b44a-b95ed435513b
-Generated UUID: d29efb14-ecd7-4de0-9384-c6d5caa5c957
-Generating files: question_3.html, question_3.json, No Python file
-Generated UUID: 180359b7-bc42-4691-9f15-5ffd71218f1c
-Generated UUID: 9c8a4b8f-b1f4-4f4a-88fd-a97c12ceb3c2
-Generated UUID: 7e3aaa16-d48a-4e1e-896f-eea4bc1c9edc
-Generated UUID: bb3823ce-c415-4957-b57b-23b5525db936
-Generated UUID: 1453a06e-e641-439d-9360-d73b9de2de68
-Generated UUID: 4cc2492f-538e-4409-9c12-671166e7e588
-Generated UUID: 671619f6-f864-4a97-ba39-10bf874611f4
-Generated UUID: eb71f7f9-34de-4adc-849e-5323eb94af31
-Generated UUID: 57cf9228-979f-46f6-9848-c6d35bc904da
-Generated UUID: a64525bf-adaa-4bdb-abee-98cb0232650c
-Generated UUID: 25850ea6-c139-4f8a-8d00-d0ba988c8f30
-Generating files: question_4.html, question_4.json, No Python file
-Generated UUID: 55334275-da5f-4ffb-bfbc-9b54c7f7689a
-Generated UUID: a9e227f3-30d8-4b7d-b241-53b9d577b23c
-Generated UUID: 374a38cb-eb53-40b1-8269-b3f1ab5fd421
-Generated UUID: ea0e675c-6c95-49a5-b7a7-866e411b167c
-Generated UUID: 53b49963-cf47-4e1a-a279-0534a55c29a8
-Generated UUID: d94fabc1-fd75-4c17-87c9-6df5cc4f88b2
-Generated UUID: 5f61430f-b2aa-4972-a044-4a43292f433a
-Generated UUID: 9dedf391-7b59-41ec-bd60-145fca40e4e4
-Generated UUID: 0aa042cc-eaf5-43d0-a585-b87248b5a260
-Generated UUID: 470df230-8782-4a52-89d1-2fdefb6eca6c
-Generated UUID: b499b0de-0e20-4bd7-993d-711ee01efca3
-Generating files: question_5.html, question_5.json, No Python file
-Generated UUID: 7d45ad5c-c1bb-4194-806a-5093255daa09
-Generated UUID: 1f526c3d-90c3-4cbf-86e8-0af41eb0c1fa
-Generated UUID: 3b8b4236-3d9f-4ea5-8800-51d462133f81
-Generated UUID: f413f502-178d-436e-80f0-55ca7409be94
-Generated UUID: 443328cd-10ca-44e1-91a7-521a125d9ea1
-Generated UUID: 54e2f6a3-c764-495a-8f62-dd68a829a1c8
-Generated UUID: 539c7f3c-a47f-4475-b521-e62dc11a074c
-Generated UUID: 27499442-464f-42ee-ac9e-102fa9c8b900
-Generated UUID: a924582c-3702-46d1-8f7b-8007a56df864
-Generated UUID: 4bb896ef-4fa7-4c22-b5db-a6274fe46f15
-Generated UUID: e3f912ac-7bec-44fe-83b4-cc41ad1ea652
-Generating files: question_21.html, question_21.json, No Python file
-Generated UUID: a48ffb62-f0ba-4eb9-9b21-e33ff6bed59a
-Generated UUID: acb1cf0e-ee6f-4c9a-bece-a5d159f2e12c
-Generated UUID: 367fa72d-2d66-4ca1-aa4a-dc0ad5cfd670
-Generated UUID: d462b6b7-67fb-4f56-8a9a-b8a5ae91a312
-Generated UUID: 3dcaee11-3ba7-493c-ba84-52be777ba935
-Generated UUID: 67c284fe-0fee-4fea-a563-b0068aae4de3
-Generated UUID: 2b0dfa30-345b-4bcc-9a67-370e724bfd6a
-Generated UUID: 94800723-ba60-4890-9e70-6449486cef95
-Generated UUID: fc759469-da16-4402-b9a8-376a7b49563a
-Generated UUID: e743bcd1-7fba-48b2-b23a-37ba5ebd2379
-Generated UUID: 56b297de-3087-4f53-b390-318f24957014
-Generating files: question_22.html, question_22.json, No Python file
-Generated UUID: 59092866-ed7b-4f15-a74c-e694e04b8596
-Generated UUID: 30918c5c-954b-4cec-b270-2770a26db949
-Generated UUID: ce8143b7-7201-40ef-888d-8c1505e728c2
-Generated UUID: 726eb9d0-7f91-4593-881f-adae345f8484
-Generated UUID: 4b2edbb4-ab3c-4d5f-905e-87d780f34d97
-Generated UUID: 6bfddba0-f67e-4eeb-a45e-3e06cbb73018
-Generated UUID: 7569eafd-e3be-45bf-95ba-bdc26ac9cbe6
-Generated UUID: ba0f27e0-bd08-4050-93d9-eab7575b9de8
-Generated UUID: b2edc614-60b9-4f7a-b02c-bab89a7377d1
-Generated UUID: 6897e2c0-67b9-4cd4-8134-4921fc1b7507
-Generated UUID: 83d19e2d-5115-4a9e-921a-68124cef7c9b
-Generating files: question_23.html, question_23.json, No Python file
-Generated UUID: 67ce5554-a5f2-48c5-8082-319ebac9f824
-Generated UUID: 501243e2-f421-4619-84ec-7e66ca38e65b
-Generated UUID: 3a932127-1542-4f2e-b657-b0fd642f9725
-Generated UUID: 4274448a-1366-432c-a0ba-2997189269ae
-Generated UUID: e371b801-bf7c-4851-b30d-ecece07eeecf
-Generated UUID: 567a24c3-3663-42d7-a919-bb4e18432b2a
-Generated UUID: 97691cfa-9a72-4c86-a0cc-3f76ed3af2bb
-Generated UUID: 8cc71c82-d5d8-427f-938c-ec0579c310a0
-Generated UUID: 11a3b331-3a15-46af-a087-5e06323e5221
-Generated UUID: 8e7cae9b-cd64-445e-91d8-a360a4237d32
-Generated UUID: cefe920e-7fe6-4072-a13a-b7f1f6cb90d3
-Generating files: question_24.html, question_24.json, No Python file
-Generated UUID: 0ae47cc5-dff0-4c06-ac16-48dc97bd9630
-Generated UUID: 9652c8ae-4e07-4577-bb88-ff1bcf0dae04
-Generated UUID: 9fa12f8a-f72b-4a48-bc5a-9619ca3e72f0
-Generated UUID: d3ce51d9-3516-40c7-b0db-3a48686eb219
-Generated UUID: 3ecfaef7-90c8-451e-82d2-f70c60f9f873
-Generated UUID: 30705de1-97f0-4645-a4fe-d86c77b4039d
-Generated UUID: 9449d851-6898-43c4-a251-04338aff9858
-Generated UUID: 3e81dd88-3229-434f-b269-15633aab8efb
-Generated UUID: 873318ef-8a4a-4eec-aba3-f2a731c68fe1
-Generated UUID: 0fb235be-4d0e-48ac-99bb-872e1b9af772
-Generated UUID: 5ca312c3-7446-49b8-be33-54a4f1ee50b7
-Generating files: question_25.html, question_25.json, No Python file
-Generated UUID: 71e06da5-9bdb-4728-9988-0bc51c76809d
-Generated UUID: facd8f1d-86c6-4239-8d43-473c19f794d2
-Generated UUID: 90d2de66-1052-4b71-85f7-339dc65357a1
-Generated UUID: bdc08edd-8e40-4ea4-b728-99f135273a52
-Generated UUID: ce5e7c8d-f4cd-4a65-9ca6-11ed7d737960
-Generated UUID: 4dc00743-47ba-49d3-aec2-c4591a3964f6
-Generated UUID: 2310debf-a3b1-4604-9b8a-319ddc1ac37d
-Generated UUID: 0fed085c-958f-4a5f-9fab-9eefc072c4fc
-Generated UUID: a1cb2d79-a7bd-42c5-898a-4d1259cb2d4c
-Generated UUID: 6377d828-10e5-444a-9372-ec09c5eab085
-Generated UUID: 98f74f01-5285-4fcb-aa70-2a6354bbfebd
-Generating files: question_41.html, question_41.json, No Python file
-Generated UUID: c0d1e05e-15f4-4567-860b-9517daae1348
-Generated UUID: f26e09c7-4ab7-4344-93db-3ad56d7ddd34
-Generated UUID: 6743aad9-a9b3-4eaa-a67a-91b76bb02b2b
-Generated UUID: e0c3ed3d-5c26-4798-b9ee-e637a5a81717
-Generated UUID: 44edb2cd-a57d-41ba-9094-134ca2ec8390
-Generated UUID: 932aa5c7-6dad-49b6-abfc-e5348cdd0bcf
-Generated UUID: 710a228e-c53b-4ed9-813d-4ea176d625e0
-Generated UUID: 798ad897-fc8b-42dd-9e4d-05af1e78ff12
-Generated UUID: 5c2aafb9-31fb-4c66-9d82-8e4ee51ad37b
-Generated UUID: a9ef0cfa-4882-4335-b877-8d2db3587671
-Generated UUID: 9039c50e-c9ca-494b-98d3-009ce8d4c226
-Generating files: question_42.html, question_42.json, No Python file
-Generated UUID: bc1a4244-39a6-40fc-9e12-32568b1735b1
-Generated UUID: 4df03862-b220-4779-9701-4d6c668b2bcc
-Generated UUID: 1a80ca6c-52d8-49fb-b798-339ca17b2ba0
-Generated UUID: 6cbb421d-90b1-4f71-b890-6dc9e75d2af9
-Generated UUID: 10fc88a8-f5cf-40f5-aadf-8421fdc1732b
-Generated UUID: ed5cd5d7-8977-42e8-8715-d81cf20dbcca
-Generated UUID: 97effe7a-f44d-4013-9b4e-ab4b499f629c
-Generated UUID: 7ff107f3-65b9-4a23-af4b-dc84b87574cb
-Generated UUID: 95fb6179-3fd5-4fa4-8a35-a6b3efabacf8
-Generated UUID: e8cee71c-66e9-4d43-bb63-05b59f45a9e9
-Generated UUID: 67bad16c-025b-4226-a0ce-0d60dd34fd5d
-Generating files: question_43.html, question_43.json, No Python file
-Generated UUID: ad0cb3ce-f504-4c4d-afd8-1208ddb3bb24
-Generated UUID: d3450982-d23b-4a4d-9557-04c438c82e24
-Generated UUID: 63d42213-baae-4eeb-a473-973893e2b50b
-Generated UUID: b8a80ffc-e000-4934-bb34-e861e344cc19
-Generated UUID: 12989291-7022-47f7-9b15-a772c3d54b21
-Generated UUID: 32be017a-6636-40a9-b59e-42834496badb
-Generated UUID: 55a49dd9-80aa-4a9f-8c39-c90b2581b377
-Generated UUID: 19717f3b-60d5-4875-b8f0-75b943a634a6
-Generated UUID: 8c598667-d301-41ad-a9b4-018de88e68e1
-Generated UUID: 35630053-61f9-43ab-a128-1c570e5f5c29
-Generated UUID: 760804e6-ccf8-46ea-9eae-3564417cc423
-Generating files: question_44.html, question_44.json, No Python file
-Generated UUID: a7377cc5-ab6d-4bca-b75f-e25a32092668
-Generated UUID: 9935b7f4-9d66-41b9-b79b-1c300dd26950
-Generated UUID: bff1df0b-4371-4e6f-a27e-2a476485a436
-Generated UUID: 37844bb2-276a-415f-a81f-2f9add7329d2
-Generated UUID: b8b2e43a-7124-46c8-b771-8f5a4379e0d2
-Generated UUID: 48a8d123-8e8c-474e-a991-616e7bbd9e96
-Generated UUID: 1a0f2a3a-54a3-4309-83b8-0470c8fcde4b
-Generated UUID: d9435867-1258-4d04-8915-0598815a72c2
-Generated UUID: 10f0fdf5-cc5e-435d-bee5-d716f91cfab7
-Generated UUID: d4a91cee-c223-45cc-9998-5adf20fd7b7c
-Generated UUID: 19f95f6d-388b-4a85-ad93-230ae3226496
-Generating files: question_45.html, question_45.json, No Python file
-Generated UUID: 2999ef0b-3584-40f1-9dce-afdccdf77f03
-Generated UUID: 6f7a43be-678c-4959-9e92-ebd680fb0d64
-Generated UUID: 680be5d1-c2fa-44ac-a36a-349a09cf9a31
-Generated UUID: 8da8545d-cdf3-4af4-b0d2-06d7fda2ef6d
-Generated UUID: fbe68eef-93f2-4878-8694-75d059fc6519
-Generated UUID: 897478c9-dd11-4acd-b2b4-518435fca226
-Generated UUID: 33a5d4a1-169e-4b40-8ff9-e3278f480b90
-Generated UUID: 88d50d81-d5df-4063-92c9-3101aaabf2c3
-Generated UUID: d8946bd4-30f3-4b56-8e46-e8149878c99a
-Generated UUID: 38ae1422-57fb-4aa0-96eb-e5369a371d64
-Generated UUID: 29d1a9b5-4924-4007-a4f7-67663c7fefd8
-Generating files: question_11.html, question_11.json, No Python file
-Generated UUID: b5eac2d7-499c-45b8-8fc0-0d9322465f3b
-Generated UUID: 35845bd5-7174-4a56-ab75-3dc72655fc3e
-Generated UUID: 9fc14439-3e01-470c-ab65-8d2f5c13cf59
-Generated UUID: 12cdb456-b1eb-467e-97b8-e51b2cdf99d6
-Generated UUID: f8f8d173-0d40-4b44-bdaa-273243bb3cfb
-Generated UUID: 9c00f612-ffad-44fb-a81d-7671542143fb
-Generated UUID: 38cbc262-a5f0-466c-aae7-80d691fb7eda
-Generated UUID: 0a25523c-4db8-4453-8e42-13c2fbf23210
-Generated UUID: 19c5ec02-be15-4725-9d94-bdb13491e5c7
-Generated UUID: 61fd90a2-4e88-4dfa-8830-a77070ec1df7
-Generated UUID: e38b3c8a-f819-4b13-a3f9-9f1207efe10a
-Generating files: question_12.html, question_12.json, No Python file
-Generated UUID: 04745d44-953c-41bc-8476-cd53f7bf9733
-Generated UUID: c80a86af-15e8-47e6-aec4-ecbb1f585b1c
-Generated UUID: 64f5bec4-a8ba-4884-bf1f-73edeec7230d
-Generated UUID: 4cc7bee4-8446-42a0-90ac-91adbffb0994
-Generated UUID: 972070dc-1078-402a-8ee7-ed9aeb89732e
-Generated UUID: f10b1435-f473-43a0-adc1-a1c760d96c8e
-Generated UUID: 9d60b6b8-9c2e-4160-96c9-b8b00e5b70a8
-Generated UUID: 162398ea-fa33-4c73-8b3c-eec4b2cfe81d
-Generated UUID: d1eff80b-a6bb-485c-b9a6-926d3b54e154
-Generated UUID: e06834bc-4f6d-4993-9232-3f9c2aad8b0f
-Generated UUID: 863b1388-d8b0-46ea-86cf-5aa92a066551
-Generating files: question_13.html, question_13.json, No Python file
-Generated UUID: 27ba129e-b6eb-4f85-83ad-871e935b16b4
-Generated UUID: 5cbc2285-45f1-4558-941c-2076f4a31650
-Generated UUID: eb5b5a29-c8c7-417e-92fd-1d1a08984eb5
-Generated UUID: fd7d96c8-6ecf-48de-b9e1-832e38ca9e94
-Generated UUID: a1ad372a-02b4-4fce-a61e-8878f3ec6014
-Generated UUID: 5c0b8ab3-8191-4f10-b1e4-98e9c2d76c85
-Generated UUID: 5c537316-00bc-44fc-aabf-e9940c6dc4f8
-Generated UUID: 02a26196-e8bf-46c1-bcd4-f6865728297d
-Generated UUID: a356cec1-170c-411d-8cf5-f32e0162173f
-Generated UUID: acc8f60a-b896-42d7-8e1d-b35922e6077f
-Generated UUID: aaff95b2-b582-4125-8802-29b3ca32ed0a
-Generating files: question_14.html, question_14.json, No Python file
-Generated UUID: 6b2f13bc-1374-4105-8afe-f8c9468407a8
-Generated UUID: a82951f6-302f-432a-b161-dda01782c15f
-Generated UUID: e304b7f0-0406-4fb3-a35a-3e59ba199cf9
-Generated UUID: 4a014c1c-c1ec-43bb-8f6f-e500dcc6bb28
-Generated UUID: ff08b206-fb4a-49f6-942f-eb1a5c6607ec
-Generated UUID: 2a6d54ff-d99e-4ffa-b2c1-4cffaf584ee1
-Generated UUID: 8ee7dfb7-c79e-4ce1-a3b7-3d0681876aae
-Generated UUID: bc837e22-66ed-40a9-affa-de34d90a1537
-Generated UUID: 84668610-e087-4669-9bab-77cd19143bc6
-Generated UUID: 53e8005a-ec3e-44d6-9dc4-afaa8e035473
-Generated UUID: 55c741f5-ac16-4765-ba5e-17cd883c29fb
-Generating files: question_15.html, question_15.json, No Python file
-Generated UUID: a68dac60-3395-49b4-a08d-067eeec225e6
-Generated UUID: 6c04bbee-c836-4a9a-adb9-ffb903c02eee
-Generated UUID: 57a750f9-10bd-4915-8928-387e69e8d195
-Generated UUID: 252f2434-d40d-42af-be1d-a1d03f16bb88
-Generated UUID: c56ffcfb-6d45-4589-9b71-d2d37cf8d29f
-Generated UUID: a847dc9d-9a9c-4d8d-b38c-3314eddeea9a
-Generated UUID: 9599a4fb-a02d-4a89-a579-61ecb2d7c48e
-Generated UUID: c5a80126-1cbe-4534-936c-5a794411c20e
-Generated UUID: 70c14097-51a5-4684-bf14-108f1182134c
-Generated UUID: 5ae32426-2023-47c2-9174-a7c0dd777922
-Generated UUID: 135721a5-a2c9-4ddb-98f4-2e242ead7049
-Generating files: question_31.html, question_31.json, No Python file
-Generated UUID: 0ac04e6d-3bcd-4fe8-bf3c-89474b0c0a46
-Generated UUID: 9a83c5e8-9250-4941-b817-506bf13eaa93
-Generated UUID: 04539d5d-c2e6-4364-a15e-c859f2506b14
-Generated UUID: 2a84cac0-fb83-4cc6-9b5e-6acaab8107d3
-Generated UUID: 6ac36cc7-e07d-48ed-95e0-415bec4bed6c
-Generated UUID: e07250cc-aabd-48ed-8adb-0185ba806bef
-Generated UUID: dd8d42ad-3bfb-4a54-b037-6dc6d15e642b
-Generated UUID: 967a618b-cb4c-4338-980d-3a8f8006a287
-Generated UUID: 6f738d85-3572-4825-b45d-a57d646a01fa
-Generated UUID: af1fa3e3-a7a1-423e-a714-618a7da0f3a2
-Generated UUID: 5bc3f895-5496-4df5-b194-3ee0b5b041b2
-Generating files: question_32.html, question_32.json, No Python file
-Generated UUID: 3e7571e4-4bc6-4f39-9dab-5dc36de67b51
-Generated UUID: ae2a2601-8bd8-4e1e-b58f-08ab0bde6b77
-Generated UUID: e205ccbc-9d03-493e-8be9-0a06835f3831
-Generated UUID: e6b160cb-914d-44ba-9992-92f7ad516d8f
-Generated UUID: 0d96ef07-0adf-4036-802b-576d7b0eec77
-Generated UUID: 98b503c7-5743-4711-9942-750318c49ec9
-Generated UUID: 12701367-992d-4646-89ac-f8c8f95215ab
-Generated UUID: 970e2836-ead4-42d4-8d65-6a8a3b2c8ecf
-Generated UUID: f122daa4-e504-4992-ba32-94995b2a78e5
-Generated UUID: 0655ea6e-7682-40d4-b1f7-1ab7dfd72290
-Generated UUID: 6637908e-7d39-4177-978d-3562bc34fa28
-Generating files: question_33.html, question_33.json, No Python file
-Generated UUID: 41aee10c-c0d4-4c99-9d4c-099dd0f06bcf
-Generated UUID: cfa4698c-6fe1-4666-8812-824086641acb
-Generated UUID: 438ac75e-5823-4fba-84f6-0e73f0174644
-Generated UUID: 527ef3b4-d219-48a5-95ec-4c52a441c3e5
-Generated UUID: 02dcc9ee-3b9f-4a36-9c6a-77b91ce3898e
-Generated UUID: c7585ebd-001f-4a1a-98bd-56118b37db04
-Generated UUID: 022f8d23-f841-4079-b439-27f7ef196b6c
-Generated UUID: a1eb7eb3-804b-451d-a86a-bd63f889bf36
-Generated UUID: 87b58081-c468-49ba-8bcd-49089d740d31
-Generated UUID: 40bf2217-82f1-4919-a764-cb8bc3ebb86d
-Generated UUID: 3369937e-c51b-44a0-bfcf-b2b1ea4b4361
-Generating files: question_34.html, question_34.json, No Python file
-Generated UUID: 15ce1b25-7b7f-4f21-8e71-df90bd0bfbe5
-Generated UUID: 42873e2d-7d8d-4e84-aaac-decc3bea4735
-Generated UUID: 008c32f7-5977-4d0c-b868-9ad475735098
-Generated UUID: 21b94ede-3fc6-4cfb-ade1-7b256169d5c9
-Generated UUID: fc4695a8-deb8-4eca-8322-e2d382bd5164
-Generated UUID: b80b4564-71e7-4186-9ae0-d319f58b451f
-Generated UUID: 0e5c8afd-04c2-43ad-b43d-2fb0659aad8e
-Generated UUID: 5a7bb958-20e2-4e61-a93d-b7c77e6f5e67
-Generated UUID: 962806b0-bf14-4ff1-acde-5524e36dc2ae
-Generated UUID: ce2f577c-ed4b-4cdf-b49f-e5f78561235f
-Generated UUID: bbc2159a-86a4-4985-944b-9cc741004026
-Generating files: question_35.html, question_35.json, No Python file
-Generated UUID: e3c3c21c-c497-4035-b7e6-4e6af83d4d86
-Generated UUID: 23f90a64-5be5-4959-ab22-4fb98cbfc45c
-Generated UUID: f2ea333c-e531-4791-a2c8-78edad6a9dca
-Generated UUID: b8e1045c-fa6f-4f0c-8cad-ecf3892998ed
-Generated UUID: a60bf692-664f-4847-a9da-60b96f35817e
-Generated UUID: 40cbdb7f-65a4-4ce2-bc82-4872d1a38edb
-Generated UUID: 740e004a-aff9-4d70-b962-ac11adec3b74
-Generated UUID: 860b03cf-5263-4c8b-be1f-cafb272a863c
-Generated UUID: b1b09608-3f94-4ecf-b0c2-be792e4daa96
-Generated UUID: 463c8a45-2364-4af7-a428-b9e1a9aa1569
-Generated UUID: 77ff50c8-c8d6-423b-bb9d-21b41cea45df
-Generating files: question_51.html, question_51.json, No Python file
-Generated UUID: 9fd8891e-4e3a-4b0b-b9b6-6873175484d4
-Generated UUID: 6991093c-5cda-42cb-91e5-68bda62381d2
-Generated UUID: 3ba3bfa9-597f-4dc0-bf82-eb1f051a3208
-Generated UUID: 0fc02a8a-71cb-43eb-94b3-ce2c38aac595
-Generated UUID: aa6619f2-7dc1-4024-805a-f401e4ad7f6c
-Generated UUID: 8f2e1856-17f8-47cf-ab31-752eb5cc786e
-Generated UUID: f82f7ca3-601c-47e3-953d-8f01d4cc988b
-Generated UUID: e045641c-e779-4ced-bad0-c9f6a3d592a8
-Generated UUID: 0ca780ca-d6a6-4b03-9e53-c2eeb36ee6b3
-Generated UUID: c4af4a39-6697-439a-add5-d629b650914d
-Generated UUID: dcd200c1-99a9-4c85-8d5e-50e4021d8da9
-Generating files: question_52.html, question_52.json, No Python file
-Generated UUID: d9bbe308-8533-4f03-bd43-3601533eab16
-Generated UUID: d04adc56-f585-4286-85fe-c60dc2e6b11b
-Generated UUID: bafcade8-b84a-4694-b9f9-ca41cf66d109
-Generated UUID: ac53c556-174c-4d0b-a110-2c2e5ef1acc4
-Generated UUID: b8fb89b3-037a-4d8f-b9a2-d02eba99e197
-Generated UUID: 1407a0ab-9858-478a-8caf-7db6ca454d60
-Generated UUID: 2823e7a6-6b66-4136-b05d-07238e898661
-Generated UUID: 60674048-d291-4855-9c56-26c0e9697c18
-Generated UUID: caddde96-e580-4ea2-9866-0c67809edc12
-Generated UUID: 8dbc6e45-2841-45cf-9afd-2ab09d2f4739
-Generated UUID: b3a1f31a-7c09-42e1-bca1-080a9221c0dc
-Generating files: question_53.html, question_53.json, No Python file
-Generated UUID: 22df308f-1c57-41c6-b7fb-6547e5de249d
-Generated UUID: f3dc8221-5904-416d-8035-31e6d55617c9
-Generated UUID: b3551382-96fe-4e7a-a5b4-c292c0fe0235
-Generated UUID: ddf2a55c-2247-457c-b226-c07b0f9f36bd
-Generated UUID: 179163c8-ea19-49b9-8526-2b3f5a5448a7
-Generated UUID: 00561368-47bf-48a4-964c-c97cc46e5957
-Generated UUID: fbd55da7-f8fa-4263-a90f-40d9f763b9df
-Generated UUID: 4a94b8eb-b1e2-4c9d-98a9-9946f790381f
-Generated UUID: c6297414-b928-460c-af8c-ae76715a64cf
-Generated UUID: aa491bd2-d97e-4383-a763-d813e2cddb35
-Generated UUID: 16bf85a5-d218-4a25-91cc-2ddde7a6ca95
-Generating files: question_54.html, question_54.json, No Python file
-Generated UUID: 4734ea61-ed4b-420e-a071-3f8365471c44
-Generated UUID: 7434bd35-48d0-4eec-a05a-0e001769b85b
-Generated UUID: 8fcf8763-c4c6-44c7-81a5-c03b4a5062d1
-Generated UUID: 751aa3ce-5148-4b86-b21a-14c992746b89
-Generated UUID: 1f69633c-bcf9-4734-aeda-9d8cb17e7180
-Generated UUID: b8737382-4b86-43df-af66-5c3e46662810
-Generated UUID: a3781898-490e-4bb0-a03b-a90df4bc80f9
-Generated UUID: f9674518-1254-4fc4-9823-628d79fd9ccd
-Generated UUID: 5c84c96e-d6fa-48c1-8180-97485d4362b1
-Generated UUID: 9787e9a0-2267-4568-af4c-9db460756811
-Generated UUID: ee1dc3c1-ba3a-4d3d-a236-34be0ba6dd54
-Generating files: question_55.html, question_55.json, No Python file
-Generated UUID: 28869052-9aaa-4618-978a-3a527fa538d0
-Generated UUID: 6cada426-080f-472b-a250-0fc0fb3231cd
-Generated UUID: e58cf331-a753-4e17-b897-2d4fd2619a02
-Generated UUID: c2cbc6c4-28e7-4984-98b3-fc702ef63ccc
-Generated UUID: 633cf1fb-ef3e-40f2-9acc-b358df272cc5
-Generated UUID: 007d23f2-6a99-4475-af34-47b5f0de63ce
-Generated UUID: 8be8950c-f3bd-4c72-b252-e821b1e60b39
-Generated UUID: d8e2331b-9393-4af8-bfd7-05da6325fdbc
-Generated UUID: 2fcfae28-8ba0-46c8-ab12-9e3af6097e7e
-Generated UUID: 92101e2a-52d5-4b7c-b428-1e31d4d06d7f
-Generating files: question_6.html, question_6.json, question_6.py
-Generated UUID: b954bedf-134c-4953-8c71-e7b876b8b39f
-Generated UUID: 01656236-1d49-4c2d-a7df-a477ccf8fb29
-Generated UUID: ac31a1ba-1ace-4a16-813d-1f506efc2595
-Generated UUID: 9ade50e3-868f-4ba2-8ba9-a043c2e781aa
-Generated UUID: 5e9e1c92-1b93-488e-ba30-57b7bc4f941f
-Generated UUID: 92caa339-2c15-4e18-bc47-07a995f2d8bc
-Generated UUID: 85bc1f2a-5d9a-4a17-be17-184254253bcc
-Generated UUID: a429f519-03e4-492c-882b-5b842c4bd7c6
-Generated UUID: a41ffd82-bde8-407b-afa8-352c964062ac
-Generated UUID: 15dcea6a-1e2c-44a4-97f1-ebbf7d0a8eff
-Generating files: question_7.html, question_7.json, question_7.py
-Generated UUID: dfc2e206-bbd3-4ec6-a48a-ad7460e898a9
-Generated UUID: 46364156-756d-4fe9-97a9-17656c2d1be5
-Generated UUID: 808d6d0b-b4ad-4c58-9bcc-28d5ee87394d
-Generated UUID: 4b58f648-6e55-4600-81ac-31c736e98707
-Generated UUID: 2a78f5af-9821-4ea8-91ab-d7366967afdf
-Generated UUID: 43daba67-9cc6-4817-b303-d9ae9faf65d1
-Generated UUID: 47a93777-6b63-4778-849b-009ff6f74154
-Generated UUID: f0e3225e-e9d5-4d4f-849e-81e806e2bec5
-Generated UUID: de40b6c2-4b8d-4134-96f5-f4c25b654e55
-Generated UUID: 556873d3-4a1a-418a-8928-27c54a485e67
-Generating files: question_8.html, question_8.json, question_8.py
-Generated UUID: 9beb39e2-6780-49ad-a0a2-ed9184d5c851
-Generated UUID: 30a95e96-15e1-4be5-ab14-9028e2b071b2
-Generated UUID: ac12271c-babf-411c-8e10-b75f2f718157
-Generated UUID: 8123caa6-a219-4bb3-b5cc-277e97c9e3f0
-Generated UUID: 0b68b996-79d6-4064-903c-33cf6c0bd674
-Generated UUID: d5149420-b8b6-480e-8f39-016d4cc3512d
-Generated UUID: 56613d35-522d-4da1-b75c-09660f800d66
-Generated UUID: b8ed7ae6-ca9d-4235-8392-da967d7f9768
-Generated UUID: b24ef889-5892-4767-ae99-c0ea145b8305
-Generated UUID: 233c3dc5-4b38-443b-b292-675f8c7a219a
-Generating files: question_9.html, question_9.json, question_9.py
-Generated UUID: 8e625036-efa0-4223-b998-75193426c116
-Generated UUID: 01706960-e30e-4440-b0e3-1cf0a74edeb3
-Generated UUID: 8b5d8755-00c9-4949-9e10-87ffb05327a7
-Generated UUID: d5fc1846-80ed-4c1a-a613-18a2bd551a68
-Generated UUID: b0e40cd4-56d3-4592-9281-d9ebc6675b48
-Generated UUID: 4c7b8719-9912-4fb8-a918-236567dd7312
-Generated UUID: be6ef80f-d44b-42b9-846f-382e9a444225
-Generated UUID: dd8a4c39-bb96-4993-b756-e6a97f0d89ce
-Generated UUID: 238e5636-bce4-4646-a8bd-9750a2e040a2
-Generated UUID: 25801741-b4cf-467d-af4a-490816099501
-Generating files: question_10.html, question_10.json, question_10.py
-Generated UUID: f982c5a2-0c02-4c66-a0c9-27b4c1d1b7f6
-Generated UUID: 5cdf8344-943c-4236-9ee8-367cfc15a023
-Generated UUID: 3f3a10b2-e736-4318-a2d3-6a506e44cd93
-Generated UUID: 4eacdeab-01fa-4a84-aa7b-b4f68879d3d7
-Generated UUID: 4af17f79-6fa5-4c7b-84e0-95643b55adf5
-Generated UUID: 729457cf-56e1-4430-a945-a1fd30fb23d2
-Generated UUID: 3be07c75-238a-4e64-b4d7-bc122b6c3d83
-Generated UUID: 4b4f55c0-56d4-4a83-8532-a4aad2d86a72
-Generated UUID: 87f9adc0-5140-4295-b5ae-59e36a8eaa3c
-Generated UUID: a89824ad-ce30-4a7f-88bf-625813be839a
-Generating files: question_36.html, question_36.json, question_36.py
-Generated UUID: b71d2d07-f9d9-45b1-9a4c-ea2f03deac91
-Generated UUID: b1831a93-a797-44fb-9586-bf6e304c9386
-Generated UUID: e0541364-483f-4a76-af51-7162102a406c
-Generated UUID: f12b8928-c835-468e-bdf5-b4fbddc62d59
-Generated UUID: 6df4dcde-38c4-4c15-b999-70002f1bad53
-Generated UUID: e63cd4cd-2124-48a6-8925-81e22334e9ba
-Generated UUID: a04e90ac-1bb4-4671-a8ea-3955f2f2307b
-Generated UUID: 583e350e-d753-40d0-b4e9-3665f2905973
-Generated UUID: d9bbfaab-d0e6-41ea-a160-2a16f3b42e72
-Generated UUID: ebb9d66b-4c10-47db-ab68-cc7a7297979d
-Generating files: question_37.html, question_37.json, question_37.py
-Generated UUID: 6c0064d8-5437-499c-96b1-6fd4cc0160f5
-Generated UUID: 7d0b8a34-dfab-4a68-8987-495f27aff904
-Generated UUID: a7ee8214-7fcc-4e16-8f22-02508ecde809
-Generated UUID: e1c7209e-9b79-4812-873a-b089d25b4cf1
-Generated UUID: bc045a4f-c30b-499e-baac-e6c76d840c3a
-Generated UUID: 2a114465-3b2e-46d4-afd3-472603c2ebb3
-Generated UUID: e5c6ae3c-69fa-45e5-a58b-1b6fdd8f910c
-Generated UUID: 80a3d60c-12a8-4716-89bd-bfe305207ad9
-Generated UUID: 35a92fd8-1a4b-4174-a687-9607c0ab91bc
-Generated UUID: fda634a3-8de9-4015-83f9-51d6a9e6c4ed
-Generating files: question_38.html, question_38.json, question_38.py
-Generated UUID: 3607b27f-2ab3-4fb4-a5fa-a867a25d5c5f
-Generated UUID: 88c8b30d-6888-47db-b6a0-c5679b87b0a2
-Generated UUID: a90b22c3-44ef-453b-ae17-10b7cde4ec09
-Generated UUID: 04e51beb-9c2c-410c-b822-d4f23e2b283c
-Generated UUID: d52b82fb-938e-411c-871c-bf06b83919b6
-Generated UUID: 3f5540d4-ed92-4e47-b885-ef08f262c13c
-Generated UUID: b895d7a8-8381-4217-b863-c05979f9ca8f
-Generated UUID: 5f9af8ab-b205-436b-b936-60defbef218e
-Generated UUID: 0c8ddedb-46af-451a-a51a-e4fbdd30861e
-Generated UUID: 44afad10-1618-4fbc-9422-0ee618fe3a0a
-Generating files: question_39.html, question_39.json, question_39.py
-Generated UUID: a7281b9b-e339-4846-96da-144f4d9b44f5
-Generated UUID: 02bfd9c8-9e16-4950-ac20-c5b6c726f342
-Generated UUID: c6317dfd-2b2e-4e4f-a01b-e0b9a8467656
-Generated UUID: 8a7fc70c-6503-485b-9feb-fb4e95c23f09
-Generated UUID: 23de878a-233f-4829-8eca-a2dfcd1f4494
-Generated UUID: 8d09a1dc-5b4b-4457-b49b-092546eb8bcb
-Generated UUID: 26ee0451-a4e2-401b-ad34-c13125017d2f
-Generated UUID: b7d656a7-c456-44b2-8a8e-92c576f6dd77
-Generated UUID: 2a343471-b810-45f6-b0cd-8b6c6120dc09
-Generated UUID: ec4650f7-d075-44dd-af3a-8128d1062c86
-Generating files: question_40.html, question_40.json, question_40.py
-Generated UUID: cfbca163-7598-4e07-a9da-3ff31a7b3570
-Generated UUID: 513c4a32-e80c-42a9-8012-7eec57a78a23
-Generated UUID: eb9032a0-693e-42bf-9ff1-dfcdd094f717
-Generated UUID: 80af290e-6f89-474b-999c-8c1d98c8a6a6
-Generated UUID: 56e73bdf-064a-4684-9e7a-91db7c6e7ce9
-Generated UUID: 0f175d69-f94f-4ab7-a9ce-6c67fd63b43c
-Generated UUID: eb5d6ba8-c3cb-4e45-8de7-ad60ae7330cb
-Generated UUID: e428033d-0cbc-4f2d-a913-1e6a9cebd84d
-Generated UUID: f34414a3-2307-42f9-b963-badf19a87c0f
-Generated UUID: 9ce7bd53-3337-4dbe-9af0-bfaa0bc0d270
-Generated UUID: aaba9ea7-915d-46c9-92d8-ed87dee1a8d1
-Generating files: question_46.html, question_46.json, question_46.py
-Generated UUID: 74610415-a28c-472d-a29b-fcc60160c94e
-Generated UUID: 7ae65903-c196-46c1-922a-1554c95e97bf
-Generated UUID: 18f45419-f8ab-469a-998b-c9c5d4d73222
-Generated UUID: 8508a3b9-75a7-4c80-839c-27448fcdf8a1
-Generated UUID: 62afe55c-7c9d-4f5f-b123-0f716c073b85
-Generated UUID: b5443391-1274-45c7-ac4a-57dcb86e7eb7
-Generated UUID: 33ef3c24-7019-4adf-b867-88076cbea24d
-Generated UUID: db7cc80f-11d9-482f-8d81-160b10c834fb
-Generated UUID: 9553cfb7-2cda-48e6-b288-da21d509ae19
-Generated UUID: 17cdd3fb-d33e-4b9d-94a1-d93762c36026
-Generated UUID: 50ae29bf-8170-4836-8484-89b81b6e53c0
-Generating files: question_47.html, question_47.json, question_47.py
-Generated UUID: 814b1cf2-11ba-4a6c-88e0-cdbc4f7c4708
-Generated UUID: d4b3dc3f-80cf-42e5-885e-15031451b496
-Generated UUID: c6b80902-54d5-419e-a94f-31e19f4d452e
-Generated UUID: cdcb5dbb-05e5-446f-85b2-4c40281d3627
-Generated UUID: ce9ab899-7758-4214-a86c-2b08452e204e
-Generated UUID: f55ce4dc-0e88-4427-bb52-a7a5e285e19c
-Generated UUID: c8222c0f-3889-44e8-ab5e-692e177c95e4
-Generated UUID: 12252f8f-6053-465d-8418-6fa53361e160
-Generated UUID: 83f3ad7a-6167-4a9b-8ee5-8d76cd005e1f
-Generated UUID: 617a51b1-f837-451d-b2d3-52de09e76faa
-Generated UUID: 95bd41e7-6f8f-4ce3-ba63-b2bdf6ef4cc2
-Generating files: question_48.html, question_48.json, question_48.py
-Generated UUID: 8dd41d95-1330-4a88-8fd2-374fc1004a4c
-Generated UUID: b7ea396f-aeda-45d9-837e-ba95b9327e02
-Generated UUID: b4f244bd-36c7-44e4-926f-8251733b5cc8
-Generated UUID: 6f19bca4-870f-4b22-9ea6-dbac7378ccca
-Generated UUID: 6f6b1289-0ae1-4e88-9f0d-0454bbf3935f
-Generated UUID: 4de627fb-3c32-4af1-9c25-a3dc3ef1a26a
-Generated UUID: 02231f11-45c2-453e-a976-6077c685ff22
-Generated UUID: c6a7c412-8d51-416b-b0df-8c977403a6b5
-Generated UUID: 3d773e57-cf28-4a45-89d0-7f0fa5ac4d04
-Generated UUID: 9e075009-b985-432f-b7e7-fbc835e55df1
-Generated UUID: 85f2faa5-a3a3-41ac-bbca-d61e3857800e
-Generating files: question_49.html, question_49.json, question_49.py
-Generated UUID: ac2fa273-463c-4e42-8760-6ee25ff41297
-Generated UUID: 419a607a-d727-4325-bf45-6038fba6228c
-Generated UUID: 7414e29e-4a2d-4718-b588-2cf243bf4cee
-Generated UUID: 19cafa6e-2c03-4fec-b5f8-5b6500ce2022
-Generated UUID: 6709dc6f-c9b8-4b9a-bc03-ad5565e1ca21
-Generated UUID: 079237ae-de15-4cdf-98d0-ced8221d0a2e
-Generated UUID: 0ac25cdb-754f-4e90-8904-55a690e227b8
-Generated UUID: 244044ef-2b62-408e-8c6e-f7676c782ff9
-Generated UUID: 623ff716-bd6d-4974-a2c5-64e39d175823
-Generated UUID: 71d99a5e-dcdd-4618-af7f-ab98a33ecb73
-Generated UUID: 317efdf9-e2ff-4fb1-b862-9ae0472ea01b
-Generating files: question_50.html, question_50.json, question_50.py
+{'question': ['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']}
+-----------DEBUGGING START-----------
+{'id': '1', 'type': 'Multiple Choice', 'title': 'HTML Tags and Syntax', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Tags, Auto ', 'question': 'Which of the following is true about HTML tags?', 'A': 'HTML tags must be written in uppercase to work correctly', '*B': 'HTML tags are enclosed in angle brackets', 'C': 'HTML tags contain spaces between the angle brackets and the tag name', 'D': 'All HTML tags require an opening and a closing tag', 'E': 'All the options are correct'}
+Which of the following is true about HTML tags?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '2', 'type': 'Multiple Choice', 'title': 'Self-Closing Tags', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Tags, Auto', 'question': 'Which of the following is an example of an HTML element with a self-closing tag?', 'A': '<code><p></code>', 'B': '<code><blockquote></code>', '*C': '<code><br></code>', 'D': '<code><h1></code>', 'E': '<code><hr></code>'}
+Which of the following is an example of an HTML element with a self-closing tag?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '3', 'type': 'Multiple Choice', 'title': 'Paragraph Tags', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Paragraphs, Auto', 'question': 'Which HTML tag is used to create a paragraph?', 'A': '<code><img></code>', '*B': '<code><p></code>', 'C': '<code><br></code>', 'D': '<code><a></code>', 'E': '<code><h1></code>'}
+Which HTML tag is used to create a paragraph?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '4', 'type': 'Multiple Choice', 'title': 'Attributes in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Attributes, Auto', 'question': 'Which of the following is true about HTML attributes?', 'A': 'There is no space between the tag and attribute name', '*B': 'HTML attributes are written in name/value pairs', 'C': 'Some HTML elements can have attributes', 'D': 'An element can have only one attribute', 'E': 'None of the above'}
+Which of the following is true about HTML attributes?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '5', 'type': 'Multiple Choice', 'title': 'Anchor Tag Attributes', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Attributes, Auto', 'question': 'In <code><a href="contacts.html">Contact us!</a></code>, which part is the attribute?', 'A': '<code><a></code>', 'B': '<code>"contacts.html"</code>', '*C': 'href', 'D': 'Contact us!', 'E': 'None of the above'}
+In <code><a href="contacts.html">Contact us!</a></code>, which part is the attribute?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '21', 'type': 'Multiple Choice', 'title': 'Emphasize Text in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, Tag Name, Auto', 'question': 'Which HTML tag is used to emphasize text?', 'A': '&lt;i&gt;', '*B': '&lt;em&gt;', 'C': '&lt;cite&gt;', 'D': '&lt;strong&gt;', 'E': 'None of these'}
+Which HTML tag is used to emphasize text?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '22', 'type': 'Multiple Choice', 'title': 'Creating a Bullet List', 'topic': 'HTML Basic 1', 'tags': 'Easy, List Tags, Auto', 'question': 'What is the correct way to make a bullet list in HTML?', '*A': '&lt;ul&gt;', 'B': '&lt;ol&gt;', 'C': '&lt;li&gt;', 'D': '&lt;list&gt;', 'E': 'All of these'}
+What is the correct way to make a bullet list in HTML?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '23', 'type': 'Multiple Choice', 'title': 'Image Tag Attribute', 'topic': 'HTML Basic 1', 'tags': 'Easy, Attribute, Auto', 'question': 'Which attribute of the  &lt;img&gt; tag specifies the URL of the image?', 'A': 'href', 'B': 'link', '*C': 'src', 'D': 'alt', 'E': 'url'}
+Which attribute of the  &lt;img&gt; tag specifies the URL of the image?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '24', 'type': 'Multiple Choice', 'title': 'Anchor Tag Target Attribute', 'topic': 'HTML Basic 1', 'tags': 'Medium, Anchor Tag Attribute, Auto', 'question': 'How do you create a hyperlink in HTML that opens in a new tab?', 'A': 'target="_tab"', '*B': 'target="_blank"', 'C': 'newtab="true"', 'D': 'href="_newtab"', 'E': 'None of these'}
+How do you create a hyperlink in HTML that opens in a new tab?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '25', 'type': 'Multiple Choice', 'title': 'Paragraph Tag in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, Tag Name, Auto', 'question': 'Which HTML tag is used to define a paragraph? ', 'A': '&lt;para&gt;', 'B': '&lt;div&gt;', '*C': '&lt;p&gt;', 'D': '&lt;span&gt;', 'E': 'None of these'}
+Which HTML tag is used to define a paragraph? 
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '41', 'type': 'Multiple Choice', 'title': 'CSS Selector Example', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Syntax, Auto', 'question': 'In the CSS rule:<br> h1 { <br> color:blue; <br> }  <br> h1 is an example of:', 'A': 'A property', 'B': 'A value', '*C': 'A selector', 'D': 'A declaration', 'E': 'None of the above'}
+In the CSS rule:<br> h1 { <br> color:blue; <br> }  <br> h1 is an example of:
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '42', 'type': 'Multiple Choice', 'title': 'Hexadecimal Color Values', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Colors, Auto', 'question': 'What is the correct way to set a color value in CSS using Hexadecimal values?', 'A': 'color:hsl(0, 100%, 50%);', 'B': 'color:rgb(255, 0, 0);', '*C': 'color:#FF0000;', 'D': 'color:red;', 'E': 'color:FF0000;'}
+What is the correct way to set a color value in CSS using Hexadecimal values?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '43', 'type': 'Multiple Choice', 'title': 'Inline CSS Location', 'topic': 'CSS Basic 1', 'tags': 'Easy, Applying CSS, Auto', 'question': 'Where is an inline CSS written?', 'A': 'Inside the &lt;body&gt; tag', 'B': 'Inside the &lt;style&gt; tag within the <head> tag', 'C': 'Inside a &lt;link&gt; tag', '*D': 'Inside the element’s style attribute', 'E': 'Inside the &lt;head&gt; tag'}
+Where is an inline CSS written?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '44', 'type': 'Multiple Choice', 'title': 'Inline CSS Example', 'topic': 'CSS Basic 1', 'tags': 'Medium, Inline CSS, Auto', 'question': 'Which of the following is the correct usage of inline CSS to change the color of a paragraph?', '*A': '&lt;p style="color:red;"&gt;This is a paragraph.&lt;/p&gt;', 'B': '&lt;p style="color=red;"&gt;This is a paragraph.&lt;/p&gt;', 'C': '&lt;p style:"color:red;"&gt;This is a paragraph.&lt;/p&gt;', 'D': '&lt;p {style="color:red"}&gt;This is a paragraph.&lt;/p&gt;', 'E': 'None of the above'}
+Which of the following is the correct usage of inline CSS to change the color of a paragraph?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '45', 'type': 'Multiple Choice', 'title': 'Font Weight Usage', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Text Styling, Auto', 'question': 'The following CSS declaration is applied to a paragraph element:<br>p { <br> font-weight:700;  <br>}  <br>What does the font-weight value represent?', 'A': 'Light text', 'B': 'Normal text', '*C': 'Bold text', 'D': 'Extra bold text', 'E': 'No visual change'}
+The following CSS declaration is applied to a paragraph element:<br>p { <br> font-weight:700;  <br>}  <br>What does the font-weight value represent?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '11', 'type': 'Check Box', 'title': 'HTML Structure Essentials', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Structure, Auto', 'question': 'Select all the components that are essential for a basic HTML structure.', '*A': '<!DOCTYPE html>', '*B': '<head>', '*C': '<body>', 'D': '<footer>', '*E': '<html>'}
+Select all the components that are essential for a basic HTML structure.
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '12', 'type': 'Check Box', 'title': 'HTML Paragraph Tag', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Paragraph, Auto', 'question': 'Which of the following statements accurately describe the <p> tag?', '*A': 'It groups sentences and sections of text together.', '*B': 'It displays text as a block that starts on a new line.', 'C': 'It preserves extra spaces and line breaks in the content.', 'D': 'It can be used to format text as preformatted content.', 'E': 'Text inside <p> tags is displayed as a continuous line.'}
+Which of the following statements accurately describe the <p> tag?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '13', 'type': 'Check Box', 'title': 'HTML Comments Purpose', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Comments, Auto', 'question': 'What are the purposes of using comments in HTML?', '*A': 'To help document the HTML source code.', '*B': 'To provide notes for other developers.', 'C': 'To style elements on the page.', '*D': 'To assist in debugging HTML code.', 'E': 'To ensure elements are displayed on the webpage.'}
+What are the purposes of using comments in HTML?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '14', 'type': 'Check Box', 'title': 'HTML Document Structure', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Structure, Auto', 'question': 'Which statements are not true about the structure of an HTML document?', 'A': 'The HTML document is divided into head and body sections.', '*B': 'The <head> element contains the visible content of the page.', 'C': "The <title> tag is used to specify the document's title.", '*D': 'The <body> section contains meta information about the page.', 'E': 'The HTML document must start with a <html> tag after the DOCTYPE declaration.'}
+Which statements are not true about the structure of an HTML document?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '15', 'type': 'Check Box', 'title': 'HTML Headings Information', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Headings, Auto', 'question': 'Which of the following are true about HTML headings?', '*A': 'HTML headings range from <h1> to <h6>, where <h1> is the most important.', '*B': 'Headings are used to structure the content and improve SEO.', 'C': 'All headings are treated as inline elements by default.', '*D': 'The <h1> tag is typically used for the main title of the page.', '*E': 'Headings cannot be nested within other elements.'}
+Which of the following are true about HTML headings?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '31', 'type': 'Check Box', 'title': 'Phrase Elements', 'topic': 'HTML Basic 1', 'tags': 'Medium, Phrase Tags, Auto ', 'question': 'Which of the following tags are phrase elements? (Select all that apply)', '*A': '&lt;em&gt;', '*B': '&lt;cite&gt;', 'C': '&lt;header&gt;', 'D': '&lt;title&gt;', '*E': '&lt;b&gt;'}
+Which of the following tags are phrase elements? (Select all that apply)
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '32', 'type': 'Check Box', 'title': 'Creating Lists in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, List Tags, Auto', 'question': 'Which HTML tags can be used to create lists? (Select all that apply)', '*A': '*A:&lt;ul&gt;', 'B': '&lt;head&gt;', '*C': '&lt;li&gt;', '*D': '&lt;dl&gt;', 'E': '&lt;p&gt;'}
+Which HTML tags can be used to create lists? (Select all that apply)
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '33', 'type': 'Check Box', 'title': 'Image Tag Attributes', 'topic': 'HTML Basic 1', 'tags': 'Medium, Attributes, Auto', 'question': 'Which attributes can be applied to an &lt;img&gt; tag? (Select all that apply)', '*A': 'src', '*B': 'alt', 'C': 'type', '*D': 'height', '*E': 'width'}
+Which attributes can be applied to an &lt;img&gt; tag? (Select all that apply)
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '34', 'type': 'Check Box', 'title': 'HTML5 Structural Elements', 'topic': 'HTML Basic 1', 'tags': 'Medium, Structure Tags, Auto', 'question': 'Which tags are used for HTML5 structural elements? (Select all that apply)', 'A': '&lt;img&gt;', '*B': '&lt;header&gt;', '*C': '&lt;section&gt;', 'D': '&lt;a&gt;', 'E': '&lt;span&gt;'}
+Which tags are used for HTML5 structural elements? (Select all that apply)
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '35', 'type': 'Check Box', 'title': 'Attributes for Hyperlinks', 'topic': 'HTML Basic 1', 'tags': 'Medium, Attributes, Auto', 'question': 'Which of the following attributes are valid for hyperlinks (&lt;a&gt; tag)? (Select all that apply)', '*A': 'href', 'B': 'mailto', 'C': 'src', '*D': 'target', 'E': 'link'}
+Which of the following attributes are valid for hyperlinks (&lt;a&gt; tag)? (Select all that apply)
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '51', 'type': 'Check Box', 'title': 'Font-Related Properties', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Properties, Auto', 'question': 'Which of the following are valid ways to define font-related properties in CSS? (Select all that apply.)', '*A': 'font-family:Arial, sans-serif;', '*B': 'font-weight:700;', '*C': 'font-style:italic;', 'D': 'font-size:18;', 'E': 'font-family:Times New Roman:'}
+Which of the following are valid ways to define font-related properties in CSS? (Select all that apply.)
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '52', 'type': 'Check Box', 'title': 'Font Size Values', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Values, Auto', 'question': 'Select all the values that can replace the blank in the following CSS rule:<br>h1 { font-size:- - -; }  ', '*A': '16px', '*B': '1.5em', '*C': '120%', '*D': '2rem', 'E': 'bold'}
+Select all the values that can replace the blank in the following CSS rule:<br>h1 { font-size:- - -; }  
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '53', 'type': 'Check Box', 'title': 'Applying External CSS', 'topic': 'CSS Basic 1', 'tags': 'Medium, Applying CSS, Auto', 'question': 'Select all the ways to apply an external CSS file to an HTML document.', 'A': '&lt;link rel="stylesheet” href="styles.css"&gt; &lt;/link&gt;', 'B': '&lt;link src="styles.css" type="text/css"&gt;', '*C': '&lt;link rel="stylesheet" href="styles.css"/&gt;', 'D': '&lt;style src="styles.css"&gt;&lt;/style&gt;', 'E': '&lt;link rel="stylesheet" src="styles.css" /&gt;'}
+Select all the ways to apply an external CSS file to an HTML document.
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '54', 'type': 'Check Box', 'title': 'CSS Comments', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Comments, Auto', 'question': 'Which of the following are true about CSS comments? (Select all that apply.)', '*A': 'They are enclosed within /* and */.', 'B': 'They can be used to hide CSS rules from the browser.', '*C': 'They do not affect how the webpage renders.', 'D': 'They can only be written inside &lt;style&gt; tags.', 'E': 'They are enclosed within */ and /*.'}
+Which of the following are true about CSS comments? (Select all that apply.)
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '55', 'type': 'Check Box', 'title': 'Relative CSS Units', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Units, Auto', 'question': 'Which units of measurement are relative in CSS?', 'A': 'px', '*B': 'em', '*C': '%', '*D': 'rem', 'E': 'pt'}
+Which units of measurement are relative in CSS?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '6', 'type': 'Drop Down', 'title': 'Line Breaks in HTML', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Line Break, Auto', 'question': 'Which of the following is NOT true about the <br> tag in HTML?', 'A': 'It creates a line break in the text', 'B': 'It has no content without a closing tag', '*C': 'It must be placed within a <p> tag', 'D': 'It does not have an end tag'}
+Which of the following is NOT true about the <br> tag in HTML?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '7', 'type': 'Drop Down', 'title': 'Meta Tags in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, Viewport Meta, Auto', 'question': 'What is the purpose of the <meta> tag with the attribute name="description"?', 'A': 'To refresh the web page every specified number of seconds', 'B': 'To set keywords for search engine optimization', '*C': 'To provide a brief summary of the web page’s content', 'D': 'To define the author of a page'}
+What is the purpose of the <meta> tag with the attribute name="description"?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '8', 'type': 'Drop Down', 'title': 'Title Tag in HTML', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Title, Auto', 'question': 'The text defined by the <title> tag appears ___ in a web page.', 'A': 'Inside the main content area', '*B': 'As the title in the browser tab, bookmarks, and search engine results', 'C': 'As the title', 'D': 'At the beginning of each paragraph'}
+The text defined by the <title> tag appears ___ in a web page.
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '9', 'type': 'Drop Down', 'title': 'HTML Line Break Tag', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Line Break, Auto', 'question': 'The ___ tag is used to create a line break in HTML.', '*A': '<br>', 'B': '<p>', 'C': '<hr>', 'D': '<h1>'}
+The ___ tag is used to create a line break in HTML.
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '10', 'type': 'Drop Down', 'title': 'Nesting Elements in HTML', 'topic': 'Intro to HTML', 'tags': 'Medium, Nesting Elements, Auto', 'question': 'The ___ tag is used to correctly nest elements to display “HTML” in bold within a paragraph.', 'A': '<strong> <p>HTML</p> </strong>', '*B': '<p> <strong>HTML</strong> </p>', 'C': '<p> <em>HTML</em> </p>', 'D': '<p>HTML<p> <strong> </strong>'}
+The ___ tag is used to correctly nest elements to display “HTML” in bold within a paragraph.
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '36', 'type': 'Drop Down', 'title': 'Ordered List Tag', 'topic': 'HTML Basic 1', 'tags': 'Easy, Ordered List Tag, Auto', 'question': 'The correct tag to create a numbered list is ___ .', '*A': '<ol>', 'B': '<ul>', 'C': '<dl>', 'D': '<li>'}
+The correct tag to create a numbered list is ___ .
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '37', 'type': 'Drop Down', 'title': 'HTML Entity for Less-Than Symbol', 'topic': 'HTML Basic 1', 'tags': 'Easy, HTML Entity, Auto', 'question': 'The ___ HTML entity is used to display a less-than symbol.', '*A': '&lt;', 'B': '&gt;', 'C': '&copy;', 'D': '&amp;'}
+The ___ HTML entity is used to display a less-than symbol.
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '38', 'type': 'Drop Down', 'title': 'Block-Level Division Tag', 'topic': 'HTML Basic 1', 'tags': 'Easy, Structural Elements, Auto', 'question': '___ tag defines a block-level division or section?', '*A': '<div>', 'B': '<span>', 'C': '<section>', 'D': '<p>'}
+___ tag defines a block-level division or section?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '39', 'type': 'Drop Down', 'title': 'Opening Links in a New Tab', 'topic': 'HTML Basic 1', 'tags': 'Medium, Attribute, Auto', 'question': 'The ___ attribute opens a link in a new window or tab', '*A': 'target="_blank"', 'B': 'href="_newtab"', 'C': 'open="new"', 'D': 'newtab="true"'}
+The ___ attribute opens a link in a new window or tab
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '40', 'type': 'Drop Down', 'title': 'Displaying an Image', 'topic': 'HTML Basic 1', 'tags': 'Easy, Tag Name, Auto', 'question': 'The ___ HTML tag is used to display an image', '*A': '<img>', 'B': '<image>', 'C': '<media>', 'D': '<figure>'}
+The ___ HTML tag is used to display an image
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '46', 'type': 'Drop Down', 'title': 'CSS Selector for Paragraph', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Selectors, Auto', 'question': 'To define styles that apply only to a &lt;p&gt; element, the CSS selector should be written as ___ ', '*A': 'p { }', 'B': '.p { }', 'C': '#p { }', 'D': 'p() { }', 'E': 'p ()'}
+To define styles that apply only to a &lt;p&gt; element, the CSS selector should be written as ___ 
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '47', 'type': 'Drop Down', 'title': 'Text Color Property', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Properties, Auto', 'question': 'The ___ property is used to change the text color?', 'A': 'text-color', 'B': 'background-color', 'C': 'font-color', '*D': 'color', 'E': 'None of the above'}
+The ___ property is used to change the text color?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '48', 'type': 'Drop Down', 'title': 'CSS Value in Margin Property', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Properties (margin), Auto', 'question': 'In the CSS rule:<br> p { margin:10px; } <br> the value 10px represents the ___  part of the style rule.', 'A': 'selector', 'B': 'size', 'C': 'distance', '*D': 'value', 'E': 'property'}
+In the CSS rule:<br> p { margin:10px; } <br> the value 10px represents the ___  part of the style rule.
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '49', 'type': 'Drop Down', 'title': 'Font Family Description', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Properties, Auto', 'question': 'The following description:"Specifies the typeface/font (or generic font family) to use. More than one can be specified" describes the ___ property.', '*A': 'font-family', 'B': 'font-size', 'C': 'font-style', 'D': 'font-variant', 'E': 'font-weight'}
+The following description:"Specifies the typeface/font (or generic font family) to use. More than one can be specified" describes the ___ property.
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
+Generated UUID: 2128e75f-ffa9-4b38-90a8-6721533af919
+Generated UUID: 8322b161-3b34-4bd0-b83e-195e90dfed99
+Generated UUID: cc094bde-3270-4258-bb2c-076f2171cc8a
+Generated UUID: 78e06269-e27e-48e4-9cae-f360e8d3add0
+Generated UUID: 6c710cd3-d1b7-46bc-bbbe-015e03dccaab
+Generated UUID: 263364eb-518a-495f-adc9-a79ce50af559
+Generated UUID: d46bb162-bfa8-4499-ac66-d89079193e36
+Generated UUID: c0563a2a-e3e6-48d1-b1d0-c8ba1a714f56
+Generated UUID: 6cd83044-6b60-4ff6-8287-0f503d2af9f9
+Generated UUID: de4b0a85-2e50-4358-999f-3f9b42c087e1
+Generated UUID: d5a40e37-22c0-47c9-847b-841b6bc412f2
+Generating files in: question_50
 -----------DEBUGGING START-----------
 {'id': '16', 'type': 'String Input', 'title': 'Writing a Heading in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Headings, Auto', 'question': 'Write “This is a heading” using the H1 tag', 'answer': '<h1> This is a heading </h1>'}
-<h1> This is a heading </h1>
-['<code><div style="background-color:yellow;"></div></code>']
+Write “This is a heading” using the H1 tag
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
 {'id': '17', 'type': 'String Input', 'title': 'Nested HTML Elements', 'topic': 'Intro to HTML', 'tags': 'Medium, Nesting Elements, Manual', 'question': 'Provide an example of properly nested HTML elements using the sentence “My dog is very friendly.” The word “very” should be bold.', 'answer': '<p> My dog is <strong> very </strong> friendly. </p>'}
-<p> My dog is <strong> very </strong> friendly. </p>
-['<code><div style="background-color:yellow;"></div></code>']
+Provide an example of properly nested HTML elements using the sentence “My dog is very friendly.” The word “very” should be bold.
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
 {'id': '18', 'type': 'String Input', 'title': 'Line Break in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Line Break, Auto', 'question': 'How would you use the <br> tag to create a line break, so that "Hello" appears on one line and "world!" starts on the next line?', 'answer': 'Hello <br> world!'}
-Hello <br> world!
-['<code><div style="background-color:yellow;"></div></code>']
+How would you use the <br> tag to create a line break, so that "Hello" appears on one line and "world!" starts on the next line?
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
 {'id': '19', 'type': 'String Input', 'title': 'Horizontal Rule in HTML', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Horizontal Rule, Auto', 'question': 'How would you add a horizontal line between the following two paragraphs? <br>This is the first paragraph.<br>(This is where the horizontal line should go)<br>This is the second paragraph.<br> Write your answer in one sentence.', 'answer': '<p> This is the first paragraph. </p> <hr> <p> This is the second paragraph.</p>'}
-<p> This is the first paragraph. </p> <hr> <p> This is the second paragraph.</p>
-['<code><div style="background-color:yellow;"></div></code>']
+How would you add a horizontal line between the following two paragraphs? <br>This is the first paragraph.<br>(This is where the horizontal line should go)<br>This is the second paragraph.<br> Write your answer in one sentence.
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
 {'id': '20', 'type': 'String Input', 'title': 'Blockquote in HTML', 'topic': 'Intro to HTML', 'tags': 'Hard, HTML Blockquote, Auto', 'question': 'How would you use the &lt;blockquote&gt; tag to display the following quote from Albert Einstein, with the source link &quot;https//example.com&quot; included as a citation? <br> Quote to format) <br> "Life is like riding a bicycle. To keep your balance, you must keep moving."', 'answer': '\'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>\''}
-'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>'
-['<code><div style="background-color:yellow;"></div></code>']
+How would you use the &lt;blockquote&gt; tag to display the following quote from Albert Einstein, with the source link &quot;https//example.com&quot; included as a citation? <br> Quote to format) <br> "Life is like riding a bicycle. To keep your balance, you must keep moving."
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
 {'id': '26', 'type': 'String Input', 'title': 'Ordered List Creation', 'topic': 'HTML Basic 1', 'tags': 'Medium, Ordered List, Manual', 'question': 'Create an ordered list with the three items Toyota, GMC, RAM. Each item must be displayed in a separate line. ', 'answer': '<ol> <li>Toyota</li> <li>GMC</li> <li>RAM</li> </ol>'}
-<ol> <li>Toyota</li> <li>GMC</li> <li>RAM</li> </ol>
-['<code><div style="background-color:yellow;"></div></code>']
+Create an ordered list with the three items Toyota, GMC, RAM. Each item must be displayed in a separate line. 
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
 {'id': '27', 'type': 'String Input', 'title': 'Navigation Menu Creation', 'topic': 'HTML Basic 1', 'tags': 'Medium, Navigation Tag, Auto', 'question': 'Create a navigation menu using the &lt;nav&gt; tag that contains a link to "home.html" labeled "Home".', 'answer': '<nav> <a href="home.html">Home</a> </nav>'}
-<nav> <a href="home.html">Home</a> </nav>
-['<code><div style="background-color:yellow;"></div></code>']
+Create a navigation menu using the &lt;nav&gt; tag that contains a link to "home.html" labeled "Home".
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
 {'id': '28', 'type': 'String Input', 'title': 'Adding an Image with Alternate Text', 'topic': 'HTML Basic 1', 'tags': 'Medium, Image Tag, Auto', 'question': 'Insert an image with the alternate text "Orange cat drinking water" and source as "cat.jpg".', 'answer': '<img src="cat.jpg" alt="Orange cat drinking water">'}
-<img src="cat.jpg" alt="Orange cat drinking water">
-['<code><div style="background-color:yellow;"></div></code>']
+Insert an image with the alternate text "Orange cat drinking water" and source as "cat.jpg".
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
 {'id': '29', 'type': 'String Input', 'title': 'Using Special Characters in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, Special Characters, Auto ', 'question': 'Write the following sentence using a paragraph tag:"Tom & Jerry." ', 'answer': '<p>Tom & Jerry</p>'}
-<p>Tom & Jerry</p>
-['<code><div style="background-color:yellow;"></div></code>']
+Write the following sentence using a paragraph tag:"Tom & Jerry." 
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
 -----------DEBUGGING END-----------
-Generated UUID: 16a6389a-c60e-40a3-bce5-e7f54e574536
-Generated UUID: 80044ad7-d168-4040-b22d-cad1f92f0328
-Generated UUID: 82bb9d0d-b0e1-4e7b-84bd-afdbac63337a
-Generated UUID: 1d729c99-00aa-43f4-829d-98a19c20cea8
-Generated UUID: dd3ec056-b006-4f6a-abaf-68ffb1fc7574
-Generated UUID: c7cfa193-ee63-4ee5-8edb-5a24c09d8108
-Generated UUID: cd14837c-6bab-46ff-98ed-53248a9181d5
-Generating files: question_30 .html, question_30 .json, question_30 .py
+-----------DEBUGGING START-----------
+{'id': '30 ', 'type': 'String Input', 'title': 'Bolding words in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, Phrase elements, Manual', 'question': 'Bold the word "HTML" in the following sentence "HTML is short for HyperText Markup Language."<br> Note Write the full sentence making only "HTML" bold.', 'Answer': '<HTML> is short for HyperText Markup Language.'}
+Bold the word "HTML" in the following sentence "HTML is short for HyperText Markup Language."<br> Note Write the full sentence making only "HTML" bold.
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
 {'id': '56', 'type': 'String Input', 'title': 'External CSS File Href Attribute', 'topic': 'CSS Basic 1', 'tags': 'Medium, External CSS, Manual', 'question': 'An external CSS file is linked using a &lt;link&gt; element. If the CSS file is named styles.css and located in a folder named main, the correct href attribute would be:', 'answer': 'href="main/styles.css"'}
-href="main/styles.css"
-['<code><div style="background-color:yellow;"></div></code>']
+An external CSS file is linked using a &lt;link&gt; element. If the CSS file is named styles.css and located in a folder named main, the correct href attribute would be:
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
 {'id': '57', 'type': 'String Input', 'title': 'CSS Declaration for Paragraph Color', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Syntax, Manual', 'question': 'Write the CSS declaration to set the color of a paragraph to red.', 'answer': 'p { color:red; }'}
-p { color:red; }
-['<code><div style="background-color:yellow;"></div></code>']
+Write the CSS declaration to set the color of a paragraph to red.
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
 -----------DEBUGGING END-----------
-Generated UUID: e8e0e779-6d94-4cfd-83e7-912d9ca677e1
-Generated UUID: 6dc662d5-48f2-4a9b-9546-54718525c084
-Generated UUID: 4a59f693-bfb0-4650-860f-f8556989ac66
-Generated UUID: 5db86e80-fce2-4756-b1c7-373b66bc78d0
-Generated UUID: e87c9c1e-3883-4476-ac76-09c23f4d40f8
-Generated UUID: 6fb9bb2c-59ab-42ed-b809-4654e2af58bf
-Generated UUID: 13e9e1ac-c5b0-43cd-ba7d-c4d69655cc62
-Generating files: question_58.html, question_58.json, question_58.py
+-----------DEBUGGING START-----------
+{'id': '58', 'type': 'String Input', 'title': 'Inline CSS for Background Color', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Syntax, Manual', 'question': 'Write the inline CSS to set the background color of a &lt;div&gt; to yellow.', 'answer': '<code><div style="background-color:yellow;"></div></code>'}
+Write the inline CSS to set the background color of a &lt;div&gt; to yellow.
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
+-----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
 {'id': '59', 'type': 'String Input', 'title': 'Correcting CSS Rule Syntax', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Syntax, Manual', 'question': 'Examine the following CSS rule, identify all the errors, and rewrite the correct version in one line. If multiple corrections are needed, list them in order, separated by commas. <br> h2 {  <br> color:blue  <br> font-size = 20px; <br> text-align:center;  <br> background-color:#00FF00;  <br> }  ', 'answer': 'color:blue; , font-size:20px;  '}
-color:blue; , font-size:20px;  
-['<code><div style="background-color:yellow;"></div></code>']
+Examine the following CSS rule, identify all the errors, and rewrite the correct version in one line. If multiple corrections are needed, list them in order, separated by commas. <br> h2 {  <br> color:blue  <br> font-size = 20px; <br> text-align:center;  <br> background-color:#00FF00;  <br> }  
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
 {'id': '60', 'type': 'String Input', 'title': 'CSS Rule for Font Size', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Syntax, Auto', 'question': 'Write the CSS rule to apply a font size of 20px to h3. Answer in one line.', 'answer': 'h3 { font-size:20px; }'}
-h3 { font-size:20px; }
-['<code><div style="background-color:yellow;"></div></code>']
+Write the CSS rule to apply a font size of 20px to h3. Answer in one line.
+['___ sets the text color of all <code>&lt;p&gt;</code> elements to red.']
 -----------DEBUGGING END-----------
