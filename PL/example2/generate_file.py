@@ -11,8 +11,9 @@ import json
 import uuid
 
 def generate_uuid():
-    return str(uuid.uuid4())
-
+    generated_uuid = str(uuid.uuid4())
+    print(f"Generated UUID: {generated_uuid}")  # Debugging print
+    return generated_uuid
 # # Function to generate a UUID using an external API
 # def generate_uuid(retries=3, backoff_factor=0.3):
 #     url = "https://www.uuidtools.com/api/generate/v4/count/1"
