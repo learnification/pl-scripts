@@ -1,320 +1,1123 @@
 Git diff output:
 diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
-index d2fe939..ce59b3b 100644
+index 160edf5..ac9bb7b 100644
 --- a/PL/example2/question_bank.md
 +++ b/PL/example2/question_bank.md
-@@ -509 +509 @@ tags: Easy, CSS Properties, Auto
--question: The ___ property is used to change the text color?
-+question: The ___ property is used to change the text color.
+@@ -263 +263 @@ D: href="_newtab"
+-E: None of these
++E: None of the options
+@@ -275 +275 @@ D: &lt;span&gt;
+-E: None of these
++E: None of the options
 
+Processing line: diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
+Processing line: index 160edf5..ac9bb7b 100644
+Processing line: --- a/PL/example2/question_bank.md
+Processing line: +++ b/PL/example2/question_bank.md
+Processing line: @@ -263 +263 @@ D: href="_newtab"
+Processing line: -E: None of these
+Processing line: +E: None of the options
+Splitting line: E: None of the options
+Parts after split: ['E', 'None of the options']
+Processing line: @@ -275 +275 @@ D: &lt;span&gt;
+Processing line: -E: None of these
+Processing line: +E: None of the options
+Splitting line: E: None of the options
+Parts after split: ['E', 'None of the options']
 Removed questions: []
-Added questions: ['question']
+Added questions: ['E']
 Modified questions: []
+Processing line: id: 1
+Processing line: type: Multiple Choice
+Processing line: title: HTML Tags and Syntax
+Processing line: topic: Intro to HTML
+Processing line: tags: Easy, HTML Tags, Auto 
+Processing line: question: Which of the following options is true about HTML tags?
+Processing line: A: HTML tags must be written in uppercase to work correctly
+Processing line: *B: HTML tags are enclosed in angle brackets
+Processing line: C: HTML tags contain spaces between the angle brackets and the tag name
+Processing line: D: All HTML tags require an opening and a closing tag
+Processing line: E: All the options are correct
+Processing line: id: 2
+Processing line: type: Multiple Choice
+Processing line: title: Self-Closing Tags
+Processing line: topic: Intro to HTML
+Processing line: tags: Easy, HTML Tags, Auto
+Processing line: question: Which of the following options is an example of an HTML element with a self-closing tag?
+Processing line: A: <code><p></code>
+Processing line: B: <code><blockquote></code>
+Processing line: *C: <code><br></code>
+Processing line: D: <code><h1></code>
+Processing line: E: <code><hr></code>
+Processing line: id: 3
+Processing line: type: Multiple Choice
+Processing line: title: Paragraph Tags
+Processing line: topic: Intro to HTML
+Processing line: tags: Easy, HTML Paragraphs, Auto
+Processing line: question: Which tag is used to create a paragraph?
+Processing line: A: <code><img></code>
+Processing line: *B: <code><p></code>
+Processing line: C: <code><br></code>
+Processing line: D: <code><a></code>
+Processing line: E: <code><h1></code>
+Processing line: id: 4
+Processing line: type: Multiple Choice
+Processing line: title: Attributes in HTML
+Processing line: topic: Intro to HTML
+Processing line: tags: Easy, HTML Attributes, Auto
+Processing line: question: Which of the following options is true about HTML attributes?
+Processing line: A: There is no space between the tag and attribute name
+Processing line: *B: HTML attributes are written in name/value pairs
+Processing line: C: Some HTML elements can have attributes
+Processing line: D: An element can have only one attribute
+Processing line: E: None of the above
+Processing line: id: 5
+Processing line: type: Multiple Choice
+Processing line: title: Anchor Tag Attributes
+Processing line: topic: Intro to HTML
+Processing line: tags: Medium, HTML Attributes, Auto
+Processing line: question: Considering the following code snippet: <code><a href="contacts.html">Contact us!</a></code>, which part is the attribute?
+Processing line: A: <code><a></code>
+Processing line: B: <code>"contacts.html"</code>
+Processing line: *C: href
+Processing line: D: Contact us!
+Processing line: E: None of the above
+Processing line: id: 6
+Processing line: type: Drop Down
+Processing line: title: Line Breaks in HTML
+Processing line: topic: Intro to HTML
+Processing line: tags: Medium, HTML Line Break, Auto
+Processing line: question: Which of the following is NOT true about the <code><br></code> tag in HTML?
+Processing line: A: It creates a line break in the text
+Processing line: B: It has no content without a closing tag
+Processing line: *C: It must be placed within a <p> tag
+Processing line: D: It does not have an end tag
+Processing line: id: 7
+Processing line: type: Drop Down
+Processing line: title: Meta Tags in HTML
+Processing line: topic: Intro to HTML
+Processing line: tags: Easy, Viewport Meta, Auto
+Processing line: question: What is the purpose of the <code><meta></code> tag with the attribute name="description"?
+Processing line: A: To refresh the web page every specified number of seconds
+Processing line: B: To set keywords for search engine optimization
+Processing line: *C: To provide a brief summary of the web page’s content
+Processing line: D: To define the author of a page
+Processing line: id: 8
+Processing line: type: Drop Down
+Processing line: title: Title Tag in HTML
+Processing line: topic: Intro to HTML
+Processing line: tags: Medium, HTML Title, Auto
+Processing line: question: The text defined by the <code><title></code> tag appears ___ in a web page.
+Processing line: A: Inside the main content area
+Processing line: *B: As the title in the browser tab, bookmarks, and search engine results
+Processing line: C: As the title
+Processing line: D: At the beginning of each paragraph
+Processing line: id: 9
+Processing line: type: Drop Down
+Processing line: title: HTML Line Break Tag
+Processing line: topic: Intro to HTML
+Processing line: tags: Easy, HTML Line Break, Auto
+Processing line: question: The ___ tag is used to create a line break.
+Processing line: *A: <br>
+Processing line: B: <p>
+Processing line: C: <hr>
+Processing line: D: <h1>
+Processing line: id: 10
+Processing line: type: Drop Down
+Processing line: title: Nesting Elements in HTML
+Processing line: topic: Intro to HTML
+Processing line: tags: Medium, Nesting Elements, Auto
+Processing line: question: The ___ tag is used to correctly nest elements to display “HTML” in bold inside a paragraph.
+Processing line: A: <strong> <p>HTML</p> </strong>
+Processing line: *B: <p> <strong>HTML</strong> </p>
+Processing line: C: <p> <em>HTML</em> </p>
+Processing line: D: <p>HTML<p> <strong> </strong>
+Processing line: id: 11
+Processing line: type: Check Box
+Processing line: title: HTML Structure Essentials
+Processing line: topic: Intro to HTML
+Processing line: tags: Medium, HTML Structure, Auto
+Processing line: question: Which of the following components are essential for a basic HTML structure? (Select all the apply)
+Processing line: *A: <!DOCTYPE html>
+Processing line: *B: <head>
+Processing line: *C: <body>
+Processing line: D: <footer>
+Processing line: *E: <html>
+Processing line: id: 12
+Processing line: type: Check Box
+Processing line: title: HTML Paragraph Tag
+Processing line: topic: Intro to HTML
+Processing line: tags: Medium, HTML Paragraph, Auto
+Processing line: question: Which of the following statements accurately describe the <code><p></code> tag?
+Processing line: *A: It groups sentences and sections of text together.
+Processing line: *B: It displays text as a block that starts on a new line.
+Processing line: C: It preserves extra spaces and line breaks in the content.
+Processing line: D: It can be used to format text as preformatted content.
+Processing line: E: Text inside <p> tags is displayed as a continuous line.
+Processing line: id: 13
+Processing line: type: Check Box
+Processing line: title: HTML Comments Purpose
+Processing line: topic: Intro to HTML
+Processing line: tags: Easy, HTML Comments, Auto
+Processing line: question: What is the purpose of using code comments in HTML?
+Processing line: *A: To help document the HTML source code.
+Processing line: *B: To provide notes for other developers.
+Processing line: C: To style elements on the page.
+Processing line: *D: To assist in debugging HTML code.
+Processing line: E: To ensure elements are displayed on the webpage.
+Processing line: id: 14
+Processing line: type: Check Box
+Processing line: title: HTML Document Structure
+Processing line: topic: Intro to HTML
+Processing line: tags: Medium, HTML Structure, Auto
+Processing line: question: Which statement is not true about the structure of an HTML document?
+Processing line: A: The HTML document is divided into head and body sections.
+Processing line: *B: The <head> element contains the visible content of the page.
+Processing line: C: The <title> tag is used to specify the document's title.
+Processing line: *D: The <body> section contains meta information about the page.
+Processing line: E: The HTML document must start with a <html> tag after the DOCTYPE declaration.
+Processing line: id: 15
+Processing line: type: Check Box
+Processing line: title: HTML Headings Information
+Processing line: topic: Intro to HTML
+Processing line: tags: Medium, HTML Headings, Auto
+Processing line: question: Which of the following is true about HTML headings? (Select all the apply)
+Processing line: *A: HTML headings range from <h1> to <h6>, where <h1> is the most important.
+Processing line: *B: Headings are used to structure the content and improve SEO.
+Processing line: C: All headings are treated as inline elements by default.
+Processing line: *D: The <h1> tag is typically used for the main title of the page.
+Processing line: *E: Headings cannot be nested within other elements.
+Processing line: id: 16
+Processing line: type: String Input
+Processing line: title: Writing a Heading in HTML
+Processing line: topic: Intro to HTML
+Processing line: tags: Easy, HTML Headings, Auto
+Processing line: question: Write the HTML code to produce “This is a heading” as a H1 tag. Note: You can ignore the quotation marks in your answer.
+Processing line: answer: <h1> This is a heading </h1>
+Processing line: id: 17
+Processing line: type: String Input
+Processing line: title: Nested HTML Elements
+Processing line: topic: Intro to HTML
+Processing line: tags: Medium, Nesting Elements, Manual
+Processing line: question: Provide an example of properly nested HTML elements using the sentence “My dog is very friendly.” The word “very” should be bold. Note: You can ignore the quotation marks in your answer.
+Processing line: answer: <p> My dog is <strong> very </strong> friendly. </p>
+Processing line: id: 18
+Processing line: type: String Input
+Processing line: title: Line Break in HTML
+Processing line: topic: Intro to HTML
+Processing line: tags: Easy, HTML Line Break, Auto
+Processing line: question: How would you use the <code><br></code> tag to create a line break, so that "Hello" appears on one line and "world!" starts on the next line? Note: You can ignore the quotation marks in your answer.
+Processing line: answer: Hello <br> world!
+Processing line: id: 19
+Processing line: type: String Input
+Processing line: title: Horizontal Rule in HTML
+Processing line: topic: Intro to HTML
+Processing line: tags: Medium, HTML Horizontal Rule, Auto
+Processing line: question: How would you add a horizontal line between the following two paragraphs? <br>This is the first paragraph.<br>(This is where the horizontal line should go)<br>This is the second paragraph.<br> Write your code in one sentence using the correct HTML tag(s).
+Processing line: answer: <p> This is the first paragraph. </p> <hr> <p> This is the second paragraph.</p>
+Processing line: id: 20
+Processing line: type: String Input
+Processing line: title: Blockquote in HTML
+Processing line: topic: Intro to HTML
+Processing line: tags: Hard, HTML Blockquote, Auto
+Processing line: question: How would you use the &lt;blockquote&gt; tag to display the following quote from Albert Einstein, with the source link &quot;https//example.com&quot; included as a citation? <br> Quote to format <br> "Life is like riding a bicycle. To keep your balance, you must keep moving."
+Processing line: answer: '<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>'
+Processing line: id: 21
+Processing line: type: Multiple Choice
+Processing line: title: Emphasize Text in HTML
+Processing line: topic: HTML Basic 1
+Processing line: tags: Easy, Tag Name, Auto
+Processing line: question: Which of the following HTML tags is used to emphasize text?
+Processing line: A: &lt;i&gt;
+Processing line: *B: &lt;em&gt;
+Processing line: C: &lt;cite&gt;
+Processing line: D: &lt;strong&gt;
+Processing line: E: None of these
+Processing line: id: 22
+Processing line: type: Multiple Choice
+Processing line: title: Creating a Bullet List
+Processing line: topic: HTML Basic 1
+Processing line: tags: Easy, List Tags, Auto
+Processing line: question: What is the correct way to make a bullet list?
+Processing line: *A: &lt;ul&gt;
+Processing line: B: &lt;ol&gt;
+Processing line: C: &lt;li&gt;
+Processing line: D: &lt;list&gt;
+Processing line: E: All of these
+Processing line: id: 23
+Processing line: type: Multiple Choice
+Processing line: title: Image Tag Attribute
+Processing line: topic: HTML Basic 1
+Processing line: tags: Easy, Attribute, Auto
+Processing line: question: Which attribute of the &lt;img&gt; tag specifies the URL of the image?
+Processing line: A: href
+Processing line: B: link
+Processing line: *C: src
+Processing line: D: alt
+Processing line: E: url
+Processing line: id: 24
+Processing line: type: Multiple Choice
+Processing line: title: Anchor Tag Target Attribute
+Processing line: topic: HTML Basic 1
+Processing line: tags: Medium, Anchor Tag Attribute, Auto
+Processing line: question: Which of the following code snippets opens a link in a new tab?
+Processing line: A: target="_tab"
+Processing line: *B: target="_blank"
+Processing line: C: newtab="true"
+Processing line: D: href="_newtab"
+Processing line: E: None of the options
+Processing line: id: 25
+Processing line: type: Multiple Choice
+Processing line: title: Paragraph Tag in HTML
+Processing line: topic: HTML Basic 1
+Processing line: tags: Easy, Tag Name, Auto
+Processing line: question: Which HTML tag is used to define a paragraph?
+Processing line: A: &lt;para&gt;
+Processing line: B: &lt;div&gt;
+Processing line: *C: &lt;p&gt;
+Processing line: D: &lt;span&gt;
+Processing line: E: None of the options
+Processing line: id: 26
+Processing line: type: String Input
+Processing line: title: Ordered List Creation
+Processing line: topic: HTML Basic 1
+Processing line: tags: Medium, Ordered List, Manual
+Processing line: question: Write the HTML code to create an ordered list with the following items: Toyota, GMC, RAM. Write out the full code including the list tags and list item.
+Processing line: answer: <ol> <li>Toyota</li> <li>GMC</li> <li>RAM</li> </ol>
+Processing line: id: 27
+Processing line: type: String Input
+Processing line: title: Navigation Menu Creation
+Processing line: topic: HTML Basic 1
+Processing line: tags: Medium, Navigation Tag, Auto
+Processing line: question: Create a navigation menu using the <code> &lt;nav&gt; </code> tag that contains a link to "home.html" labeled "Home".
+Processing line: answer: <nav> <a href="home.html">Home</a> </nav>
+Processing line: id: 28
+Processing line: type: String Input
+Processing line: title: Adding an Image with Alternate Text
+Processing line: topic: HTML Basic 1
+Processing line: tags: Medium, Image Tag, Auto
+Processing line: question: Insert an image with the alternate text "Orange cat drinking water" with the source file named "cat.jpg". Write the full HTML code including the image tag and alternate text.
+Processing line: answer: <img src="cat.jpg" alt="Orange cat drinking water">
+Processing line: id: 29
+Processing line: type: String Input
+Processing line: title: Using Special Characters in HTML
+Processing line: topic: HTML Basic 1
+Processing line: tags: Easy, Special Characters, Auto 
+Processing line: question: Write the following sentence using a paragraph tag:"Tom & Jerry."  Note: you can ignore the quotation marks in your answer.
+Processing line: answer: <p>Tom &amp; Jerry.</p>
+Processing line: id: 30 
+Processing line: type: String Input
+Processing line: title: Bolding words in HTML
+Processing line: topic: HTML Basic 1
+Processing line: tags: Easy, Phrase elements, Manual
+Processing line: question: Use HTML to bold the word "important" in the following sentence: <code> It is important to write clean and readable code. </code>
+Processing line: answer: It is <strong>important</strong> to write clean and readable code.
+Processing line: id: 31
+Processing line: type: Check Box
+Processing line: title: Phrase Elements
+Processing line: topic: HTML Basic 1
+Processing line: tags: Medium, Phrase Tags, Auto 
+Processing line: question: Which of the following HTML tags are phrase elements? (Select all that apply)
+Processing line: *A: &lt;em&gt;
+Processing line: *B: &lt;cite&gt;
+Processing line: C: &lt;header&gt;
+Processing line: D: &lt;title&gt;
+Processing line: *E: &lt;b&gt;
+Processing line: id: 32
+Processing line: type: Check Box
+Processing line: title: Creating Lists in HTML
+Processing line: topic: HTML Basic 1
+Processing line: tags: Easy, List Tags, Auto
+Processing line: question: Which HTML tag(s) can be used to create lists? (Select all that apply)
+Processing line: *A: &lt;ul&gt;
+Processing line: B: &lt;head&gt;
+Processing line: *C: &lt;li&gt;
+Processing line: *D: &lt;dl&gt;
+Processing line: E: &lt;p&gt;
+Processing line: id: 33
+Processing line: type: Check Box
+Processing line: title: Image Tag Attributes
+Processing line: topic: HTML Basic 1
+Processing line: tags: Medium, Attributes, Auto
+Processing line: question: Which attribute(s) can be applied to an <code> &lt;img&gt; </code> tag? (Select all that apply)
+Processing line: *A: src
+Processing line: *B: alt
+Processing line: C: type
+Processing line: *D: height
+Processing line: *E: width
+Processing line: id: 34
+Processing line: type: Check Box
+Processing line: title: HTML5 Structural Elements
+Processing line: topic: HTML Basic 1
+Processing line: tags: Medium, Structure Tags, Auto
+Processing line: question: Which tag(s) can be used for HTML5 structural elements? (Select all that apply)
+Processing line: A: &lt;img&gt;
+Processing line: *B: &lt;header&gt;
+Processing line: *C: &lt;section&gt;
+Processing line: D: &lt;a&gt;
+Processing line: E: &lt;span&gt;
+Processing line: id: 35
+Processing line: type: Check Box
+Processing line: title: Attributes for Hyperlinks
+Processing line: topic: HTML Basic 1
+Processing line: tags: Medium, Attributes, Auto
+Processing line: question: Which of the following attribute(s) are valid for hyperlinks (&lt;a&gt; tag)? (Select all that apply)
+Processing line: *A: href
+Processing line: B: mailto
+Processing line: C: src
+Processing line: *D: target
+Processing line: E: link
+Processing line: id: 36
+Processing line: type: Drop Down
+Processing line: title: Ordered List Tag
+Processing line: topic: HTML Basic 1
+Processing line: tags: Easy, Ordered List Tag, Auto
+Processing line: question: The correct tag to display a numbered list is ___ .
+Processing line: *A: <ol>
+Processing line: B: <ul>
+Processing line: C: <dl>
+Processing line: D: <li>
+Processing line: id: 37
+Processing line: type: Drop Down
+Processing line: title: HTML Entity for Less-Than Symbol
+Processing line: topic: HTML Basic 1
+Processing line: tags: Easy, HTML Entity, Auto
+Processing line: question: The ___ entity is used to display a less-than symbol in HTML.
+Processing line: *A: &lt;
+Processing line: B: &gt;
+Processing line: C: &copy;
+Processing line: D: &amp;
+Processing line: id: 38
+Processing line: type: Drop Down
+Processing line: title: Block-Level Division Tag
+Processing line: topic: HTML Basic 1
+Processing line: tags: Easy, Structural Elements, Auto
+Processing line: question: ___ tag defines a block-level division.
+Processing line: *A: <div>
+Processing line: B: <span>
+Processing line: C: <section>
+Processing line: D: <p>
+Processing line: id: 39
+Processing line: type: Drop Down
+Processing line: title: Opening Links in a New Tab
+Processing line: topic: HTML Basic 1
+Processing line: tags: Medium, Attribute, Auto
+Processing line: question: The ___ attribute opens a link in a new window or tab.
+Processing line: *A: <code>target="_blank"</code>
+Processing line: B: <code>href="_newtab"</code>
+Processing line: C: <code>open="new"</code>
+Processing line: D: <code>newtab="true"</code>
+Processing line: id: 40
+Processing line: type: Drop Down
+Processing line: title: Displaying an Image
+Processing line: topic: HTML Basic 1
+Processing line: tags: Easy, Tag Name, Auto
+Processing line: question: The ___ HTML tag is used to display an image.
+Processing line: *A: <img>
+Processing line: B: <image>
+Processing line: C: <media>
+Processing line: D: <figure>
+Processing line: id: 41
+Processing line: type: Multiple Choice
+Processing line: title: CSS Selector Example
+Processing line: topic: CSS Basic 1
+Processing line: tags: Easy, CSS Syntax, Auto
+Processing line: question: In the following CSS rule:<br> <code>h1 { <br> color:blue; <br> } </code> <br> h1 is an example of:
+Processing line: A: A property
+Processing line: B: A value
+Processing line: *C: A selector
+Processing line: D: A declaration
+Processing line: E: None of the above
+Processing line: id: 42
+Processing line: type: Multiple Choice
+Processing line: title: Hexadecimal Color Values
+Processing line: topic: CSS Basic 1
+Processing line: tags: Easy, CSS Colors, Auto
+Processing line: question: What is the correct way to set a colour value in CSS using Hexadecimal values?
+Processing line: A: color:hsl(0, 100%, 50%);
+Processing line: B: colour:rgb(255, 0, 0);
+Processing line: *C: color:#FF0000;
+Processing line: D: color:red;
+Processing line: E: colour:#FF0000;
+Processing line: id: 43
+Processing line: type: Multiple Choice
+Processing line: title: Inline CSS Location
+Processing line: topic: CSS Basic 1
+Processing line: tags: Easy, Applying CSS, Auto
+Processing line: question: Where is an inline CSS written?
+Processing line: A: Inside the &lt;body&gt; tag
+Processing line: B: Inside the &lt;style&gt; tag within the <code><head></code> tag
+Processing line: C: Inside a &lt;link&gt; tag
+Processing line: *D: Inside the element’s style attribute
+Processing line: E: Inside the &lt;head&gt; tag
+Processing line: id: 44
+Processing line: type: Multiple Choice
+Processing line: title: Inline CSS Example
+Processing line: topic: CSS Basic 1
+Processing line: tags: Medium, Inline CSS, Auto
+Processing line: question: Which of the following is an example of inline CSS?
+Processing line: *A: &lt;p style="color:red;"&gt;This is a paragraph.&lt;/p&gt;
+Processing line: B: &lt;p style="color=red;"&gt;This is a paragraph.&lt;/p&gt;
+Processing line: C: &lt;p style:"color:red;"&gt;This is a paragraph.&lt;/p&gt;
+Processing line: D: &lt;p {style="color:red"}&gt;This is a paragraph.&lt;/p&gt;
+Processing line: E: None of the option are correct.
+Processing line: id: 45
+Processing line: type: Multiple Choice
+Processing line: title: Font Weight Usage
+Processing line: topic: CSS Basic 1
+Processing line: tags: Medium, CSS Text Styling, Auto
+Processing line: question: The following CSS declaration is applied to a paragraph element:<br>p { <br> font-weight:700;  <br>} <br>What does the font-weight value represent?
+Processing line: A: Light text
+Processing line: B: Normal text
+Processing line: *C: Bold text
+Processing line: D: Extra bold text
+Processing line: E: No visual change
+Processing line: id: 46
+Processing line: type: Drop Down
+Processing line: title: CSS Selector for Paragraph
+Processing line: topic: CSS Basic 1
+Processing line: tags: Easy, CSS Selectors, Auto
+Processing line: question: Which of the following is a valid CSS selector for a paragraph element?
+Processing line: *A: p { }
+Processing line: B: .p { }
+Processing line: C: #p { }
+Processing line: D: p() { }
+Processing line: E: p ()
+Processing line: id: 47
+Processing line: type: Drop Down
+Processing line: title: Text Color Property
+Processing line: topic: CSS Basic 1
+Processing line: tags: Easy, CSS Properties, Auto
+Processing line: question: The ___ property is used to change the text color.
+Processing line: A: text-color
+Processing line: B: background-color
+Processing line: C: font-color
+Processing line: *D: color
+Processing line: E: colour
+Processing line: id: 48
+Processing line: type: Drop Down
+Processing line: title: CSS Value in Margin Property
+Processing line: topic: CSS Basic 1
+Processing line: tags: Medium, CSS Properties (margin), Auto
+Processing line: question: In the following CSS rule:<br> p { margin:10px; } <br> the value 10px represents the ___  part of the style rule.
+Processing line: A: selector
+Processing line: B: size
+Processing line: C: distance
+Processing line: *D: value
+Processing line: E: property
+Processing line: id: 49
+Processing line: type: Drop Down
+Processing line: title: Font Family Description
+Processing line: topic: CSS Basic 1
+Processing line: tags: Medium, CSS Properties, Auto
+Processing line: question: The following description:"Specifies the typeface/font (or generic font family) to use. More than one can be specified" describes the ___ property.
+Processing line: *A: font-family
+Processing line: B: font-size
+Processing line: C: font-style
+Processing line: D: font-variant
+Processing line: E: font-weight
+Processing line: id: 50
+Processing line: type: Drop Down
+Processing line: title: Text Color in Paragraph
+Processing line: topic: CSS Basic 1
+Processing line: tags: Hard, CSS Colors, Auto
+Processing line: question: ___ sets the text color of all <code>&lt;p&gt;</code> elements to red.
+Processing line: *A: rgb(255, 0, 0)
+Processing line: B: hsl(120, 100%, 50%)
+Processing line: C: #0000ff
+Processing line: D: None of the options
+Processing line: E: colour:red;
+Processing line: id: 51
+Processing line: type: Check Box
+Processing line: title: Font-Related Properties
+Processing line: topic: CSS Basic 1
+Processing line: tags: Medium, CSS Properties, Auto
+Processing line: question: Which of the following code snippets contain valid CSS font-related properties? (Select all that apply.)
+Processing line: *A: font-family:Arial, sans-serif;
+Processing line: *B: font-weight:700;
+Processing line: *C: font-style:italic;
+Processing line: D: font-size:18;
+Processing line: E: font-family:Times New Roman:
+Processing line: id: 52
+Processing line: type: Check Box
+Processing line: title: Font Size Values
+Processing line: topic: CSS Basic 1
+Processing line: tags: Medium, CSS Values, Auto
+Processing line: question: Select all the values that can replace the blank in the following CSS rule:<br><code>h1 { font-size:- - -; } </code>
+Processing line: *A: 16px
+Processing line: *B: 1.5em
+Processing line: *C: 120%
+Processing line: *D: 2rem
+Processing line: E: bold
+Processing line: id: 53
+Processing line: type: Check Box
+Processing line: title: Applying External CSS
+Processing line: topic: CSS Basic 1
+Processing line: tags: Medium, Applying CSS, Auto
+Processing line: question: Which of the following is the correct way to link an external CSS file to an HTML document? (Select all that apply.)
+Processing line: A: &lt;link rel="stylesheet” href="styles.css"&gt; &lt;/link&gt;
+Processing line: B: &lt;link src="styles.css" type="text/css"&gt;
+Processing line: *C: &lt;link rel="stylesheet" href="styles.css"/&gt;
+Processing line: D: &lt;style src="styles.css"&gt;&lt;/style&gt;
+Processing line: E: &lt;link rel="stylesheet" src="styles.css" /&gt;
+Processing line: id: 54
+Processing line: type: Check Box
+Processing line: title: CSS Comments
+Processing line: topic: CSS Basic 1
+Processing line: tags: Easy, CSS Comments, Auto
+Processing line: question: Which of the following statements are true about CSS comments? (Select all that apply.)
+Processing line: *A: They are enclosed within /* and */.
+Processing line: B: They can be used to hide CSS rules from the browser.
+Processing line: *C: They do not affect how the webpage renders.
+Processing line: D: They can only be written inside &lt;style&gt; tags.
+Processing line: E: They are enclosed within */ and /*.
+Processing line: id: 55
+Processing line: type: Check Box
+Processing line: title: Relative CSS Units
+Processing line: topic: CSS Basic 1
+Processing line: tags: Medium, CSS Units, Auto
+Processing line: question: Which of the following are relative CSS units? (Select all that apply.)
+Processing line: A: px
+Processing line: *B: em
+Processing line: *C: %
+Processing line: *D: rem
+Processing line: E: pt
+Processing line: id: 56
+Processing line: type: String Input
+Processing line: title: External CSS File Href Attribute
+Processing line: topic: CSS Basic 1
+Processing line: tags: Medium, External CSS, Manual
+Processing line: question: An external CSS file is linked using a <code>&lt;link&gt;</code> element. If the CSS file is named styles.css and located in a folder named main, the correct href attribute would be:
+Processing line: answer: href="main/styles.css"
+Processing line: id: 57
+Processing line: type: String Input
+Processing line: title: CSS Declaration for Paragraph Color
+Processing line: topic: CSS Basic 1
+Processing line: tags: Easy, CSS Syntax, Manual
+Processing line: question: Write the CSS declaration to set the color of a paragraph to blue.
+Processing line: answer: p { color:blue; }
+Processing line: id: 58
+Processing line: type: String Input
+Processing line: title: Inline CSS for Background Color
+Processing line: topic: CSS Basic 1
+Processing line: tags: Medium, CSS Syntax, Manual
+Processing line: question: Write the inline CSS to set the background color of a <code> &lt;div&gt; </code> to yellow.
+Processing line: answer: <code><div style="background-color:yellow;"></div></code>
+Processing line: id: 59
+Processing line: type: String Input
+Processing line: title: Correcting CSS Rule Syntax
+Processing line: topic: CSS Basic 1
+Processing line: tags: Medium, CSS Syntax, Manual
+Processing line: question: Examine the following CSS rule, identify all the errors, and rewrite the correct version in one line. If multiple corrections are needed, list them in order, separated by commas. <code> <br> h2 {  <br> color:blue  <br> font-size = 20px; <br> text-align:center;  <br> background-color:#00FF00;  <br> } </code>
+Processing line: answer: color:blue; , font-size:20px;  
+Processing line: id: 60
+Processing line: type: String Input
+Processing line: title: CSS Rule for Font Size
+Processing line: topic: CSS Basic 1
+Processing line: tags: Easy, CSS Syntax, Auto
+Processing line: question: Write the CSS rule to apply a <code>text size</code> of <code>20px</code> to <code>h3</code>. Include the answer in one line.
+Processing line: answer: h3 { font-size:20px; }
+Processing line: diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
+Processing line: index 160edf5..ac9bb7b 100644
+Processing line: --- a/PL/example2/question_bank.md
+Processing line: +++ b/PL/example2/question_bank.md
+Processing line: @@ -263 +263 @@ D: href="_newtab"
+Processing line: -E: None of these
+Processing line: +E: None of the options
+Splitting line: E: None of the options
+Parts after split: ['E', 'None of the options']
+Processing line: @@ -275 +275 @@ D: &lt;span&gt;
+Processing line: -E: None of these
+Processing line: +E: None of the options
+Splitting line: E: None of the options
+Parts after split: ['E', 'None of the options']
 -----------DEBUGGING START-----------
-{'id': '1', 'type': 'Multiple Choice', 'title': 'HTML Tags and Syntax', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Tags, Auto ', 'question': 'Which of the following is true about HTML tags?', 'A': 'HTML tags must be written in uppercase to work correctly', '*B': 'HTML tags are enclosed in angle brackets', 'C': 'HTML tags contain spaces between the angle brackets and the tag name', 'D': 'All HTML tags require an opening and a closing tag', 'E': 'All the options are correct'}
-Which of the following is true about HTML tags?
-['The ___ property is used to change the text color.']
+{'id': '1', 'type': 'Multiple Choice', 'title': 'HTML Tags and Syntax', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Tags, Auto', 'question': 'Which of the following options is true about HTML tags?', 'A': 'HTML tags must be written in uppercase to work correctly', '*B': 'HTML tags are enclosed in angle brackets', 'C': 'HTML tags contain spaces between the angle brackets and the tag name', 'D': 'All HTML tags require an opening and a closing tag', 'E': 'All the options are correct'}
+All the options are correct
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '2', 'type': 'Multiple Choice', 'title': 'Self-Closing Tags', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Tags, Auto', 'question': 'Which of the following is an example of an HTML element with a self-closing tag?', 'A': '<code><p></code>', 'B': '<code><blockquote></code>', '*C': '<code><br></code>', 'D': '<code><h1></code>', 'E': '<code><hr></code>'}
-Which of the following is an example of an HTML element with a self-closing tag?
-['The ___ property is used to change the text color.']
+{'id': '2', 'type': 'Multiple Choice', 'title': 'Self-Closing Tags', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Tags, Auto', 'question': 'Which of the following options is an example of an HTML element with a self-closing tag?', 'A': '<code><p></code>', 'B': '<code><blockquote></code>', '*C': '<code><br></code>', 'D': '<code><h1></code>', 'E': '<code><hr></code>'}
+<code><hr></code>
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '3', 'type': 'Multiple Choice', 'title': 'Paragraph Tags', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Paragraphs, Auto', 'question': 'Which HTML tag is used to create a paragraph?', 'A': '<code><img></code>', '*B': '<code><p></code>', 'C': '<code><br></code>', 'D': '<code><a></code>', 'E': '<code><h1></code>'}
-Which HTML tag is used to create a paragraph?
-['The ___ property is used to change the text color.']
+{'id': '3', 'type': 'Multiple Choice', 'title': 'Paragraph Tags', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Paragraphs, Auto', 'question': 'Which tag is used to create a paragraph?', 'A': '<code><img></code>', '*B': '<code><p></code>', 'C': '<code><br></code>', 'D': '<code><a></code>', 'E': '<code><h1></code>'}
+<code><h1></code>
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '4', 'type': 'Multiple Choice', 'title': 'Attributes in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Attributes, Auto', 'question': 'Which of the following is true about HTML attributes?', 'A': 'There is no space between the tag and attribute name', '*B': 'HTML attributes are written in name/value pairs', 'C': 'Some HTML elements can have attributes', 'D': 'An element can have only one attribute', 'E': 'None of the above'}
-Which of the following is true about HTML attributes?
-['The ___ property is used to change the text color.']
+{'id': '4', 'type': 'Multiple Choice', 'title': 'Attributes in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Attributes, Auto', 'question': 'Which of the following options is true about HTML attributes?', 'A': 'There is no space between the tag and attribute name', '*B': 'HTML attributes are written in name/value pairs', 'C': 'Some HTML elements can have attributes', 'D': 'An element can have only one attribute', 'E': 'None of the above'}
+None of the above
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '5', 'type': 'Multiple Choice', 'title': 'Anchor Tag Attributes', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Attributes, Auto', 'question': 'In <code><a href="contacts.html">Contact us!</a></code>, which part is the attribute?', 'A': '<code><a></code>', 'B': '<code>"contacts.html"</code>', '*C': 'href', 'D': 'Contact us!', 'E': 'None of the above'}
-In <code><a href="contacts.html">Contact us!</a></code>, which part is the attribute?
-['The ___ property is used to change the text color.']
+{'id': '5', 'type': 'Multiple Choice', 'title': 'Anchor Tag Attributes', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Attributes, Auto', 'question': 'Considering the following code snippet: <code><a href="contacts.html">Contact us!</a></code>, which part is the attribute?', 'A': '<code><a></code>', 'B': '<code>"contacts.html"</code>', '*C': 'href', 'D': 'Contact us!', 'E': 'None of the above'}
+None of the above
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '21', 'type': 'Multiple Choice', 'title': 'Emphasize Text in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, Tag Name, Auto', 'question': 'Which HTML tag is used to emphasize text?', 'A': '&lt;i&gt;', '*B': '&lt;em&gt;', 'C': '&lt;cite&gt;', 'D': '&lt;strong&gt;', 'E': 'None of these'}
-Which HTML tag is used to emphasize text?
-['The ___ property is used to change the text color.']
+{'id': '21', 'type': 'Multiple Choice', 'title': 'Emphasize Text in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, Tag Name, Auto', 'question': 'Which of the following HTML tags is used to emphasize text?', 'A': '&lt;i&gt;', '*B': '&lt;em&gt;', 'C': '&lt;cite&gt;', 'D': '&lt;strong&gt;', 'E': 'None of these'}
+None of these
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '22', 'type': 'Multiple Choice', 'title': 'Creating a Bullet List', 'topic': 'HTML Basic 1', 'tags': 'Easy, List Tags, Auto', 'question': 'What is the correct way to make a bullet list in HTML?', '*A': '&lt;ul&gt;', 'B': '&lt;ol&gt;', 'C': '&lt;li&gt;', 'D': '&lt;list&gt;', 'E': 'All of these'}
-What is the correct way to make a bullet list in HTML?
-['The ___ property is used to change the text color.']
+{'id': '22', 'type': 'Multiple Choice', 'title': 'Creating a Bullet List', 'topic': 'HTML Basic 1', 'tags': 'Easy, List Tags, Auto', 'question': 'What is the correct way to make a bullet list?', '*A': '&lt;ul&gt;', 'B': '&lt;ol&gt;', 'C': '&lt;li&gt;', 'D': '&lt;list&gt;', 'E': 'All of these'}
+All of these
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '23', 'type': 'Multiple Choice', 'title': 'Image Tag Attribute', 'topic': 'HTML Basic 1', 'tags': 'Easy, Attribute, Auto', 'question': 'Which attribute of the  &lt;img&gt; tag specifies the URL of the image?', 'A': 'href', 'B': 'link', '*C': 'src', 'D': 'alt', 'E': 'url'}
-Which attribute of the  &lt;img&gt; tag specifies the URL of the image?
-['The ___ property is used to change the text color.']
+{'id': '23', 'type': 'Multiple Choice', 'title': 'Image Tag Attribute', 'topic': 'HTML Basic 1', 'tags': 'Easy, Attribute, Auto', 'question': 'Which attribute of the &lt;img&gt; tag specifies the URL of the image?', 'A': 'href', 'B': 'link', '*C': 'src', 'D': 'alt', 'E': 'url'}
+url
+['None of the options', 'None of the options']
+-----------DEBUGGING END-----------
+Generated UUID: d0fbc7be-104d-4bc9-befb-7f91409ff2a6
+Generated UUID: 2dfd5a7c-8eac-4f30-a312-79baf2c84ae3
+Generated UUID: 97589191-ffef-4fa0-8bcc-e25ea0af6088
+Generated UUID: 990e72aa-a035-4805-8653-b2f9954cc89d
+Generated UUID: 09c94195-b9cd-48ba-85ec-bbf06679f122
+Generated UUID: e482f9ff-174b-4c26-a9fa-6b9acd619c26
+Generated UUID: ae8e643e-e5e9-491b-aa63-0253470eee06
+Generated UUID: c666387b-024d-4277-860d-66aacedd94ba
+Generated UUID: 93e829ba-f2bc-4c81-958c-60eeaea30abf
+Generated UUID: 4fe38944-23cf-45dd-8efb-414f592b4611
+Generated UUID: 20284f28-519d-4b57-aa94-bd64b4996862
+Generating files in: question_24
+Generated UUID: 4355b616-90ce-4fe9-936b-4d5f984da79b
+Generated UUID: 89d6b8d9-16eb-41ee-be60-a8cffce46e93
+Generated UUID: bcf4fcca-ce7c-4b43-b028-c6eace507eff
+Generated UUID: 6c7a84a6-ef51-4b83-a14d-62bd19865d51
+Generated UUID: a4249a8e-7d4e-4c63-a4bf-21744579c593
+Generated UUID: d8919ef1-345d-471b-b15b-f27c1dcfc540
+Generated UUID: 97ff3e2d-7773-466b-8c6a-fc2ab2ba58f3
+Generated UUID: e54fd0cd-648b-4ae6-afaf-c96725eb0a41
+Generated UUID: c4ff7804-4828-4071-92c3-7acd48d752d0
+Generated UUID: d06f6669-cfed-4f14-9b18-62ab6bd734a2
+Generated UUID: 13fff363-a83c-4030-a030-f55b7786aef6
+Generating files in: question_25
+-----------DEBUGGING START-----------
+{'id': '41', 'type': 'Multiple Choice', 'title': 'CSS Selector Example', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Syntax, Auto', 'question': 'In the following CSS rule:<br> <code>h1 { <br> color:blue; <br> } </code> <br> h1 is an example of:', 'A': 'A property', 'B': 'A value', '*C': 'A selector', 'D': 'A declaration', 'E': 'None of the above'}
+None of the above
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '24', 'type': 'Multiple Choice', 'title': 'Anchor Tag Target Attribute', 'topic': 'HTML Basic 1', 'tags': 'Medium, Anchor Tag Attribute, Auto', 'question': 'How do you create a hyperlink in HTML that opens in a new tab?', 'A': 'target="_tab"', '*B': 'target="_blank"', 'C': 'newtab="true"', 'D': 'href="_newtab"', 'E': 'None of these'}
-How do you create a hyperlink in HTML that opens in a new tab?
-['The ___ property is used to change the text color.']
+{'id': '42', 'type': 'Multiple Choice', 'title': 'Hexadecimal Color Values', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Colors, Auto', 'question': 'What is the correct way to set a colour value in CSS using Hexadecimal values?', 'A': 'color:hsl(0, 100%, 50%);', 'B': 'colour:rgb(255, 0, 0);', '*C': 'color:#FF0000;', 'D': 'color:red;', 'E': 'colour:#FF0000;'}
+colour:#FF0000;
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '25', 'type': 'Multiple Choice', 'title': 'Paragraph Tag in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, Tag Name, Auto', 'question': 'Which HTML tag is used to define a paragraph? ', 'A': '&lt;para&gt;', 'B': '&lt;div&gt;', '*C': '&lt;p&gt;', 'D': '&lt;span&gt;', 'E': 'None of these'}
-Which HTML tag is used to define a paragraph? 
-['The ___ property is used to change the text color.']
+{'id': '43', 'type': 'Multiple Choice', 'title': 'Inline CSS Location', 'topic': 'CSS Basic 1', 'tags': 'Easy, Applying CSS, Auto', 'question': 'Where is an inline CSS written?', 'A': 'Inside the &lt;body&gt; tag', 'B': 'Inside the &lt;style&gt; tag within the <code><head></code> tag', 'C': 'Inside a &lt;link&gt; tag', '*D': 'Inside the element’s style attribute', 'E': 'Inside the &lt;head&gt; tag'}
+Inside the &lt;head&gt; tag
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '41', 'type': 'Multiple Choice', 'title': 'CSS Selector Example', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Syntax, Auto', 'question': 'In the CSS rule:<br> h1 { <br> color:blue; <br> }  <br> h1 is an example of:', 'A': 'A property', 'B': 'A value', '*C': 'A selector', 'D': 'A declaration', 'E': 'None of the above'}
-In the CSS rule:<br> h1 { <br> color:blue; <br> }  <br> h1 is an example of:
-['The ___ property is used to change the text color.']
+{'id': '44', 'type': 'Multiple Choice', 'title': 'Inline CSS Example', 'topic': 'CSS Basic 1', 'tags': 'Medium, Inline CSS, Auto', 'question': 'Which of the following is an example of inline CSS?', '*A': '&lt;p style="color:red;"&gt;This is a paragraph.&lt;/p&gt;', 'B': '&lt;p style="color=red;"&gt;This is a paragraph.&lt;/p&gt;', 'C': '&lt;p style:"color:red;"&gt;This is a paragraph.&lt;/p&gt;', 'D': '&lt;p {style="color:red"}&gt;This is a paragraph.&lt;/p&gt;', 'E': 'None of the option are correct.'}
+None of the option are correct.
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '42', 'type': 'Multiple Choice', 'title': 'Hexadecimal Color Values', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Colors, Auto', 'question': 'What is the correct way to set a color value in CSS using Hexadecimal values?', 'A': 'color:hsl(0, 100%, 50%);', 'B': 'color:rgb(255, 0, 0);', '*C': 'color:#FF0000;', 'D': 'color:red;', 'E': 'color:FF0000;'}
-What is the correct way to set a color value in CSS using Hexadecimal values?
-['The ___ property is used to change the text color.']
+{'id': '45', 'type': 'Multiple Choice', 'title': 'Font Weight Usage', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Text Styling, Auto', 'question': 'The following CSS declaration is applied to a paragraph element:<br>p { <br> font-weight:700;  <br>} <br>What does the font-weight value represent?', 'A': 'Light text', 'B': 'Normal text', '*C': 'Bold text', 'D': 'Extra bold text', 'E': 'No visual change'}
+No visual change
+['None of the options', 'None of the options']
+-----------DEBUGGING END-----------
+Processing line: diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
+Processing line: index 160edf5..ac9bb7b 100644
+Processing line: --- a/PL/example2/question_bank.md
+Processing line: +++ b/PL/example2/question_bank.md
+Processing line: @@ -263 +263 @@ D: href="_newtab"
+Processing line: -E: None of these
+Processing line: +E: None of the options
+Splitting line: E: None of the options
+Parts after split: ['E', 'None of the options']
+Processing line: @@ -275 +275 @@ D: &lt;span&gt;
+Processing line: -E: None of these
+Processing line: +E: None of the options
+Splitting line: E: None of the options
+Parts after split: ['E', 'None of the options']
+Generated UUID: 1c867380-45be-436f-b54e-f25975f5413c
+Generated UUID: 5fd0d5be-de24-4a08-a34e-495bc57eedc3
+Generated UUID: cc20fb43-bd21-4bcf-9e8e-1830633a51d0
+Generated UUID: e8369081-47fa-4a7f-b1e7-ac68ae4f012b
+Generated UUID: 6f65bcb9-5f4d-4c50-bb27-445c973049e5
+Generated UUID: 14a64849-d6c3-464c-ab04-cf2b7b44f814
+Generated UUID: a5ff2a3c-5c19-4e12-b912-acfb7e70914f
+Generated UUID: 1af6beab-3208-47c8-a909-cdc17bdfa1c2
+Generated UUID: 76dfae1a-3706-4306-a44c-126ff5d12232
+Generated UUID: acf854a3-2e86-480b-8e9c-1913f66b1ccd
+Generated UUID: 91b910de-dc06-44a3-80e3-ec691067acd4
+Generating files in: question_11
+-----------DEBUGGING START-----------
+{'id': '12', 'type': 'Check Box', 'title': 'HTML Paragraph Tag', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Paragraph, Auto', 'question': 'Which of the following statements accurately describe the <code><p></code> tag?', '*A': 'It groups sentences and sections of text together.', '*B': 'It displays text as a block that starts on a new line.', 'C': 'It preserves extra spaces and line breaks in the content.', 'D': 'It can be used to format text as preformatted content.', 'E': 'Text inside <p> tags is displayed as a continuous line.'}
+Text inside <p> tags is displayed as a continuous line.
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '43', 'type': 'Multiple Choice', 'title': 'Inline CSS Location', 'topic': 'CSS Basic 1', 'tags': 'Easy, Applying CSS, Auto', 'question': 'Where is an inline CSS written?', 'A': 'Inside the &lt;body&gt; tag', 'B': 'Inside the &lt;style&gt; tag within the <head> tag', 'C': 'Inside a &lt;link&gt; tag', '*D': 'Inside the element’s style attribute', 'E': 'Inside the &lt;head&gt; tag'}
-Where is an inline CSS written?
-['The ___ property is used to change the text color.']
+{'id': '13', 'type': 'Check Box', 'title': 'HTML Comments Purpose', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Comments, Auto', 'question': 'What is the purpose of using code comments in HTML?', '*A': 'To help document the HTML source code.', '*B': 'To provide notes for other developers.', 'C': 'To style elements on the page.', '*D': 'To assist in debugging HTML code.', 'E': 'To ensure elements are displayed on the webpage.'}
+To ensure elements are displayed on the webpage.
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '44', 'type': 'Multiple Choice', 'title': 'Inline CSS Example', 'topic': 'CSS Basic 1', 'tags': 'Medium, Inline CSS, Auto', 'question': 'Which of the following is the correct usage of inline CSS to change the color of a paragraph?', '*A': '&lt;p style="color:red;"&gt;This is a paragraph.&lt;/p&gt;', 'B': '&lt;p style="color=red;"&gt;This is a paragraph.&lt;/p&gt;', 'C': '&lt;p style:"color:red;"&gt;This is a paragraph.&lt;/p&gt;', 'D': '&lt;p {style="color:red"}&gt;This is a paragraph.&lt;/p&gt;', 'E': 'None of the option are correct.'}
-Which of the following is the correct usage of inline CSS to change the color of a paragraph?
-['The ___ property is used to change the text color.']
+{'id': '14', 'type': 'Check Box', 'title': 'HTML Document Structure', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Structure, Auto', 'question': 'Which statement is not true about the structure of an HTML document?', 'A': 'The HTML document is divided into head and body sections.', '*B': 'The <head> element contains the visible content of the page.', 'C': "The <title> tag is used to specify the document's title.", '*D': 'The <body> section contains meta information about the page.', 'E': 'The HTML document must start with a <html> tag after the DOCTYPE declaration.'}
+The HTML document must start with a <html> tag after the DOCTYPE declaration.
+['None of the options', 'None of the options']
+-----------DEBUGGING END-----------
+Generated UUID: 7fcb1e45-f6c8-4df0-b2f9-76a69c1c2ecf
+Generated UUID: c0007587-8cc6-45c2-9602-fbb2d1cf35a1
+Generated UUID: 23ab3bf3-9117-48bb-8b92-453780fc2e7e
+Generated UUID: 0b51ad70-1d2a-4ca8-b14f-06deedd24dd1
+Generated UUID: ab466bf9-e445-42ee-b1c6-927aa365e863
+Generated UUID: 7e51e5fd-5a0b-4021-a14a-f9d34f1e7eec
+Generated UUID: 78285473-3b3f-4d45-9e94-5ab7be62d3df
+Generated UUID: 3f2dfd75-23a6-4794-8066-dc1c39c4441f
+Generated UUID: a4657ccc-0139-41ef-94fb-82426fdff508
+Generated UUID: 6bb7ebbf-bf91-46c1-86be-0b41b8197655
+Generated UUID: 9b786ffc-a6d8-4bfd-9943-106c7093195d
+Generating files in: question_15
+Generated UUID: f00eefd6-4f17-4946-bcf6-d02431cac79b
+Generated UUID: 65f5b57d-b11d-48b4-ab14-3b380b57a0fe
+Generated UUID: fda35a8e-386a-4834-8d5f-6b646376b357
+Generated UUID: 1b1cefdd-cd3f-4c85-92eb-6f8d0c652f05
+Generated UUID: bcde615e-6c72-4d7f-9670-c3f3822562ff
+Generated UUID: b346c2f0-fd3a-468b-97f3-31aa39aa9202
+Generated UUID: e38a992a-c161-43ef-a2e6-fe94ffa265c2
+Generated UUID: eae323a1-9228-40e2-90dd-7a852532e014
+Generated UUID: dab95938-b2e7-4bcc-8862-c46de0981e83
+Generated UUID: cb44a3a8-8d3f-462f-9224-70138718a337
+Generated UUID: a71bbd9c-8001-4133-b061-fe99c08cdae4
+Generating files in: question_31
+-----------DEBUGGING START-----------
+{'id': '32', 'type': 'Check Box', 'title': 'Creating Lists in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, List Tags, Auto', 'question': 'Which HTML tag(s) can be used to create lists? (Select all that apply)', '*A': '&lt;ul&gt;', 'B': '&lt;head&gt;', '*C': '&lt;li&gt;', '*D': '&lt;dl&gt;', 'E': '&lt;p&gt;'}
+&lt;p&gt;
+['None of the options', 'None of the options']
+-----------DEBUGGING END-----------
+Generated UUID: f825faf8-f706-48dc-baeb-2f0266a11e4e
+Generated UUID: a56a8458-5de7-4667-bb0e-a8ac5fd74d35
+Generated UUID: 893c9626-2acc-4855-ab8d-8a1f5944dcb3
+Generated UUID: b048e7d5-6d12-4ff5-8541-4713b4f7631a
+Generated UUID: 20d82167-d089-4e13-8570-8aca81d51247
+Generated UUID: e4d12066-faf9-4ff4-b863-0d43e49cdc28
+Generated UUID: d227bc98-3b84-4630-80dd-553a8f30f58b
+Generated UUID: c49b08bf-ed49-44bf-85b3-f5e105e55012
+Generated UUID: 41f453b2-782b-43f9-af8e-39e7006cb405
+Generated UUID: 98ad3503-99bd-4bac-afef-26ce23e0e1d0
+Generated UUID: d865ff2c-044e-4f6d-9fe3-748523a3107f
+Generating files in: question_33
+-----------DEBUGGING START-----------
+{'id': '34', 'type': 'Check Box', 'title': 'HTML5 Structural Elements', 'topic': 'HTML Basic 1', 'tags': 'Medium, Structure Tags, Auto', 'question': 'Which tag(s) can be used for HTML5 structural elements? (Select all that apply)', 'A': '&lt;img&gt;', '*B': '&lt;header&gt;', '*C': '&lt;section&gt;', 'D': '&lt;a&gt;', 'E': '&lt;span&gt;'}
+&lt;span&gt;
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '45', 'type': 'Multiple Choice', 'title': 'Font Weight Usage', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Text Styling, Auto', 'question': 'The following CSS declaration is applied to a paragraph element:<br>p { <br> font-weight:700;  <br>}  <br>What does the font-weight value represent?', 'A': 'Light text', 'B': 'Normal text', '*C': 'Bold text', 'D': 'Extra bold text', 'E': 'No visual change'}
-The following CSS declaration is applied to a paragraph element:<br>p { <br> font-weight:700;  <br>}  <br>What does the font-weight value represent?
-['The ___ property is used to change the text color.']
+{'id': '35', 'type': 'Check Box', 'title': 'Attributes for Hyperlinks', 'topic': 'HTML Basic 1', 'tags': 'Medium, Attributes, Auto', 'question': 'Which of the following attribute(s) are valid for hyperlinks (&lt;a&gt; tag)? (Select all that apply)', '*A': 'href', 'B': 'mailto', 'C': 'src', '*D': 'target', 'E': 'link'}
+link
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '11', 'type': 'Check Box', 'title': 'HTML Structure Essentials', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Structure, Auto', 'question': 'Select all the components that are essential for a basic HTML structure.', '*A': '<!DOCTYPE html>', '*B': '<head>', '*C': '<body>', 'D': '<footer>', '*E': '<html>'}
-Select all the components that are essential for a basic HTML structure.
-['The ___ property is used to change the text color.']
+{'id': '51', 'type': 'Check Box', 'title': 'Font-Related Properties', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Properties, Auto', 'question': 'Which of the following code snippets contain valid CSS font-related properties? (Select all that apply.)', '*A': 'font-family:Arial, sans-serif;', '*B': 'font-weight:700;', '*C': 'font-style:italic;', 'D': 'font-size:18;', 'E': 'font-family:Times New Roman:'}
+font-family:Times New Roman:
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '12', 'type': 'Check Box', 'title': 'HTML Paragraph Tag', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Paragraph, Auto', 'question': 'Which of the following statements accurately describe the <p> tag?', '*A': 'It groups sentences and sections of text together.', '*B': 'It displays text as a block that starts on a new line.', 'C': 'It preserves extra spaces and line breaks in the content.', 'D': 'It can be used to format text as preformatted content.', 'E': 'Text inside <p> tags is displayed as a continuous line.'}
-Which of the following statements accurately describe the <p> tag?
-['The ___ property is used to change the text color.']
+{'id': '52', 'type': 'Check Box', 'title': 'Font Size Values', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Values, Auto', 'question': 'Select all the values that can replace the blank in the following CSS rule:<br><code>h1 { font-size:- - -; } </code>', '*A': '16px', '*B': '1.5em', '*C': '120%', '*D': '2rem', 'E': 'bold'}
+bold
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '13', 'type': 'Check Box', 'title': 'HTML Comments Purpose', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Comments, Auto', 'question': 'What are the purposes of using comments in HTML?', '*A': 'To help document the HTML source code.', '*B': 'To provide notes for other developers.', 'C': 'To style elements on the page.', '*D': 'To assist in debugging HTML code.', 'E': 'To ensure elements are displayed on the webpage.'}
-What are the purposes of using comments in HTML?
-['The ___ property is used to change the text color.']
+{'id': '53', 'type': 'Check Box', 'title': 'Applying External CSS', 'topic': 'CSS Basic 1', 'tags': 'Medium, Applying CSS, Auto', 'question': 'Which of the following is the correct way to link an external CSS file to an HTML document? (Select all that apply.)', 'A': '&lt;link rel="stylesheet” href="styles.css"&gt; &lt;/link&gt;', 'B': '&lt;link src="styles.css" type="text/css"&gt;', '*C': '&lt;link rel="stylesheet" href="styles.css"/&gt;', 'D': '&lt;style src="styles.css"&gt;&lt;/style&gt;', 'E': '&lt;link rel="stylesheet" src="styles.css" /&gt;'}
+&lt;link rel="stylesheet" src="styles.css" /&gt;
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '14', 'type': 'Check Box', 'title': 'HTML Document Structure', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Structure, Auto', 'question': 'Which statements are not true about the structure of an HTML document?', 'A': 'The HTML document is divided into head and body sections.', '*B': 'The <head> element contains the visible content of the page.', 'C': "The <title> tag is used to specify the document's title.", '*D': 'The <body> section contains meta information about the page.', 'E': 'The HTML document must start with a <html> tag after the DOCTYPE declaration.'}
-Which statements are not true about the structure of an HTML document?
-['The ___ property is used to change the text color.']
+{'id': '54', 'type': 'Check Box', 'title': 'CSS Comments', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Comments, Auto', 'question': 'Which of the following statements are true about CSS comments? (Select all that apply.)', '*A': 'They are enclosed within /* and */.', 'B': 'They can be used to hide CSS rules from the browser.', '*C': 'They do not affect how the webpage renders.', 'D': 'They can only be written inside &lt;style&gt; tags.', 'E': 'They are enclosed within */ and /*.'}
+They are enclosed within */ and /*.
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '15', 'type': 'Check Box', 'title': 'HTML Headings Information', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Headings, Auto', 'question': 'Which of the following are true about HTML headings?', '*A': 'HTML headings range from <h1> to <h6>, where <h1> is the most important.', '*B': 'Headings are used to structure the content and improve SEO.', 'C': 'All headings are treated as inline elements by default.', '*D': 'The <h1> tag is typically used for the main title of the page.', '*E': 'Headings cannot be nested within other elements.'}
-Which of the following are true about HTML headings?
-['The ___ property is used to change the text color.']
+{'id': '55', 'type': 'Check Box', 'title': 'Relative CSS Units', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Units, Auto', 'question': 'Which of the following are relative CSS units? (Select all that apply.)', 'A': 'px', '*B': 'em', '*C': '%', '*D': 'rem', 'E': 'pt'}
+pt
+['None of the options', 'None of the options']
+-----------DEBUGGING END-----------
+Processing line: diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
+Processing line: index 160edf5..ac9bb7b 100644
+Processing line: --- a/PL/example2/question_bank.md
+Processing line: +++ b/PL/example2/question_bank.md
+Processing line: @@ -263 +263 @@ D: href="_newtab"
+Processing line: -E: None of these
+Processing line: +E: None of the options
+Splitting line: E: None of the options
+Parts after split: ['E', 'None of the options']
+Processing line: @@ -275 +275 @@ D: &lt;span&gt;
+Processing line: -E: None of these
+Processing line: +E: None of the options
+Splitting line: E: None of the options
+Parts after split: ['E', 'None of the options']
+Generated UUID: cc092197-8a29-475b-92a0-2d575ef762f2
+Generated UUID: 2a77408e-add1-4480-a11a-0ffc85ff6d7e
+Generated UUID: 9d0dde40-0768-4e8f-ac8d-7c7b43215bc4
+Generated UUID: c84c6fc4-25e9-45b0-9bb7-1677d4bd39f2
+Generated UUID: 90782f26-0b06-42fa-952b-753100f7284c
+Generated UUID: 6d2ec778-ed78-445d-9d22-8fa84ea33a74
+Generated UUID: 2251e810-466b-4556-a7b1-83210f21b865
+Generated UUID: 02275a8c-5428-48d3-8826-0e51d90f4533
+Generated UUID: 0010e4f9-c0ae-4be4-a6fa-ef303fd03466
+Generated UUID: f61f1168-ba45-4ff0-950b-0e531d09c563
+Generating files in: question_6
+Generated UUID: 8a96f915-c1bc-4303-b7b8-83e53311c6a2
+Generated UUID: e230d816-d8e2-4d38-877d-d5b21013ce9f
+Generated UUID: 4a0065f2-a48b-4385-b8c2-d8d533f7970f
+Generated UUID: 0450034c-222d-4d12-8296-53617abe8262
+Generated UUID: 9437d1e6-a38e-408a-b35d-f63d1835c90e
+Generated UUID: e2ecacdc-d487-478f-b2a0-26b7c1597552
+Generated UUID: 84437ffa-47cc-42cc-9c78-c49ebc7ac91a
+Generated UUID: f8889b3a-4d26-4dc9-94a2-bdd1f790f222
+Generated UUID: 477349b5-3901-4c77-a9f4-c75944cbb5d7
+Generated UUID: e4cd21ff-391a-4301-ba24-a385e4792d4a
+Generating files in: question_7
+Generated UUID: a4e04fa0-74eb-4939-b36b-ea4f3c464a54
+Generated UUID: ca38725b-b8e4-4d4e-a897-c06941ccf2b5
+Generated UUID: 5abbf623-7e5d-46f9-9f76-9da6a4d1ff6e
+Generated UUID: 102f76cc-98f5-46f7-b509-05760fc5bd45
+Generated UUID: 6c7cbc92-359d-44b0-b44f-af483877b3d5
+Generated UUID: e6cd71d7-d05e-4809-9c39-6e1e57bd4348
+Generated UUID: 55a009f9-46e1-441c-b954-eb8e712db8d5
+Generated UUID: e73157d3-a662-41a0-9327-b8557397ac91
+Generated UUID: 3a38b2de-e401-4bf4-bca0-2aaf02a3b6ea
+Generated UUID: e675b8ee-c5c0-4d00-9f48-0892fcc3e0ec
+Generating files in: question_8
+Generated UUID: 7c87f7ab-a41a-49ca-b9f4-92aed8831abd
+Generated UUID: 15a869fc-92cb-40e8-9ceb-573cd21c0a04
+Generated UUID: 18bc629e-97e3-4bbf-9429-f31bbfa9cee7
+Generated UUID: 6b92936e-1b1c-488e-bdd7-cfaaac46299d
+Generated UUID: d90cd1ce-04d9-4496-831f-a7fe05a60bf9
+Generated UUID: f5fbf059-9c2a-4fa9-ac04-47eca3182ce4
+Generated UUID: 23161518-b412-45ae-8673-2a42238cb6f9
+Generated UUID: 98b2cfc5-beeb-488a-a07b-586fd0a903b4
+Generated UUID: 523784f7-3423-4d5b-9964-1ca26dedde79
+Generated UUID: 61d5db51-e6a0-44b0-be99-647c7bb4544f
+Generating files in: question_9
+Generated UUID: e4dd9c20-397f-465f-a702-2d435f70ec50
+Generated UUID: 2b7c227c-cec0-4e5b-b20c-73f30d28ef1a
+Generated UUID: 6dc7074b-56e7-44c5-9b30-8733d52ea02d
+Generated UUID: 99dbe766-0552-4118-9a2b-f0f32881b8fc
+Generated UUID: c7fd53ce-9f6b-4d99-8a4a-557cf7c4a456
+Generated UUID: 1a281f3e-4788-48a3-af72-b3a58823c7c9
+Generated UUID: ee01d1cd-a68e-4bb8-a39c-5f1f71976542
+Generated UUID: 05a372c0-b2e9-4047-b4fe-5e6a31e29306
+Generated UUID: f24b723f-992b-4470-adcc-46bc9cc033e2
+Generated UUID: 81f43678-abb4-4cec-9766-96b6a7049fc2
+Generating files in: question_10
+Generated UUID: 2cef30f6-8f35-4ea1-9a7b-e56e9d0c7f23
+Generated UUID: 4cb71d19-6e63-495b-9244-84e066054c85
+Generated UUID: f175dc2d-4e99-416f-9376-1e1dfa4f4c56
+Generated UUID: 39737313-32d4-4c60-8dbd-454cd9ccd16e
+Generated UUID: b7403617-76bb-46b5-9171-242deadfc398
+Generated UUID: a67b4148-b9f1-4d44-bc8c-7a271cda7313
+Generated UUID: 8a87f686-eeb7-4016-a9c0-741450277e54
+Generated UUID: 182bdfa8-ca02-4d9f-ab2b-600f309ac480
+Generated UUID: f457595c-4a51-4920-807e-28f814326cda
+Generated UUID: 7d52403d-01fa-4cb1-8e03-a1842743121a
+Generating files in: question_36
+Generated UUID: 309106df-34bf-45af-875f-1f55b67fb0f7
+Generated UUID: 4d23fe5a-cdb0-4dc7-968a-557e99a2ece0
+Generated UUID: e6f1c08e-e129-461c-84d4-689adebd42ec
+Generated UUID: 902c78cd-c9fa-4f39-bf94-ab0c4fc45003
+Generated UUID: 74cbf449-c491-46c9-9f8a-8b42551e2609
+Generated UUID: 607bacd9-dc13-410e-a9b5-10149eee9206
+Generated UUID: 9c95a9fd-e6d8-4ddf-8cc3-b234c51acaed
+Generated UUID: da1edd8e-2d0a-4769-be97-5dd35dbd7838
+Generated UUID: c05df6b0-40ac-4b27-92db-77a09d897d85
+Generated UUID: 6ae53dfd-c06f-4d95-918b-4ea0f254db5d
+Generating files in: question_37
+Generated UUID: 56892d7c-9b05-46c0-ac08-54bf8d9d61dd
+Generated UUID: 31913df1-7c43-48a2-b54b-9dd81091658e
+Generated UUID: e5e56aa3-1447-436d-89fd-26e12595dd16
+Generated UUID: 2641f0be-eb91-4c51-8fd5-8fc5396701b5
+Generated UUID: 0c1ea5f9-e310-4213-ab6f-84d2d6cdbacc
+Generated UUID: bf679107-ddef-4fdd-aed5-db7304af421d
+Generated UUID: eca01305-c3ed-47c4-a934-25e4c1c2c434
+Generated UUID: 14325177-1ee3-421b-8ed8-539dc5d29214
+Generated UUID: 7bce8fb9-3c83-42fd-a317-0074ecef86d0
+Generated UUID: ad42765a-25db-4eb1-a0a6-183b138f97b1
+Generating files in: question_38
+Generated UUID: 9cb30338-1193-4e6c-9265-bc47459151a2
+Generated UUID: 0019013d-cd1f-4a91-aeb7-5fb02a1d0aa0
+Generated UUID: 0e4150e7-2173-49a1-8778-3d701cd62997
+Generated UUID: 7682907c-2b94-4dd0-a7b8-3e72231ff413
+Generated UUID: 0538e610-024e-4712-84f3-7a6ec0a1688c
+Generated UUID: 736091e9-f411-424a-8475-a9d426276ca6
+Generated UUID: b2909441-7863-48a7-9147-b2b078a97af7
+Generated UUID: bf89c2f3-2341-4b82-b699-523e6f70507a
+Generated UUID: b0da37f8-e193-4996-a50d-3bf4361e1c7a
+Generated UUID: d6e85d48-68b9-4d70-8ca6-48540de1c284
+Generating files in: question_39
+Generated UUID: fae6c91a-0a63-4db1-a7e5-9f6e3f25d622
+Generated UUID: db4fc33d-6f02-4596-b4b4-ea953e52c867
+Generated UUID: 76576fff-04c4-4cca-9113-e66a85af2f7f
+Generated UUID: 1abd239e-0342-4a4b-9309-42896add12a8
+Generated UUID: 0a898c55-cced-4295-8608-a2146baaa55a
+Generated UUID: dbca5e39-de62-43b9-934f-5c622df7b09d
+Generated UUID: 1321b172-fada-467d-bf6f-b6d76ad72d3b
+Generated UUID: 656698ff-7cbc-49d6-b45d-afa1eb3aa347
+Generated UUID: 6dcffa06-045c-4ae6-b536-0cf0853ccaf8
+Generated UUID: c82c231c-9044-45ff-8ad3-c9a77035a545
+Generating files in: question_40
+-----------DEBUGGING START-----------
+{'id': '46', 'type': 'Drop Down', 'title': 'CSS Selector for Paragraph', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Selectors, Auto', 'question': 'Which of the following is a valid CSS selector for a paragraph element?', '*A': 'p { }', 'B': '.p { }', 'C': '#p { }', 'D': 'p() { }', 'E': 'p ()'}
+p ()
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '31', 'type': 'Check Box', 'title': 'Phrase Elements', 'topic': 'HTML Basic 1', 'tags': 'Medium, Phrase Tags, Auto ', 'question': 'Which of the following tags are phrase elements? (Select all that apply)', '*A': '&lt;em&gt;', '*B': '&lt;cite&gt;', 'C': '&lt;header&gt;', 'D': '&lt;title&gt;', '*E': '&lt;b&gt;'}
-Which of the following tags are phrase elements? (Select all that apply)
-['The ___ property is used to change the text color.']
+{'id': '47', 'type': 'Drop Down', 'title': 'Text Color Property', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Properties, Auto', 'question': 'The ___ property is used to change the text color.', 'A': 'text-color', 'B': 'background-color', 'C': 'font-color', '*D': 'color', 'E': 'colour'}
+colour
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '32', 'type': 'Check Box', 'title': 'Creating Lists in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, List Tags, Auto', 'question': 'Which HTML tags can be used to create lists? (Select all that apply)', '*A': '&lt;ul&gt;', 'B': '&lt;head&gt;', '*C': '&lt;li&gt;', '*D': '&lt;dl&gt;', 'E': '&lt;p&gt;'}
-Which HTML tags can be used to create lists? (Select all that apply)
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '33', 'type': 'Check Box', 'title': 'Image Tag Attributes', 'topic': 'HTML Basic 1', 'tags': 'Medium, Attributes, Auto', 'question': 'Which attributes can be applied to an &lt;img&gt; tag? (Select all that apply)', '*A': 'src', '*B': 'alt', 'C': 'type', '*D': 'height', '*E': 'width'}
-Which attributes can be applied to an &lt;img&gt; tag? (Select all that apply)
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '34', 'type': 'Check Box', 'title': 'HTML5 Structural Elements', 'topic': 'HTML Basic 1', 'tags': 'Medium, Structure Tags, Auto', 'question': 'Which tags are used for HTML5 structural elements? (Select all that apply)', 'A': '&lt;img&gt;', '*B': '&lt;header&gt;', '*C': '&lt;section&gt;', 'D': '&lt;a&gt;', 'E': '&lt;span&gt;'}
-Which tags are used for HTML5 structural elements? (Select all that apply)
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '35', 'type': 'Check Box', 'title': 'Attributes for Hyperlinks', 'topic': 'HTML Basic 1', 'tags': 'Medium, Attributes, Auto', 'question': 'Which of the following attributes are valid for hyperlinks (&lt;a&gt; tag)? (Select all that apply)', '*A': 'href', 'B': 'mailto', 'C': 'src', '*D': 'target', 'E': 'link'}
-Which of the following attributes are valid for hyperlinks (&lt;a&gt; tag)? (Select all that apply)
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '51', 'type': 'Check Box', 'title': 'Font-Related Properties', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Properties, Auto', 'question': 'Which of the following are valid ways to define font-related properties in CSS? (Select all that apply.)', '*A': 'font-family:Arial, sans-serif;', '*B': 'font-weight:700;', '*C': 'font-style:italic;', 'D': 'font-size:18;', 'E': 'font-family:Times New Roman:'}
-Which of the following are valid ways to define font-related properties in CSS? (Select all that apply.)
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '52', 'type': 'Check Box', 'title': 'Font Size Values', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Values, Auto', 'question': 'Select all the values that can replace the blank in the following CSS rule:<br>h1 { font-size:- - -; }  ', '*A': '16px', '*B': '1.5em', '*C': '120%', '*D': '2rem', 'E': 'bold'}
-Select all the values that can replace the blank in the following CSS rule:<br>h1 { font-size:- - -; }  
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '53', 'type': 'Check Box', 'title': 'Applying External CSS', 'topic': 'CSS Basic 1', 'tags': 'Medium, Applying CSS, Auto', 'question': 'Select all the ways to apply an external CSS file to an HTML document.', 'A': '&lt;link rel="stylesheet” href="styles.css"&gt; &lt;/link&gt;', 'B': '&lt;link src="styles.css" type="text/css"&gt;', '*C': '&lt;link rel="stylesheet" href="styles.css"/&gt;', 'D': '&lt;style src="styles.css"&gt;&lt;/style&gt;', 'E': '&lt;link rel="stylesheet" src="styles.css" /&gt;'}
-Select all the ways to apply an external CSS file to an HTML document.
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '54', 'type': 'Check Box', 'title': 'CSS Comments', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Comments, Auto', 'question': 'Which of the following are true about CSS comments? (Select all that apply.)', '*A': 'They are enclosed within /* and */.', 'B': 'They can be used to hide CSS rules from the browser.', '*C': 'They do not affect how the webpage renders.', 'D': 'They can only be written inside &lt;style&gt; tags.', 'E': 'They are enclosed within */ and /*.'}
-Which of the following are true about CSS comments? (Select all that apply.)
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '55', 'type': 'Check Box', 'title': 'Relative CSS Units', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Units, Auto', 'question': 'Which units of measurement are relative in CSS?', 'A': 'px', '*B': 'em', '*C': '%', '*D': 'rem', 'E': 'pt'}
-Which units of measurement are relative in CSS?
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '6', 'type': 'Drop Down', 'title': 'Line Breaks in HTML', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Line Break, Auto', 'question': 'Which of the following is NOT true about the <br> tag in HTML?', 'A': 'It creates a line break in the text', 'B': 'It has no content without a closing tag', '*C': 'It must be placed within a <p> tag', 'D': 'It does not have an end tag'}
-Which of the following is NOT true about the <br> tag in HTML?
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '7', 'type': 'Drop Down', 'title': 'Meta Tags in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, Viewport Meta, Auto', 'question': 'What is the purpose of the <meta> tag with the attribute name="description"?', 'A': 'To refresh the web page every specified number of seconds', 'B': 'To set keywords for search engine optimization', '*C': 'To provide a brief summary of the web page’s content', 'D': 'To define the author of a page'}
-What is the purpose of the <meta> tag with the attribute name="description"?
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '8', 'type': 'Drop Down', 'title': 'Title Tag in HTML', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Title, Auto', 'question': 'The text defined by the <title> tag appears ___ in a web page.', 'A': 'Inside the main content area', '*B': 'As the title in the browser tab, bookmarks, and search engine results', 'C': 'As the title', 'D': 'At the beginning of each paragraph'}
-The text defined by the <title> tag appears ___ in a web page.
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '9', 'type': 'Drop Down', 'title': 'HTML Line Break Tag', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Line Break, Auto', 'question': 'The ___ tag is used to create a line break in HTML.', '*A': '<br>', 'B': '<p>', 'C': '<hr>', 'D': '<h1>'}
-The ___ tag is used to create a line break in HTML.
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '10', 'type': 'Drop Down', 'title': 'Nesting Elements in HTML', 'topic': 'Intro to HTML', 'tags': 'Medium, Nesting Elements, Auto', 'question': 'The ___ tag is used to correctly nest elements to display “HTML” in bold within a paragraph.', 'A': '<strong> <p>HTML</p> </strong>', '*B': '<p> <strong>HTML</strong> </p>', 'C': '<p> <em>HTML</em> </p>', 'D': '<p>HTML<p> <strong> </strong>'}
-The ___ tag is used to correctly nest elements to display “HTML” in bold within a paragraph.
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '36', 'type': 'Drop Down', 'title': 'Ordered List Tag', 'topic': 'HTML Basic 1', 'tags': 'Easy, Ordered List Tag, Auto', 'question': 'The correct tag to create a numbered list is ___ .', '*A': '<ol>', 'B': '<ul>', 'C': '<dl>', 'D': '<li>'}
-The correct tag to create a numbered list is ___ .
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '37', 'type': 'Drop Down', 'title': 'HTML Entity for Less-Than Symbol', 'topic': 'HTML Basic 1', 'tags': 'Easy, HTML Entity, Auto', 'question': 'The ___ HTML entity is used to display a less-than symbol.', '*A': '&lt;', 'B': '&gt;', 'C': '&copy;', 'D': '&amp;'}
-The ___ HTML entity is used to display a less-than symbol.
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '38', 'type': 'Drop Down', 'title': 'Block-Level Division Tag', 'topic': 'HTML Basic 1', 'tags': 'Easy, Structural Elements, Auto', 'question': '___ tag defines a block-level division or section?', '*A': '<div>', 'B': '<span>', 'C': '<section>', 'D': '<p>'}
-___ tag defines a block-level division or section?
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '39', 'type': 'Drop Down', 'title': 'Opening Links in a New Tab', 'topic': 'HTML Basic 1', 'tags': 'Medium, Attribute, Auto', 'question': 'The ___ attribute opens a link in a new window or tab', '*A': '<code>target="_blank"</code>', 'B': '<code>href="_newtab"</code>', 'C': '<code>open="new"</code>', 'D': '<code>newtab="true"</code>'}
-The ___ attribute opens a link in a new window or tab
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '40', 'type': 'Drop Down', 'title': 'Displaying an Image', 'topic': 'HTML Basic 1', 'tags': 'Easy, Tag Name, Auto', 'question': 'The ___ HTML tag is used to display an image', '*A': '<img>', 'B': '<image>', 'C': '<media>', 'D': '<figure>'}
-The ___ HTML tag is used to display an image
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '46', 'type': 'Drop Down', 'title': 'CSS Selector for Paragraph', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Selectors, Auto', 'question': 'To define styles that apply only to a &lt;p&gt; element, the CSS selector should be written as ___ ', '*A': 'p { }', 'B': '.p { }', 'C': '#p { }', 'D': 'p() { }', 'E': 'p ()'}
-To define styles that apply only to a &lt;p&gt; element, the CSS selector should be written as ___ 
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
-Generated UUID: 2930a812-f4ed-4d04-b6a6-f291b014ac81
-Generated UUID: b6092c30-a0a3-4307-a219-d23e589a59ba
-Generated UUID: 99bb737c-a9f2-4d61-a831-32d5eec5ef4d
-Generated UUID: 90f1cb35-5a45-453c-9df5-cae8a040fa69
-Generated UUID: e587b805-08b1-47ed-94e9-306b359bd173
-Generated UUID: 2a9ac658-a143-4b55-909b-82c092a42b34
-Generated UUID: 51a69a6f-f314-4f37-9173-c08c706980e9
-Generated UUID: 0292c14c-b6bd-446c-b770-a9fc628c26f2
-Generated UUID: d68a28f1-d423-428d-80c5-2c835e867f31
-Generated UUID: b8b6cdf8-14db-4281-a5ec-da3c9a7d013c
-Generated UUID: aaec84ae-c5d3-4d82-95f1-f6fa62ca72dc
-Generating files in: question_47
------------DEBUGGING START-----------
-{'id': '48', 'type': 'Drop Down', 'title': 'CSS Value in Margin Property', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Properties (margin), Auto', 'question': 'In the CSS rule:<br> p { margin:10px; } <br> the value 10px represents the ___  part of the style rule.', 'A': 'selector', 'B': 'size', 'C': 'distance', '*D': 'value', 'E': 'property'}
-In the CSS rule:<br> p { margin:10px; } <br> the value 10px represents the ___  part of the style rule.
-['The ___ property is used to change the text color.']
+{'id': '48', 'type': 'Drop Down', 'title': 'CSS Value in Margin Property', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Properties (margin), Auto', 'question': 'In the following CSS rule:<br> p { margin:10px; } <br> the value 10px represents the ___  part of the style rule.', 'A': 'selector', 'B': 'size', 'C': 'distance', '*D': 'value', 'E': 'property'}
+property
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
 {'id': '49', 'type': 'Drop Down', 'title': 'Font Family Description', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Properties, Auto', 'question': 'The following description:"Specifies the typeface/font (or generic font family) to use. More than one can be specified" describes the ___ property.', '*A': 'font-family', 'B': 'font-size', 'C': 'font-style', 'D': 'font-variant', 'E': 'font-weight'}
-The following description:"Specifies the typeface/font (or generic font family) to use. More than one can be specified" describes the ___ property.
-['The ___ property is used to change the text color.']
+font-weight
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
 -----------DEBUGGING START-----------
-{'id': '50', 'type': 'Drop Down', 'title': 'Text Color in Paragraph', 'topic': 'CSS Basic 1', 'tags': 'Hard, CSS Colors, Auto', 'question': '___ sets the text color of all <code>&lt;p&gt;</code> elements to red.', '*A': 'rgb(255, 0, 0)', 'B': 'hsl(120, 100%, 50%)', 'C': '#0000ff', 'D': 'None of the above', 'E': 'All of the above'}
-___ sets the text color of all <code>&lt;p&gt;</code> elements to red.
-['The ___ property is used to change the text color.']
+{'id': '50', 'type': 'Drop Down', 'title': 'Text Color in Paragraph', 'topic': 'CSS Basic 1', 'tags': 'Hard, CSS Colors, Auto', 'question': '___ sets the text color of all <code>&lt;p&gt;</code> elements to red.', '*A': 'rgb(255, 0, 0)', 'B': 'hsl(120, 100%, 50%)', 'C': '#0000ff', 'D': 'None of the options', 'E': 'colour:red;'}
+colour:red;
+['None of the options', 'None of the options']
 -----------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '16', 'type': 'String Input', 'title': 'Writing a Heading in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Headings, Auto', 'question': 'Write “This is a heading” using the H1 tag', 'answer': '<h1> This is a heading </h1>'}
-Write “This is a heading” using the H1 tag
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '17', 'type': 'String Input', 'title': 'Nested HTML Elements', 'topic': 'Intro to HTML', 'tags': 'Medium, Nesting Elements, Manual', 'question': 'Provide an example of properly nested HTML elements using the sentence “My dog is very friendly.” The word “very” should be bold.', 'answer': '<p> My dog is <strong> very </strong> friendly. </p>'}
-Provide an example of properly nested HTML elements using the sentence “My dog is very friendly.” The word “very” should be bold.
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '18', 'type': 'String Input', 'title': 'Line Break in HTML', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Line Break, Auto', 'question': 'How would you use the <br> tag to create a line break, so that "Hello" appears on one line and "world!" starts on the next line?', 'answer': 'Hello <br> world!'}
-How would you use the <br> tag to create a line break, so that "Hello" appears on one line and "world!" starts on the next line?
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '19', 'type': 'String Input', 'title': 'Horizontal Rule in HTML', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Horizontal Rule, Auto', 'question': 'How would you add a horizontal line between the following two paragraphs? <br>This is the first paragraph.<br>(This is where the horizontal line should go)<br>This is the second paragraph.<br> Write your answer in one sentence.', 'answer': '<p> This is the first paragraph. </p> <hr> <p> This is the second paragraph.</p>'}
-How would you add a horizontal line between the following two paragraphs? <br>This is the first paragraph.<br>(This is where the horizontal line should go)<br>This is the second paragraph.<br> Write your answer in one sentence.
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '20', 'type': 'String Input', 'title': 'Blockquote in HTML', 'topic': 'Intro to HTML', 'tags': 'Hard, HTML Blockquote, Auto', 'question': 'How would you use the &lt;blockquote&gt; tag to display the following quote from Albert Einstein, with the source link &quot;https//example.com&quot; included as a citation? <br> Quote to format) <br> "Life is like riding a bicycle. To keep your balance, you must keep moving."', 'answer': '\'<blockquote cite="https//example.com"> Life is like riding a bicycle. To keep your balance, you must keep moving. </blockquote>\''}
-How would you use the &lt;blockquote&gt; tag to display the following quote from Albert Einstein, with the source link &quot;https//example.com&quot; included as a citation? <br> Quote to format) <br> "Life is like riding a bicycle. To keep your balance, you must keep moving."
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '26', 'type': 'String Input', 'title': 'Ordered List Creation', 'topic': 'HTML Basic 1', 'tags': 'Medium, Ordered List, Manual', 'question': 'Create an ordered list with the three items Toyota, GMC, RAM. Each item must be displayed in a separate line. ', 'answer': '<ol> <li>Toyota</li> <li>GMC</li> <li>RAM</li> </ol>'}
-Create an ordered list with the three items Toyota, GMC, RAM. Each item must be displayed in a separate line. 
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '27', 'type': 'String Input', 'title': 'Navigation Menu Creation', 'topic': 'HTML Basic 1', 'tags': 'Medium, Navigation Tag, Auto', 'question': 'Create a navigation menu using the &lt;nav&gt; tag that contains a link to "home.html" labeled "Home".', 'answer': '<nav> <a href="home.html">Home</a> </nav>'}
-Create a navigation menu using the &lt;nav&gt; tag that contains a link to "home.html" labeled "Home".
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '28', 'type': 'String Input', 'title': 'Adding an Image with Alternate Text', 'topic': 'HTML Basic 1', 'tags': 'Medium, Image Tag, Auto', 'question': 'Insert an image with the alternate text "Orange cat drinking water" and source as "cat.jpg".', 'answer': '<img src="cat.jpg" alt="Orange cat drinking water">'}
-Insert an image with the alternate text "Orange cat drinking water" and source as "cat.jpg".
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '29', 'type': 'String Input', 'title': 'Using Special Characters in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, Special Characters, Auto ', 'question': 'Write the following sentence using a paragraph tag:"Tom & Jerry." ', 'answer': '<p>Tom & Jerry</p>'}
-Write the following sentence using a paragraph tag:"Tom & Jerry." 
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '30 ', 'type': 'String Input', 'title': 'Bolding words in HTML', 'topic': 'HTML Basic 1', 'tags': 'Easy, Phrase elements, Manual', 'question': 'Bold the word "HTML" in the following sentence "HTML is short for HyperText Markup Language."<br> Note Write the full sentence making only "HTML" bold.', 'Answer': '<HTML> is short for HyperText Markup Language.'}
-Bold the word "HTML" in the following sentence "HTML is short for HyperText Markup Language."<br> Note Write the full sentence making only "HTML" bold.
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '56', 'type': 'String Input', 'title': 'External CSS File Href Attribute', 'topic': 'CSS Basic 1', 'tags': 'Medium, External CSS, Manual', 'question': 'An external CSS file is linked using a &lt;link&gt; element. If the CSS file is named styles.css and located in a folder named main, the correct href attribute would be:', 'answer': 'href="main/styles.css"'}
-An external CSS file is linked using a &lt;link&gt; element. If the CSS file is named styles.css and located in a folder named main, the correct href attribute would be:
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '57', 'type': 'String Input', 'title': 'CSS Declaration for Paragraph Color', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Syntax, Manual', 'question': 'Write the CSS declaration to set the color of a paragraph to red.', 'answer': 'p { color:red; }'}
-Write the CSS declaration to set the color of a paragraph to red.
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '58', 'type': 'String Input', 'title': 'Inline CSS for Background Color', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Syntax, Manual', 'question': 'Write the inline CSS to set the background color of a &lt;div&gt; to yellow.', 'answer': '<code><div style="background-color:yellow;"></div></code>'}
-Write the inline CSS to set the background color of a &lt;div&gt; to yellow.
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '59', 'type': 'String Input', 'title': 'Correcting CSS Rule Syntax', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Syntax, Manual', 'question': 'Examine the following CSS rule, identify all the errors, and rewrite the correct version in one line. If multiple corrections are needed, list them in order, separated by commas. <br> h2 {  <br> color:blue  <br> font-size = 20px; <br> text-align:center;  <br> background-color:#00FF00;  <br> }  ', 'answer': 'color:blue; , font-size:20px;  '}
-Examine the following CSS rule, identify all the errors, and rewrite the correct version in one line. If multiple corrections are needed, list them in order, separated by commas. <br> h2 {  <br> color:blue  <br> font-size = 20px; <br> text-align:center;  <br> background-color:#00FF00;  <br> }  
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
------------DEBUGGING START-----------
-{'id': '60', 'type': 'String Input', 'title': 'CSS Rule for Font Size', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Syntax, Auto', 'question': 'Write the CSS rule to apply a font size of 20px to h3. Answer in one line.', 'answer': 'h3 { font-size:20px; }'}
-Write the CSS rule to apply a font size of 20px to h3. Answer in one line.
-['The ___ property is used to change the text color.']
------------DEBUGGING END-----------
+Processing line: diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
+Processing line: index 160edf5..ac9bb7b 100644
+Processing line: --- a/PL/example2/question_bank.md
+Processing line: +++ b/PL/example2/question_bank.md
+Processing line: @@ -263 +263 @@ D: href="_newtab"
+Processing line: -E: None of these
+Processing line: +E: None of the options
+Splitting line: E: None of the options
+Parts after split: ['E', 'None of the options']
+Processing line: @@ -275 +275 @@ D: &lt;span&gt;
+Processing line: -E: None of these
+Processing line: +E: None of the options
+Splitting line: E: None of the options
+Parts after split: ['E', 'None of the options']
+Generated UUID: 2d5d114a-612b-4e1b-ae56-826312d2fb0f
+Generated UUID: b7dfab63-fa90-45c1-b763-0488ed084051
+Generated UUID: 2e913c8b-121e-4e8c-a351-c56ae32a7ac1
+Generated UUID: f197f178-8892-4df4-866c-b38c8a0ebfe6
+Generated UUID: 35007034-651a-4e9f-897a-f6914856fdd8
+Generated UUID: 948d4584-8701-463b-976b-98811da84aaf
+Generated UUID: 9f17f6f7-eef4-48ec-baa8-728e8f4b58e4
+Generating files in: question_16
+Generated UUID: 1b938cf5-9b01-49a7-8cc8-db464be29bcc
+Generated UUID: 4ddb210c-f0f3-43b0-990a-fe140db02024
+Generated UUID: 409135e8-f011-499e-985a-f46c86634c55
+Generated UUID: e21963e5-35e1-4ff7-b980-7e2fc240610d
+Generated UUID: cc1f9f22-64e1-481b-b812-080c0aa0f806
+Generated UUID: 8a1c9e50-a90b-4e56-b35c-da67023000f5
+Generated UUID: 840de5cf-f8a7-4ed1-899b-342ebbd72e4d
+Generating files in: question_17
+Generated UUID: d695c63d-3c23-437c-ad13-59db525a35cf
+Generated UUID: 6e3eeee0-1368-4eec-a009-302ac588100a
+Generated UUID: daac7bd9-a9a0-480d-98fe-ac03db00ae04
+Generated UUID: 1a012af4-eb7b-48ee-aa78-56e6fd5a45c4
+Generated UUID: 1a7ce77a-9b8d-4dde-a180-3e0b7756b626
+Generated UUID: ffc9e4df-cd49-4fc9-9a3e-db27d842e123
+Generated UUID: 550ee4c7-d69c-437f-bd74-13e17f68ed38
+Generating files in: question_18
+Generated UUID: 673d3062-231c-4948-9d43-05230df360f3
+Generated UUID: e21a2c6c-6d26-4917-a216-c9cde1378197
+Generated UUID: f30610bf-2d85-4de9-a611-682d28ef6a42
+Generated UUID: 326ac6c1-66ad-44ca-a4e4-0a2467451b91
+Generated UUID: c0259fca-8b79-441a-99d7-2625e4820340
+Generated UUID: af6b0be6-843f-482b-8231-85bf6ec77c56
+Generated UUID: bbf1cd20-60f9-450a-9574-f031a8e7b08b
+Generating files in: question_19
+Generated UUID: 99909f27-e581-4633-9965-6cffdad998a2
+Generated UUID: b92c1029-4289-4c26-ba4e-fdffb7a4f4d7
+Generated UUID: e1e66843-281c-4f97-8700-9944014e4103
+Generated UUID: d0fb4a58-2dca-4e25-92e7-53d80a05bff3
+Generated UUID: 732445b6-2818-4312-8e60-a55803dbb3ed
+Generated UUID: bdfa3773-bb06-4447-a577-6c17d3548951
+Generated UUID: 4fbb260a-8594-4e35-b941-1ce8c78f7e83
+Generating files in: question_20
+Generated UUID: fd194f35-3094-4d9e-9717-5f92e57c543a
+Generated UUID: b47a9b8b-ef83-48a9-996f-645f8848b1bb
+Generated UUID: 206fe26a-d4d0-46c5-ae4c-f0b42083ce26
+Generated UUID: df935386-03f1-4ce5-a9f3-ac631be2fa9c
+Generated UUID: 4365b7bc-026e-4233-95d7-71e3ef6f36e1
+Generated UUID: b68d9708-ff08-441e-8d16-ecbbb583d3f2
+Generated UUID: 3875b0c2-70e8-462c-9cf1-0d61ec82169f
+Generating files in: question_26
+Generated UUID: 66958829-7ebb-4fa7-8912-b44852ca9108
+Generated UUID: 80b49e74-484b-45af-bd1f-866748f8e3e4
+Generated UUID: b74480d2-2461-4a26-a36f-ea723940fce3
+Generated UUID: 15202a3a-a88e-4604-bc3b-c4121d2c322a
+Generated UUID: b2d909f8-702b-4d6c-989d-a938e965b0ae
+Generated UUID: 90d35233-0f28-4641-9678-927788f11794
+Generated UUID: f3f911d7-ffee-412a-8e63-800c71bb415e
+Generating files in: question_27
+Generated UUID: 7337cfff-6cda-4ba1-b6e5-c2fe3730c05d
+Generated UUID: e5f63b12-90e5-4838-b1f2-20d41df1845c
+Generated UUID: 8dc005a5-4392-4024-8d35-baeabcad9f76
+Generated UUID: 8d99be7c-4fe4-41bf-819c-859e4b19be1c
+Generated UUID: 92bc1847-e632-4430-b334-44dabb7d8c47
+Generated UUID: 00bb2144-4291-49e5-bd5d-1dd3ae3d8b27
+Generated UUID: 5d3f76e4-cdcf-4370-8256-d23f27af268b
+Generating files in: question_28
+Generated UUID: cd493640-5efd-4f5e-8172-854ef9947003
+Generated UUID: 99bdc451-7971-4bd3-8823-7c55f7d3386b
+Generated UUID: 0ac24c0b-9f27-4205-b47e-6d067907e902
+Generated UUID: b1aab97e-ec2a-43f4-b523-9b8c031e020f
+Generated UUID: 07fe9c8b-6ce4-440e-8113-cd2b0c606832
+Generated UUID: da67797e-4fa3-473a-85c5-7402de611322
+Generated UUID: 433778bb-61cd-4bca-9bd4-b2acfce14f2e
+Generating files in: question_29
+Generated UUID: 1b00f2a3-d1ba-4878-9cf9-0c01c3ebc733
+Generated UUID: 051d29b4-72bb-4efc-af9c-65e440f350e9
+Generated UUID: 7a7293c0-0a63-49eb-a2a2-4850ffc813c5
+Generated UUID: 511248e4-8b7c-482b-96a2-27206bca3075
+Generated UUID: 0160e305-4668-4c18-b5cc-084a14402e47
+Generated UUID: b7e53fdf-1092-4a42-9fb4-b7f145774892
+Generated UUID: 6fa482d4-0ee1-4f40-bab2-b2be68d6291b
+Generating files in: question_30
+Generated UUID: 3bcba357-1179-4506-ab74-52f359930f38
+Generated UUID: f2fe960b-ecf2-4e22-8c32-dbe40317f6cf
+Generated UUID: 55078b35-3038-4e5f-90a2-fe1ee1b59fbc
+Generated UUID: 6f8ad5ec-b652-4315-852b-a9d55d6f0e03
+Generated UUID: 04143a5b-5b4c-4875-93eb-a3a50890049c
+Generated UUID: b68f3b86-125b-4eab-bb48-f9198dc23cbb
+Generated UUID: 2eddd3a9-8d9c-472f-939d-64b99eaf5ca2
+Generating files in: question_56
+Generated UUID: 70442e70-cb48-48bb-b81e-07977efd17be
+Generated UUID: 80bd3e2a-e9fd-4807-982b-8061fdbcb462
+Generated UUID: 9733038d-be2f-4a7a-9d53-9cb03b624a71
+Generated UUID: ab40a1bf-fbc3-40a6-b922-3d32473e7a43
+Generated UUID: cfa991a1-21a6-476f-8e04-0a2c820947f3
+Generated UUID: 20f52a47-8f57-41b2-8863-366e3d62b6be
+Generated UUID: d3f3e5b9-94bd-486f-b791-d5847fc3536e
+Generating files in: question_57
+Generated UUID: dfd52c54-8cf8-4932-9619-cff673d736d2
+Generated UUID: 0232353a-1972-4829-b42e-2a7108760583
+Generated UUID: 446b8ae8-aa61-4830-b4f6-374eafd8ebdd
+Generated UUID: b735254e-df29-490f-985f-33a8dcf0dccd
+Generated UUID: 6b425caa-45b0-463e-8f81-35ef8b5a042f
+Generated UUID: 590fad98-c7fe-4314-8d93-b3951c3e5045
+Generated UUID: 7b5aff6e-436d-4b18-b6c9-0e76555df8d2
+Generating files in: question_58
+Generated UUID: 1a221ef0-a28e-4160-a2a3-cdbc4e527c12
+Generated UUID: 67ec3416-ce7f-447c-bb8a-d05c23d023ab
+Generated UUID: d0b78559-8d79-415e-b969-7934074f055c
+Generated UUID: 07e0adae-f157-4d89-90b4-dd09d60fefcf
+Generated UUID: a8f6427a-00b0-4ead-9057-1ed63a1705f2
+Generated UUID: dafe4147-b51e-4b09-9fa8-9bcbc32c23f1
+Generated UUID: b27ee26d-3524-4863-ad30-cea905c553af
+Generating files in: question_59
+Generated UUID: 19c2217d-17e7-4a2f-84d8-2b62246b46b6
+Generated UUID: 2cbd09c1-48e8-40fc-9d96-221f9ad1cd97
+Generated UUID: cbcd3884-f398-4ffb-9ee4-81b2ff421824
+Generated UUID: efafcf42-77e8-4cdd-87d1-29ce72387fcc
+Generated UUID: 8997eb76-db87-4d66-819d-0758e8a639bd
+Generated UUID: b5cc3b73-0ad1-43f5-abba-996e7b70a9f8
+Generated UUID: f752c83a-b92c-4a38-828c-8bb88e90aa06
+Generating files in: question_60
 ✅ Processing complete!
