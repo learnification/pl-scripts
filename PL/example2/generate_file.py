@@ -102,26 +102,29 @@ def create_data(file):
     pattern = re.compile(r"(###.*?)(?=(?:\n###))", re.DOTALL)
     questions = pattern.findall(file)
 
+    print(f"Total questions detected: {len(questions)}")  # Debugging
+
     for question in questions:
         dic = {}
-        lines = question.split("\n")
+        lines = question.strip().split("\n")
+        print(f"\n🔍 Processing question block:\n{question}")  # Debugging
+
         for line in lines:
-            if line != "###":
-                # Debugging: Print the line before processing
-                print(f"Processing line: {line}")
-
-                # Split only on the first occurrence of `: `
-                parts = line.split(": ", 1)
-
+            if line.strip() and line.strip() != "###":
+                print(f"➡ Processing line: {line}")  # Debugging
+                
+                parts = line.split(": ", 1)  # Split only on first occurrence
+                
                 if len(parts) == 2:
                     key, value = parts
-                    key = key.strip()
-                    value = value.strip()
-                    dic[key] = value
+                    dic[key.strip()] = value.strip()
                 else:
-                    print(f"⚠️ Unexpected format in line: {line}")  # Debugging message
+                    print(f"⚠️ Skipping line: {line}")  # Debugging unexpected formats
 
-        data.append(dic)
+        if dic:  # Ensure non-empty questions are stored
+            data.append(dic)
+
+    print(f"\n✅ Successfully parsed {len(data)} questions.")
     return data
 def createContext(question):
     """Creates a context dictionary for template rendering."""
