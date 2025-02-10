@@ -1,3 +1,529 @@
+Git diff output:
+diff --git a/PL/example2/question_bank.md b/PL/example2/question_bank.md
+index 006c836..d2fe939 100644
+--- a/PL/example2/question_bank.md
++++ b/PL/example2/question_bank.md
+@@ -335 +335 @@ question: Which HTML tags can be used to create lists? (Select all that apply)
+-*A: *A:&lt;ul&gt;
++*A: &lt;ul&gt;
 
-[]
-{}
+Removed questions: []
+Added questions: ['*A']
+Modified questions: []
+Generated UUID: c635de10-3e96-4316-bf7e-354809cf42d7
+Generated UUID: afe7c36c-6cb1-4623-b82b-3c3d9fb9d62d
+Generated UUID: b16ff7a4-1d87-45a2-8bce-b1e5bf53db62
+Generated UUID: bc1ce023-ef81-4458-a389-84df94db82b3
+Generated UUID: 8b7cc446-deb5-4c87-9311-96999526bb32
+Generated UUID: ce759930-e5b7-44e3-a016-c359978b114d
+Generated UUID: 1851e225-a2f1-44b1-a3a3-4f27c0aff26e
+Generated UUID: 537f67b8-9e97-4329-8efd-d47b41de6b61
+Generated UUID: caad66a9-c567-477c-a96e-581a26bb7efd
+Generated UUID: a70ad6c5-54f2-401c-b900-7c334e6bcc2a
+Generated UUID: e59354a5-739c-4946-884e-4fa609f7e898
+Generating files in: question_1
+Generated UUID: b57000a1-c6c5-4dec-913d-7ac44153a526
+Generated UUID: cd9835ce-1b1b-4550-a3f1-21203208b479
+Generated UUID: 8cab90b6-8cb8-42fb-b47d-5ab0386cc079
+Generated UUID: 4ddc42b9-21ed-404e-9718-a8a05b36d351
+Generated UUID: 14b52b15-ac2b-48c0-8a8b-3a1dbc98be17
+Generated UUID: db6f7d4e-0928-4d10-832c-640f723a9e11
+Generated UUID: c3c7f648-ad5e-4086-b926-b1d51616416b
+Generated UUID: 690ccf8e-cc5e-4725-a31c-61e7cf22d498
+Generated UUID: 5c2fbe39-8c1e-4ed1-b7a9-7828383b8f1b
+Generated UUID: 1b51a1d8-fd1e-45c3-a95f-acda89a15548
+Generated UUID: 87f82157-f11b-440b-8a0b-bfb1308240ed
+Generating files in: question_2
+Generated UUID: 6c558fff-c94a-4224-bf5a-35c6bde3a201
+Generated UUID: 93c241b5-8256-46b4-af8d-238a7710a76a
+Generated UUID: bdb9bdc3-ad00-48d7-86fe-d10922bc6eb1
+Generated UUID: b71d60ae-5d3c-41cb-bdc1-b94006d3231c
+Generated UUID: 427b72a4-356e-4126-b4e8-1de147c5e366
+Generated UUID: a0940d8a-2ffd-423b-8976-13ff7156267a
+Generated UUID: 31550da1-5715-4bb8-bc84-10cfa2c27483
+Generated UUID: a80f1a9b-6ccf-472f-86c2-059a7c209cf0
+Generated UUID: 2ba67cd3-82fe-472d-9a3d-8a0bfb4311f8
+Generated UUID: 7f9a7b61-afd6-4137-aeb5-6128269fb4b8
+Generated UUID: d28d9257-2930-4557-8b6d-298acb637c7e
+Generating files in: question_3
+Generated UUID: 9b2be188-a317-4704-ad4d-353e1a551132
+Generated UUID: 55d8cc85-f9de-4b1b-9602-960ba12e4846
+Generated UUID: 13aeec4a-f99e-40aa-b778-8073f47b3e50
+Generated UUID: 4be13982-e653-4f72-a630-6f8eb202f004
+Generated UUID: 100c8dfd-68ad-4347-9ee0-e3208f659fdf
+Generated UUID: 315b6431-739c-4cfa-b284-8d80a079b6ac
+Generated UUID: a46d6f81-8035-4e71-837c-37b94fd1bcf8
+Generated UUID: 244f030a-c2d2-435c-8744-f93d5d0cd8f5
+Generated UUID: b227f98b-637d-4f0e-a391-dec0d620f133
+Generated UUID: 1e9245d9-dde7-4789-bc28-9ea423ac5e6d
+Generated UUID: ddf546fd-b936-4857-95a9-6ec230bb62e5
+Generating files in: question_4
+Generated UUID: d465f44d-b9fb-44e7-a45e-8d68f88a39c3
+Generated UUID: ffb8701e-a5b3-4c97-9db1-7340b740e9d9
+Generated UUID: d330f40d-ddff-4c52-b275-0e89387bf40b
+Generated UUID: 09808d3f-eeb7-4d3a-8403-ee8987371d6b
+Generated UUID: 0e07380c-971f-4974-a1a1-42c412d9177f
+Generated UUID: cb9468de-31a4-4228-b0f2-aee2bb2e4a43
+Generated UUID: 667a4010-529f-400d-b964-fa561c1f4c36
+Generated UUID: affe74a2-6e30-417b-b585-160ce74cfaf0
+Generated UUID: 752a9e29-5c7f-453e-99d5-341cd3cb0a3c
+Generated UUID: b4606dfa-091b-4fdf-8ef1-ffa33835bdae
+Generated UUID: e7340002-a844-4070-b6a7-1fd6307e3bc3
+Generating files in: question_5
+Generated UUID: 61402ff2-a34b-402b-a40e-37fa299b132f
+Generated UUID: 7b616ecc-a47e-4f64-a9b7-bbd81646deec
+Generated UUID: b3c86960-0b6c-42ed-9097-05a973779155
+Generated UUID: edf4cc45-aa11-4040-8dce-5531571c6c08
+Generated UUID: 88ab293f-849d-4be6-bec6-899d0e4b942b
+Generated UUID: 497c7707-63c8-48a7-acc0-10d0c66a3f20
+Generated UUID: 465e1b7e-a186-4c06-9ff9-4451e3bf3c49
+Generated UUID: 2d88df25-5dd1-4463-8a79-6aa4fd4f0cb9
+Generated UUID: 90e8eb8e-00c3-48d4-acf1-de25355a4d93
+Generated UUID: 3ff4c469-cd7a-4d0b-8e29-ae85d6e0ed50
+Generated UUID: 7316c87b-610f-4286-b438-0a06021a8baa
+Generating files in: question_21
+Generated UUID: 1254693f-b791-4f02-b7af-80249fec6272
+Generated UUID: 3ee0a6a4-5085-4a32-9dc8-edab2f714134
+Generated UUID: 2e4aee9b-f919-4778-a063-3671029727b8
+Generated UUID: d130f360-4f00-4855-befd-6f7621f5430c
+Generated UUID: c009bb10-69be-4d1a-8a7c-49e79cf131bf
+Generated UUID: 5f28b961-56d9-4a45-8772-3bc03d2f29d0
+Generated UUID: b2a2f05f-de57-4f2a-9628-ad2976ef12b1
+Generated UUID: d633ed51-90a3-4b04-9927-245c0613e5b8
+Generated UUID: 2633f1a2-3e8b-4732-b885-4cf50c1505da
+Generated UUID: 60c7c88a-6055-4173-9d91-d0b1d92b4fce
+Generated UUID: 7ec72d31-c098-4e6b-9c89-7eaa87c7541c
+Generating files in: question_22
+Generated UUID: b908342f-9dc6-437b-9fbb-c288d4f22bea
+Generated UUID: 0659310b-3cac-451d-90e8-eca4044857a7
+Generated UUID: 25fc3b6b-1e64-4111-a89d-c0cbe398ff59
+Generated UUID: 1d2b1a8c-4094-498a-9aa9-f7e8a530c78e
+Generated UUID: b4e9b189-acfc-4601-87f7-927d435347c3
+Generated UUID: 8c9e2110-2b56-433f-8c0e-cb3a340ca235
+Generated UUID: 8ee5f7e5-23bd-4026-a929-b4fa491bdd22
+Generated UUID: cc9d49b3-68a8-4fec-a08e-414922d45321
+Generated UUID: 1f54b046-2ebc-472c-9629-6100c192677f
+Generated UUID: 7250304f-602d-4939-9ffb-b3196984850f
+Generated UUID: 3de39433-4d94-4880-8d03-81ed10d69552
+Generating files in: question_23
+Generated UUID: c3c5aa3c-880c-4b4b-a24f-dcb7a2b183f3
+Generated UUID: 63c5748a-eaac-4fd8-b02d-d1576f9e151a
+Generated UUID: 4424d595-d510-46f1-972e-dd4fdee0972a
+Generated UUID: 4e1ab16d-818e-40ca-bfb2-89095cb027c1
+Generated UUID: 0232c2ac-148f-4d39-a202-038b6a28fcfc
+Generated UUID: c0a95b13-3dcd-4e69-a3fc-afc5b2867dfb
+Generated UUID: 22ad3c4b-0974-4947-a59c-ffe6c0784ff4
+Generated UUID: dab5b26e-50fb-4b99-81be-de64666941b6
+Generated UUID: b68e0c50-5701-472f-a927-18773de9a345
+Generated UUID: 44d53263-2827-44bc-be06-5d457c721883
+Generated UUID: a5c31c37-68e5-4ee3-a732-bd275927c146
+Generating files in: question_24
+Generated UUID: ce24c750-bebe-4d77-b50c-eeab55c7799b
+Generated UUID: a6810acf-4711-4458-8943-13f1c7ed11e5
+Generated UUID: 0305d51c-3fe1-4c44-a7c5-125f992e0753
+Generated UUID: da178096-7be6-4071-a47f-5b37c7cada6a
+Generated UUID: 6c1a36ee-bb2e-4bbc-8bd4-8a1c324d2e9a
+Generated UUID: f7ccd3ce-adc4-49af-8fbb-485276270a39
+Generated UUID: 71d403ae-7a05-4651-a05e-78140dcaf8da
+Generated UUID: 750a0e3d-01a0-4277-bf83-3c01b1971263
+Generated UUID: 51ff8998-ae5f-49b6-9333-365d4e83fe3c
+Generated UUID: b86cf682-41c4-427f-b106-8cb803a2ca6d
+Generated UUID: dd5cbcb9-727f-4b9a-a4c5-0fd7e8093994
+Generating files in: question_25
+Generated UUID: 3b6fb9a9-1476-44b6-808c-2899b3720379
+Generated UUID: fce3dcf3-13a1-4827-bcbc-e54a34da2845
+Generated UUID: 56b8ee7a-7773-49aa-b42e-14511f5f60ee
+Generated UUID: 3192e68c-c0f7-4e22-b9de-c349d4bf4134
+Generated UUID: ab0d5e7a-6bdc-4375-992e-76d230a58069
+Generated UUID: f802a642-38af-439c-bfda-47cd27b37914
+Generated UUID: 25063f9b-bd41-462c-aaa0-93b381ab57f8
+Generated UUID: ac86e6e5-1121-447c-881a-cbeede177492
+Generated UUID: 8273c7c5-4ff1-47bd-a4b9-c940d7ffc16a
+Generated UUID: bc38d08f-f283-4e60-bc65-618e2f4032e1
+Generated UUID: b2891ab3-2a71-41a7-873a-34eedc5b1aef
+Generating files in: question_41
+Generated UUID: 9bf95260-8398-43ab-b200-ded68816c408
+Generated UUID: 16690fa5-f3b5-4f64-aefa-32bbf0aa4249
+Generated UUID: 5b59101b-74bb-471f-a34f-e48663250f5e
+Generated UUID: 4e99fe32-55ac-472b-bd81-dde382662251
+Generated UUID: 3400cd01-96cc-460c-953f-15749f356ac5
+Generated UUID: 55473e5f-303d-4f39-af70-4b7ca6b101ad
+Generated UUID: a6f2e613-0d2d-4790-86ea-dab152ea4ba2
+Generated UUID: 7b26d921-fc78-487e-8863-be09e2d37e84
+Generated UUID: d18c52e3-924f-49d5-89f2-1a78dc37a1c9
+Generated UUID: fc4e874a-0360-4b18-9cb9-5256bbc0c474
+Generated UUID: 396cbaaf-aba4-4600-8ff8-659b70813706
+Generating files in: question_42
+Generated UUID: 2efa9dc6-f3bc-4c39-bd8d-a22d685f6ee1
+Generated UUID: 04f8205f-e7ba-4bab-a76f-39a80f3ecbab
+Generated UUID: 2c97b347-3416-4307-b6c0-94e20656ddf2
+Generated UUID: 9f5c7db8-92a8-4f0d-a20a-e4673e3e15fb
+Generated UUID: 5498632a-ae32-4576-bcb4-00a0fdf3f420
+Generated UUID: ec04f483-fdf9-45dc-9d94-683352befb9d
+Generated UUID: fcba3456-8e86-4428-8a3b-ae983087f2ba
+Generated UUID: 260be471-8a75-4560-8be6-d0452c56f813
+Generated UUID: ad2517a2-9eef-484d-bfab-3e12acddfcab
+Generated UUID: 49156075-9a7a-4b0f-98b3-4178b8e1fce9
+Generated UUID: 3455ec45-a596-443d-8fd2-0ee84c59955a
+Generating files in: question_43
+-----------DEBUGGING START-----------
+{'id': '44', 'type': 'Multiple Choice', 'title': 'Inline CSS Example', 'topic': 'CSS Basic 1', 'tags': 'Medium, Inline CSS, Auto', 'question': 'Which of the following is the correct usage of inline CSS to change the color of a paragraph?', '*A': '&lt;p style="color:red;"&gt;This is a paragraph.&lt;/p&gt;', 'B': '&lt;p style="color=red;"&gt;This is a paragraph.&lt;/p&gt;', 'C': '&lt;p style:"color:red;"&gt;This is a paragraph.&lt;/p&gt;', 'D': '&lt;p {style="color:red"}&gt;This is a paragraph.&lt;/p&gt;', 'E': 'None of the option are correct.'}
+&lt;p style="color:red;"&gt;This is a paragraph.&lt;/p&gt;
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+Generated UUID: 4acee28d-9f5c-4119-aa8c-75e549808ff5
+Generated UUID: e3a3e285-802e-48af-b638-05a3e31115d4
+Generated UUID: 64a0fcf1-3f0b-46e1-9bf2-5003146442f6
+Generated UUID: db7ddd2b-013a-4086-a77e-fc0f0f82379c
+Generated UUID: fece6cf3-5b71-4e94-aef2-4ef646d14d44
+Generated UUID: de4e8761-c456-4f59-b802-7d1079c74dc7
+Generated UUID: c968ba11-6c2c-4b1e-a442-cf9f7d983aac
+Generated UUID: 07308c2c-c74b-49ff-ac88-0837b0a46520
+Generated UUID: 16af07d2-ca3e-4237-8481-fc9c739a0859
+Generated UUID: e97e9048-e745-4dd5-a187-90852c65d7d6
+Generated UUID: c9ece69d-e6d3-447a-986e-b543b911a537
+Generating files in: question_45
+-----------DEBUGGING START-----------
+{'id': '11', 'type': 'Check Box', 'title': 'HTML Structure Essentials', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Structure, Auto', 'question': 'Select all the components that are essential for a basic HTML structure.', '*A': '<!DOCTYPE html>', '*B': '<head>', '*C': '<body>', 'D': '<footer>', '*E': '<html>'}
+<!DOCTYPE html>
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '12', 'type': 'Check Box', 'title': 'HTML Paragraph Tag', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Paragraph, Auto', 'question': 'Which of the following statements accurately describe the <p> tag?', '*A': 'It groups sentences and sections of text together.', '*B': 'It displays text as a block that starts on a new line.', 'C': 'It preserves extra spaces and line breaks in the content.', 'D': 'It can be used to format text as preformatted content.', 'E': 'Text inside <p> tags is displayed as a continuous line.'}
+It groups sentences and sections of text together.
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '13', 'type': 'Check Box', 'title': 'HTML Comments Purpose', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Comments, Auto', 'question': 'What are the purposes of using comments in HTML?', '*A': 'To help document the HTML source code.', '*B': 'To provide notes for other developers.', 'C': 'To style elements on the page.', '*D': 'To assist in debugging HTML code.', 'E': 'To ensure elements are displayed on the webpage.'}
+To help document the HTML source code.
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+Generated UUID: 50d3cc11-646a-43ad-96ec-b92f4b43ad0a
+Generated UUID: 5216d2c7-d5b4-484c-a304-cb4fcce2ebd7
+Generated UUID: 894f6313-3d81-44c9-8123-e570f44ffd9e
+Generated UUID: 19734bdd-df93-441d-8395-61249b129ef2
+Generated UUID: 250e54d0-f98b-4685-8a3f-d1c0554ccad2
+Generated UUID: 5f74e2b1-1891-4cbc-865d-35a58a1ecefd
+Generated UUID: 923f062a-7e75-4f0b-9c8a-b741c3a26e5d
+Generated UUID: 467b381d-78cf-431f-8dc7-86f69e1c69e2
+Generated UUID: 9f9b2f9a-9853-4d65-ad4b-dec3d7b81e16
+Generated UUID: fbc9ef9f-ba2e-4a31-ad9d-52ce0db7bcb8
+Generated UUID: daff314c-f6fc-490a-b7ea-2c44cdd02717
+Generating files in: question_14
+-----------DEBUGGING START-----------
+{'id': '15', 'type': 'Check Box', 'title': 'HTML Headings Information', 'topic': 'Intro to HTML', 'tags': 'Medium, HTML Headings, Auto', 'question': 'Which of the following are true about HTML headings?', '*A': 'HTML headings range from <h1> to <h6>, where <h1> is the most important.', '*B': 'Headings are used to structure the content and improve SEO.', 'C': 'All headings are treated as inline elements by default.', '*D': 'The <h1> tag is typically used for the main title of the page.', '*E': 'Headings cannot be nested within other elements.'}
+HTML headings range from <h1> to <h6>, where <h1> is the most important.
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '31', 'type': 'Check Box', 'title': 'Phrase Elements', 'topic': 'HTML Basic 1', 'tags': 'Medium, Phrase Tags, Auto ', 'question': 'Which of the following tags are phrase elements? (Select all that apply)', '*A': '&lt;em&gt;', '*B': '&lt;cite&gt;', 'C': '&lt;header&gt;', 'D': '&lt;title&gt;', '*E': '&lt;b&gt;'}
+&lt;em&gt;
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+Generated UUID: 60ac7001-af0c-4546-9d6a-88880f041844
+Generated UUID: 94f6c8b9-e18a-4566-8533-cf3d2ea6a410
+Generated UUID: 38acfeeb-2102-40bd-bd30-edd6b770b18e
+Generated UUID: f11d9180-403a-4c20-bb1a-144be3a1ef36
+Generated UUID: 3d283a7e-feb9-4c2c-bfc7-bc9e217dd3be
+Generated UUID: f0b5a755-6837-4720-ba1d-6d7cb44dd9e6
+Generated UUID: 33369816-a8cf-4b45-b4bd-11853a0adf21
+Generated UUID: 65edad88-6448-4dbe-afeb-91e04263a086
+Generated UUID: f8beca72-918c-451c-921f-82e1dfd73beb
+Generated UUID: a3bb0cc2-13ec-48ae-829d-5cb1a58de5ec
+Generated UUID: f41e2c2a-deaa-4aa0-8160-9ee60f3d965d
+Generating files in: question_32
+-----------DEBUGGING START-----------
+{'id': '33', 'type': 'Check Box', 'title': 'Image Tag Attributes', 'topic': 'HTML Basic 1', 'tags': 'Medium, Attributes, Auto', 'question': 'Which attributes can be applied to an &lt;img&gt; tag? (Select all that apply)', '*A': 'src', '*B': 'alt', 'C': 'type', '*D': 'height', '*E': 'width'}
+src
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+Generated UUID: fa5d7e5c-fe00-4f1e-9f7f-199fa35b0fc6
+Generated UUID: 58ca62d1-ec7f-497b-bc74-5af9f40d326a
+Generated UUID: a9b0e99c-2e42-45f5-bf11-52b9c7adb1ec
+Generated UUID: 1af1356f-1a45-495a-b554-5144008dfad6
+Generated UUID: 7482d663-9fa5-449b-9040-37d9c068de69
+Generated UUID: 92334396-91f7-4fb1-91de-d3f0b00e4980
+Generated UUID: c36ade66-3b55-4aa7-8124-f08b78d84526
+Generated UUID: 6b7acc68-1dfa-486b-90ed-896f7086154f
+Generated UUID: b9821bc8-40f2-46c7-8d36-151fa84c6bec
+Generated UUID: ce181a46-0c93-4329-9ef1-fab1af6f1c35
+Generated UUID: 5170c648-9881-4b4d-8748-e5d66f80516a
+Generating files in: question_34
+-----------DEBUGGING START-----------
+{'id': '35', 'type': 'Check Box', 'title': 'Attributes for Hyperlinks', 'topic': 'HTML Basic 1', 'tags': 'Medium, Attributes, Auto', 'question': 'Which of the following attributes are valid for hyperlinks (&lt;a&gt; tag)? (Select all that apply)', '*A': 'href', 'B': 'mailto', 'C': 'src', '*D': 'target', 'E': 'link'}
+href
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '51', 'type': 'Check Box', 'title': 'Font-Related Properties', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Properties, Auto', 'question': 'Which of the following are valid ways to define font-related properties in CSS? (Select all that apply.)', '*A': 'font-family:Arial, sans-serif;', '*B': 'font-weight:700;', '*C': 'font-style:italic;', 'D': 'font-size:18;', 'E': 'font-family:Times New Roman:'}
+font-family:Arial, sans-serif;
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '52', 'type': 'Check Box', 'title': 'Font Size Values', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Values, Auto', 'question': 'Select all the values that can replace the blank in the following CSS rule:<br>h1 { font-size:- - -; }  ', '*A': '16px', '*B': '1.5em', '*C': '120%', '*D': '2rem', 'E': 'bold'}
+16px
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+Generated UUID: dafec284-7fc2-4f18-95a5-d9841bc5e3b2
+Generated UUID: 83761698-5430-4ea6-9fea-dcd650dd86cd
+Generated UUID: 964077a2-f132-4ad8-bc77-8ffd228eb8dc
+Generated UUID: 5ccc9713-56e3-49fe-aae3-146d8a0bcfb8
+Generated UUID: fc9178eb-eb55-4fbf-9fc3-1506d711e5ca
+Generated UUID: 2e37f22d-9975-4f11-ac96-0535acc48666
+Generated UUID: b575e2ce-7674-494f-9f7a-8cabf093a953
+Generated UUID: 3c4956e7-379e-4ed5-b687-120de865a930
+Generated UUID: dfbcece7-1ec4-4d21-a6fa-cf8f8e1862b0
+Generated UUID: f096fd9a-4d67-4cda-84c9-b91110079877
+Generated UUID: 640e0b68-6b13-4efd-b2bd-b7328fafbaa8
+Generating files in: question_53
+-----------DEBUGGING START-----------
+{'id': '54', 'type': 'Check Box', 'title': 'CSS Comments', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Comments, Auto', 'question': 'Which of the following are true about CSS comments? (Select all that apply.)', '*A': 'They are enclosed within /* and */.', 'B': 'They can be used to hide CSS rules from the browser.', '*C': 'They do not affect how the webpage renders.', 'D': 'They can only be written inside &lt;style&gt; tags.', 'E': 'They are enclosed within */ and /*.'}
+They are enclosed within /* and */.
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+Generated UUID: 5742d6c8-0b21-4c87-8e84-8b09c979f881
+Generated UUID: fb4afdf8-1908-4c36-906f-766e4dc91f62
+Generated UUID: 17cf40f6-3000-4a55-b03e-a6949ed7f2dd
+Generated UUID: 57e061b9-33a0-437a-b04a-891d1b72c0d6
+Generated UUID: 79c04e2b-6dd8-4457-8ca5-8e3af742b90c
+Generated UUID: cb35529d-5464-4e9e-9861-ecbf216e78e8
+Generated UUID: b4c0ebb7-988a-4a93-9654-0c00ecf19b12
+Generated UUID: cf3b554e-e6c9-4bdb-aa5e-3779504939b0
+Generated UUID: f6925ccf-407c-4e65-ab3d-e81c41095dc0
+Generated UUID: e8efeea6-6b56-41ed-9661-433f8063ffab
+Generated UUID: addfbbc3-0f42-4199-9531-de7a2f1131ba
+Generating files in: question_55
+Generated UUID: 775bf81f-c106-414e-ac5c-e09b1606ca62
+Generated UUID: 2f1eb529-ca9c-4ab0-aa21-a4090b4a97a1
+Generated UUID: c8f43d7e-970d-4358-8811-60c791e58cff
+Generated UUID: daff6686-4926-4988-af43-e37a1021a884
+Generated UUID: af277c32-a882-41ba-a51e-d06b2383ecf5
+Generated UUID: 93cd980a-5d89-411b-9089-d6c104e616c9
+Generated UUID: f6cbe8af-3c7a-4f95-a223-dbd61d3735dc
+Generated UUID: 77f24c5f-caf3-42d1-b658-0944d05d0cb1
+Generated UUID: 26681069-c18e-466a-8cbb-6cfa8c477017
+Generated UUID: 856ce1d1-c116-48dd-801b-f9c34d425127
+Generating files in: question_6
+Generated UUID: 656855c2-8bc4-4bd2-8657-536a2e3e0b0b
+Generated UUID: 98e15be8-c3af-4083-b084-714f28cba250
+Generated UUID: 6a118d37-2214-4626-81ec-7f56dc69cba5
+Generated UUID: d8b5595a-6f3d-40b9-98c8-0b8fb251bcf2
+Generated UUID: 44c645b7-e8d7-4333-8c1a-134053a50634
+Generated UUID: 523249b6-f564-448c-b6e2-48d083d3b383
+Generated UUID: 426b9343-88cb-4bfd-b6f7-c20756176ea3
+Generated UUID: 66f4152d-ca69-44ce-bc34-ac442b187ea9
+Generated UUID: 39b272c4-f107-41ac-bc09-6e6099d47183
+Generated UUID: 878db181-3650-4325-af31-143a24224eba
+Generating files in: question_7
+Generated UUID: 00f4baaf-10a4-452b-8b28-1af3a5be093d
+Generated UUID: b6d4b282-7d21-45b8-b9ed-f2e3b82f6fe3
+Generated UUID: 439cb1de-fa17-4c04-bc00-2a44034bbbdc
+Generated UUID: b362f16c-f3c8-4d52-91f5-670f3350e7e4
+Generated UUID: 7387b05d-5c1b-451a-99f7-a9887bbff890
+Generated UUID: 095ee6e9-1bdb-413f-8d76-613069a4238c
+Generated UUID: 1f735172-46de-4055-a5c6-80ce2b0b117a
+Generated UUID: f5a8716e-d45f-4f27-af8e-0756a330e183
+Generated UUID: 133a3b24-eb10-4963-8a74-49ae62ccd9dc
+Generated UUID: a1c6330e-ff5b-403f-bafa-af390683cc37
+Generating files in: question_8
+-----------DEBUGGING START-----------
+{'id': '9', 'type': 'Drop Down', 'title': 'HTML Line Break Tag', 'topic': 'Intro to HTML', 'tags': 'Easy, HTML Line Break, Auto', 'question': 'The ___ tag is used to create a line break in HTML.', '*A': '<br>', 'B': '<p>', 'C': '<hr>', 'D': '<h1>'}
+<br>
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+Generated UUID: b4457c3f-4da1-4a89-bf6e-bae9f703413e
+Generated UUID: 9285d0c6-5587-42f0-9da6-0084967730b5
+Generated UUID: 41a5ec57-d83d-4dad-8b1a-77ea9cac2729
+Generated UUID: 66251962-4d56-408a-9674-09c8245ffc62
+Generated UUID: 6aa61b8e-6dfe-4b81-a6e5-7bfb6fe87ba3
+Generated UUID: 74ccc7b6-5536-4b88-a0db-a021aca0a3d8
+Generated UUID: e0965de9-eb35-4f52-9827-900609f25986
+Generated UUID: 72b889b7-537f-413e-a50f-08a1a8bfd300
+Generated UUID: 45a489c9-3943-4b99-a82f-dde3603c6dc9
+Generated UUID: 386a9eac-ed94-4419-bff2-ade8630b8e24
+Generating files in: question_10
+-----------DEBUGGING START-----------
+{'id': '36', 'type': 'Drop Down', 'title': 'Ordered List Tag', 'topic': 'HTML Basic 1', 'tags': 'Easy, Ordered List Tag, Auto', 'question': 'The correct tag to create a numbered list is ___ .', '*A': '<ol>', 'B': '<ul>', 'C': '<dl>', 'D': '<li>'}
+<ol>
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '37', 'type': 'Drop Down', 'title': 'HTML Entity for Less-Than Symbol', 'topic': 'HTML Basic 1', 'tags': 'Easy, HTML Entity, Auto', 'question': 'The ___ HTML entity is used to display a less-than symbol.', '*A': '&lt;', 'B': '&gt;', 'C': '&copy;', 'D': '&amp;'}
+&lt;
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '38', 'type': 'Drop Down', 'title': 'Block-Level Division Tag', 'topic': 'HTML Basic 1', 'tags': 'Easy, Structural Elements, Auto', 'question': '___ tag defines a block-level division or section?', '*A': '<div>', 'B': '<span>', 'C': '<section>', 'D': '<p>'}
+<div>
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '39', 'type': 'Drop Down', 'title': 'Opening Links in a New Tab', 'topic': 'HTML Basic 1', 'tags': 'Medium, Attribute, Auto', 'question': 'The ___ attribute opens a link in a new window or tab', '*A': '<code>target="_blank"</code>', 'B': '<code>href="_newtab"</code>', 'C': '<code>open="new"</code>', 'D': '<code>newtab="true"</code>'}
+<code>target="_blank"</code>
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '40', 'type': 'Drop Down', 'title': 'Displaying an Image', 'topic': 'HTML Basic 1', 'tags': 'Easy, Tag Name, Auto', 'question': 'The ___ HTML tag is used to display an image', '*A': '<img>', 'B': '<image>', 'C': '<media>', 'D': '<figure>'}
+<img>
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '46', 'type': 'Drop Down', 'title': 'CSS Selector for Paragraph', 'topic': 'CSS Basic 1', 'tags': 'Easy, CSS Selectors, Auto', 'question': 'To define styles that apply only to a &lt;p&gt; element, the CSS selector should be written as ___ ', '*A': 'p { }', 'B': '.p { }', 'C': '#p { }', 'D': 'p() { }', 'E': 'p ()'}
+p { }
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+Generated UUID: 399e79d8-f878-40c2-a801-cdb2c259a705
+Generated UUID: 18afb387-6868-4133-b7e2-33010bfa443b
+Generated UUID: bfaa23cb-0eb6-4b73-a842-4dfb62bfc2fb
+Generated UUID: 3ce70d80-df9b-4a3d-8010-0da8789540e6
+Generated UUID: 77e06e08-4cb3-4f0b-ac39-7c7ed0895672
+Generated UUID: 760687d4-c117-4eba-939c-d8574760addb
+Generated UUID: 620d30c2-0e35-4347-a032-e6698af43061
+Generated UUID: 44653a08-70a6-4920-822f-d5cd7d2fd839
+Generated UUID: 93e77b0f-a5b7-4ef9-93b9-d6180c7b4b05
+Generated UUID: 03cfb91c-e6e6-481a-a6bb-c2a4dfdbcf17
+Generated UUID: e652b5b7-a412-4b24-a9b9-57e75b38f9be
+Generating files in: question_47
+Generated UUID: b7a4242c-570b-4ca9-9d04-24161c5c3e4c
+Generated UUID: ea3b2269-20ca-42da-9e9d-557cc53f223d
+Generated UUID: 7280028f-761e-4874-a310-1f0690519a23
+Generated UUID: 4f078a96-6a7d-4c5f-b51c-72e233bdb25b
+Generated UUID: 19c0aada-2aee-4631-9f47-b4f1a9fe2731
+Generated UUID: ac05defe-d4cd-4418-8b61-942e32544ec4
+Generated UUID: 8d410176-e8f4-4f84-aec6-1b02e2445736
+Generated UUID: 07dc8435-5313-49f4-b647-1262dd1a9060
+Generated UUID: eb6c5ce2-5bb9-4427-8b52-049930f874c8
+Generated UUID: 8340a622-de88-4a55-b811-b8c831cdc52c
+Generated UUID: a989fd24-ef3a-45fd-bc79-1d6ffd857322
+Generating files in: question_48
+-----------DEBUGGING START-----------
+{'id': '49', 'type': 'Drop Down', 'title': 'Font Family Description', 'topic': 'CSS Basic 1', 'tags': 'Medium, CSS Properties, Auto', 'question': 'The following description:"Specifies the typeface/font (or generic font family) to use. More than one can be specified" describes the ___ property.', '*A': 'font-family', 'B': 'font-size', 'C': 'font-style', 'D': 'font-variant', 'E': 'font-weight'}
+font-family
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+-----------DEBUGGING START-----------
+{'id': '50', 'type': 'Drop Down', 'title': 'Text Color in Paragraph', 'topic': 'CSS Basic 1', 'tags': 'Hard, CSS Colors, Auto', 'question': '___ sets the text color of all <code>&lt;p&gt;</code> elements to red.', '*A': 'rgb(255, 0, 0)', 'B': 'hsl(120, 100%, 50%)', 'C': '#0000ff', 'D': 'None of the above', 'E': 'All of the above'}
+rgb(255, 0, 0)
+['&lt;ul&gt;']
+-----------DEBUGGING END-----------
+Generated UUID: fa285cbe-5f4c-4793-a45c-e66a08412596
+Generated UUID: 2ae4b192-79fe-4ec1-8955-1edc7c2ce7f9
+Generated UUID: 2d44f59d-fe77-4538-9e60-da62f2c0a5e1
+Generated UUID: 36a7caba-07b2-4ea8-90e3-a6e1c8691ffe
+Generated UUID: ec34b68a-5a3e-434d-94f6-ff7fc2e1a86b
+Generated UUID: 2fb0986c-f517-454e-bed5-38e8c7db4032
+Generated UUID: 68d54d25-7e86-4eac-9741-7b81992589e3
+Generating files in: question_16
+Generated UUID: 727a0937-3f74-4a0e-b89c-d308da98120d
+Generated UUID: 6a66af3d-f8aa-4643-889c-8b2a06c0adc2
+Generated UUID: d7a9477d-99c0-4af2-b23b-d30f39ba6c82
+Generated UUID: e60f30cb-e846-4cf6-981a-cf3875eec733
+Generated UUID: 4b64263b-2cc7-4609-8be5-2f5872e6bbbb
+Generated UUID: 9961cf7a-164d-46cd-ae59-5505b4f1409d
+Generated UUID: 12c1ed35-17fe-43dd-830f-d3c4d9f5d68d
+Generating files in: question_17
+Generated UUID: 9ef9932c-eec3-4f31-9a25-f97637e058e2
+Generated UUID: d55f863f-9eae-4d7a-8103-839e59bc1c9d
+Generated UUID: 99a11e33-a4a5-434c-8290-d7fbbe08fa88
+Generated UUID: d4739924-b22f-4b7a-baca-375115ab6e0b
+Generated UUID: 628b126a-eb34-415f-a845-d5a17e42e357
+Generated UUID: c3928528-d6ab-4466-9dd1-a6da391d9500
+Generated UUID: b8485aeb-78d7-4555-bbfa-29d3d6aa2f57
+Generating files in: question_18
+Generated UUID: 18693440-4d91-4ed6-b506-3356251b1d54
+Generated UUID: 95663f21-ca7b-4095-af6d-abaa8e84831a
+Generated UUID: 428233ea-292e-4027-b47d-6a304a47d463
+Generated UUID: 1817e8ad-82ab-4719-901e-8ddb79c62287
+Generated UUID: 8aafcb70-493b-43f7-afd8-0a587617d4aa
+Generated UUID: 8e765128-e704-45af-ba6b-f3de7b1a053b
+Generated UUID: 0dc9c81f-5f78-4256-ad69-007f65e7cc98
+Generating files in: question_19
+Generated UUID: f92ffc3c-bbf5-426d-b21d-d65897e81963
+Generated UUID: a5e75c42-2818-4e88-b687-cb4354efeb91
+Generated UUID: ff4b78c7-38ff-4393-9b75-f2a2fa5f6261
+Generated UUID: 95ba1c1e-4eb5-4890-877a-5df8eb539395
+Generated UUID: 343f4848-e098-4bef-9ab8-5b31175da7af
+Generated UUID: 8025aca5-c115-4954-8492-eb56af09cec4
+Generated UUID: c9651895-2639-498a-ae3e-3bcd5ce48eff
+Generating files in: question_20
+Generated UUID: 1ec874b5-d823-4018-9251-073a1b7ae976
+Generated UUID: f8b6dc20-6966-451f-a4a3-382774fd650c
+Generated UUID: 4a8e87f8-3f85-4b1c-9bbe-ac731ed9ed56
+Generated UUID: 1990e20f-b575-4fda-82b7-37c04b0889cf
+Generated UUID: fae0119b-b4ef-4020-b287-c616ccf6c9fc
+Generated UUID: b53e9327-6954-4ecc-8970-75ee9da33846
+Generated UUID: 48bec48c-7b20-4a4d-b276-8afee2e2a41f
+Generating files in: question_26
+Generated UUID: 1879a81d-fbf7-4189-8918-1229b185c199
+Generated UUID: 427a5a7a-c2bf-4e21-ac50-cef46b6ad697
+Generated UUID: 40c372fe-6222-4b04-ae80-0b8417e8d9c3
+Generated UUID: 11e17de7-109c-4651-97e6-69a5ae8dc639
+Generated UUID: 567d240d-ef82-48a8-aad0-93f3578d535b
+Generated UUID: 74d6ba88-0533-4062-954c-9dbadf70ce4c
+Generated UUID: a39fa578-6122-4a40-806d-585c4da50d8f
+Generating files in: question_27
+Generated UUID: 91d4ed45-50eb-46c5-8713-8308ec7286b8
+Generated UUID: ebcd8b07-9597-47a3-90da-379bfb31103e
+Generated UUID: 363dfb68-9590-4d5f-9842-c4adc7a227a0
+Generated UUID: 1b02b40b-66e9-4eb2-924d-41e1dc8057f0
+Generated UUID: 0d9e67f3-431f-4364-8354-a05547a6d13a
+Generated UUID: 61be5d66-0a48-43c4-93fa-b718336986af
+Generated UUID: 492af0d7-a100-4972-8df2-74b0e2df784f
+Generating files in: question_28
+Generated UUID: 668f0667-8e8d-41c5-9b07-89a8b234dbfc
+Generated UUID: 4de77dd0-b5c5-4e1c-9020-4566049d7d13
+Generated UUID: de25c8d8-2a9c-44f7-9ef0-fcac7a99d489
+Generated UUID: 03243e49-585f-42bc-9372-e0726e6befe4
+Generated UUID: e8b31789-b73d-4524-87f0-1f1b73639cc4
+Generated UUID: 14818f76-5b20-455d-ac92-79acabaca164
+Generated UUID: bc0850d8-4b51-41b9-8d11-83571889470a
+Generating files in: question_29
+Generated UUID: 1b26d209-08e0-4513-a015-19679efaeb28
+Generated UUID: b6c3a77f-4784-4f0d-9da0-d6e41e1b43c1
+Generated UUID: 613c42ba-67e5-4ed5-941c-e3f047cbf50a
+Generated UUID: 235d5570-cbf7-45d2-85bb-f9a9e0eade1d
+Generated UUID: 8fd6ac71-4497-4a86-923f-c4c0f835d665
+Generated UUID: 881fc3bf-9bee-4ff5-8c8b-1a70d097bff0
+Generated UUID: 98163de5-ff5c-4482-9827-6e1a59dea244
+Generating files in: question_30 
+Generated UUID: 13772c8e-c084-49a4-af33-197908d3af09
+Generated UUID: 1448049c-61c0-45b2-8cf6-94332cd1745f
+Generated UUID: 4833ce65-3017-46ee-a598-4a4d87e60b24
+Generated UUID: 366df506-2b2d-431b-833b-05dde9ef6d54
+Generated UUID: 4073bf22-3949-48be-8168-11534ae41dc8
+Generated UUID: 7c3ab124-e23f-4260-848a-adad40910505
+Generated UUID: 0e19dbd5-865c-43f9-94ba-8e18b41ebd78
+Generating files in: question_56
+Generated UUID: d0caf3e4-96e2-4910-9a20-b2d21e4feb80
+Generated UUID: 1aec0c36-8957-4305-ab9d-9bc61e261368
+Generated UUID: e9c85423-b8db-4654-899f-60db569921f0
+Generated UUID: 4773abd2-43db-47bb-a5d1-30e84bd8be79
+Generated UUID: 95c2bff4-a067-47ae-ac24-c51c2d83ca48
+Generated UUID: 83e0e5eb-6ae4-4c82-9d88-599b6aa1a333
+Generated UUID: 0cdfa9c5-2586-4899-9035-56d9d1992428
+Generating files in: question_57
+Generated UUID: d54f14b4-e789-4098-87e3-ff4d44e767a8
+Generated UUID: 37cd8e9b-a12d-42a4-be15-d847f04cb7ed
+Generated UUID: fde1ba8c-11be-4ba8-b9e5-19e4c210100d
+Generated UUID: 70d10d88-f473-4bd2-aac7-7662c54193c8
+Generated UUID: 4b2c13fd-64de-4d70-9638-3f965c543768
+Generated UUID: 88c661dd-3c7c-41be-a8e3-deb8d0ecf65d
+Generated UUID: 9058df91-658c-413e-99e0-eeffad7c6c57
+Generating files in: question_58
+Generated UUID: 71e58f05-bf96-4d46-a000-4c63c6dcaeac
+Generated UUID: 498b52e3-5429-4235-92e8-4f1e5b81e2d5
+Generated UUID: 24c911fc-0558-4535-b6bb-f340075dce18
+Generated UUID: 11957977-d81f-4077-a73c-a11334113625
+Generated UUID: e5c405bc-96a8-4bc4-91aa-c55cd9617107
+Generated UUID: 3dc9f6d0-f222-491c-ab65-835a1f51c43c
+Generated UUID: 441950b8-04dc-4db5-894b-d4c0160d6acb
+Generating files in: question_59
+Generated UUID: 7624c1a9-41f4-453b-bd00-a8b98ee2521f
+Generated UUID: 488361b7-9de8-4677-a74b-7f10cca96266
+Generated UUID: 8408ee45-9bd4-4c33-952e-e558ace9b23e
+Generated UUID: d46336cc-749b-47da-8f02-62a87d1b0b59
+Generated UUID: f0283fb0-141c-4538-a957-be0c64f4863a
+Generated UUID: ad383934-cd79-4789-a6c5-a120ad651475
+Generated UUID: 04145fbd-c844-4c54-be63-d0cebd76c145
+Generating files in: question_60
+✅ Processing complete!
