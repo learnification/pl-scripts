@@ -45,7 +45,7 @@ A: <code>&lt;a&gt;</code>
 B: <code>"contacts.html"</code>
 *C: href
 D: Contact us!
-E: None of the above
+E: None of the options provided
 ###
 id: 6
 type: Drop Down
