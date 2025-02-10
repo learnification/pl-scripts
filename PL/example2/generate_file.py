@@ -8,26 +8,29 @@ import time
 import shutil
 
 import json
+import uuid
 
+def generate_uuid():
+    return str(uuid.uuid4())
 
-# Function to generate a UUID using an external API
-def generate_uuid(retries=3, backoff_factor=0.3):
-    url = "https://www.uuidtools.com/api/generate/v4/count/1"
-    for attempt in range(retries):
-        try:
-            response = requests.get(url, timeout=5)
-            response.raise_for_status()  # This will raise an HTTPError for bad responses
-            uuid = response.json()[0]
-            return uuid
-        except requests.exceptions.RequestException as e:
-            print(f"Attempt {attempt + 1} failed: {e}")
-            if attempt < retries - 1:
-                time.sleep(backoff_factor * (2**attempt))  # Exponential back
+# # Function to generate a UUID using an external API
+# def generate_uuid(retries=3, backoff_factor=0.3):
+#     url = "https://www.uuidtools.com/api/generate/v4/count/1"
+#     for attempt in range(retries):
+#         try:
+#             response = requests.get(url, timeout=5)
+#             response.raise_for_status()  # This will raise an HTTPError for bad responses
+#             uuid = response.json()[0]
+#             return uuid
+#         except requests.exceptions.RequestException as e:
+#             print(f"Attempt {attempt + 1} failed: {e}")
+#             if attempt < retries - 1:
+#                 time.sleep(backoff_factor * (2**attempt))  # Exponential back
 
-            else:
-                raise Exception(
-                    f"Failed to generate UUID after {retries} attempts. Last error: {e}"
-                )
+#             else:
+#                 raise Exception(
+#                     f"Failed to generate UUID after {retries} attempts. Last error: {e}"
+#                 )
 
 
 index = 0
