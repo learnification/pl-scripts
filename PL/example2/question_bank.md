@@ -260,7 +260,7 @@ A: target="_tab"
 *B: target="_blank"
 C: newtab="true"
 D: href="_newtab"
-E: None of these
+E: None of the options
 ###
 id: 25
 type: Multiple Choice
@@ -272,7 +272,7 @@ A: &lt;para&gt;
 B: &lt;div&gt;
 *C: &lt;p&gt;
 D: &lt;span&gt;
-E: None of these
+E: None of the options
 ###
 id: 26
 type: String Input
