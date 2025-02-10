@@ -116,6 +116,20 @@ def generate_file(html_file, info_file, context, py_file=None):
         with open(py_filename, "w") as f:
             f.write(py_content)
 
+def templateType(file_content):
+    """Splits template types and stores them in a dictionary."""
+    dic = {}
+    sections = re.split(r"###\n", file_content)  # Split based on '###\n'
+    
+    for section in sections:
+        if section.strip():
+            parts = section.split("@", 1)  # Split at the first '@' only
+            if len(parts) == 2:
+                type_name = parts[0].strip()
+                template_content = parts[1].strip()
+                dic[type_name] = template_content
+    return dic
+
 # Main function
 def main():
     """Main function to process and regenerate questions."""
@@ -129,8 +143,8 @@ def main():
     data = create_data(q_bank)
 
     templates = load_files("PL/example2/template.md")
-    typeDic = templateType(templates)
-    info = typeDic.get("IJ", "")
+    typeDic = templateType(templates)  # Ensure this line exists
+    info = typeDic.get("IJ", "")  # Get the 'IJ' template if it exists
 
     if regenerate_id:
         if regenerate_id.lower() == "all":
