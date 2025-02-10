@@ -60,7 +60,19 @@ def parse_diff(diff):
     for line in lines:
         # Detect added lines
         if re.match(r"^\+[^+].*?:.*", line):
-            key, value = line[1:].split(": ")
+            parts = line[1:].split(": ", 1)  # Split on the first occurrence only
+            if len(parts) == 2:  # Ensure valid key-value pair
+                key, value = parts
+                key = key.strip()
+                value = value.strip()
+
+                if key == "id":
+                    added_ids.add(value)  # Track added question ID
+
+                if key in addDic:
+                    addDic[key].append(value)
+                else:
+                    addDic[key] = [value]            
             key = key.strip()
             value = value.strip()
 
