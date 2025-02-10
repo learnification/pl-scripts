@@ -1,12 +1,7 @@
 import re
 from jinja2 import Template
-import html
 import os
-import requests
 import subprocess
-import time
-import shutil
-
 import json
 import uuid
 
@@ -24,12 +19,10 @@ def load_files(file):
     with open(file, "r") as f:
         return f.read()
 
-
 # Function to render a template with a given context
 def render_files(file, context):
     template = Template(file)
     return template.render(context)
-
 
 # Function to split template types and store them in a dictionary
 def templateType(file):
@@ -42,8 +35,8 @@ def templateType(file):
             dic[type] = template
     return dic
 
-
 def get_diff():
+    """Gets the git diff output to determine added and removed questions."""
     try:
         diff_output = subprocess.check_output(
             ["git", "diff", "--unified=0", "HEAD~1", "PL/example2/question_bank.md"]
@@ -53,24 +46,23 @@ def get_diff():
         print(f"Error running git diff: {e}")
         return ""
 
-
 def parse_diff(diff):
+    """Parses the git diff output to identify added and removed questions."""
     addDic = {}
     removeList = []
     lines = diff.splitlines()
+    
     for line in lines:
-
         if re.match(r"^\+[^+].*?:.*", line):
-
             key, value = line[1:].split(": ")
             key = key.strip()
             value = value.strip()
 
-            # If the key already exists, append the new value to the list
             if key in addDic:
                 addDic[key].append(value)
             else:
                 addDic[key] = [value]
+        
         if re.search(r"-id:\s*(\d+)", line):
             match = re.search(r"-id:\s*(\d+)", line)
             id_number = match.group(1)
@@ -78,46 +70,30 @@ def parse_diff(diff):
 
     return removeList, addDic
 
-
-# Function to create a list of question data from the file content
 def create_data(file):
+    """Creates a list of question data from the markdown file."""
     data = []
-
     pattern = re.compile(r"(###.*?)(?=(?:\n###))", re.DOTALL)
-    questions = pattern.findall(file)  # Find all sections starting with ###
-    for question in questions:
-        ## if check(question):
-        ##return
-        dic = {}
+    questions = pattern.findall(file)
 
+    for question in questions:
+        dic = {}
         lines = question.split("\n")
         for line in lines:
             if line != "###":
                 key, value = line.split(": ")
-
                 dic[key] = value
 
         data.append(dic)
-
     return data
 
-
-# Function to create a context dictionary for a given question
 def createContext(question):
-    ## save_question(question["id"].strip())
-
+    """Creates a context dictionary for template rendering."""
     context = {}
     i = 1
+
     for key in question:
-
-        if question["type"] in [
-            "Drop Down",
-            "Multiple Choice",
-            "Check Box",
-            "String Input",
-        ]:
-
-            ##question["question"] = question["question"].replace('<', '&lt;').replace('>', '&gt;')
+        if question["type"] in ["Drop Down", "Multiple Choice", "Check Box", "String Input"]:
             if "___" in question["question"]:
                 question1, question2 = question["question"].split("___")
                 context["question"] = question1.strip()
@@ -125,152 +101,123 @@ def createContext(question):
             else:
                 context["question"] = question["question"].strip()
 
-            if key not in [
-                "type",
-                "question",
-                "title",
-                "topic",
-                "answer",
-                "id",
-                "tags",
-            ]:
+            if key not in ["type", "question", "title", "topic", "answer", "id", "tags"]:
                 context[f"option{i}"] = question[key]
                 context[f"flag{i}"] = "false"
-
-                if key.startswith("*"):  # Check for correct options marked with *
-
+                if key.startswith("*"):  # Mark correct options with *
                     context[f"flag{i}"] = "true"
-
                 i += 1
-            if key in [
-                "title",
-                "topic",
-                "answer",
-                "id",
-            ]:
+            
+            if key in ["title", "topic", "answer", "id"]:
                 context[key] = question[key]
+            
             if key == "tags":
                 tg = question[key].split(", ")
                 context["tags"] = json.dumps(tg)
-            uuid = generate_uuid()
-
-            context["uuid"] = uuid
+            
+            context["uuid"] = generate_uuid()
 
     return context
 
-
 def delete_question_folder(question_id):
-    folder_path = os.path.abspath(f"PL/example2/question{question_id}")
+    """Deletes question-related files from the root directory."""
+    files_to_delete = [
+        f"question_{question_id}.html",
+        f"question_{question_id}.json",
+        f"question_{question_id}.py"
+    ]
 
-    print(folder_path)
+    for file_path in files_to_delete:
+        if os.path.exists(file_path):
+            os.remove(file_path)
+            print(f"Deleted: {file_path}")
+        else:
+            print(f"File not found: {file_path}")
 
-
-# Function to process questions of a specific type and generate files
 def process_questions(data, file, info, question_type, html_file=None, py_file=None):
+    """Processes questions and generates necessary files."""
     diff_output = get_diff()
-
     remove, addDic = parse_diff(diff_output)
 
     questions = [question for question in data if question["type"] == question_type]
 
     for question in questions:
-
         try:
-            # Check if all key-value pairs in addDic match in the question
-            matches_all = True  # Assume all will match unless proven otherwise
+            matches_all = True  # Assume all will match
 
             for key, values in addDic.items():
                 if key in question:
-                    # Check if the question has the key and matches one of the values in addDic
                     if isinstance(question[key], str):
                         if question[key].strip() not in values:
+                            print("-----------DEBUGGING START-----------")
                             print(question)
                             print(question[key])
                             print(values)
+                            print("-----------DEBUGGING END-----------")
                             matches_all = False  # Found a mismatch
                             break  # No need to check further for this question
 
-            # If everything matches, process the question
             if matches_all:
-                context = createContext(question)  # Process the question
+                context = createContext(question)
             else:
-                continue  # Skip to the next question if there was a mismatch
+                continue
 
         except KeyError:
-            # Skip this question if a key was missing
             continue
-        # Generate file if context is set
+
         if question_type in ["Drop Down", "String Input"] and html_file and py_file:
             generate_file(html_file, info, context, py_file)
-            pass
         else:
             generate_file(file, info, context)
 
-
-# Function to create multiple choice questions
 def createMultipleChoice(data, file, info):
     process_questions(data, file, info, "Multiple Choice")
 
-
-# Function to create checkbox questions
 def createCheckBox(data, file, info):
     process_questions(data, file, info, "Check Box")
 
-
-# Function to create drop down questions
 def createDropDown(data, html_file, py_file, info):
     process_questions(data, html_file, info, "Drop Down", html_file, py_file)
-
 
 def createStringInput(data, html_file, py_file, info):
     process_questions(data, html_file, info, "String Input", html_file, py_file)
 
-
-# Function to generate HTML, info, and optionally Python files based on templates
-def generate_file(
-    html_file,
-    info_file,
-    context,
-    py_file=None,
-):
-
-    html_content = render_files(html_file, context)  # Render HTML content
-    info_content = render_files(info_file, context)  # Render info content
+def generate_file(html_file, info_file, context, py_file=None):
+    """Generates question artifacts and saves them in the root directory."""
+    html_content = render_files(html_file, context)
+    info_content = render_files(info_file, context)
 
     id = context["id"]
 
-    folder_path = f"PL/example2/question{id}"
+    html_filename = f"question_{id}.html"
+    info_filename = f"question_{id}.json"
+    py_filename = f"question_{id}.py" if py_file else None
 
-    print(f"Creating question folder at: {folder_path}")
+    print(f"Generating files: {html_filename}, {info_filename}, {py_filename if py_file else 'No Python file'}")
 
-    # Create directory for the question
-    os.makedirs(folder_path, exist_ok=True)
-
-    if py_file:
-        py_content = render_files(py_file, context)  # Render Python content
-        file_path = os.path.join(folder_path, "server.py")
-        with open(file_path, "w") as f:
-            f.write(py_content)
-
-    file_path = os.path.join(folder_path, "question.html")
-    with open(file_path, "w") as f:
+    with open(html_filename, "w") as f:
         f.write(html_content)
 
-    file_path = os.path.join(folder_path, "info.json")
-    with open(file_path, "w") as f:
+    with open(info_filename, "w") as f:
         f.write(info_content)
 
+    if py_file:
+        py_content = render_files(py_file, context)
+        with open(py_filename, "w") as f:
+            f.write(py_content)
 
-# Main function to load files, create data, and generate questions based on templates
 def main():
+    """Main function to process the question bank and generate output files."""
     diff_output = get_diff()
     print(diff_output)
     remove, addDic = parse_diff(diff_output)
     print(remove)
     print(addDic)
+
     if remove:
         for id in remove:
             delete_question_folder(id)
+    
     if not addDic:
         return
 
@@ -280,21 +227,18 @@ def main():
     templates = load_files("PL/example2/template.md")
     typeDic = templateType(templates)
     info = typeDic["IJ"]
+
     for type, template in typeDic.items():
         if type == "MC":
             createMultipleChoice(data, template, info)
         elif type == "CB":
             createCheckBox(data, template, info)
         elif type == "DD":
-
             p = re.split("```", template)
             createDropDown(data, p[0], p[1], info)
         elif type == "SI":
-
             p = re.split("```", template)
-
             createStringInput(data, p[0], p[1], info)
-
 
 if __name__ == "__main__":
     main()
