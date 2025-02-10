@@ -107,12 +107,22 @@ def create_data(file):
         lines = question.split("\n")
         for line in lines:
             if line != "###":
-                key, value = line.split(": ")
-                dic[key] = value
+                # Debugging: Print the line before processing
+                print(f"Processing line: {line}")
+
+                # Split only on the first occurrence of `: `
+                parts = line.split(": ", 1)
+
+                if len(parts) == 2:
+                    key, value = parts
+                    key = key.strip()
+                    value = value.strip()
+                    dic[key] = value
+                else:
+                    print(f"⚠️ Unexpected format in line: {line}")  # Debugging message
 
         data.append(dic)
     return data
-
 def createContext(question):
     """Creates a context dictionary for template rendering."""
     context = {}
