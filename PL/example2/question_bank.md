@@ -463,7 +463,7 @@ question: Which of the following is an example of inline CSS?
 B: &lt;p style="color=red;"&gt;This is a paragraph.&lt;/p&gt;
 C: &lt;p style:"color:red;"&gt;This is a paragraph.&lt;/p&gt;
 D: &lt;p {style="color:red"}&gt;This is a paragraph.&lt;/p&gt;
-E: None of the option are correct.
+E: None of the options is correct.
 ###
 id: 45
 type: Multiple Choice
@@ -635,5 +635,5 @@ title: CSS Rule for Font Size
 topic: CSS Basic 1
 tags: v1, Easy, CSS Syntax, Auto
 question: Write the CSS rule to apply a <code>text size</code> of <code>20px</code> to <code>h3</code>. Include the answer in one line.
-answer: h3 { font-size:20px; }
+answer: h3{font-size:20px;}
 ###
