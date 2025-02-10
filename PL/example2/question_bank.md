@@ -542,7 +542,7 @@ type: Drop Down
 title: Text Color in Paragraph
 topic: CSS Basic 1
 tags: Hard, CSS Colors, Auto
-question: ___ sets the text color of all &lt;p&gt; elements to red.
+question: ___ sets the text color of all <code>&lt;p&gt;</code> elements to red.
 *A: rgb(255, 0, 0)
 B: hsl(120, 100%, 50%)
 C: #0000ff
