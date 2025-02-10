@@ -183,17 +183,21 @@ def createStringInput(data, html_file, py_file, info):
     process_questions(data, html_file, info, "String Input", html_file, py_file)
 
 def generate_file(html_file, info_file, context, py_file=None):
-    """Generates question artifacts and saves them in the root directory."""
+    """Generates question artifacts and saves them in their respective folders."""
     html_content = render_files(html_file, context)
     info_content = render_files(info_file, context)
 
     id = context["id"]
+    folder_path = f"question_{id}"  # Each question has its own folder
 
-    html_filename = f"question_{id}.html"
-    info_filename = f"question_{id}.json"
-    py_filename = f"question_{id}.py" if py_file else None
+    # Create the folder if it doesn't exist
+    os.makedirs(folder_path, exist_ok=True)
+    print(f"Generating files in: {folder_path}")
 
-    print(f"Generating files: {html_filename}, {info_filename}, {py_filename if py_file else 'No Python file'}")
+    # Define file paths inside the folder
+    html_filename = os.path.join(folder_path, "question.html")
+    info_filename = os.path.join(folder_path, "info.json")
+    py_filename = os.path.join(folder_path, "server.py") if py_file else None
 
     with open(html_filename, "w") as f:
         f.write(html_content)
