@@ -119,7 +119,7 @@ type: Check Box
 title: HTML Paragraph Tag
 topic: Intro to HTML
 tags: v1, Medium, HTML Paragraph, Auto
-question: Which of the following statements accurately describe the <code><p></code> tag?
+question: Which of the following statements accurately describe the <code>&lt;p&gt;</code> tag?
 *A: It groups sentences and sections of text together.
 *B: It displays text as a block that starts on a new line.
 C: It preserves extra spaces and line breaks in the content.
