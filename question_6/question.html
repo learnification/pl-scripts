@@ -1,0 +1,14 @@
+<pl-question-panel>
+  <p>
+    Select the correct option from the drop down list for each question bellow:
+  </p>
+</pl-question-panel>
+<p>
+  Which of the following is NOT true about the <code>&lt;br&gt;</code> tag in HTML?
+  <pl-dropdown answers-name="HTML1">
+    {{#params.HTML1}}
+        <pl-answer correct="{{tag}}">{{ans}}</pl-answer>
+    {{/params.HTML1}}
+  </pl-dropdown> 
+  
+</p>
