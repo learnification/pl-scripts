@@ -61,6 +61,8 @@ def createContext(question):
     i = 1
 
     for key in question:
+        if question["type"] != "Drop Down" and key not in [ "question", "answer"]:
+            question[key].replace("<", "&lt;").replace(">", "&gt;")
         if question["type"] in ["Drop Down", "Multiple Choice", "Check Box", "String Input"]:
             if "___" in question["question"]:
                 question1, question2 = question["question"].split("___")
